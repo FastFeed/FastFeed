@@ -2,15 +2,17 @@
 /**
  * This file is part of the FastFeed package.
  *
- * (c) Daniel González <git@github.com:FastFeed/FastFeed.git>
+ * (c) Daniel González <daniel@desarrolla2.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+namespace FastFeed;
 
 /**
  * FastFeed
  */
-class FastFeed {
+class FastFeed
+{
 
 } 
