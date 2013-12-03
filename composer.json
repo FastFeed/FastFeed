@@ -1,0 +1,29 @@
+{
+    "name": "fastfeed/fastfeed",
+    "description": "A simple to use Feed client library.",
+    "keywords": ["rss", "rss20", "feed", "feed parser", "atom10"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel González",
+            "homepage": "http://desarrolla2.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/fastfeed/fastfeed/issues"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "desarrolla2/cache": "1.*"
+    },
+    "require-dev": {
+        "raulfraile/ladybug": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Desarrolla2\\RSSClient\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

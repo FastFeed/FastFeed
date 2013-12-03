@@ -1,0 +1,14 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+
+notifications:
+  email:
+    - git@github.com:FastFeed/FastFeed.git
+
+before_script:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --prefer-source
