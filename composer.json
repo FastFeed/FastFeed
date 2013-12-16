@@ -1,6 +1,6 @@
 {
     "name": "fastfeed/fastfeed",
-    "description": "A simple to use Feed client library.",
+    "description": "A simple to use Feed Client Library.",
     "keywords": ["rss", "rss20", "feed", "feed parser", "atom10"],
     "type": "library",
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Desarrolla2\\RSSClient\\": "src/"
+            "FastFeed\\": "src/"
         }
     },
     "minimum-stability": "dev"
