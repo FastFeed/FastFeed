@@ -12,6 +12,7 @@ namespace FastFeed;
 
 use FastFeed\Exception\LogicException;
 use FastFeed\Exception\InvalidArgumentException;
+use FastFeed\Parser\ParserInterface;
 use Guzzle\Http\ClientInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
@@ -21,8 +22,14 @@ use Psr\Log\LogLevel;
  */
 class FastFeed
 {
+    /**
+     * @const VERSION
+     */
     const VERSION = '0.1';
 
+    /**
+     * @const USER_AGENT
+     */
     const USER_AGENT = 'FastFeed/FastFeed';
 
     /**
@@ -34,6 +41,11 @@ class FastFeed
      * @var LoggerInterface
      */
     protected $logger;
+
+    /**
+     * @var array
+     */
+    protected $parsers = array();
 
     /**
      * @var array
@@ -126,6 +138,27 @@ class FastFeed
         }
 
         return $this->feeds[$channel];
+    }
+
+    /**
+     * @return ParserInterface
+     * @throws Exception\LogicException
+     */
+    public function popParser()
+    {
+        if (!$this->parsers) {
+            throw new LogicException('You tried to pop from an empty parsers stack.');
+        }
+
+        return array_shift($this->parsers);
+    }
+
+    /**
+     * @param ParserInterface $parser
+     */
+    public function pushParser(ParserInterface $parser)
+    {
+        $this->parsers[] = $parser;
     }
 
     /**

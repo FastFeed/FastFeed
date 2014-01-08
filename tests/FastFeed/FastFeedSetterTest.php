@@ -9,8 +9,6 @@
  */
 namespace FastFeed\Manager\Feed;
 
-use FastFeed\FastFeed;
-
 /**
  * FastFeedSetterTest
  */
@@ -21,7 +19,6 @@ class FastFeedSetterTest extends AbstractFastFeedTest
     {
 
         $guzzleMock = $this->getMock('Guzzle\Http\ClientInterface');
-
         $this->assertNull($this->fastFeed->setHttpClient($guzzleMock));
     }
 
@@ -29,6 +26,19 @@ class FastFeedSetterTest extends AbstractFastFeedTest
     {
         $loggerMock = $this->getMock('Psr\Log\LoggerInterface');
         $this->assertNull($this->fastFeed->setLogger($loggerMock));
+    }
+
+    public function testPushParser()
+    {
+        $parserMock = $this->getMock('FastFeed\Parser\ParserInterface');
+        $this->assertNull($this->fastFeed->pushParser($parserMock));
+    }
+
+    public function testPopParser()
+    {
+        $parserMock = $this->getMock('FastFeed\Parser\ParserInterface');
+        $this->fastFeed->pushParser($parserMock);
+        $this->assertInstanceOf('FastFeed\Parser\ParserInterface', $this->fastFeed->popParser());
     }
 
 } 
