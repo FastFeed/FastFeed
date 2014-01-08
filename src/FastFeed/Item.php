@@ -12,7 +12,7 @@ namespace FastFeed;
 /**
  * Node
  */
-class Node
+class Item
 {
     /**
      * @var string
@@ -160,7 +160,5 @@ class Node
     {
         return $this->url;
     }
-
-
 
 }
