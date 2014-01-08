@@ -7,8 +7,9 @@ php:
 
 notifications:
   email:
-    - git@github.com:FastFeed/FastFeed.git
+    - daniel@desarrolla2.com
 
 before_script:
+  - cp phpunit.xml.dist phpunit.xml
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --prefer-source

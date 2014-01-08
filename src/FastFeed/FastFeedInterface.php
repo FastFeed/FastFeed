@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace FastFeed\Manager\Feed;
+namespace FastFeed;
 
 /**
  * FeedManagerInterface

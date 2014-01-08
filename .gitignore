@@ -3,7 +3,7 @@
 /composer.lock
 /vendor
 /.idea
-/TODO.txt
+/TODO.md
 *~
 *.swp
 
