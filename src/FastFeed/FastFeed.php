@@ -28,7 +28,7 @@ class FastFeed
     /**
      * @var ClientInterface;
      */
-    protected $guzzle;
+    protected $http;
 
     /**
      * @var LoggerInterface
@@ -46,25 +46,8 @@ class FastFeed
      */
     public function __construct(ClientInterface $guzzle, LoggerInterface $logger)
     {
-        $this->guzzle = $guzzle;
+        $this->http = $guzzle;
         $this->logger = $logger;
-    }
-
-    /**
-     * Set a channel
-     *
-     * @param string $channel
-     * @param string $feed
-     *
-     * @throws InvalidArgumentException
-     */
-    public function setFeed($channel, $feed)
-    {
-        if (!is_string($channel)) {
-            throw new InvalidArgumentException('You tried to add a invalid channel.');
-        }
-        $this->feeds[$channel] = array();
-        $this->addFeed($channel, $feed);
     }
 
     /**
@@ -84,6 +67,48 @@ class FastFeed
             throw new InvalidArgumentException('You tried to add a invalid url.');
         }
         $this->feeds[$channel][] = $feed;
+    }
+
+    public function fetch($channel = 'default', $limit = 100)
+    {
+        if (!is_string($channel)) {
+            throw new InvalidArgumentException('You tried to add a invalid channel.');
+        }
+
+        $result = array();
+
+        foreach ($this->feeds[$channel] as $feed) {
+            $content = $this->get($feed);
+            if (!$content) {
+                continue;
+            }
+            foreach ($this->parsers as $parser) {
+                $nodes = $parser->getNodes($content);
+                if (!$nodes) {
+                    continue;
+                }
+
+                foreach ($nodes as $node) {
+                    $result[] = $node;
+                }
+            }
+        }
+
+        foreach ($this->sanitizers as $sanitizer) {
+            foreach ($result as $key => $node) {
+                $result[$key] = $sanitizer->sanitize($node);
+            }
+        }
+
+        if ($this->sort) {
+            $result = $this->sort->sort($result);
+        }
+
+        if ($limit) {
+            $result = $this->limit($result);
+        }
+
+        return $result;
     }
 
     /**
@@ -114,6 +139,41 @@ class FastFeed
     }
 
     /**
+     * Set Guzzle
+     *
+     * @param ClientInterface $guzzle
+     */
+    public function setHttpClient(ClientInterface $guzzle)
+    {
+        $this->http = $guzzle;
+    }
+
+    /**
+     * @param LoggerInterface $logger
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+    }
+
+    /**
+     * Set a channel
+     *
+     * @param string $channel
+     * @param string $feed
+     *
+     * @throws InvalidArgumentException
+     */
+    public function setFeed($channel, $feed)
+    {
+        if (!is_string($channel)) {
+            throw new InvalidArgumentException('You tried to add a invalid channel.');
+        }
+        $this->feeds[$channel] = array();
+        $this->addFeed($channel, $feed);
+    }
+
+    /**
      * Retrieve content from a resource
      *
      * @param $url
@@ -122,7 +182,7 @@ class FastFeed
      */
     protected function get($url)
     {
-        $request = $this->guzzle->get(
+        $request = $this->http->get(
             $url,
             array('User-Agent' => self::USER_AGENT . ' v.' . self::VERSION)
         );
@@ -131,11 +191,12 @@ class FastFeed
         if (!$response->isSuccessful()) {
             $this->logger->log(
                 LogLevel::INFO,
-                $response->getStatusCode() . ' http code in url "' . $url . '" '
+                'fail with ' . $response->getStatusCode() . ' http code in url "' . $url . '" '
             );
 
             return;
         }
+        $this->logger->log(LogLevel::INFO, 'retrieved url "' . $url . '" ');
 
         return $response->getBody();
     }

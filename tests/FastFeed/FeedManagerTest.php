@@ -10,26 +10,11 @@
 
 namespace FastFeed\Manager\Feed;
 
-use FastFeed\FastFeed;
-
 /**
  * FeedManagerTest
  */
-class FeedManager extends \PHPUnit_Framework_TestCase
+class FeedManager extends AbstractFastFeedTest
 {
-
-    /**
-     * @var FastFeed
-     */
-    protected $fastFeed;
-
-    public function setUp()
-    {
-        $guzzleMock = $this->getMock('Guzzle\Http\ClientInterface');
-        $loggerMock = $this->getMock('Psr\Log\LoggerInterface');
-
-        $this->fastFeed = new FastFeed($guzzleMock, $loggerMock);
-    }
 
     /**
      * @return array

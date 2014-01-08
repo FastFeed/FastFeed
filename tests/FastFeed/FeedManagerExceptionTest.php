@@ -9,25 +9,11 @@
  */
 namespace FastFeed\Manager\Feed;
 
-use FastFeed\FastFeed;
-
 /**
  * FeedManagerExceptionTest
  */
-class FeedManagerExceptionTest extends \PHPUnit_Framework_TestCase
+class FeedManagerExceptionTest extends AbstractFastFeedTest
 {
-    /**
-     * @var FastFeed
-     */
-    protected $fastFeed;
-
-    public function setUp()
-    {
-        $guzzleMock = $this->getMock('Guzzle\Http\ClientInterface');
-        $loggerMock = $this->getMock('Psr\Log\LoggerInterface');
-
-        $this->fastFeed = new FastFeed($guzzleMock, $loggerMock);
-    }
 
     /**
      * @return array
