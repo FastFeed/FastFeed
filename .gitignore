@@ -1,6 +1,7 @@
 /cache
 /build
 /composer.lock
+/phpunit.xml
 /vendor
 /.idea
 /TODO.md
