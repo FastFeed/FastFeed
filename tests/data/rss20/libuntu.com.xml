@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+>
+
+    <channel>
+        <title>Libuntu, un novedoso blog sobre Ubuntu &#187; ubuntu</title>
+        <atom:link href="http://libuntu.wordpress.com/tag/ubuntu/feed/" rel="self" type="application/rss+xml" />
+        <link>http://libuntu.wordpress.com</link>
+        <description>Compartiendo novedades sobre Ubuntu y Otras distros Linux</description>
+        <lastBuildDate>Sun, 05 May 2013 08:02:12 +0000</lastBuildDate>
+        <language>es</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.com/</generator>
+        <cloud domain='libuntu.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+        <image>
+            <url>http://s2.wp.com/i/buttonw-com.png</url>
+            <title>Libuntu, un novedoso blog sobre Ubuntu &#187; ubuntu</title>
+            <link>http://libuntu.wordpress.com</link>
+        </image>
+        <atom:link rel="search" type="application/opensearchdescription+xml" href="http://libuntu.wordpress.com/osd.xml" title="Libuntu, un novedoso blog sobre Ubuntu" />
+        <atom:link rel='hub' href='http://libuntu.wordpress.com/?pushpress=hub'/>
+        <item>
+            <title>Google lanza la versión 27.0.1453.73 beta del navegador chrome añadiendo varias mejoras en Linux</title>
+            <link>http://libuntu.wordpress.com/2013/05/01/google-lanza-la-version-27-0-1453-73-beta-del-navegador-chrome-anadiendo-varias-mejoras-en-linux/</link>
+            <comments>http://libuntu.wordpress.com/2013/05/01/google-lanza-la-version-27-0-1453-73-beta-del-navegador-chrome-anadiendo-varias-mejoras-en-linux/#comments</comments>
+            <pubDate>Wed, 01 May 2013 23:59:53 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Noticias]]></category>
+            <category><![CDATA[13.04]]></category>
+            <category><![CDATA[27.0.1453.73]]></category>
+            <category><![CDATA[beta]]></category>
+            <category><![CDATA[cookies]]></category>
+            <category><![CDATA[google]]></category>
+            <category><![CDATA[historial]]></category>
+            <category><![CDATA[instalador]]></category>
+            <category><![CDATA[lanzar]]></category>
+            <category><![CDATA[linux]]></category>
+            <category><![CDATA[mejoras]]></category>
+            <category><![CDATA[navegador]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[version]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1457</guid>
+            <description><![CDATA[Google ha actualizado su canal beta del navegador Chrome con la versión 27.0.1453.73 incluyendo varias mejoras en Linux. Estas mejoras son: Se corrige un cuelgue en el historial rápido en navegadores no-inglés en Linux El navegador ya no desactiva las cookies al visualizar los favicons Se añade un nuevo archivo para el instalador de Chrome [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1457&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/05/01/google-lanza-la-version-27-0-1453-73-beta-del-navegador-chrome-anadiendo-varias-mejoras-en-linux/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh6.googleusercontent.com/-jAUQpbJQu9A/TywSQmMvtxI/AAAAAAAAKYA/1LQT5aaC2hI/s385/Chrome-logo.jpg" medium="image" />
+        </item>
+        <item>
+            <title>CodeWeaver lanza CrossOver 12.2.0</title>
+            <link>http://libuntu.wordpress.com/2013/05/01/codeweaver-lanza-crossover-12-2-0/</link>
+            <comments>http://libuntu.wordpress.com/2013/05/01/codeweaver-lanza-crossover-12-2-0/#comments</comments>
+            <pubDate>Wed, 01 May 2013 22:07:16 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Noticias]]></category>
+            <category><![CDATA[.net]]></category>
+            <category><![CDATA[12.2]]></category>
+            <category><![CDATA[13.04]]></category>
+            <category><![CDATA[2007]]></category>
+            <category><![CDATA[anuncio]]></category>
+            <category><![CDATA[crossover]]></category>
+            <category><![CDATA[detalles]]></category>
+            <category><![CDATA[distorsiones]]></category>
+            <category><![CDATA[juego]]></category>
+            <category><![CDATA[mejora]]></category>
+            <category><![CDATA[office]]></category>
+            <category><![CDATA[solventar]]></category>
+            <category><![CDATA[soporte]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[wine]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1454</guid>
+            <description><![CDATA[La aplicación CrossOver, la cuál es considerada una mejora de Wine, ha sido actualizada a la versión 12.2.0 trayendo varias mejoras. En esta nueva versión, podemos mencionar algunas mejoras como: Se solventan algunas distorsiones gráficas en algunas ventanas al usar Quicken Se solventan algunos errores que causaban el cuelgue de Office 2007 en algunas circunstancias. [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1454&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/05/01/codeweaver-lanza-crossover-12-2-0/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh3.googleusercontent.com/-xT9mxp-CjOs/UMkHsGQ5D8I/AAAAAAAASXI/7pBkzqNBRcM/s500/crossover-logo.jpg" medium="image" />
+        </item>
+        <item>
+            <title>Se publica la hoja de ruta o el roadmap de Ubuntu 13.10</title>
+            <link>http://libuntu.wordpress.com/2013/05/01/se-publica-la-hoja-de-ruta-o-el-roadmap-de-ubuntu-13-10/</link>
+            <comments>http://libuntu.wordpress.com/2013/05/01/se-publica-la-hoja-de-ruta-o-el-roadmap-de-ubuntu-13-10/#comments</comments>
+            <pubDate>Wed, 01 May 2013 21:41:38 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Noticias]]></category>
+            <category><![CDATA[13.10]]></category>
+            <category><![CDATA[alpha]]></category>
+            <category><![CDATA[beta]]></category>
+            <category><![CDATA[congelacion]]></category>
+            <category><![CDATA[fechas]]></category>
+            <category><![CDATA[final]]></category>
+            <category><![CDATA[hoja]]></category>
+            <category><![CDATA[lanzamientos]]></category>
+            <category><![CDATA[release candidate]]></category>
+            <category><![CDATA[roadmap]]></category>
+            <category><![CDATA[ruta]]></category>
+            <category><![CDATA[salamander]]></category>
+            <category><![CDATA[saucy]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[wiki]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1452</guid>
+            <description><![CDATA[A través de la wiki oficial de Ubuntu, Canonical ha publicado la hoja de ruta o el roadmap de Ubuntu 13.10 &#8220;Saucy Salamander&#8221;, conoce cuales serán las fechas de lanzamientos. la hoja de ruta de Ubuntu 13.10 &#8220;Saucy salamander&#8221; es la siguiente: 30 de mayo &#8211; Congelación de definición de caracaterísticas 20 de Junio &#8211; [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1452&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/05/01/se-publica-la-hoja-de-ruta-o-el-roadmap-de-ubuntu-13-10/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh5.googleusercontent.com/-SFN7p8dDYAw/UYGLwi9Z6WI/AAAAAAAAVDs/my0Wfgjjk0A/s640/roadmap-ubuntu-13.04.png" medium="image" />
+        </item>
+        <item>
+            <title>Ya se encuentran disponibles las construcciones diarias o daily builds de Ubuntu 13.10</title>
+            <link>http://libuntu.wordpress.com/2013/05/01/ya-se-encuentran-disponibles-las-construcciones-diarias-o-daily-builds-de-ubuntu-13-10/</link>
+            <comments>http://libuntu.wordpress.com/2013/05/01/ya-se-encuentran-disponibles-las-construcciones-diarias-o-daily-builds-de-ubuntu-13-10/#comments</comments>
+            <pubDate>Wed, 01 May 2013 20:46:33 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Noticias]]></category>
+            <category><![CDATA[13.10]]></category>
+            <category><![CDATA[build]]></category>
+            <category><![CDATA[construcciones]]></category>
+            <category><![CDATA[daily]]></category>
+            <category><![CDATA[descargar]]></category>
+            <category><![CDATA[diarias]]></category>
+            <category><![CDATA[probar]]></category>
+            <category><![CDATA[salamander]]></category>
+            <category><![CDATA[saucy]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[usuarios]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1449</guid>
+            <description><![CDATA[Los usuarios que deseen ir probando la próxima versión de Ubuntu 13.10 &#8220;Saucy Salamander&#8221; están de suerte, ya que Canonical puso a disposición pública las construcciones diarias o Daily Builds. Canonical ya puso a disposición de todo público, la descarga de las construcciones diarias o daily Builds de Ubuntu 13.10 &#8220;Saucy Salamander&#8221; para todos aquellos [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1449&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/05/01/ya-se-encuentran-disponibles-las-construcciones-diarias-o-daily-builds-de-ubuntu-13-10/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh3.googleusercontent.com/-LsYNiQN8LtY/UWiONaNlAvI/AAAAAAAAUEA/RLs4UXg6MWQ/s197/Ubuntu-Logo-1.jpg" medium="image" />
+        </item>
+        <item>
+            <title>Canonical lanza una nueva versión de seguridad del kernel Linux en Ubuntu 12.04 LTS</title>
+            <link>http://libuntu.wordpress.com/2013/05/01/canonical-lanza-una-nueva-version-de-seguridad-del-kernel-linux-en-ubuntu-12-04-lts/</link>
+            <comments>http://libuntu.wordpress.com/2013/05/01/canonical-lanza-una-nueva-version-de-seguridad-del-kernel-linux-en-ubuntu-12-04-lts/#comments</comments>
+            <pubDate>Wed, 01 May 2013 18:28:27 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Noticias]]></category>
+            <category><![CDATA[12.04]]></category>
+            <category><![CDATA[3.2.0-41.66]]></category>
+            <category><![CDATA[actualizar]]></category>
+            <category><![CDATA[atacante]]></category>
+            <category><![CDATA[canonical]]></category>
+            <category><![CDATA[error]]></category>
+            <category><![CDATA[fallo]]></category>
+            <category><![CDATA[kernel]]></category>
+            <category><![CDATA[leer]]></category>
+            <category><![CDATA[linux]]></category>
+            <category><![CDATA[seguridad]]></category>
+            <category><![CDATA[solventar]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[version]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1442</guid>
+            <description><![CDATA[Canonical ha liberado una nueva versión de seguridad del kernel Linux en Ubuntu 12.04 LTS, solventando varios problemas de seguridad. La nueva versión de seguridad del kernel Linux es la 3.2.0-41.66 y solventa varios problemas de seguridad. Se solventa un fallo en la información del kernel Linux al implementar el sistema de archivos UDF. Esto [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1442&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/05/01/canonical-lanza-una-nueva-version-de-seguridad-del-kernel-linux-en-ubuntu-12-04-lts/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh6.googleusercontent.com/-IkCkRJJKEPM/TorC3vA132I/AAAAAAAAKYA/FizCTVw4EiE/s135/ubuntu_lock1.png" medium="image" />
+        </item>
+        <item>
+            <title>Ubuntu 13.10 comienza a recibir actualizaciones</title>
+            <link>http://libuntu.wordpress.com/2013/04/29/ubuntu-13-10-comienza-a-recibir-actualizaciones/</link>
+            <comments>http://libuntu.wordpress.com/2013/04/29/ubuntu-13-10-comienza-a-recibir-actualizaciones/#comments</comments>
+            <pubDate>Tue, 30 Apr 2013 00:18:45 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[13.10]]></category>
+            <category><![CDATA[actualizaciones]]></category>
+            <category><![CDATA[arquitecturas]]></category>
+            <category><![CDATA[binutils]]></category>
+            <category><![CDATA[boost]]></category>
+            <category><![CDATA[desarrollo]]></category>
+            <category><![CDATA[gcc]]></category>
+            <category><![CDATA[glibc]]></category>
+            <category><![CDATA[klose]]></category>
+            <category><![CDATA[memoria]]></category>
+            <category><![CDATA[paquetes]]></category>
+            <category><![CDATA[planet ubuntu]]></category>
+            <category><![CDATA[recibir]]></category>
+            <category><![CDATA[ubuntu]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1426</guid>
+            <description><![CDATA[A través de la lista de correo de Ubuntu, Matthias Klose ha anunciado que el desarrollo de Ubuntu 13.10 ha comenzado y ya recibió sus primeras actualizaciones de paquetes. Se trata de los paquetes GCC y Boost, ambos han sido actualizados. GCC 4.8 es ahora el compilador por defecto en Ubuntu 13.10 añadiendo un montón [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1426&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/04/29/ubuntu-13-10-comienza-a-recibir-actualizaciones/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh5.googleusercontent.com/-1g4C4-D9thE/UWiOOsN2WEI/AAAAAAAAUEI/Q1ScuRQBDvM/s380/Ubuntu-Logo.jpg" medium="image" />
+        </item>
+        <item>
+            <title>Se añaden nuevas características visuales a la terminal de Ubuntu Phone</title>
+            <link>http://libuntu.wordpress.com/2013/04/27/se-anaden-nuevas-caracteristicas-visuales-a-la-terminal-de-ubuntu-phone/</link>
+            <comments>http://libuntu.wordpress.com/2013/04/27/se-anaden-nuevas-caracteristicas-visuales-a-la-terminal-de-ubuntu-phone/#comments</comments>
+            <pubDate>Sun, 28 Apr 2013 00:55:27 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Noticias]]></category>
+            <category><![CDATA[13.04]]></category>
+            <category><![CDATA[aspecto]]></category>
+            <category><![CDATA[caracteristica]]></category>
+            <category><![CDATA[dispositivos]]></category>
+            <category><![CDATA[fotos]]></category>
+            <category><![CDATA[imagenes]]></category>
+            <category><![CDATA[mejoras]]></category>
+            <category><![CDATA[phone]]></category>
+            <category><![CDATA[planet ubuntu]]></category>
+            <category><![CDATA[terminal]]></category>
+            <category><![CDATA[touch]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[version]]></category>
+            <category><![CDATA[visuales]]></category>
+
+            <guid isPermaLink="false">http://www.novedoso.tk/?p=464</guid>
+            <description><![CDATA[Con el lanzamiento de Ubuntu 13.04, también la versión para dispositivos móviles se ha actualizado y la terminal en este caso, he recibido varias mejoras y características visuales. La terminal en Ubuntu Phone ha pasado a ser una aplicación principal de Ubuntu Touch, el cuál ha comenzado a recibir numerosas mejoras y nuevas características en [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1420&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/04/27/se-anaden-nuevas-caracteristicas-visuales-a-la-terminal-de-ubuntu-phone/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh4.googleusercontent.com/-3JbqZs4Fgyg/UXxv9cgWheI/AAAAAAAAU14/oN6i0BBcdiE/s888/terminal-ubuntu-phone.png" medium="image" />
+        </item>
+        <item>
+            <title>Se lanza la versión 12.1 de Stellarium</title>
+            <link>http://libuntu.wordpress.com/2013/04/26/se-lanza-la-version-12-1-de-stellarium/</link>
+            <comments>http://libuntu.wordpress.com/2013/04/26/se-lanza-la-version-12-1-de-stellarium/#comments</comments>
+            <pubDate>Fri, 26 Apr 2013 16:31:54 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Noticias]]></category>
+            <category><![CDATA[12.1]]></category>
+            <category><![CDATA[actualizar]]></category>
+            <category><![CDATA[caracteristicas]]></category>
+            <category><![CDATA[catalogo]]></category>
+            <category><![CDATA[instalar]]></category>
+            <category><![CDATA[lentes]]></category>
+            <category><![CDATA[mejoras]]></category>
+            <category><![CDATA[objetos]]></category>
+            <category><![CDATA[observatorio]]></category>
+            <category><![CDATA[plugins]]></category>
+            <category><![CDATA[satelite]]></category>
+            <category><![CDATA[stellarium]]></category>
+            <category><![CDATA[textura]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[version]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1414</guid>
+            <description><![CDATA[El popular observatorio espacial open source Stellarium, ha sido actualizado a la versión 12.1 trayendo nuevas características y mejoras. Considerada una actualización mayor, la versión 12.1 trae numerosas características y mejoras entre ellas estan: Se añade el catálogo Caldwell Se añade el nuevo skyculture Tongan Soporte para los lentes Barlow/Shapley, esto como una nueva característica [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1414&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/04/26/se-lanza-la-version-12-1-de-stellarium/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh3.googleusercontent.com/-vrXjTCdWqe8/UXqs09RNoFI/AAAAAAAAU0o/-OrHRDluGwE/s600/stellarium-12.1-a-1.png" medium="image" />
+
+            <media:content url="https://lh5.googleusercontent.com/-WH-vNw4j_YQ/UXqtFAi-1oI/AAAAAAAAU04/PYuPC7AeQ5I/s600/stellarium-12.1-b1.png" medium="image" />
+        </item>
+        <item>
+            <title>Instalar los controladores propietarios de Broadcom en Ubuntu</title>
+            <link>http://libuntu.wordpress.com/2013/04/26/instalar-los-controladores-propietarios-de-broadcom-en-ubuntu/</link>
+            <comments>http://libuntu.wordpress.com/2013/04/26/instalar-los-controladores-propietarios-de-broadcom-en-ubuntu/#comments</comments>
+            <pubDate>Fri, 26 Apr 2013 15:01:46 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[Tutoriales]]></category>
+            <category><![CDATA[broadcom]]></category>
+            <category><![CDATA[descargar]]></category>
+            <category><![CDATA[drivers]]></category>
+            <category><![CDATA[instalar]]></category>
+            <category><![CDATA[paquetes]]></category>
+            <category><![CDATA[propietarios]]></category>
+            <category><![CDATA[ubuntu]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1412</guid>
+            <description><![CDATA[A través del siguiente tutorial, les indicaré como instalar los controladores propietarios Broadcom en Ubuntu. En el blog desdelinux indican en unos breves pasos como instalar los controladores privativos Broadcom en Ubuntu para redes inalámbricas. Estos son los pasos: Descargamos (obviamente en una pc que tenga conexión a internet) los siguientes paquetes: DKMS y dependiendo [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1412&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/04/26/instalar-los-controladores-propietarios-de-broadcom-en-ubuntu/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh4.googleusercontent.com/-ZOTA51sYZvc/UXqWvAuVKpI/AAAAAAAAUzQ/vWZHAtEdac8/s350/BroadCom-Linux.png" medium="image" />
+        </item>
+        <item>
+            <title>Se lanza Ubuntu Tweak 0.8.4</title>
+            <link>http://libuntu.wordpress.com/2013/04/25/se-lanza-ubuntu-tweak-0-8-4/</link>
+            <comments>http://libuntu.wordpress.com/2013/04/25/se-lanza-ubuntu-tweak-0-8-4/#comments</comments>
+            <pubDate>Fri, 26 Apr 2013 01:21:03 +0000</pubDate>
+            <dc:creator>rmarquez</dc:creator>
+            <category><![CDATA[Linux]]></category>
+            <category><![CDATA[13.04]]></category>
+            <category><![CDATA[actualizar]]></category>
+            <category><![CDATA[configurar]]></category>
+            <category><![CDATA[errores]]></category>
+            <category><![CDATA[herramienta]]></category>
+            <category><![CDATA[instalar]]></category>
+            <category><![CDATA[mantenimiento]]></category>
+            <category><![CDATA[optimizar]]></category>
+            <category><![CDATA[solventar]]></category>
+            <category><![CDATA[tweak]]></category>
+            <category><![CDATA[ubuntu]]></category>
+            <category><![CDATA[version]]></category>
+
+            <guid isPermaLink="false">http://libuntu.wordpress.com/?p=1404</guid>
+            <description><![CDATA[¿Coincidiendo? con el lanzamiento de Ubuntu 13.04 el día de hoy, la gente de Ubuntu Tweak lanza la versión 0.8.4 de esta popular herramienta de optimización, configuración y algo mas tanto para Ubuntu como para Linux Mint. En el anuncio oficial, Tualatrix Chou ha indicado que esta versión es de mantenimiento prácticamente, por lo que [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=libuntu.wordpress.com&#038;blog=40169159&#038;post=1404&#038;subd=libuntu&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://libuntu.wordpress.com/2013/04/25/se-lanza-ubuntu-tweak-0-8-4/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+            <media:content url="http://0.gravatar.com/avatar/3b76fd4f6565ab55837c65f569367362?s=96&#38;d=&#38;r=G" medium="image">
+                <media:title type="html">reduardowise</media:title>
+            </media:content>
+
+            <media:content url="https://lh4.googleusercontent.com/--l5EyAGNBSU/UXnWXS4FfxI/AAAAAAAAUxk/kQaenN5OEe0/s617/ubuntu-tweak-0.8.4.png" medium="image" />
+        </item>
+    </channel>
+</rss>

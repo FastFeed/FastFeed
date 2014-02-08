@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='http://slashdot.feedsportal.com/xsl/eng/rss.xsl'?>
+<rss xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+    <channel>
+        <title>Slashdot</title>
+        <link>http://slashdot.org/</link>
+        <description>News for nerds, stuff that matters</description>
+        <language>en-us</language>
+        <copyright>Copyright 1997-2013, Dice. All Rights Reserved. Slashdot is a Dice Holdings, Inc. service</copyright>
+        <pubDate>Wed, 13 Nov 2013 14:44:18 GMT</pubDate>
+        <lastBuildDate>Wed, 13 Nov 2013 14:44:18 GMT</lastBuildDate>
+        <ttl>2</ttl>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <sy:updateBase>1970-01-01T00:00:00Z</sy:updateBase>
+        <dc:creator>help@slashdot.org</dc:creator>
+        <dc:subject>Technology</dc:subject>
+        <dc:publisher>Dice</dc:publisher>
+        <dc:date>2013-11-13T14:44:18Z</dc:date>
+        <dc:language>en-us</dc:language>
+        <dc:rights>Copyright 1997-2013, Dice. All Rights Reserved. Slashdot is a Dice Holdings, Inc. service</dc:rights>
+        <image>
+            <title>Slashdot</title>
+            <url>http://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+            <link>http://slashdot.org/</link>
+        </image>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
+                     href="http://rss.slashdot.org/Slashdot/slashdot"/>
+        <feedburner:info uri="slashdot/slashdot"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+        <item>
+            <title>Pentagon Readies Contingency Plans Due To BlackBerry's Uncertain Future</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/on2_eJ4KHrI/story01.htm</link>
+            <description>cold fjord writes "Nextgov reports, 'The Defense Department, owner of 470,000 BlackBerrys, is
+                distancing itself from the struggling vendor while moving ahead with construction of a department wide
+                app store and a system for securing all mobile devices, including the latest iPhones, iPads, and Samsung
+                smartphones and tablets. Just two months ago, when BlackBerry announced the company would radically
+                curtail commercial sales, Pentagon officials said their business partnership remained unaffected. ... A
+                2012 strategy to transition personnel from PCs to smartphones and tablets did not favor any one device
+                maker ... "This multi-vendor, device-agnostic approach minimizes the impact of [a] single vendor to our
+                current operations," Pentagon spokesman Lt. Col. Damien Pickart said. Implementation of the strategy
+                centers on a "mobile device management" system to track handhelds that touch military networks so that
+                they do not compromise military information or corrupt Defense systems.'"&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Pentagon+Readies+Contingency+Plans+Due+To+BlackBerry's+Uncertain+Future%3A+http%3A%2F%2Fbit.ly%2F17p3i1p"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F13%2F11%2F13%2F142251%2Fpentagon-readies-contingency-plans-due-to-blackberrys-uncertain-future%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://yro.slashdot.org/story/13/11/13/142251/pentagon-readies-contingency-plans-due-to-blackberrys-uncertain-future?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://yro.slashdot.org/story/13/11/13/142251/pentagon-readies-contingency-plans-due-to-blackberrys-uncertain-future?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4441587&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/33a2d439/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264187197/u/49/f/647410/c/35028/s/33a2d439/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/on2_eJ4KHrI" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 14:33:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a2d439/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C130C1422510Cpentagon0Ereadies0Econtingency0Eplans0Edue0Eto0Eblackberrys0Euncertain0Efuture0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Unknown Lamer</dc:creator>
+            <dc:subject>blackberry</dc:subject>
+            <dc:date>2013-11-13T14:33:00Z</dc:date>
+            <slash:comments>2</slash:comments>
+            <slash:department>sound-of-nails-being-hammered</slash:department>
+            <slash:section>yro</slash:section>
+            <slash:hit_parade>2,1,1,1,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a2d439/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C130C1422510Cpentagon0Ereadies0Econtingency0Eplans0Edue0Eto0Eblackberrys0Euncertain0Efuture0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>How Blockbuster Could Have Owned Netflix</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/CXe7JCSXGkc/story01.htm</link>
+            <description>schnell writes "Your age probably determines whether you think of Blockbuster Video as a fond
+                memory or a dinosaur predestined for extinction. While the last Blockbuster rental at the last remaining
+                Blockbuster video store took place last week, Variety retells a now-classic story of how Blockbuster
+                could have bought Netflix for a song, but didn't because it failed to take the new DVD-by-mail and video
+                streaming markets seriously. Who is next to join Blockbuster, Polaroid, Borders and Best Buy on the ash
+                heap of superseded retail business models?"&lt;p&gt;&lt;div class="share_submission"
+                style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=How+Blockbuster+Could+Have+Owned+Netflix%3A+http%3A%2F%2Fbit.ly%2F1gJsqIo"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fslashdot.org%2Fstory%2F13%2F11%2F13%2F1328207%2Fhow-blockbuster-could-have-owned-netflix%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://slashdot.org/story/13/11/13/1328207/how-blockbuster-could-have-owned-netflix?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://slashdot.org/story/13/11/13/1328207/how-blockbuster-could-have-owned-netflix?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4441503&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/33a21aa9/sc/15/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/sc/15/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/sc/15/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/sc/15/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/sc/15/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/sc/15/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/sc/15/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264228504/u/49/f/647410/c/35028/s/33a21aa9/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/CXe7JCSXGkc" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 13:50:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a21aa9/sc/15/l/0Lslashdot0Borg0Cstory0C130C110C130C132820A70Chow0Eblockbuster0Ecould0Ehave0Eowned0Enetflix0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Unknown Lamer</dc:creator>
+            <dc:subject>business</dc:subject>
+            <dc:date>2013-11-13T13:50:00Z</dc:date>
+            <slash:comments>1</slash:comments>
+            <slash:department>video-store-killed-the-video-store</slash:department>
+            <slash:section>slashdot</slash:section>
+            <slash:hit_parade>1,1,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a21aa9/sc/15/l/0Lslashdot0Borg0Cstory0C130C110C130C132820A70Chow0Eblockbuster0Ecould0Ehave0Eowned0Enetflix0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>The Second Operating System Hiding In Every Mobile Phone</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/4ZX-fACV9rw/story01.htm</link>
+            <description>Jah-Wren Ryel writes "Every smartphone or other device with mobile communications capability
+                (e.g. 3G or LTE) actually runs not one, but two operating systems. Aside from the operating system that
+                we as end-users see (Android, iOS, PalmOS), it also runs a small operating system that manages
+                everything related to radio. So, we have a complete operating system, running on an ARM processor,
+                without any exploit mitigation (or only very little of it), which automatically trusts every
+                instruction, piece of code, or data it receives from the base station you're connected to. What could
+                possibly go wrong?"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt; &lt;a
+                class="slashpop"
+                href="http://twitter.com/home?status=The+Second+Operating+System+Hiding+In+Every+Mobile+Phone%3A+http%3A%2F%2Fbit.ly%2F1aT4CiU"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmobile.slashdot.org%2Fstory%2F13%2F11%2F13%2F0237214%2Fthe-second-operating-system-hiding-in-every-mobile-phone%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://mobile.slashdot.org/story/13/11/13/0237214/the-second-operating-system-hiding-in-every-mobile-phone?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://mobile.slashdot.org/story/13/11/13/0237214/the-second-operating-system-hiding-in-every-mobile-phone?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438813&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/33a210c9/sc/5/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/sc/5/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/sc/5/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/sc/5/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/sc/5/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/sc/5/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/sc/5/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264226377/u/49/f/647410/c/35028/s/33a210c9/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/4ZX-fACV9rw" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 13:12:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a210c9/sc/5/l/0Lmobile0Bslashdot0Borg0Cstory0C130C110C130C0A2372140Cthe0Esecond0Eoperating0Esystem0Ehiding0Ein0Eevery0Emobile0Ephone0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>cellphones</dc:subject>
+            <dc:date>2013-11-13T13:12:00Z</dc:date>
+            <slash:comments>6</slash:comments>
+            <slash:department>spoiler:-it's-windows-ME</slash:department>
+            <slash:section>mobile</slash:section>
+            <slash:hit_parade>6,6,4,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a210c9/sc/5/l/0Lmobile0Bslashdot0Borg0Cstory0C130C110C130C0A2372140Cthe0Esecond0Eoperating0Esystem0Ehiding0Ein0Eevery0Emobile0Ephone0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Facebook Patented Making NSA Data Handoffs Easier</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Kv2OUeR6_uQ/story01.htm</link>
+            <description>theodp writes "In June, Facebook CEO Mark Zuckerberg blasted 'outrageous press reports' about
+                the PRISM surveillance program, denying that Facebook was ever 'part of any program to give the U.S. or
+                any other government direct access to our servers.' What Zuckerberg didn't mention, and what the press
+                overlooked, is that the USPTO granted Facebook a patent in May for its Automated Writ Response System.
+                Like the NSA-enabling systems described by the NY Times on the same day Zuckerberg cried foul, the
+                patent covers technical methods to more efficiently share the personal data of users with law
+                enforcement agencies (LEAs) in response to lawful government requests via APIs and secured portals
+                installed at company-controlled locations. 'While handing over data in response to a legitimate FISA
+                request is a legal requirement,' the Times noted, 'making it easier for the government to get the
+                information is not, which is why Twitter could decline to do so.'"&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Facebook+Patented+Making+NSA+Data+Handoffs+Easier%3A+http%3A%2F%2Fbit.ly%2F1eKR4aT"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F13%2F11%2F13%2F0358206%2Ffacebook-patented-making-nsa-data-handoffs-easier%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://yro.slashdot.org/story/13/11/13/0358206/facebook-patented-making-nsa-data-handoffs-easier?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://yro.slashdot.org/story/13/11/13/0358206/facebook-patented-making-nsa-data-handoffs-easier?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438979&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/33a01359/sc/21/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/sc/21/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/sc/21/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/sc/21/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/sc/21/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/sc/21/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/sc/21/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264102597/u/49/f/647410/c/35028/s/33a01359/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/Kv2OUeR6_uQ" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 10:10:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a01359/sc/21/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C130C0A35820A60Cfacebook0Epatented0Emaking0Ensa0Edata0Ehandoffs0Eeasier0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>facebook</dc:subject>
+            <dc:date>2013-11-13T10:10:00Z</dc:date>
+            <slash:department>can-make-a-fortune-on-the-infringement-suits</slash:department>
+            <slash:section>yro</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/33a01359/sc/21/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C130C0A35820A60Cfacebook0Epatented0Emaking0Ensa0Edata0Ehandoffs0Eeasier0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>India's Mars Mission Back On Track After Brief Hiccup</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/U-JzwpgF8tQ/story01.htm</link>
+            <description>New submitter rahultyagi writes "After running into some problems in its fourth orbit-raising
+                maneuver two days ago, Mangalyaan (India's Mars Orbiter Mission) seems to be back on track now. A
+                supplementary burn lasting ~304 seconds was completed today, raising the apogee of MOM to 118,642 km
+                &amp;mdash; the intended apogee after the original maneuver. After the glitch two days ago, ISRO again
+                seems to be on track to become the first entity to have a successful Mars mission on its first attempt.
+                Though, of course, there are quite a few things that might still go wrong before this can be called a
+                successful mission. Let's all hope that a year from now, we are all celebrating the entry of another
+                nation into the small club capable of successful interplanetary missions."&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=India's+Mars+Mission+Back+On+Track+After+Brief+Hiccup%3A+http%3A%2F%2Fbit.ly%2FHT9BnL"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F13%2F11%2F13%2F021252%2Findias-mars-mission-back-on-track-after-brief-hiccup%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://science.slashdot.org/story/13/11/13/021252/indias-mars-mission-back-on-track-after-brief-hiccup?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://science.slashdot.org/story/13/11/13/021252/indias-mars-mission-back-on-track-after-brief-hiccup?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438737&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339f5c9b/sc/15/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/sc/15/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/sc/15/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/sc/15/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/sc/15/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/sc/15/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/sc/15/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264160148/u/49/f/647410/c/35028/s/339f5c9b/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/U-JzwpgF8tQ" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 08:49:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339f5c9b/sc/15/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C130C0A212520Cindias0Emars0Emission0Eback0Eon0Etrack0Eafter0Ebrief0Ehiccup0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>mars</dc:subject>
+            <dc:date>2013-11-13T08:49:00Z</dc:date>
+            <slash:department>drank-water-from-the-far-side-of-the-cup</slash:department>
+            <slash:section>science</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339f5c9b/sc/15/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C130C0A212520Cindias0Emars0Emission0Eback0Eon0Etrack0Eafter0Ebrief0Ehiccup0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Puzzled Scientists Say Strange Things Are Happening On the Sun</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ZDVqhfwn9JQ/story01.htm</link>
+            <description>Hugh Pickens DOT Com writes "Robert Lee Hotz reports in the WSJ that current solar activity is
+                stranger than it has been in a century or more. The sun is producing barely half the number of sunspots
+                as expected, and its magnetic poles are oddly out of sync. Based on historical records, astronomers say
+                the sun this fall ought to be nearing the explosive climax of its approximate 11-year cycle of activity&amp;mdash;the
+                so-called solar maximum. But this peak is 'a total punk,' says Jonathan Cirtain. 'I would say it is the
+                weakest in 200 years,' adds David Hathaway, head of the solar physics group at NASA's Marshall Space
+                Flight Center. Researchers are puzzled. They can't tell if the lull is temporary or the onset of a
+                decades-long decline, which might ease global warming a bit by altering the sun's brightness or the
+                wavelengths of its light. To complicate the riddle, the sun also is undergoing one of its oddest
+                magnetic reversals on record, with the sun's magnetic poles out of sync for the past year so the sun
+                technically has two South Poles. Several solar scientists speculate that the sun may be returning to a
+                more relaxed state after an era of unusually high activity that started in the 1940s (PDF). 'More than
+                half of solar physicists would say we are returning to a norm,' says Mark Miesch. 'We might be in for a
+                longer state of suppressed activity.' If so, the decline in magnetic activity could ease global warming,
+                the scientists say. But such a subtle change in the sun&amp;mdash;lowering its luminosity by about 0.1%&amp;mdash;wouldn't
+                be enough to outweigh the build-up of greenhouse gases and soot that most researchers consider the main
+                cause of rising world temperatures over the past century or so. 'Given our current understanding of how
+                the sun varies and how climate responds, were the sun to enter a new Maunder Minimum, it would not mean
+                a new Little Ice Age,' says Judith Lean. 'It would simply slow down the current warming by a modest
+                amount.'"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Puzzled+Scientists+Say+Strange+Things+Are+Happening+On+the+Sun%3A+http%3A%2F%2Fbit.ly%2FHQuTSL"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F13%2F11%2F13%2F0150213%2Fpuzzled-scientists-say-strange-things-are-happening-on-the-sun%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://science.slashdot.org/story/13/11/13/0150213/puzzled-scientists-say-strange-things-are-happening-on-the-sun?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://science.slashdot.org/story/13/11/13/0150213/puzzled-scientists-say-strange-things-are-happening-on-the-sun?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438701&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339e340c/sc/38/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/sc/38/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/sc/38/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/sc/38/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/sc/38/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/sc/38/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/sc/38/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264198250/u/49/f/647410/c/35028/s/339e340c/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/ZDVqhfwn9JQ" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 07:11:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339e340c/sc/38/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C130C0A150A2130Cpuzzled0Escientists0Esay0Estrange0Ethings0Eare0Ehappening0Eon0Ethe0Esun0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>earth</dc:subject>
+            <dc:date>2013-11-13T07:11:00Z</dc:date>
+            <slash:comments>2</slash:comments>
+            <slash:department>i-blame-the-schools</slash:department>
+            <slash:section>science</slash:section>
+            <slash:hit_parade>2,2,1,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339e340c/sc/38/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C130C0A150A2130Cpuzzled0Escientists0Esay0Estrange0Ethings0Eare0Ehappening0Eon0Ethe0Esun0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>The Operations of a Cyber Arms Dealer</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/86stVw9vuqc/story01.htm</link>
+            <description>An anonymous reader writes "FireEye researchers have linked eleven distinct APT cyber espionage
+                campaigns previously believed to be unrelated (PDF), leading them to believe that there is a shared
+                operation that supplies and maintains malware tools and weapons used in them. The eleven campaigns they
+                tied together were detected between July 2011 and September 2013, but it's possible and very likely that
+                some of them were active even before then. Despite using varying techniques, tactics, and procedures,
+                the campaigns all leveraged a common development infrastructure, and shared &amp;mdash; in various
+                combinations &amp;mdash; the same malware tools, the same elements of code, binaries with the same
+                timestamps, and signed binaries with the same digital certificates."&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=The+Operations+of+a+Cyber+Arms+Dealer%3A+http%3A%2F%2Fbit.ly%2F17nTYdX"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F13%2F11%2F13%2F0156252%2Fthe-operations-of-a-cyber-arms-dealer%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://tech.slashdot.org/story/13/11/13/0156252/the-operations-of-a-cyber-arms-dealer?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://tech.slashdot.org/story/13/11/13/0156252/the-operations-of-a-cyber-arms-dealer?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438725&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339dad4d/sc/21/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/sc/21/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/sc/21/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/sc/21/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/sc/21/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/sc/21/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/sc/21/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264194453/u/49/f/647410/c/35028/s/339dad4d/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/86stVw9vuqc" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 06:05:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339dad4d/sc/21/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C130C0A1562520Cthe0Eoperations0Eof0Ea0Ecyber0Earms0Edealer0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>internet</dc:subject>
+            <dc:date>2013-11-13T06:05:00Z</dc:date>
+            <slash:department>you-can't-hug-your-children-with-cyber-arms</slash:department>
+            <slash:section>technology</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339dad4d/sc/21/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C130C0A1562520Cthe0Eoperations0Eof0Ea0Ecyber0Earms0Edealer0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Microsoft Warns Customers Away From RC4 and SHA-1</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/SYGJEPInSF8/story01.htm</link>
+            <description>Trailrunner7 writes "The RC4 and SHA-1 algorithms have taken a lot of hits in recent years,
+                with new attacks popping up on a regular basis. Many security experts and cryptographers have been
+                recommending that vendors begin phasing the two out, and Microsoft on Tuesday said it is now
+                recommending to developers that they deprecate RC4 and stop using the SHA-1 hash algorithm. RC4 is among
+                the older stream cipher suites in use today, and there have been a number of practical attacks against
+                it, including plaintext-recovery attacks. The improvements in computing power have made many of these
+                attacks more feasible for attackers, and so Microsoft is telling developers to drop RC4 from their
+                applications. The company also said that as of January 2016 it will no longer will validate any code
+                signing or root certificate that uses SHA-1."&lt;p&gt;&lt;div class="share_submission"
+                style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Microsoft+Warns+Customers+Away+From+RC4+and+SHA-1%3A+http%3A%2F%2Fbit.ly%2FHSXhEh"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fit.slashdot.org%2Fstory%2F13%2F11%2F13%2F0154244%2Fmicrosoft-warns-customers-away-from-rc4-and-sha-1%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://it.slashdot.org/story/13/11/13/0154244/microsoft-warns-customers-away-from-rc4-and-sha-1?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://it.slashdot.org/story/13/11/13/0154244/microsoft-warns-customers-away-from-rc4-and-sha-1?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438721&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339d9f39/sc/4/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/sc/4/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/sc/4/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/sc/4/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/sc/4/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/sc/4/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/sc/4/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264191420/u/49/f/647410/c/35028/s/339d9f39/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/SYGJEPInSF8" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 05:10:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339d9f39/sc/4/l/0Lit0Bslashdot0Borg0Cstory0C130C110C130C0A1542440Cmicrosoft0Ewarns0Ecustomers0Eaway0Efrom0Erc40Eand0Esha0E10Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>encryption</dc:subject>
+            <dc:date>2013-11-13T05:10:00Z</dc:date>
+            <slash:department>avoiding-collisions</slash:department>
+            <slash:section>it</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339d9f39/sc/4/l/0Lit0Bslashdot0Borg0Cstory0C130C110C130C0A1542440Cmicrosoft0Ewarns0Ecustomers0Eaway0Efrom0Erc40Eand0Esha0E10Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>CyanogenMod Windows-Based Installer Released, With Supporting Android App</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Q9TMK-4RlSY/story01.htm</link>
+            <description>Zanadou writes "CyanogenMod today released for general availability a friendly[er]-to-use
+                Windows-based installer that will automagically (no need to first root and/or unlock the bootloader)
+                step users though downloading, flashing and setting up an appropriate CyanogenMod version on supported
+                Android phones. Along with this, a 'companion app' that apparently helps set up the installer is now
+                available the Play Store, along with a newly-refreshed download page. Still no image for 'hammerhead'
+                (Nexus 5), though."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt; &lt;a
+                class="slashpop"
+                href="http://twitter.com/home?status=CyanogenMod+Windows-Based+Installer+Released%2C+With+Supporting+Android+App%3A+http%3A%2F%2Fbit.ly%2F18qm1d2"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmobile.slashdot.org%2Fstory%2F13%2F11%2F13%2F0228227%2Fcyanogenmod-windows-based-installer-released-with-supporting-android-app%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://mobile.slashdot.org/story/13/11/13/0228227/cyanogenmod-windows-based-installer-released-with-supporting-android-app?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://mobile.slashdot.org/story/13/11/13/0228227/cyanogenmod-windows-based-installer-released-with-supporting-android-app?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438799&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339d88ee/sc/15/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/sc/15/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/sc/15/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/sc/15/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/sc/15/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/sc/15/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/sc/15/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264059629/u/49/f/647410/c/35028/s/339d88ee/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/Q9TMK-4RlSY" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 04:04:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339d88ee/sc/15/l/0Lmobile0Bslashdot0Borg0Cstory0C130C110C130C0A2282270Ccyanogenmod0Ewindows0Ebased0Einstaller0Ereleased0Ewith0Esupporting0Eandroid0Eapp0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>android</dc:subject>
+            <dc:date>2013-11-13T04:04:00Z</dc:date>
+            <slash:department>ready-for-prime-time</slash:department>
+            <slash:section>mobile</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339d88ee/sc/15/l/0Lmobile0Bslashdot0Borg0Cstory0C130C110C130C0A2282270Ccyanogenmod0Ewindows0Ebased0Einstaller0Ereleased0Ewith0Esupporting0Eandroid0Eapp0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Venezuela: Cheap Television Sets For All!</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/hsApBtonb_c/story01.htm</link>
+            <description>solareagle writes "Venezuelan President Maduro has declared war on 'bourgeois parasites' by
+                taking over Daka, an electronics retailer similar to Best Buy. USA Today reports, 'National guardsmen,
+                some of whom had assault rifles, were positioned around outlets of [Daka] ... Maduro has ordered to
+                lower prices or face prosecution. Thousands of people lined up at the Daka stores hoping for a bargain
+                after the government forced the companies to charge "fair" prices. "I want a Sony plasma television for
+                the house," said Amanda Lisboa, 34, a business administrator who waited seven hours outside a Caracas
+                store ... "It's going to be so cheap!" "This is for the good of the nation," Maduro said, referring to
+                the military's occupation of Daka. "Leave nothing on the shelves, nothing in the warehouses Let nothing
+                remain in stock!" Maduro said his seizures are the 'tip of the iceberg' and that other stores would be
+                next if they did not comply with his orders.'"&lt;p&gt;&lt;div class="share_submission"
+                style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Venezuela%3A+Cheap+Television+Sets+For+All!%3A+http%3A%2F%2Fbit.ly%2F1a2R6rf"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fentertainment.slashdot.org%2Fstory%2F13%2F11%2F13%2F009248%2Fvenezuela-cheap-television-sets-for-all%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://entertainment.slashdot.org/story/13/11/13/009248/venezuela-cheap-television-sets-for-all?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://entertainment.slashdot.org/story/13/11/13/009248/venezuela-cheap-television-sets-for-all?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438553&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339ce3d7/sc/42/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/sc/42/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/sc/42/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/sc/42/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/sc/42/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/sc/42/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/sc/42/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264057809/u/49/f/647410/c/35028/s/339ce3d7/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/hsApBtonb_c" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 03:08:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339ce3d7/sc/42/l/0Lentertainment0Bslashdot0Borg0Cstory0C130C110C130C0A0A92480Cvenezuela0Echeap0Etelevision0Esets0Efor0Eall0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>tv</dc:subject>
+            <dc:date>2013-11-13T03:08:00Z</dc:date>
+            <slash:comments>20</slash:comments>
+            <slash:department>you're-next-radio-shack</slash:department>
+            <slash:section>entertainment</slash:section>
+            <slash:hit_parade>20,19,12,10,1,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339ce3d7/sc/42/l/0Lentertainment0Bslashdot0Borg0Cstory0C130C110C130C0A0A92480Cvenezuela0Echeap0Etelevision0Esets0Efor0Eall0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Google Chrome 31 Is Out: Web Payments, Portable Native Client</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/4MHslIFw-Rs/story01.htm</link>
+            <description>An anonymous reader writes "Google today released Chrome version 31 for Windows, Mac, and
+                Linux. The new version includes support for Web payments, Portable Native Client, and 25 security fixes.
+                'Under the hood, PNaCl works by compiling native C and C++ code to an intermediate representation,
+                rather than architecture-specific representations as in Native Client. The LLVM-style bytecode is
+                wrapped into a portable executable, which can be hosted on a web server like any other website asset.
+                When the site is accessed, Chrome fetches and translates the portable executable into an
+                architecture-specific machine code optimized directly for the underlying device. This translation
+                approach means developers don&amp;rsquo;t need to recompile their applications multiple times to run
+                across x86, ARM or MIPS devices.' You can update to the latest release now using the browser's built-in
+                silent updater, or download it directly from google.com/chrome."&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Google+Chrome+31+Is+Out%3A+Web+Payments%2C+Portable+Native+Client%3A+http%3A%2F%2Fbit.ly%2F1aS9Hbf"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F13%2F11%2F13%2F005210%2Fgoogle-chrome-31-is-out-web-payments-portable-native-client%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://tech.slashdot.org/story/13/11/13/005210/google-chrome-31-is-out-web-payments-portable-native-client?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://tech.slashdot.org/story/13/11/13/005210/google-chrome-31-is-out-web-payments-portable-native-client?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438547&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339cc6fc/sc/4/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/sc/4/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/sc/4/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/sc/4/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/sc/4/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/sc/4/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/sc/4/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264139822/u/49/f/647410/c/35028/s/339cc6fc/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/4MHslIFw-Rs" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 02:06:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339cc6fc/sc/4/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C130C0A0A5210A0Cgoogle0Echrome0E310Eis0Eout0Eweb0Epayments0Eportable0Enative0Eclient0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>chrome</dc:subject>
+            <dc:date>2013-11-13T02:06:00Z</dc:date>
+            <slash:comments>4</slash:comments>
+            <slash:department>onward-and-upward</slash:department>
+            <slash:section>technology</slash:section>
+            <slash:hit_parade>4,3,1,1,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339cc6fc/sc/4/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C130C0A0A5210A0Cgoogle0Echrome0E310Eis0Eout0Eweb0Epayments0Eportable0Enative0Eclient0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Soylent: No Food For 30 Days</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/-io-QxAPx-I/story01.htm</link>
+            <description>Daniel_Stuckey writes "Senior Editor of Motherboard Brian Merchant went an entire month without
+                eating regular food. Instead, the journalist whisked up a concoction called soylent, an efficient take
+                on the future of nourishment and nutrition. Merchant says: 'It was my second day on Soylent and my
+                stomach felt like a coil of knotty old rope, slowly tightening. I wasn't hungry, but something was off.
+                I was tired, light-headed, low-energy, but my heart was racing. My eyes glazed over as I stared out the
+                window of our rental SUV as we drove over the fog-shrouded Bay Bridge to Oakland. Some of this was
+                nerves, sure. I had twenty-eight days left of my month-long all-Soylent diet&amp;mdash;I was attempting
+                to live on the full food replacement longer than anyone besides its inventor&amp;mdash;and I felt woozy
+                already. ... By the third week of Soylent, not eating food seemed normal. I saw a doctor, who said I was
+                healthy; I was still losing weight, but nothing serious. Yet, given that a daily mixture of Soylent
+                contains 2,400 calories, both Rob and Dr. Engel thought it was odd that I&amp;rsquo;d shed so much. Dr.
+                Engel said that given my weight, height, and body mass, I should only require about 1,800 calories a
+                day. I could still be adjusting to the new diet, or I could have such a hyperactive metabolism that
+                before Soylent, I was tearing through hundreds of extra calories per day and staying trim.'"&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Soylent%3A+No+Food+For+30+Days%3A+http%3A%2F%2Fbit.ly%2F1e2hiD8"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fnews.slashdot.org%2Fstory%2F13%2F11%2F12%2F2331209%2Fsoylent-no-food-for-30-days%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://news.slashdot.org/story/13/11/12/2331209/soylent-no-food-for-30-days?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://news.slashdot.org/story/13/11/12/2331209/soylent-no-food-for-30-days?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438481&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339c141d/sc/14/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/sc/14/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/sc/14/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/sc/14/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/sc/14/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/sc/14/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/sc/14/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264182362/u/49/f/647410/c/35028/s/339c141d/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/-io-QxAPx-I" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 01:05:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339c141d/sc/14/l/0Lnews0Bslashdot0Borg0Cstory0C130C110C120C233120A90Csoylent0Eno0Efood0Efor0E30A0Edays0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>news</dc:subject>
+            <dc:date>2013-11-13T01:05:00Z</dc:date>
+            <slash:comments>9</slash:comments>
+            <slash:department>do-twinkies-count?</slash:department>
+            <slash:section>news</slash:section>
+            <slash:hit_parade>9,9,6,5,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339c141d/sc/14/l/0Lnews0Bslashdot0Borg0Cstory0C130C110C120C233120A90Csoylent0Eno0Efood0Efor0E30A0Edays0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Sunlight Helps Turn Salty Water Fresh</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/hX4652aD0VU/story01.htm</link>
+            <description>MTorrice writes "With energy-efficient desalination techniques, water-starved communities could
+                produce fresh water from salty sources such as seawater and industrial wastewater. But common methods
+                like reverse osmosis require pumping the water, which uses a substantial amount of energy. So some
+                researchers have turned to forward osmosis, because in theory it should use less energy. Now a team has
+                demonstrated a forward osmosis system that desalinates salty water with the help of sunlight. The method
+                uses a pair of hydrogels to absorb and squeeze out freshwater."&lt;p&gt;&lt;div class="share_submission"
+                style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Sunlight+Helps+Turn+Salty+Water+Fresh%3A+http%3A%2F%2Fbit.ly%2F1a2sPl4"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F13%2F11%2F12%2F2321204%2Fsunlight-helps-turn-salty-water-fresh%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://science.slashdot.org/story/13/11/12/2321204/sunlight-helps-turn-salty-water-fresh?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://science.slashdot.org/story/13/11/12/2321204/sunlight-helps-turn-salty-water-fresh?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438475&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339c3cd8/sc/31/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/sc/31/kg/368/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/sc/31/kg/368/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/sc/31/kg/368/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/sc/31/kg/368/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/sc/31/kg/368/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/sc/31/kg/368/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/kg/368/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/kg/368/a2.img"
+                border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264102649/u/49/f/647410/c/35028/s/339c3cd8/kg/368/a2t.img"
+                border="0"/&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/hX4652aD0VU" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Wed, 13 Nov 2013 00:22:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339c3cd8/sc/31/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C120C232120A40Csunlight0Ehelps0Eturn0Esalty0Ewater0Efresh0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>science</dc:subject>
+            <dc:date>2013-11-13T00:22:00Z</dc:date>
+            <slash:department>that's-very-kind-of-the-sunlight</slash:department>
+            <slash:section>science</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339c3cd8/sc/31/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C120C232120A40Csunlight0Ehelps0Eturn0Esalty0Ewater0Efresh0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Weak Statistical Standards Implicated In Scientific Irreproducibility</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/a6Db9iY9cbA/story01.htm</link>
+            <description>ananyo writes "The plague of non-reproducibility in science may be mostly due to scientists'
+                use of weak statistical tests, as shown by an innovative method developed by statistician Valen Johnson,
+                at Texas A&amp;amp;M University. Johnson found that a P value of 0.05 or less &amp;mdash; commonly
+                considered evidence in support of a hypothesis in many fields including social science &amp;mdash; still
+                meant that as many as 17&amp;ndash;25% of such findings are probably false (PDF). He advocates for
+                scientists to use more stringent P values of 0.005 or less to support their findings, and thinks that
+                the use of the 0.05 standard might account for most of the problem of non-reproducibility in science
+                &amp;mdash; even more than other issues, such as biases and scientific misconduct."&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Weak+Statistical+Standards+Implicated+In+Scientific+Irreproducibility%3A+http%3A%2F%2Fbit.ly%2F1clbjaa"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F13%2F11%2F12%2F2212202%2Fweak-statistical-standards-implicated-in-scientific-irreproducibility%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://science.slashdot.org/story/13/11/12/2212202/weak-statistical-standards-implicated-in-scientific-irreproducibility?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://science.slashdot.org/story/13/11/12/2212202/weak-statistical-standards-implicated-in-scientific-irreproducibility?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438359&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339bba72/sc/33/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/sc/33/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/sc/33/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/sc/33/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/sc/33/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/sc/33/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/sc/33/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264049146/u/49/f/647410/c/35028/s/339bba72/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/a6Db9iY9cbA" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 23:40:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339bba72/sc/33/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C120C221220A20Cweak0Estatistical0Estandards0Eimplicated0Ein0Escientific0Eirreproducibility0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>math</dc:subject>
+            <dc:date>2013-11-12T23:40:00Z</dc:date>
+            <slash:comments>1</slash:comments>
+            <slash:department>nobody-who-needs-to-understand-statistics-understands-statistics</slash:department>
+            <slash:section>science</slash:section>
+            <slash:hit_parade>1,1,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339bba72/sc/33/l/0Lscience0Bslashdot0Borg0Cstory0C130C110C120C221220A20Cweak0Estatistical0Estandards0Eimplicated0Ein0Escientific0Eirreproducibility0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Porn-Surfing Execs Infecting Corporate Networks With Malware</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/BgGALFllP9g/story01.htm</link>
+            <description>wiredmikey writes "According to a recent survey of malware analysts at U.S. enterprises, 40% of
+                the time a device used by a member the senior leadership team became infected with malware was due to
+                executives visiting a pornographic website. The study, from ThreatTrack Security, also found that nearly
+                six in 10 of the malware analysts have investigated or addressed a data breach that was never disclosed
+                by their company. When asked to identify the most difficult aspects of defending their companies'
+                networks from advanced malware, 67% said the complexity of malware is a chief factor; 67% said the
+                volume of malware attacks; and 58% cited the ineffectiveness of anti-malware solutions."&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Porn-Surfing+Execs+Infecting+Corporate+Networks+With+Malware%3A+http%3A%2F%2Fbit.ly%2F1i7fStx"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F13%2F11%2F12%2F223235%2Fporn-surfing-execs-infecting-corporate-networks-with-malware%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://tech.slashdot.org/story/13/11/12/223235/porn-surfing-execs-infecting-corporate-networks-with-malware?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://tech.slashdot.org/story/13/11/12/223235/porn-surfing-execs-infecting-corporate-networks-with-malware?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438349&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339ba2b2/sc/15/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/sc/15/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/sc/15/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/sc/15/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/sc/15/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/sc/15/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/sc/15/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264099175/u/49/f/647410/c/35028/s/339ba2b2/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/BgGALFllP9g" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 22:58:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339ba2b2/sc/15/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C120C2232350Cporn0Esurfing0Eexecs0Einfecting0Ecorporate0Enetworks0Ewith0Emalware0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>security</dc:subject>
+            <dc:date>2013-11-12T22:58:00Z</dc:date>
+            <slash:comments>8</slash:comments>
+            <slash:department>IT-admins-know-your-secrets</slash:department>
+            <slash:section>technology</slash:section>
+            <slash:hit_parade>8,8,4,3,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339ba2b2/sc/15/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C120C2232350Cporn0Esurfing0Eexecs0Einfecting0Ecorporate0Enetworks0Ewith0Emalware0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Bill Gates's Plan To Improve Our World</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/o32LbLnvM5w/story01.htm</link>
+            <description>An anonymous reader writes "Bill Gates has written an article in Wired outlining his strategy
+                to improve people's lives through philanthropy and investment in technology and the sciences. He says,
+                'We want to give our wealth back to society in a way that has the most impact, and so we look for
+                opportunities to invest for the largest returns. That means tackling the world's biggest problems and
+                funding the most likely solutions. That's an even greater challenge than it sounds. I don't have a magic
+                formula for prioritizing the world's problems. You could make a good case for poverty, disease, hunger,
+                war, poor education, bad governance, political instability, weak trade, or mistreatment of women. ...I
+                am a devout fan of capitalism. It is the best system ever devised for making self-interest serve the
+                wider interest. This system is responsible for many of the great advances that have improved the lives
+                of billions&amp;mdash;from airplanes to air-conditioning to computers. But capitalism alone can't
+                address the needs of the very poor. This means market-driven innovation can actually widen the gap
+                between rich and poor. ... We take a double-pronged approach: (1) Narrow the gap so that advances for
+                the rich world reach the poor world faster, and (2) turn more of the world's IQ toward devising
+                solutions to problems that only people in the poor world face.'"&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Bill+Gates's+Plan+To+Improve+Our+World%3A+http%3A%2F%2Fbit.ly%2F17t0CVy"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fnews.slashdot.org%2Fstory%2F13%2F11%2F12%2F2143244%2Fbill-gatess-plan-to-improve-our-world%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://news.slashdot.org/story/13/11/12/2143244/bill-gatess-plan-to-improve-our-world?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://news.slashdot.org/story/13/11/12/2143244/bill-gatess-plan-to-improve-our-world?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438303&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339b380a/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264097291/u/49/f/647410/c/35028/s/339b380a/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/o32LbLnvM5w" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 22:15:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339b380a/l/0Lnews0Bslashdot0Borg0Cstory0C130C110C120C21432440Cbill0Egatess0Eplan0Eto0Eimprove0Eour0Eworld0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>news</dc:subject>
+            <dc:date>2013-11-12T22:15:00Z</dc:date>
+            <slash:comments>5</slash:comments>
+            <slash:department>quest-to-bluescreen-malaria</slash:department>
+            <slash:section>news</slash:section>
+            <slash:hit_parade>5,5,2,2,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339b380a/l/0Lnews0Bslashdot0Borg0Cstory0C130C110C120C21432440Cbill0Egatess0Eplan0Eto0Eimprove0Eour0Eworld0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Apple II DOS Source Code Released</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/GI5tw_rMQYA/story01.htm</link>
+            <description>gbooch writes "The Computer History Museum in Mountain View, California, is not just a museum
+                of hardware, but also of software. The Museum has made public such gems as the source code for MacPaint,
+                Photoshop, and APL, and now code from the Apple II. As their site reports: 'With thanks to Paul
+                Laughton, in collaboration with Dr. Bruce Damer, founder and curator of the Digibarn Computer Museum,
+                and with the permission of Apple Inc., we are pleased to make available the 1978 source code of Apple II
+                DOS for non-commercial use. This material is Copyright &amp;#169; 1978 Apple Inc., and may not be
+                reproduced without permission from Apple.'"&lt;p&gt;&lt;div class="share_submission"
+                style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Apple+II+DOS+Source+Code+Released%3A+http%3A%2F%2Fbit.ly%2F1fzx6xy"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fapple.slashdot.org%2Fstory%2F13%2F11%2F12%2F212239%2Fapple-ii-dos-source-code-released%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://apple.slashdot.org/story/13/11/12/212239/apple-ii-dos-source-code-released?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://apple.slashdot.org/story/13/11/12/212239/apple-ii-dos-source-code-released?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438233&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339ae86e/sc/4/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/sc/4/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/sc/4/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/sc/4/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/sc/4/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/sc/4/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/sc/4/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264173286/u/49/f/647410/c/35028/s/339ae86e/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/GI5tw_rMQYA" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 21:32:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339ae86e/sc/4/l/0Lapple0Bslashdot0Borg0Cstory0C130C110C120C2122390Capple0Eii0Edos0Esource0Ecode0Ereleased0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>os</dc:subject>
+            <dc:date>2013-11-12T21:32:00Z</dc:date>
+            <slash:comments>7</slash:comments>
+            <slash:department>half-the-size-of-the-itunes-EULA</slash:department>
+            <slash:section>apple</slash:section>
+            <slash:hit_parade>7,7,3,2,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339ae86e/sc/4/l/0Lapple0Bslashdot0Borg0Cstory0C130C110C120C2122390Capple0Eii0Edos0Esource0Ecode0Ereleased0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Microsoft Kills Stack Ranking</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/D_Jj760A-78/story01.htm</link>
+            <description>Nerval's Lobster writes "Microsoft once demanded that its managers place their subordinates on
+                a scale from 'top' to 'poor,' a practice that fueled some epic backstabbing within divisions. Last year,
+                a Microsoft contractor with knowledge of the company's internal review processes told Slashdot that
+                Microsoft was actively working to fix that system; just this week, the company announced that stack
+                ranking was well and truly dead (and that's certainly one way to fix it). 'Lisa Brummel, head of human
+                resources for the company, sent an e-mail to employees notifying them of the change today, according to
+                my contacts,' ZDNet's Mary Jo Foley wrote. According to the memo, there are 'no more ratings,' 'no more
+                curves,' and 'Managers and leaders will have flexibility to allocate rewards in the manner that best
+                reflects the performance of their teams and individuals, as long as they stay within their compensation
+                budget.' They're trying to encourage more teamwork and collaboration throughout the company. As we
+                discussed on Saturday, Yahoo is adopting this method just as Microsoft is abandoning it."&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Microsoft+Kills+Stack+Ranking%3A+http%3A%2F%2Fbit.ly%2F1bst21h"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F13%2F11%2F12%2F2046214%2Fmicrosoft-kills-stack-ranking%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://tech.slashdot.org/story/13/11/12/2046214/microsoft-kills-stack-ranking?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://tech.slashdot.org/story/13/11/12/2046214/microsoft-kills-stack-ranking?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438217&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339aaf63/sc/21/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/sc/21/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/sc/21/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/sc/21/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/sc/21/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/sc/21/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/sc/21/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264042554/u/49/f/647410/c/35028/s/339aaf63/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/D_Jj760A-78" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 20:50:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339aaf63/sc/21/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C120C20A462140Cmicrosoft0Ekills0Estack0Eranking0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>business</dc:subject>
+            <dc:date>2013-11-12T20:50:00Z</dc:date>
+            <slash:comments>7</slash:comments>
+            <slash:department>voted-off-the-managerial-island</slash:department>
+            <slash:section>technology</slash:section>
+            <slash:hit_parade>7,6,5,4,2,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339aaf63/sc/21/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C120C20A462140Cmicrosoft0Ekills0Estack0Eranking0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Aging Linux Kernel Community Is Looking For Younger Participants</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/FZOYRP5acZk/story01.htm</link>
+            <description>Lemeowski writes "Time has been good to Linux and the kernel community, with the level of
+                participation and volume of activity reaching unprecedented levels. But as core Linux kernel developers
+                grow older, there's a very real concern about ensuring younger generations are getting involved. In this
+                post, Open Access supporter Luis Ibanez shares some exciting stats about recent releases of the Linux
+                kernel, but also warns that 'Maintaining the vitality of this large community does not happen
+                spontaneously. On the contrary, it requires dedication and attention by community members on how to
+                bring new contributors on board, and how to train them and integrate them alongside the well-established
+                developers.'"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt; &lt;a
+                class="slashpop"
+                href="http://twitter.com/home?status=Aging+Linux+Kernel+Community+Is+Looking+For+Younger+Participants%3A+http%3A%2F%2Fbit.ly%2F19hGKPN"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F13%2F11%2F12%2F202210%2Faging-linux-kernel-community-is-looking-for-younger-participants%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://developers.slashdot.org/story/13/11/12/202210/aging-linux-kernel-community-is-looking-for-younger-participants?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://developers.slashdot.org/story/13/11/12/202210/aging-linux-kernel-community-is-looking-for-younger-participants?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4438121&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339a949b/sc/21/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/sc/21/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/sc/21/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/sc/21/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/sc/21/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/sc/21/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/sc/21/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264092036/u/49/f/647410/c/35028/s/339a949b/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/FZOYRP5acZk" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 20:07:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339a949b/sc/21/l/0Ldevelopers0Bslashdot0Borg0Cstory0C130C110C120C20A2210A0Caging0Elinux0Ekernel0Ecommunity0Eis0Elooking0Efor0Eyounger0Eparticipants0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>linux</dc:subject>
+            <dc:date>2013-11-12T20:07:00Z</dc:date>
+            <slash:comments>17</slash:comments>
+            <slash:department>fresh-meat</slash:department>
+            <slash:section>developers</slash:section>
+            <slash:hit_parade>17,17,9,5,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339a949b/sc/21/l/0Ldevelopers0Bslashdot0Borg0Cstory0C130C110C120C20A2210A0Caging0Elinux0Ekernel0Ecommunity0Eis0Elooking0Efor0Eyounger0Eparticipants0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Judge: No Privacy Expectations For Data On P2P Networks</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/jAHl5Aa9FLA/story01.htm</link>
+            <description>An anonymous reader writes "A federal judge in Vermont has denied a motion to suppress evidence
+                filed by three defendants in a child porn case. The three had alleged their Fourth Amendment rights were
+                violated when police used an automated P2P query-response tool to gather information from their
+                computers. That information subsequently led to their arrest and indictments. The judge held (PDF) that
+                the defendants had either inadvertently, or otherwise, made the information available for public
+                download on a P2P network and therefore couldn't assert any privacy claims over the data."&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Judge%3A+No+Privacy+Expectations+For+Data+On+P2P+Networks%3A+http%3A%2F%2Fbit.ly%2F17sKDa2"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F13%2F11%2F12%2F1858229%2Fjudge-no-privacy-expectations-for-data-on-p2p-networks%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://yro.slashdot.org/story/13/11/12/1858229/judge-no-privacy-expectations-for-data-on-p2p-networks?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://yro.slashdot.org/story/13/11/12/1858229/judge-no-privacy-expectations-for-data-on-p2p-networks?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4437999&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/3399f0dd/sc/15/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/sc/15/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/sc/15/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/sc/15/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/sc/15/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/sc/15/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/sc/15/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264060514/u/49/f/647410/c/35028/s/3399f0dd/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/jAHl5Aa9FLA" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 19:23:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3399f0dd/sc/15/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C120C18582290Cjudge0Eno0Eprivacy0Eexpectations0Efor0Edata0Eon0Ep2p0Enetworks0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Soulskill</dc:creator>
+            <dc:subject>crime</dc:subject>
+            <dc:date>2013-11-12T19:23:00Z</dc:date>
+            <slash:comments>2</slash:comments>
+            <slash:department>enjoy-your-prison-term</slash:department>
+            <slash:section>yro</slash:section>
+            <slash:hit_parade>2,2,1,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3399f0dd/sc/15/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C120C18582290Cjudge0Eno0Eprivacy0Eexpectations0Efor0Edata0Eon0Ep2p0Enetworks0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>AMD Confirms Kaveri APU Is a 512-GPU Core Integrated Processor</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/RmaEqz_zThE/story01.htm</link>
+            <description>MojoKid writes "At APU13 today, AMD announced a full suite of new products and development
+                tools as part of its push to improve HSA development. One of the most significant announcements to come
+                out the sessions today-- albeit in a tacit, indirect fashion, is that Kaveri is going to pack a full 512
+                GPU cores. There's not much new to see on the CPU side of things &amp;mdash; like Richland/Trinity,
+                Steamroller is a pair of CPU modules with two cores per module. AMD also isn't talking about clock
+                speeds yet, but the estimated 862 GFLOPS that the company is claiming for Kaveri points to GPU clock
+                speeds between 700 &amp;mdash; 800MHz. With 512 cores, Kaveri picks up a 33% boost over its
+                predecessors, but memory bandwidth will be essential for the GPU to reach peak performance. For
+                performance, AMD showed Kaveri up against the Intel 4770K running a low-end GeForce GT 630. In the intro
+                scene to BF4's single-player campaign (1920x1080, Medium Details), the AMD Kaveri system (with no
+                discrete GPU) consistently pushed frame rates in the 28-40 FPS range. The Intel system, in contrast,
+                couldn't manage 15 FPS. Performance on that system was solidly in the 12-14 FPS range &amp;mdash;
+                meaning AMD is pulling 2x the frame rate, if not more."&lt;p&gt;&lt;div class="share_submission"
+                style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=AMD+Confirms+Kaveri+APU+Is+a+512-GPU+Core+Integrated+Processor%3A+http%3A%2F%2Fbit.ly%2F17sE7QN"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F13%2F11%2F12%2F1741230%2Famd-confirms-kaveri-apu-is-a-512-gpu-core-integrated-processor%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://tech.slashdot.org/story/13/11/12/1741230/amd-confirms-kaveri-apu-is-a-512-gpu-core-integrated-processor?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://tech.slashdot.org/story/13/11/12/1741230/amd-confirms-kaveri-apu-is-a-512-gpu-core-integrated-processor?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4437821&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/3399a2f4/sc/23/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/sc/23/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/sc/23/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/sc/23/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/sc/23/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/sc/23/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/sc/23/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264119264/u/49/f/647410/c/35028/s/3399a2f4/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/RmaEqz_zThE" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 18:40:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3399a2f4/sc/23/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C120C1741230A0Camd0Econfirms0Ekaveri0Eapu0Eis0Ea0E5120Egpu0Ecore0Eintegrated0Eprocessor0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>timothy</dc:creator>
+            <dc:subject>graphics</dc:subject>
+            <dc:date>2013-11-12T18:40:00Z</dc:date>
+            <slash:department>can't-even-count-that-high</slash:department>
+            <slash:section>technology</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3399a2f4/sc/23/l/0Ltech0Bslashdot0Borg0Cstory0C130C110C120C1741230A0Camd0Econfirms0Ekaveri0Eapu0Eis0Ea0E5120Egpu0Ecore0Eintegrated0Eprocessor0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Red Hat Wants to be a Dominant Force in the Cloud (Video)</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/9j1SIUhtfnA/story01.htm</link>
+            <description>Red Hat has two primary Cloud Evangelists: Gordon Haff and Richard Morrell. Richard says this
+                about himself: "I'm Red Hat's Cloud Security Blogger and Cloud Evangelist based in Europe. Passionate
+                about good code and Open Hybrid Cloud. Founder of SmoothWall protecting millions of networks for 13
+                years globally. My blogging and my podcasting is my own editorial and does not represent the views of
+                Red Hat..." We have known Richard since the 20th Century, so this interview has been a long time coming.
+                In it, he talks about how Red Hat is working to become as strong in the Open Source cloud world as it
+                already is in GNU/Linux. This interview may not "represent the views of Red Hat," but it obviously
+                represents the views of a loyal Red Hat employee who is also a long-time Linux enthusiast.&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Red+Hat+Wants+to+be+a+Dominant+Force+in+the+Cloud+(Video)%3A+http%3A%2F%2Fbit.ly%2F182zHyj"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F13%2F11%2F12%2F1727200%2Fred-hat-wants-to-be-a-dominant-force-in-the-cloud-video%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://linux.slashdot.org/story/13/11/12/1727200/red-hat-wants-to-be-a-dominant-force-in-the-cloud-video?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://linux.slashdot.org/story/13/11/12/1727200/red-hat-wants-to-be-a-dominant-force-in-the-cloud-video?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4437787&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/3399674b/sc/10/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/sc/10/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/sc/10/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/sc/10/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/sc/10/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/sc/10/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/sc/10/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264056400/u/49/f/647410/c/35028/s/3399674b/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/9j1SIUhtfnA" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 18:00:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3399674b/sc/10/l/0Llinux0Bslashdot0Borg0Cstory0C130C110C120C172720A0A0Cred0Ehat0Ewants0Eto0Ebe0Ea0Edominant0Eforce0Ein0Ethe0Ecloud0Evideo0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>Roblimo</dc:creator>
+            <dc:subject>redhat</dc:subject>
+            <dc:date>2013-11-12T18:00:00Z</dc:date>
+            <slash:department>the-lightness-of-being-an-open-source-cloud</slash:department>
+            <slash:section>linux</slash:section>
+            <slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3399674b/sc/10/l/0Llinux0Bslashdot0Borg0Cstory0C130C110C120C172720A0A0Cred0Ehat0Ewants0Eto0Ebe0Ea0Edominant0Eforce0Ein0Ethe0Ecloud0Evideo0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Ask Slashdot: Communication Skills For Programmers?</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/9I6KNAS1DYc/story01.htm</link>
+            <description>An anonymous reader writes "As a new developer at a young-ish software company, I've been told
+                my communication skills need some work. I'm not painfully introverted or socially inept, but I get lost
+                in my work and only contact people if I need something from them or they ask me a question. Traditional
+                advice isn't relevant to casual, less hierarchical companies &amp;mdash; I don't have to hold my tongue
+                when someone is wrong or worry about formalities. But I do need to connect with people professionally,
+                since my team members and managers decide my perf and advancement. How do you keep colleagues abreast of
+                your work without having exponentially many needless conversations?"&lt;p&gt;&lt;div
+                class="share_submission" style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Ask+Slashdot%3A+Communication+Skills+For+Programmers%3F%3A+http%3A%2F%2Fbit.ly%2F1aRdRjL"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fask.slashdot.org%2Fstory%2F13%2F11%2F12%2F164220%2Fask-slashdot-communication-skills-for-programmers%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://ask.slashdot.org/story/13/11/12/164220/ask-slashdot-communication-skills-for-programmers?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://ask.slashdot.org/story/13/11/12/164220/ask-slashdot-communication-skills-for-programmers?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4437621&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/339916f7/sc/7/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/sc/7/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/sc/7/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/sc/7/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/sc/7/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/sc/7/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/sc/7/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264114530/u/49/f/647410/c/35028/s/339916f7/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/9I6KNAS1DYc" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 17:15:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339916f7/sc/7/l/0Lask0Bslashdot0Borg0Cstory0C130C110C120C164220A0Cask0Eslashdot0Ecommunication0Eskills0Efor0Eprogrammers0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>timothy</dc:creator>
+            <dc:subject>communications</dc:subject>
+            <dc:date>2013-11-12T17:15:00Z</dc:date>
+            <slash:comments>22</slash:comments>
+            <slash:department>especially-when-the-idiots-are-in-charge</slash:department>
+            <slash:section>askslashdot</slash:section>
+            <slash:hit_parade>22,21,15,10,2,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/339916f7/sc/7/l/0Lask0Bslashdot0Borg0Cstory0C130C110C120C164220A0Cask0Eslashdot0Ecommunication0Eskills0Efor0Eprogrammers0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Chicago State University Lawyers Attack Faculty Bloggers</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/f7e7UTs7tm0/story01.htm</link>
+            <description>An anonymous reader writes "A blog run by faculty members at Chicago State University (CSU) has
+                been threatened by university lawyers with a cease and desist notice. Since 2009 the blog has posted
+                information critical of CSU's policies and hiring practices. The notice threatened legal action if the
+                site is not disabled by Friday due to violations of 'trade names and marks' without permission and
+                violations of University policies. The blog admin changed the name of the blog in the meanwhile to Crony
+                State University and replaced an image on the page pending legal counsel. Also the blog is currently
+                still active."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt; &lt;a
+                class="slashpop"
+                href="http://twitter.com/home?status=Chicago+State+University+Lawyers+Attack+Faculty+Bloggers%3A+http%3A%2F%2Fbit.ly%2F1e1tCDv"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F13%2F11%2F12%2F172219%2Fchicago-state-university-lawyers-attack-faculty-bloggers%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://yro.slashdot.org/story/13/11/12/172219/chicago-state-university-lawyers-attack-faculty-bloggers?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://yro.slashdot.org/story/13/11/12/172219/chicago-state-university-lawyers-attack-faculty-bloggers?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4437745&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/3398b8a8/sc/22/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/sc/22/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/sc/22/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/sc/22/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/sc/22/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/sc/22/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/sc/22/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264031310/u/49/f/647410/c/35028/s/3398b8a8/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/f7e7UTs7tm0" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 17:01:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3398b8a8/sc/22/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C120C1722190Cchicago0Estate0Euniversity0Elawyers0Eattack0Efaculty0Ebloggers0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>timothy</dc:creator>
+            <dc:subject>court</dc:subject>
+            <dc:date>2013-11-12T17:01:00Z</dc:date>
+            <slash:comments>2</slash:comments>
+            <slash:department>tenurous-grasp-on-reality</slash:department>
+            <slash:section>yro</slash:section>
+            <slash:hit_parade>2,2,0,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3398b8a8/sc/22/l/0Lyro0Bslashdot0Borg0Cstory0C130C110C120C1722190Cchicago0Estate0Euniversity0Elawyers0Eattack0Efaculty0Ebloggers0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Linux Kernel Running In JavaScript Emulator With Graphics and Network Support</title>
+            <link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ugIDl-mbwWw/story01.htm</link>
+            <description>New submitter warmflatsprite writes "It seems that there have been a rash of JavaScript virtual
+                machines running Linux lately (or maybe I just travel in really weird circles). However until now none
+                of them had network support, so they weren't too terribly useful. Sebastian Macke's jor1k project uses
+                asm.js to produce a very fast emulation of the OpenCores OpenRISC processor (or1k) along with a HTML5
+                canvas framebuffer for graphics support. Recently Ben Burns contributed an emulated OpenCores ethmac
+                ethernet adapter to the project. This sends ethernet frames to a gateway server via websocket where they
+                are switched and/or piped into TAP virtual ethernet adapter. With this you can build whatever kind of
+                network appliance you'd like for the myriad of fast, sandboxed VMs running in your users' browsers. For
+                the live demo all VMs connect to a single private LAN (subnet 10.5.0.0/16). The websocket gateway also
+                NATs traffic from that LAN out to the open Internet."&lt;p&gt;&lt;div class="share_submission"
+                style="position:relative;"&gt; &lt;a class="slashpop"
+                href="http://twitter.com/home?status=Linux+Kernel+Running+In+JavaScript+Emulator+With+Graphics+and+Network+Support%3A+http%3A%2F%2Fbit.ly%2F17lXTb7"&gt;&lt;img
+                src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt; &lt;a class="slashpop"
+                href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F13%2F11%2F12%2F161227%2Flinux-kernel-running-in-javascript-emulator-with-graphics-and-network-support%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img
+                src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt; &lt;a class="nobg"
+                href="http://plus.google.com/share?url=http://linux.slashdot.org/story/13/11/12/161227/linux-kernel-running-in-javascript-emulator-with-graphics-and-network-support?utm_source=slashdot&amp;amp;utm_medium=googleplus"
+                onclick="javascript:window.open(this.href,'',
+                'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img
+                src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a
+                href="http://linux.slashdot.org/story/13/11/12/161227/linux-kernel-running-in-javascript-emulator-with-graphics-and-network-support?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read
+                more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe
+                src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=4437617&amp;amp;smallembed=1"
+                style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img width='1' height='1'
+                src='http://slashdot.feedsportal.com/c/35028/f/647410/s/3398d4b8/sc/4/mf.gif' border='0'/&gt;&lt;br
+                clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/sc/4/rc/1/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/sc/4/rc/1/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/sc/4/rc/2/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/sc/4/rc/2/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/sc/4/rc/3/rc.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/sc/4/rc/3/rc.img"
+                border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a
+                href="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/a2.htm"&gt;&lt;img
+                src="http://da.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img
+                width="1" height="1"
+                src="http://pi.feedsportal.com/r/180264080032/u/49/f/647410/c/35028/s/3398d4b8/a2t.img" border="0"/&gt;&lt;img
+                src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/ugIDl-mbwWw" height="1"
+                width="1"/&gt;</description>
+            <pubDate>Tue, 12 Nov 2013 16:33:00 GMT</pubDate>
+            <guid isPermaLink="false">
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3398d4b8/sc/4/l/0Llinux0Bslashdot0Borg0Cstory0C130C110C120C1612270Clinux0Ekernel0Erunning0Ein0Ejavascript0Eemulator0Ewith0Egraphics0Eand0Enetwork0Esupport0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </guid>
+            <dc:creator>timothy</dc:creator>
+            <dc:subject>networking</dc:subject>
+            <dc:date>2013-11-12T16:33:00Z</dc:date>
+            <slash:comments>2</slash:comments>
+            <slash:department>ascii-art</slash:department>
+            <slash:section>linux</slash:section>
+            <slash:hit_parade>2,2,1,0,0,0,0</slash:hit_parade>
+            <feedburner:origLink>
+                http://slashdot.feedsportal.com/c/35028/f/647410/s/3398d4b8/sc/4/l/0Llinux0Bslashdot0Borg0Cstory0C130C110C120C1612270Clinux0Ekernel0Erunning0Ein0Ejavascript0Eemulator0Ewith0Egraphics0Eand0Enetwork0Esupport0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm
+            </feedburner:origLink>
+        </item>
+    </channel>
+</rss>

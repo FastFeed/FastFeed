@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><!-- generator="FeedCreator 1.8.0-dev (info@mypapit.net)" -->
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Jhosman.com</title>
+        <description>Website con noticias y tips tecnológicos que seguro te serviran, sigueme!</description>
+        <link>http://jhosman.com/</link>
+        <lastBuildDate>Wed, 27 Mar 2013 13:40:50 GMT</lastBuildDate>
+        <generator>FeedCreator 1.8.0-dev (info@mypapit.net)</generator>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/JhosmanLizarazo" />
+        <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="jhosmanlizarazo" />
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:subtitle></itunes:subtitle>
+        <image>
+            <link>www.jhosman.com</link>
+            <url>http://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/273997_569819935_6878916_n.jpg</url>
+            <title>Jhosman.com</title>
+        </image>
+        <item>
+            <title>Como instalar #LibreOffice4 en #Ubuntu</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/oficina6/289-como-instalar-libreoffice-4-en-ubuntu.html</link>
+            <description>&lt;div class="wp-caption aligncenter" style="margin-right: auto; margin-left: auto; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%; font-family: arial, sans-serif; line-height: normal; width: 900px;"&gt;&lt;img alt="LibreOffice4" src="http://es.libreoffice.org/assets/_resampled/resizedimage890667-LO4-Aviso-Aeropuerto.png" width="890" height="667" style="border-width: 0px; font: inherit; vertical-align: baseline; max-width: 100%; height: auto;" /&gt;
+&lt;p class="wp-caption-text" style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5;"&gt;LibreOffice 4&lt;/p&gt;
+&lt;/div&gt;
+&lt;p style="margin-bottom: 1.2em; text-align: justify; line-height: 24px; font-family: sans-serif; font-size: 14px;"&gt;LibreOffice es una completa suite de productividad de calidad profesional que se puede&amp;nbsp;&lt;a title="Descargue LibreOffice ahora" href="http://es.libreoffice.org/descarga/" style="color: #106802;"&gt;descargar&lt;/a&gt;&amp;nbsp;e&amp;nbsp;&lt;a title="Lea las instrucciones para instalar LibreOffice" href="http://es.libreoffice.org/asistencia/instalacion/" style="color: #106802;"&gt;instalar&lt;/a&gt;&amp;nbsp;de forma gratuita. Hay una gran base de usuarios de LibreOffice satisfechos en todo el mundo, y está disponible en más de 30 idiomas y para todos los principales sistemas operativos, incluyendo Microsoft Windows, Mac OS X y Linux (Debian, Ubuntu, Fedora, Mandriva, Suse, ...) .&lt;/p&gt;
+&lt;p style="margin-bottom: 1.2em; text-align: justify; line-height: 24px; font-family: sans-serif; font-size: 14px;"&gt;Puede&amp;nbsp;&lt;a title="Descargue LibreOffice ahora" href="http://es.libreoffice.org/descarga/" style="color: #106802;"&gt;descargar&lt;/a&gt;,&amp;nbsp;&lt;a title="Lea las instrucciones para instalar LibreOffice" href="http://es.libreoffice.org/asistencia/instalacion/" style="color: #106802;"&gt;instalar&lt;/a&gt;&amp;nbsp;y distribuir LibreOffice libremente, sin temor a infringir derechos de autor.&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;&lt;strong&gt;Instalando&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Descargamos los paquetes DEB's:&amp;nbsp;&lt;a href="http://es.libreoffice.org/descarga/?nodetect" style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;/a&gt;&lt;a href="http://es.libreoffice.org/descarga/?nodetect"&gt;http://es.libreoffice.org/descarga/?nodetect&lt;/a&gt;&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Eliminamos LibreOffice:&lt;/p&gt;
+&lt;blockquote style="margin: 1em 0em; padding: 0.5em 1em 0.2em; border-width: 0px 0px 0px 0.5em; border-left-style: solid; font: inherit; vertical-align: baseline; background-color: #eeeeee; line-height: normal; font-family: serif;"&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5;"&gt;sudo apt-get remove –purge libreoffice&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Untar Descomprimimos el tar.gz&lt;/p&gt;
+&lt;blockquote style="margin: 1em 0em; padding: 0.5em 1em 0.2em; border-width: 0px 0px 0px 0.5em; border-left-style: solid; font: inherit; vertical-align: baseline; background-color: #eeeeee; line-height: normal; font-family: serif;"&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5;"&gt;tar xvf&amp;nbsp;LibreOffice_4*.tar.gz&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Instalamos:&lt;/p&gt;
+&lt;blockquote style="margin: 1em 0em; padding: 0.5em 1em 0.2em; border-width: 0px 0px 0px 0.5em; border-left-style: solid; font: inherit; vertical-align: baseline; background-color: #eeeeee; line-height: normal; font-family: serif;"&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5;"&gt;cd LibreOffice_4.0.0.3_Linux_x86-64_deb/DEBS&lt;br /&gt;sudo dpkg -i *.deb&lt;br /&gt;cd&amp;nbsp;desktop-integration&lt;br /&gt;sudo dpkg -i *.deb&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;&lt;img class="aligncenter" alt="" src="http://i.imgur.com/D90cUOh.png" style="margin: 1em auto; border-width: 0px; font: inherit; vertical-align: baseline; max-width: 100%; height: auto; display: block;" /&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=PAv4iri1qn8:nVcQ0JkYnFQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=PAv4iri1qn8:nVcQ0JkYnFQ:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=PAv4iri1qn8:nVcQ0JkYnFQ:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=PAv4iri1qn8:nVcQ0JkYnFQ:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Thu, 07 Feb 2013 18:38:50 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/oficina6/289-como-instalar-libreoffice-4-en-ubuntu.html</guid>
+        </item>
+        <item>
+            <title>&amp;quot;Ubuntu por un Niño&amp;quot; Bucaramanga - CUSOL</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/general14/288-ubuntu-por-un-niño-bucaramanga-cusol.html</link>
+            <description>&lt;center&gt;&lt;img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo14.png" /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt; El dia de hoy, Sábado 19 de Enero, la comunidad &lt;a href="http://cusol.org/"&gt;CUSOL-UIS&lt;/a&gt; de la ciudad de Bucaramanga, con el apoyo de la Fundación Chaplin y la compañía de un Sacerdote de la Iglesia Luterana de la región, hizo entrega en el barrio Ciudadela Nuevo Giron (Giron - Santander) de un computador de escritorio con la distribución Ubuntu instalada. &lt;br /&gt;&lt;br /&gt; La entrega se le realizó a Edward, un niño que séptimo grado con discapacidad en sus extremidades inferiores y con bajos recursos económicos, quien ha sido un ejemplo de vida y superación entre la comunidad. &lt;br /&gt;&lt;br /&gt; El equipo de cómputo fue donado por la Fundación Chaplin y CUSOL se encargó de repararlo y dejarlo en óptimas condiciones de funcionamiento para que Edward pudiera realizar las tareas básicas escolares. &lt;br /&gt;&lt;br /&gt; A la entrega asistieron, César Vera de la Fundación Chaplin, el Padre de la Iglesia Luterana , y de la Comunidad CUSOL , Martin Alonso Parra, Rafael Laverde, Yesenia Farelo y Nury Farelo. &lt;br /&gt;&lt;br /&gt; Agradecemos en nombre de la comunidad el apoyo y colaboración de las entidades y personas que aportaron para esta primera entrega de Ubuntu por Niño y esperamos conseguir mas equipos para donar a más niños en la ciudad. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;Para poder ver todas las fotografías, haga click en el siguiente enlace: &lt;br /&gt;&lt;br /&gt; &lt;a href="http://www.facebook.com/media/set/?set=a.10151200772482353.438731.136659907352&amp;amp;type=1"&gt;&lt;img src="http://icons.iconarchive.com/icons/tpdkdesign.net/refresh-cl/256/Hardware-Camera-icon.png" /&gt; &lt;img src="https://lh5.googleusercontent.com/-hibrWFOMvrQ/UPtFV8sFJaI/AAAAAAAAAxA/lKapPibgrYw/s731/IMG_20130119_151352.jpg" /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt; Sitios en la web: &lt;br /&gt;&lt;a href="http://cusol.org/"&gt;CUSOL-UIS&lt;/a&gt; &lt;br /&gt;&lt;a href="https://twitter.com/Cusol_UIS"&gt;Twitter CUSOL&lt;/a&gt; &lt;br /&gt;&lt;a href="http://www.facebook.com/cusol"&gt;Facebook CUSOL&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=tFkSN5bJEzE:lxEP91DRgTA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=tFkSN5bJEzE:lxEP91DRgTA:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=tFkSN5bJEzE:lxEP91DRgTA:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=tFkSN5bJEzE:lxEP91DRgTA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Sun, 20 Jan 2013 13:33:48 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/general14/288-ubuntu-por-un-niño-bucaramanga-cusol.html</guid>
+        </item>
+        <item>
+            <title>Reclutamiento para el proyecto de Gammers para #ubuntuco</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/juegos8/287-reclutamiento-para-el-proyecto-de-gammers-para-ubuntuco.html</link>
+            <description>&lt;h2 style="text-align: center;"&gt;&lt;img src="https://lh5.googleusercontent.com/-MW7v4OnPgB4/UO2sq07VweI/AAAAAAAAVPQ/hMatd3fZP-c/s627/Sin+nombre.png" class="uw xO" /&gt;&lt;/h2&gt;
+&lt;h2 id="Descripci.2BAPM-n"&gt;Descripción&lt;/h2&gt;
+&lt;p&gt;Proyecto que se encargara de mantener una gran y constante actividad en el mundo de los juegos libres, deberán organizar Lan Party’s y torneos en linea donde todos los usuarios de la comunidad y fuera de ella puedan participar, aprender y compartir. Si bien los juegos deberían en su mayoría ser Libres también es posible el apoyo a desarrollos multiplataforma.&lt;/p&gt;
+&lt;p&gt;La idea principal de este proyecto no sera solo diversión, también será un mundo de difusión de Ubuntu y el Software Libre mediante los juegos, lo cual indica que deberán hacer parte de eventos que se realicen dentro de la comunidad.&lt;/p&gt;
+&lt;p&gt;Adicionalmente deberán crear guías/tutoriales de instalación, configuración, y Tips de los diferentes juegos que&amp;nbsp;practiquen; y muy importante que tengan una gran actividad en las plataformas de soporte dispuestos de ayudar a quienes lo requieran ante cualquier eventualidad con algún juego.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reclutamiento&lt;/strong&gt;:&lt;br /&gt; &lt;strong&gt;Viernes&lt;/strong&gt; 11 de Enero del 2013 a las 1900 horas&lt;br /&gt; &lt;strong&gt;Sábado&lt;/strong&gt; 12 de Enero del 2013 a las 1000 horas&lt;/p&gt;
+&lt;p&gt;Por el canal IRC de #ubuntu-co-meeting en Freenode (&lt;a href="http://www.ubuntu-co.com/chat"&gt;http://www.ubuntu-co.com/chat&lt;/a&gt;) &lt;/p&gt;
+&lt;p&gt;Wiki del Proyecto:&amp;nbsp;&lt;a href="https://wiki.ubuntu.com/ColombianTeam/Proyectos/Jugadores"&gt;&lt;a&gt;https://wiki.ubuntu.com/ColombianTeam/Proyectos/Jugadores&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Fuente: &lt;a href="http://distanciazeroopensource.wordpress.com/2013/01/09/reclutamiento-para-el-proyecto-de-gammers-para-ubuntuco/"&gt;http://distanciazeroopensource.wordpress.com/2013/01/09/reclutamiento-para-el-proyecto-de-gammers-para-ubuntuco/&lt;/a&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=u0o3mgbknWw:O0wxpayO_iA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=u0o3mgbknWw:O0wxpayO_iA:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=u0o3mgbknWw:O0wxpayO_iA:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=u0o3mgbknWw:O0wxpayO_iA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Wed, 09 Jan 2013 18:00:12 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/juegos8/287-reclutamiento-para-el-proyecto-de-gammers-para-ubuntuco.html</guid>
+        </item>
+        <item>
+            <title>Edubuntu por un niño (Felíz Navidad 2012)</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/general14/286-edubuntu-por-un-niño-felíz-navidad-2012.html</link>
+            <description> &lt;center&gt;&lt;img src="https://lh3.googleusercontent.com/-rC_04cs16-M/UNiQ1FuOswI/AAAAAAAAU0A/iXJOcPKBv60/w497-h373/pesebre2013.png"&gt;&lt;/center&gt;
+
+                En nombre de la comunidad del LoCo Team de Ubuntu Colombia, yo Jhosman Lizarazo me complazco en anunciarles e informarles sobre el regalo tan especial de navidad que la Comunidad haría el cual fue anunciado por las redes sociales:
+&lt;br&gt;&lt;br&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/UbuntuColombia/posts/10151289211324931"&gt;http://www.facebook.com/UbuntuColombia/posts/10151289211324931&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/ubuntuco/status/283262415989243904"&gt;https://twitter.com/ubuntuco/status/283262415989243904&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://plus.google.com/100644953749053145796/posts/CTCeuPwipMK"&gt;https://plus.google.com/100644953749053145796/posts/CTCeuPwipMK&lt;/a&gt;&lt;/li&gt;
+
+&lt;blockquote class="twitter-tweet tw-align-center" lang="es"&gt;&lt;p&gt;Hoy nosotros daremos un lindo regalo de navidad =) que creen que sea? &lt;a href="https://twitter.com/search/%23LoCoTeams"&gt;#LoCoTeams&lt;/a&gt; &lt;a href="https://twitter.com/search/%23Ubuntu"&gt;#Ubuntu&lt;/a&gt; &lt;a href="https://twitter.com/search/%23Ubuntuco"&gt;#Ubuntuco&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ubuntu Colombia (@ubuntuco) &lt;a href="https://twitter.com/ubuntuco/status/283262415989243904" data-datetime="2012-12-24T17:26:37+00:00"&gt;diciembre 24, 2012&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="http://jhosman.com///platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;br&gt;&lt;br&gt;
+                Nos podemos dar cuenta que muchos pidieron CD's y cosas que únicamente buscaba llenar expectativas personales, han pedido Nexus 7 con Ubuntu, Equipos Dell de última generación con Ubuntu y cosas similares, pero para mi esa no hace parte de la filosofía Ubuntu, por lo cual hace algún tiempo me propuse un proyecto llamado "Edubuntu por un niño" por el cual inicialmente daré un agradecimiento gigantesco ya que sin el apoyo de estas personas esto nunca se hubiese logrado.
+&lt;br&gt;&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Camila Lozano&lt;/b&gt; - (En la empresa donde trabaja tenían una máquina que ya era considerada basura informática y donó un computador Dell Inspiron 6400)&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Steven Y. Barrantes Briceño &lt;/b&gt; - Persona que ha donado un disco duro de 120GB ya que el que tenía (de 500GB) estaba dañado y no fue posible repararlo&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Equipo de Edubuntu, Kiwix Team y a mi Jhosman Lizarazo&lt;/b&gt; - ya que al equipo se le ha instalado Edubuntu como sistema Operativo, el computador tiene demás la Wikipedia Offline y bueno realicé muchas adaptaciones para que este nuevo computador fuese totalmente útil para la formación y educación de cualquier niño.&lt;/li&gt;
+&lt;br&gt;&lt;br&gt;
+                A manera personal digo "Esto si es inclusión tecnológica" muchas entidades y/o grupos llaman inclusión tecnológica y les dan mas a los que ya tienen, lo que busqué con este proyecto es generar una real inclusión digital a las personas que en verdad no tienen nada, o bien, no tienen la manera de poder acceder a la tecnología y el software libre por problema económicos. Por lo cual días anteriores realicé una convocatoria vía Facebook y Twitter para que me informaran sobre posibles candidatos para entregarle este computador.
+&lt;br&gt;&lt;br&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/jhosman.lizarazo/posts/10151287514524936"&gt;http://www.facebook.com/jhosman.lizarazo/posts/10151287514524936&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/namsohj/status/277993888462016512"&gt;https://twitter.com/namsohj/status/277993888462016512&lt;/a&gt;&lt;/li&gt;
+&lt;blockquote class="twitter-tweet tw-align-center" lang="es"&gt;&lt;p&gt;Estoy buscando a un niño de bajos recursos para regalarle una compu con &lt;a href="https://twitter.com/search/%23Edubuntu"&gt;#Edubuntu&lt;/a&gt; de navidad alguien sabe? Porfa RT!&lt;/p&gt;&amp;mdash; Namsohj Ozarazil(@namsohj) &lt;a href="https://twitter.com/namsohj/status/277993888462016512" data-datetime="2012-12-10T04:31:22+00:00"&gt;diciembre 10, 2012&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="http://jhosman.com///platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;br&gt;&lt;br&gt;
+                Llamado del cual si obtuve varias respuestas pero en verdad solo una comprometida y con una historia real, una niña llamada Laura la cual vive sin sus padres, actualmente (desde bebé) es criada por su abuela y ella tiene que buscar la manera de poder subsistir. Laura es una niña muy inteligente, pero dice que requiere apoyo de este tipo para poder realizar sus actividades estudiantiles. Por lo cual decidí entregarle el computador a ella. Aquí está una carta que nos ha dejado:
+
+&lt;img src="https://lh6.googleusercontent.com/--EYaa4xqJjQ/UNsyvptrwgI/AAAAAAAAVAQ/Tn6b1Di_BTw/s731/IMG_20121224_163745.jpg"&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;blockquote class="twitter-tweet" lang="es"&gt;&lt;p&gt;Esta navidad regala alegría, regala felicidad, regala &lt;a href="https://twitter.com/search/%23UBUNTU"&gt;#UBUNTU&lt;/a&gt;!&lt;/p&gt;&amp;mdash; Ubuntu Colombia (@ubuntuco) &lt;a href="https://twitter.com/ubuntuco/status/283257786127765505" data-datetime="2012-12-24T17:08:13+00:00"&gt;diciembre 24, 2012&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="http://jhosman.com///platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;br&gt;&lt;br&gt;
+                Esto en verdad es inclusión Digital, y sabemos que sí no es una máquina última generación, es un regalo que en verdad está a "cero pesos colombianos" (bueno hay que sumarle lo que costó el disco duro, el tiempo de inversión para la configuración total del equipo que fue de un mes completo por los retrasos que se presentaron, además de la donación del computador)
+&lt;br&gt;&lt;br&gt;
+                Con esto deseamos a la comunidad una FELIZ NAVIDAD.
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;&lt;a href="http://www.youtube.com/watch?v=ww-Ur6CYmX8"&gt;Ver video&lt;/a&gt;&lt;br&gt;&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/ww-Ur6CYmX8?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;&lt;b&gt;&lt;i&gt;Haz click en el siguiente enlace para ver las fotos&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+&lt;a href="https://plus.google.com/photos/100644953749053145796/albums/5826295426371545409"&gt;&lt;img src="http://2.bp.blogspot.com/_STpHmGjLrlU/S4U47_OXDSI/AAAAAAAAAYc/71YN5TWt8PM/s400/galeria-icono.jpg"&gt;&lt;br&gt;&lt;img src="https://lh6.googleusercontent.com/-Dy7GQdjl2cg/UNszb6Iuh7I/AAAAAAAAVBA/63dhuNtIKy0/s731/IMG_20121224_171158.jpg"&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=3xgap-EJnk0:LKfD7ORJegA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=3xgap-EJnk0:LKfD7ORJegA:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=3xgap-EJnk0:LKfD7ORJegA:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=3xgap-EJnk0:LKfD7ORJegA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Wed, 26 Dec 2012 21:03:53 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/general14/286-edubuntu-por-un-niño-felíz-navidad-2012.html</guid>
+        </item>
+        <item>
+            <title>&amp;quot;Ubuntizando&amp;quot; el día de las velas en #Bogotá #Ubuntu </title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/general14/285-ubuntizando-el-día-de-las-velas-en-bogotá-ubuntu.html</link>
+            <description>&lt;p&gt;&lt;img src="https://lh5.googleusercontent.com/-YcB--U3Gqc8/AAAAAAAAAAI/AAAAAAAAUnI/1derJWM_O-k/s250-c-k/photo.jpg" style="float: right;" /&gt;El Equipo de Ubuntu Colombiaha decidido "salir de la rutina" y esta vez nos han salido a las calles de Bogotá, a Ubuntizar el planeta! En Colombia es muy común en el 7 de diciembre para celebrar el día de las velas, que celebra la Inmaculada Concepción de la Virgen María. Personalmente, no podía ir a &amp;nbsp;acompañar a mis compañeros, pero en mi caso estoy en el final de ese semestre y es muy difícil para estas fechas, pero me hubiera gustado.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Y lo más importante, el valor de la familia, nuestra comunidad es una familia grande y cariñosa.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Los miembros participantes fueron:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul style="padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 2em; border: 0px; font: inherit; vertical-align: baseline; list-style-position: initial; list-style-image: initial; line-height: 1.3; font-family: arial, sans-serif;"&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;a href="https://launchpad.net/~andres.mujica" style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Andres Mujica&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;&lt;a href="https://launchpad.net/~jcvc-2000" style="border: 0px; font: inherit; vertical-align: baseline;"&gt;Juan Camilo Valencia&lt;/a&gt;&amp;nbsp;(&lt;/span&gt;Our youngest member)&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;a href="https://launchpad.net/~linaporras" style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Lina Porras&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;a href="https://launchpad.net/~dg3edg" style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;David Guerrero&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Cris Cobric&lt;/span&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;a href="https://launchpad.net/~braybaut" style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Brayan Bautista&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Samuel (a dog&amp;nbsp;&lt;img src="http://jhosman.com/en/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" style="border-width: 0px; font: inherit; vertical-align: baseline; max-width: 100%; height: auto;" /&gt;&amp;nbsp;)&lt;/span&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Zohyr Caicedo (Mother of Juan Camilo)&lt;/span&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Nicolas Muñoz&lt;/span&gt;&lt;/li&gt;
+&lt;li style="border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;span style="border: 0px; font: inherit; vertical-align: baseline; line-height: 19px;"&gt;Rafael Lopez&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Las actividades durante la noche de la celebración fueron:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dar CD y DVD de Ubuntu 12.04 LTS precisa y 12.10 Quantal&lt;/li&gt;
+&lt;li&gt;Se repartieron volantes en Ubuntu&lt;/li&gt;
+&lt;li&gt;Nos dimos cuenta de que desde que el programa fue suspendido Shipit Ubuntu, el "usuario común" ha perdido interés y se ve mucho más difícil acceder a una distribución de Linux (Ubuntu)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div style="border: 0px; font: inherit; vertical-align: baseline; font-family: arial, sans-serif; line-height: normal;"&gt;&lt;strong style="border: 0px; font: inherit; vertical-align: baseline;"&gt;Fotos&amp;nbsp;&lt;a href="https://plus.google.com/u/0/photos/+UbuntuColombia/albums/5819572139564714417" style="border: 0px; font: inherit; vertical-align: baseline;"&gt;Click here:&lt;/a&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="border: 0px; font: inherit; vertical-align: baseline; font-family: arial, sans-serif; line-height: normal;"&gt;&lt;a href="https://plus.google.com/u/0/photos/+UbuntuColombia/albums/5819572139564714417" style="text-decoration: underline; border: 0px; font: inherit; vertical-align: baseline;"&gt;&lt;/a&gt;&lt;a href="https://plus.google.com/u/0/photos/+UbuntuColombia/albums/5819572139564714417"&gt;https://plus.google.com/u/0/photos/+UbuntuColombia/albums/5819572139564714417&lt;/a&gt;&lt;br /&gt;&lt;a href="https://plus.google.com/u/0/photos/+UbuntuColombia/albums/5819572139564714417"&gt;&lt;img src="https://lh3.googleusercontent.com/-hXxjL4VyjE0/UMNGn7ASIhI/AAAAAAAAUps/XWDHxCKlf3Q/s727/IMG_20121207_205724.jpg" alt="" style="border-width: 0px; font: inherit; vertical-align: baseline; max-width: 100%; height: auto;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="border: 0px; font: inherit; vertical-align: baseline; font-family: arial, sans-serif; line-height: normal;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="border: 0px; font: inherit; vertical-align: baseline; font-family: arial, sans-serif; line-height: normal;"&gt;&lt;a href="http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=WdyplU0RVk8"&gt;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=WdyplU0RVk8&lt;/a&gt;&lt;/div&gt;
+&lt;div style="border: 0px; font: inherit; vertical-align: baseline; font-family: arial, sans-serif; line-height: normal;"&gt;&amp;nbsp;&lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=0DInb9NmGFg:0P5BNqyu0R0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=0DInb9NmGFg:0P5BNqyu0R0:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=0DInb9NmGFg:0P5BNqyu0R0:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=0DInb9NmGFg:0P5BNqyu0R0:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Sat, 08 Dec 2012 16:14:37 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/general14/285-ubuntizando-el-día-de-las-velas-en-bogotá-ubuntu.html</guid>
+        </item>
+        <item>
+            <title>Séptimo Aniversario de Ubuntu Colombia </title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/general14/284-séptimo-aniversario-de-ubuntu-colombia.html</link>
+            <description>&lt;p&gt;&lt;span style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;"&gt;Con motivo de la celebración de nuestro séptimo aniversario hacemos pública y extensiva la siguiente invitación para que participen en nuestro séptimo aniversario, actividad que realizaremos en la ciudad de Bogotá y Barranquilla en día 24 de Noviembre de 2012&amp;nbsp;&lt;/span&gt;&lt;br style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;" /&gt;&lt;br style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;" /&gt;&lt;/p&gt;
+&lt;center style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;"&gt;
+&lt;h1 style="color: #e24d00; font-family: Conv_Ubuntu-L, sans-serif; font-size: 34px; line-height: 36px; margin-top: 6px;"&gt;Bogotá&lt;/h1&gt;
+&lt;p&gt;&lt;img src="https://wiki.ubuntu.com/ColombianTeam/Eventos/7mo%20Aniversario%20Ubuntu%20Colombia?action=AttachFile&amp;amp;do=get&amp;amp;target=Banner+horizontal.jpg" width="100%" style="border-width: 0px;" /&gt;Evento en&amp;nbsp;&lt;b&gt;Facebook&lt;/b&gt;&amp;nbsp;&lt;br /&gt;&lt;a href="https://www.facebook.com/events/434588696602790/" style="color: #000000;"&gt;&lt;/a&gt;&lt;a href="https://www.facebook.com/events/434588696602790/"&gt;https://www.facebook.com/events/434588696602790/&lt;/a&gt;&amp;nbsp;&lt;br /&gt;Evento en Google+:&amp;nbsp;&lt;br /&gt;&lt;a href="https://plus.google.com/u/0/events/c53qh32uthc6e9171er74rb88mk" style="color: #000000;"&gt;&lt;/a&gt;&lt;a href="https://plus.google.com/u/0/events/c53qh32uthc6e9171er74rb88mk"&gt;https://plus.google.com/u/0/events/c53qh32uthc6e9171er74rb88mk&lt;/a&gt;&lt;br /&gt;&lt;i&gt;ENTRADA LIBRE *HASTA COMPLETAR AFORO&lt;/i&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;" /&gt;&lt;/p&gt;
+&lt;hr style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; border-style: solid; border-color: gray; height: 1px; font-size: 12px; line-height: 16.78333282470703px;" /&gt;&lt;center style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;"&gt;
+&lt;h1 style="color: #e24d00; font-family: Conv_Ubuntu-L, sans-serif; font-size: 34px; line-height: 36px; margin-top: 6px;"&gt;Agenda de actividades&lt;/h1&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;i style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;"&gt;PLATAFORMA BOGOTA:&lt;i&gt;&amp;nbsp;&lt;br /&gt;Calle 10 No.4 - 28 - www.plataformabogota.org - Como llegar:&amp;nbsp;&lt;a href="http://bit.ly/RQoY0k" style="color: #000000;"&gt;&lt;/a&gt;&lt;a href="http://bit.ly/RQoY0k"&gt;http://bit.ly/RQoY0k&lt;/a&gt;&amp;nbsp;&lt;br /&gt;&lt;b&gt;【1】ENCUENTRO COMUNIDAD UBUNTU&lt;/b&gt;&amp;nbsp;&lt;br /&gt;------ 9:00 a.m - 10:00 a.m&amp;nbsp;&lt;br /&gt;------ Recuento de lo que fue el 2012 para la comunidad y los retos para el 2013.&amp;nbsp;&lt;br /&gt;------ Miembros del pasado y nuevo Concilio.&amp;nbsp;&lt;br /&gt;&lt;b&gt;【2】CHARLA PARA PRINCIPIANTES DE UBUNTU&lt;/b&gt;&amp;nbsp;&lt;br /&gt;------ 10:00 a.m - 11:00 a.m&amp;nbsp;&lt;br /&gt;------ Si estás considerando probar Ubuntu o si ya estás decidido a hacerlo, ¡bienvenido!.¿Porqué elegir Ubuntu?&amp;nbsp;&lt;br /&gt;------ Lina E. Porras Santana&amp;nbsp;&lt;br /&gt;&lt;b&gt;【3】INSTALAR Y COMPARTIR UBUNTU POR USB y DISCOS DVD o CD&lt;/b&gt;&amp;nbsp;&lt;br /&gt;------ 11:00 a.m - 12:00 p.m&amp;nbsp;&lt;br /&gt;------ Instalador de Ubuntu y otras distros GNU/linux. Compartir Ubuntu por USB.&amp;nbsp;&lt;br /&gt;------ Peter Tacon&amp;nbsp;&lt;br /&gt;&lt;b&gt;【4】ALMUERZO UBUNTERO&lt;/b&gt;&amp;nbsp;&lt;br /&gt;------ 12:00 p.m - 01:00 p.m&amp;nbsp;&lt;br /&gt;------ Compartiremos Arroz Chino y una bebida. El costo de este almuerzo es de $4.000 pesos y deberán ser cancelados antes de las 11:00 a.m en la misma jornada. Contaremos con la presencia y servicio de un escuadron de Maids de Dango Maid Café (&lt;a href="http://on.fb.me/S7Hm6m" style="color: #000000;"&gt;&lt;/a&gt;&lt;a href="http://on.fb.me/S7Hm6m"&gt;http://on.fb.me/S7Hm6m&lt;/a&gt;&amp;nbsp;)&amp;nbsp;&lt;br /&gt;------ Dango Maid Cafe - &lt;a href="mailto:virthe@hotmail.com"&gt;virthe@hotmail.com&lt;/a&gt;&amp;nbsp;&lt;br /&gt;&lt;b&gt;【5】INTERVENCIÓN SONORA&lt;/b&gt;&amp;nbsp;&lt;br /&gt;------ 12:00 p.m - 01:00 p.m&amp;nbsp;&lt;br /&gt;------ Escucharemos un Atentado Sonoro para amenizar la jornada.&amp;nbsp;&lt;br /&gt;------ PJ KeyCi&amp;nbsp;&lt;a href="http://on.fb.me/103FgHH" style="color: #000000;"&gt;&lt;/a&gt;&lt;a href="http://on.fb.me/103FgHH"&gt;http://on.fb.me/103FgHH&lt;/a&gt;&amp;nbsp;&lt;br /&gt;...........(\_/)&amp;nbsp;&lt;br /&gt;...........(●.•)&amp;nbsp;&lt;br /&gt;----ⓅⒿ ⓀⓔⓨⒸⓎ----&amp;nbsp;&lt;br /&gt;&lt;b&gt;【6】JORNADA DE INSTALACIÓN&lt;/b&gt;&amp;nbsp;&lt;br /&gt;------ 10:00 a.m - 01:00 p.m&amp;nbsp;&lt;br /&gt;------ ¿Quieres instalar Ubuntu en tu computadora?... es el mejor momento para hacerlo!. Contarás con el apoyo de miembros experimentados de esta comunidad.&amp;nbsp;&lt;br /&gt;------ Responsable: Miembros Instaladores Voluntarios presentes en la jornada.&amp;nbsp;&lt;br /&gt;&lt;b&gt;【7】PAINTBALL&lt;/b&gt;&amp;nbsp;&lt;br /&gt;*Lugar: Por definir - Tentativamente Calle 72A # 20-16 Bogotá&amp;nbsp;&lt;br /&gt;------ 2:00 p.m&amp;nbsp;&lt;br /&gt;------ Costo estimado por persona $30.000&amp;nbsp;&lt;br /&gt;------ Participación voluntaria. Si puedes llevar invitados, mejor!&lt;/i&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;hr style="border-style: solid; border-color: gray; height: 1px;" /&gt;&lt;center&gt;&lt;img src="https://wiki.ubuntu.com/ColombianTeam/Eventos/7mo%20Aniversario%20Ubuntu%20Colombia?action=AttachFile&amp;amp;do=get&amp;amp;target=Afiche+Tama%C3%B1o+Carta+Full+Color.jpg" width="100%" style="border-width: 0px;" /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;i style="color: #000000; font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 12px; line-height: 16.78333282470703px;"&gt;&lt;i&gt;&lt;/i&gt;&lt;/i&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=PrjnaCvUSw8:pPeC-TcU1U0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=PrjnaCvUSw8:pPeC-TcU1U0:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=PrjnaCvUSw8:pPeC-TcU1U0:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=PrjnaCvUSw8:pPeC-TcU1U0:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Wed, 21 Nov 2012 00:03:54 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/general14/284-séptimo-aniversario-de-ubuntu-colombia.html</guid>
+        </item>
+        <item>
+            <title>#ucaday Mi dia de Agradecimiento a la Comunidad Ubuntu </title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/general14/283-ucaday-mi-dia-de-agradecimiento-a-la-comunidad-ubuntu.html</link>
+            <description>&lt;p&gt;&lt;img class="aligncenter" src="https://lh5.googleusercontent.com/-BB_cPfp2tT8/TsGz2zPGaNI/AAAAAAAAABc/kX734siuNaI/s548/logo-ubuntu-notext_1000px-modified-2.png" alt="" width="329" height="329" style="margin: 1em auto; border-width: 0px; font: inherit; vertical-align: baseline; max-width: 100%; height: auto; display: block; font-family: arial, sans-serif; line-height: 19px; text-align: center;" /&gt;&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Este tipo de publicaciones no es común en mi blog, pero como se ha acordado el día de hoy 20 de Noviembre se debe celebrar el día de Apreciación de la Comuniad Ubuntu por lo cual dedicaré esta publicación a varias personas, entre ellas varias de mi comunidad (Ubuntu Colombia).&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Realmente pertenezco a este mundo desde el año 2007 y doy gracias inicialmente a Canonical por permitirme conocer todo este mundo de Linux, Ubuntu y Software Libre gracias al programa que se presentaba en ese año (shipit) se me facilitó totalmente el acceso a este gran sistema Operativo, desde entoces (como suele pasar en Colombia gracias a la educación que tenemos) era un común usuario Windows y me pareció simplemente fascinante la idea de poder tener un disco (además de ser bonito) de una distribución Linux, que ya estaba lista para ser usada en mi computadora.&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Recuerdo que una de las cosas que se prometian era el soporte y ayuda colaborativa de la comunidad por lo cual doy mi primer agradecimiento a Xavier Corredor Llano persona que me orientó mucho iniciando (se que yo era muy molesto realizando preguntas, pero eran necesarias, en verdad estaba fascinado con Ubuntu). El fué basicamente la persona que me “enseñó a caminar” en ubuntu de aquí en adelante aprendí muchas cosas hasta finalmente terminar siendo uno más del Concilio de la Comunidad de Ubuntu Colombia.&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;De aquí en adelante nombraré una corta lista de personas a las cuales agradezco por sus grandes o pequeños aportes a la comunidad.&lt;/p&gt;
+&lt;blockquote style="margin: 1em 0em; padding: 0.5em 1em 0.2em; border-width: 0px 0px 0px 0.5em; border-left-style: solid; font: inherit; vertical-align: baseline; background-color: #eeeeee; line-height: normal; font-family: serif;"&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5;"&gt;Andres Mujica&lt;br /&gt;Hollman Enciso&lt;br /&gt;Julian Alarcón&lt;br /&gt;Sergio Meneses&lt;br /&gt;Lina Porras&lt;br /&gt;Sebastian Rodriguez&lt;br /&gt;Fabian Rodriguez&lt;br /&gt;Cesar Gomez&lt;br /&gt;Daniel Felipe Caicedo&lt;br /&gt;Diego Forigua&lt;br /&gt;José Gutierrez&lt;br /&gt;Oscar Fabian Prieto&lt;br /&gt;Sergio Gonzalez&lt;br /&gt;Jorge Gonzalez&lt;br /&gt;Andres Arias Fonseca&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Y la lista continúa, solo que no los recuerdo a &lt;a href="mailto:tod@s ahora"&gt;tod@s ahora&lt;/a&gt; en este momento&amp;nbsp;&lt;img src="http://jhosman.com/en/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" style="border-width: 0px; font: inherit; vertical-align: baseline; max-width: 100%; height: auto;" /&gt;&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;Además de agradecer a la comunidad internacional y a los LoCoTeams ya que gracias a ellos es que esto ha crecido de una manera impresionante, por lo cual quiero dejarles un mensaje, no dejen de pensar en el “usuario final” es por ellos quien es estoy aquí.&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif;"&gt;No siendo más me despido y diciendoles que esto no es todo, estaré por aquí por bastante tiempo y espero poder crecer aún más como todos ustedes de los #LoCoTeams&lt;/p&gt;
+&lt;p style="padding-bottom: 0.5em; border: 0px; font: inherit; vertical-align: baseline; line-height: 1.5; font-family: arial, sans-serif; text-align: center;"&gt;&lt;strong style="border: 0px; font: inherit; vertical-align: baseline;"&gt;GRACIAS UBUNTU!!!&lt;/strong&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=R8Pf0rmiHfg:wOuAA6svBe0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=R8Pf0rmiHfg:wOuAA6svBe0:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=R8Pf0rmiHfg:wOuAA6svBe0:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=R8Pf0rmiHfg:wOuAA6svBe0:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Tue, 20 Nov 2012 15:41:44 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/general14/283-ucaday-mi-dia-de-agradecimiento-a-la-comunidad-ubuntu.html</guid>
+        </item>
+        <item>
+            <title>#Cinnamon 1.6.1 entorno de escritorio disponible para instalar en  #Ubuntu #Quantal 12.10</title>
+            <link>http://jhosman.com/es/component/content/article/69-ubuntu/282-cinnamon-1-6-1-entorno-de-escritorio-disponible-para-instalar-en-ubuntu-quantal-12-10.html</link>
+            <description>&lt;p style="text-align: center;"&gt;&lt;img src="http://distilleryimage7.instagram.com/040961820e8611e286b922000a1d0343_7.jpg" alt="http://distilleryimage7.instagram.com/040961820e8611e286b922000a1d0343_7.jpg" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Photo: &lt;a href="http://instagram.com/p/QYYlErmBQv/"&gt;&lt;/a&gt;&lt;a&gt;http://instagram.com/p/QYYlErmBQv/&lt;/a&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;En mi&lt;/span&gt; &lt;span class="hps"&gt;opinión&lt;/span&gt; &lt;span class="hps"&gt;"Cinnamon&lt;/span&gt;&lt;span&gt;" es uno&lt;/span&gt; &lt;span class="hps"&gt;de los mejores que&lt;/span&gt; &lt;span class="hps"&gt;existen para&lt;/span&gt; &lt;span class="hps"&gt;escritorios Linux&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;ya que es un&lt;/span&gt; &lt;span class="hps"&gt;punto medio&lt;/span&gt; &lt;span class="hps"&gt;entre Unity&lt;/span&gt; &lt;span class="hps"&gt;y&lt;/span&gt; &lt;span class="hps"&gt;Gnome2&lt;/span&gt; &lt;span class="hps atn"&gt;(&lt;/span&gt;&lt;span&gt;proponiendo&lt;/span&gt; &lt;span class="hps"&gt;un ejemplo) y&lt;/span&gt; &lt;span class="hps"&gt;que&lt;/span&gt; &lt;span class="hps"&gt;genera unos&lt;/span&gt; &lt;span class="hps"&gt;efectos muy&lt;/span&gt; &lt;span class="hps"&gt;buenos&lt;/span&gt; &lt;span class="hps"&gt;y el rendimiento&lt;/span&gt; &lt;span class="hps"&gt;(como con&lt;/span&gt; &lt;span class="hps"&gt;la Unity)&lt;/span&gt; &lt;span class="hps"&gt;y&lt;/span&gt; &lt;span class="hps"&gt;también&lt;/span&gt; &lt;span class="hps"&gt;genera baja&lt;/span&gt; &lt;span class="hps"&gt;consumo de recursos&lt;/span&gt; &lt;span class="hps"&gt;y se asemeja a&lt;/span&gt; &lt;span class="hps"&gt;algo plano y&lt;/span&gt; &lt;span class="hps atn"&gt;simple (&lt;/span&gt;&lt;span&gt;como&lt;/span&gt; &lt;span class="hps"&gt;para GNOME&lt;/span&gt; &lt;span class="hps"&gt;2)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;En nombre del&lt;/span&gt; &lt;span class="hps"&gt;equipo&lt;/span&gt; &lt;span class="hps"&gt;y todos los desarrolladores&lt;/span&gt; &lt;span class="hps"&gt;que han contribuido a&lt;/span&gt; &lt;span class="hps"&gt;esta generación&lt;/span&gt;&lt;span&gt;, estoy orgulloso&lt;/span&gt; &lt;span class="hps"&gt;de anunciar el lanzamiento&lt;/span&gt; &lt;span class="hps"&gt;de Cinnamon&lt;/span&gt; &lt;span class="hps atn"&gt;1.6.1 (&lt;/span&gt;&lt;span&gt;y&lt;/span&gt; &lt;span class="hps"&gt;1.1.1 y&lt;/span&gt; &lt;span class="hps"&gt;Muffin&lt;/span&gt; &lt;span class="hps"&gt;Nemo&lt;/span&gt; &lt;span class="hps"&gt;1.0.2)&lt;/span&gt;&lt;span&gt;!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Cinnamon&lt;/span&gt; &lt;span class="hps"&gt;1.6.1&lt;/span&gt; &lt;span class="hps"&gt;es una versión de&lt;/span&gt; &lt;span class="hps"&gt;punto&lt;/span&gt; &lt;span class="hps"&gt;que se refiere a&lt;/span&gt; &lt;span class="hps"&gt;los errores&lt;/span&gt; &lt;span class="hps"&gt;y características&lt;/span&gt; &lt;span class="hps"&gt;refina&lt;/span&gt; &lt;span class="hps"&gt;presentes en&lt;/span&gt; &lt;span class="hps"&gt;Cinnamon&lt;/span&gt; &lt;span class="hps"&gt;1.6.0.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;br title="#Cinnamon 1.6.1 desktop avaliable for install in #Ubuntu #Quantal 12.10" rel="bookmark" href="http://jhosman.com/en/ubuntu/cinnamon-1-6-1-desktop-avaliable-for-install-in-ubuntu-quantal-12-10/" /&gt;&lt;/p&gt;
+&lt;div id="main"&gt;
+&lt;div id="wrapper"&gt;
+&lt;div id="content"&gt;
+&lt;article id="post-118" class="post-118 post type-post status-publish format-standard hentry category-ubuntu"&gt;&lt;br /&gt;
+&lt;div class="entry-content"&gt;
+&lt;div id="main"&gt;
+&lt;div id="wrapper"&gt;
+&lt;div id="content"&gt;
+&lt;article id="post-118" class="post-118 post type-post status-publish format-standard hentry category-ubuntu"&gt;
+&lt;div class="entry-content"&gt;
+&lt;div id="main"&gt;
+&lt;div id="wrapper"&gt;
+&lt;div id="content"&gt;
+&lt;article id="post-118" class="post-118 post type-post status-publish format-standard hentry category-ubuntu"&gt;&lt;a title="#Cinnamon 1.6.1 desktop avaliable for install in #Ubuntu #Quantal 12.10" rel="bookmark" href="http://jhosman.com/en/ubuntu/cinnamon-1-6-1-desktop-avaliable-for-install-in-ubuntu-quantal-12-10/"&gt;&lt;img class="aligncenter" src="http://i.imgur.com/vhB4j.png" alt="" height="393" width="700" /&gt;&lt;/a&gt;&lt;br data-mce-bogus="1" /&gt;
+&lt;div class="entry-content"&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lista de Cambios Cinnamon 1.6.1:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated translations&lt;/li&gt;
+&lt;li&gt;Added country flags in keyboard applet&lt;/li&gt;
+&lt;li&gt;Added Songbird support in sound applet&lt;/li&gt;
+&lt;li&gt;Fixed: Administration category missing from the application menu&lt;/li&gt;
+&lt;li&gt;Fixed: Blurry pixels in Alt-Tab preview&lt;/li&gt;
+&lt;li&gt;Fixed: Removing workspace while editing its name results in crash&lt;/li&gt;
+&lt;li&gt;Fixed: Scrolling in window list applet brings all windows to the active workspace&lt;/li&gt;
+&lt;li&gt;Fixed: Panels visible in Firefox fullscreen mode x-shockwave-flash video&lt;/li&gt;
+&lt;li&gt;Fixed: Two issues with dnd and themes using different background for hovering&lt;/li&gt;
+&lt;li&gt;Performance improvement: Cinnamon no longer fetches the pointer actor if track_hover is not set&lt;/li&gt;
+&lt;li&gt;Performance improvement: Network Manager applet consumes less CPU usage&lt;/li&gt;
+&lt;li&gt;Performance improvement: Calendar applet consumes less CPU usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Changes in Muffin 1.1.1:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed: Menubar issues with all Java programs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Changes in Nemo 1.0.2:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dropbox extension is now stable&lt;/li&gt;
+&lt;li&gt;Fileroller extension is now stable&lt;/li&gt;
+&lt;li&gt;Configurable units (decimal by default as well as decimal-long, binary and binary-long)&lt;/li&gt;
+&lt;li&gt;Fixed: Use Nautilus style to render the desktop when the theme doesn’t support Nemo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Source: &lt;a href="http://cinnamon.linuxmint.com/?p=216"&gt;&lt;/a&gt;&lt;a&gt;http://cinnamon.linuxmint.com/?p=216&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalacion&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class="inputbox"&gt;sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable&lt;br /&gt; sudo apt-get update &amp;amp;&amp;amp; sudo apt-get dist-upgrade&lt;br /&gt; sudo apt-get install cinnamon&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table id="packages_list"&gt;
+&lt;thead id="yui_3_5_1_1_1349388428922_134"&gt;
+&lt;tr id="yui_3_5_1_1_1349388428922_133"&gt;&lt;th id="yui_3_5_1_1_1349388428922_132"&gt;Package&amp;nbsp;▾&lt;/th&gt;&lt;th&gt;Version&lt;/th&gt;&lt;th&gt;Uploaded by&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody id="yui_3_5_1_1_1349388428922_92"&gt;
+&lt;tr id="yui_3_5_1_1_1349388428922_131"&gt;
+&lt;td&gt;&lt;img src="https://launchpad.net/@@/package-source" alt="" /&gt; cinnamon&lt;/td&gt;
+&lt;td id="yui_3_5_1_1_1349388428922_130"&gt;1.6.1-0ubuntu1~quantal1&lt;/td&gt;
+&lt;td id="yui_3_5_1_1_1349388428922_136"&gt;&lt;a href="https://launchpad.net/%7Egwendal-lebihan-dev"&gt;Gwendal LE BIHAN&lt;/a&gt; (2012-09-27)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src="http://jhosman.com/en/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://i.imgur.com/y1ixG.png"&gt;&lt;img class="aligncenter" src="http://i.imgur.com/y1ixG.png" alt="" height="393" width="700" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=-_CTTBW1rcA:YsrdDew_tpA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=-_CTTBW1rcA:YsrdDew_tpA:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=-_CTTBW1rcA:YsrdDew_tpA:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=-_CTTBW1rcA:YsrdDew_tpA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Fri, 05 Oct 2012 12:56:20 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/component/content/article/69-ubuntu/282-cinnamon-1-6-1-entorno-de-escritorio-disponible-para-instalar-en-ubuntu-quantal-12-10.html</guid>
+        </item>
+        <item>
+            <title>Falla de Seguridad en #Finch? Un cliente de mensajería? </title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/mensajeria-instantanea/281-falla-de-seguridad-en-finch-un-cliente-de-mensajería.html</link>
+            <description>&lt;p&gt;&lt;a href="http://i.imgur.com/wOux7.png"&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" src="http://i.imgur.com/wOux7.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hace poco por información que recibí de un amigo (Brayan Bautista) me enteré de este "interesante" cliente de mensajería que funciona con Facebook, msn, Gtalk y otros.. inicialmente m gustó pero no se, ahora estaba resando los archivos de configuración del mismo y personalmente no veo NADA de seguridad, pude ver mi contraseña sin nada de protección y fué claramente entendible que era la mía, ahora bien muchos piensan que no es problema, pero que tal en algún caso yo deje mi computadora encendida, sin bloqueo y algúna persona llegase a ingresar a ella, abre una terminal y con el simple comando "nano ~/.purple/accounts.xml" pueda tener total acceso a mis datos y por ende me "hackee" bueno he tomado una desición y finalmente eliminaré este programa por que NO me parece seguro.&lt;/p&gt;
+&lt;div id="image" class="image textbox"&gt;&lt;a href="http://i.imgur.com/yzIjX.png"&gt;&lt;img src="http://i.imgur.com/yzIjX.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=dJFZIgQF4RA:XvfvpXeih1A:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=dJFZIgQF4RA:XvfvpXeih1A:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=dJFZIgQF4RA:XvfvpXeih1A:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=dJFZIgQF4RA:XvfvpXeih1A:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Mon, 01 Oct 2012 14:56:40 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/mensajeria-instantanea/281-falla-de-seguridad-en-finch-un-cliente-de-mensajería.html</guid>
+        </item>
+        <item>
+            <title> #Ubuntu #WebApps en #Quantal 12.10</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/unity/280-ubuntu-webapps-en-quantal-12-10.html</link>
+            <description>&lt;p style="text-align: center;"&gt;&lt;img class="aligncenter" src="http://i.imgur.com/NQNmP.png" alt="" border="0" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;El objetivo&lt;/span&gt; &lt;span class="hps"&gt;principal&lt;/span&gt; &lt;span class="hps"&gt;es generar&lt;/span&gt; &lt;span class="hps"&gt;una mayor&lt;/span&gt; &lt;span class="hps"&gt;integración&lt;/span&gt; &lt;span class="hps"&gt;#&lt;/span&gt;&lt;span class="hps"&gt;UbuntuWebApps&lt;/span&gt; &lt;span class="hps"&gt;y facilidad de uso&lt;/span&gt; &lt;span class="hps"&gt;entre el usuario&lt;/span&gt; &lt;span class="hps"&gt;y la web&lt;/span&gt; &lt;span class="hps"&gt;usando el sistema operativo&lt;/span&gt; &lt;span class="hps"&gt;Ubuntu&lt;/span&gt; &lt;span class="hps"&gt;#&lt;/span&gt;Unity&lt;span class="hps"&gt; mediante un ambiente gráfico y&lt;/span&gt; &lt;span class="hps"&gt;en este caso&lt;/span&gt; &lt;span class="hps"&gt;nuestros navegadores&lt;/span&gt; &lt;span class="hps"&gt;#Firefox&lt;/span&gt; &lt;span class="hps"&gt;por ejemplo.&lt;/span&gt; &lt;span class="hps"&gt;Ahora&lt;/span&gt; &lt;span class="hps"&gt;trabajamos&lt;/span&gt; &lt;span class="hps"&gt;en la web es&lt;/span&gt; &lt;span class="hps"&gt;mucho más fácil!&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Los servicios&lt;/span&gt; &lt;span class="hps"&gt;soportados son: 163, &lt;em&gt;Angry Birds, Baidu, Baidu Mail, Baidu News, BBC, Blogger, CNN, Cut the rope, Drupal, Facebook, Gmail, Google Calendar, Google News, Google +, Google Reader, Grooveshark, Hotmail, Hulu, Last,fm, Launchpad, Linkedin, Lord of Ultima, Mail 163, Mail qq, Mail ru, MSN, News Mail ru, News Sohu, Reddit, Sina, Tiberium Alliances, Twitter, Vkontakte, WordPress, Yahoo Mail, Yahoo News, Yandex Mail, Yandex Music, Yandex News, Youtube.&lt;/em&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Para instalar&lt;/span&gt; &lt;span class="hps"&gt;abre una terminal y&lt;/span&gt; &lt;span class="hps"&gt;repositorios&lt;/span&gt; &lt;span class="hps"&gt;agragamos&lt;/span&gt;&lt;span&gt;, actualizar&lt;/span&gt; &lt;span class="hps"&gt;la lista de repositorios&lt;/span&gt;&lt;span&gt;, actualizamos&lt;/span&gt; &lt;span class="hps"&gt;nuestro&lt;/span&gt; &lt;span class="hps"&gt;sistema e instalar&lt;/span&gt;...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;blockquote class="inputbox"&gt;
+&lt;p&gt;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get dist-upgrade &amp;amp;&amp;amp; sudo apt-get install unity-webapps-*&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Si usas Chromium debes insertar en la terminal&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;blockquote class="inputbox"&gt;
+&lt;p&gt;sudo apt-get install unity-chromium-extension&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Mira:&lt;/p&gt;
+&lt;blockquote class="inputbox"&gt;
+&lt;p style="text-align: justify;"&gt;Se instalarán los siguientes paquetes NUEVOS:&lt;br /&gt; gir1.2-unity-webapps-0.2 libunity-webapps-dev libunity-webapps-doc&lt;br /&gt; unity-webapps-amazoncloudreader unity-webapps-angrybirds&lt;br /&gt; unity-webapps-bbcnews unity-webapps-common unity-webapps-cuttherope&lt;br /&gt; unity-webapps-facebookapps unity-webapps-facebookmessenger&lt;br /&gt; unity-webapps-gmail unity-webapps-googlecalendar unity-webapps-googledocs&lt;br /&gt; unity-webapps-googleplus unity-webapps-googleplusgames&lt;br /&gt; unity-webapps-grooveshark unity-webapps-hulu-player&lt;br /&gt; unity-webapps-lastfm-radio unity-webapps-launchpad unity-webapps-librefm&lt;br /&gt; unity-webapps-linkedin unity-webapps-livemail unity-webapps-mail-ru&lt;br /&gt; unity-webapps-newsblur unity-webapps-pandora-com unity-webapps-qq-mail&lt;br /&gt; unity-webapps-reddit unity-webapps-tumblr unity-webapps-twitter&lt;br /&gt; unity-webapps-vkcom unity-webapps-wordpress-com unity-webapps-yahoomail&lt;br /&gt; unity-webapps-yahoonews unity-webapps-yandex-music unity-webapps-yandexnews&lt;br /&gt; unity-webapps-youtube&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style="text-align: center;"&gt;&amp;nbsp;ScreenShots!&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img src="http://i.imgur.com/buFtk.png" alt="" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img src="http://i.imgur.com/wRltR.png" alt="" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img src="http://i.imgur.com/zodZJ.png" alt="" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img class="aligncenter" src="http://i.imgur.com/YFwsX.png" alt="" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img class="aligncenter" src="http://i.imgur.com/m0E9M.png" alt="" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img src="http://i.imgur.com/Rx7kY.png" alt="" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img src="http://i.imgur.com/Nrmz4.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" class="aligncenter" src="http://i.imgur.com/8lz1V.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;http://www.youtube.com/watch?v=L2YNR1KU1Xs&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=QfSlHGyQKbs:oNn-TOoEA4s:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=QfSlHGyQKbs:oNn-TOoEA4s:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=QfSlHGyQKbs:oNn-TOoEA4s:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=QfSlHGyQKbs:oNn-TOoEA4s:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Sat, 29 Sep 2012 05:56:58 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/unity/280-ubuntu-webapps-en-quantal-12-10.html</guid>
+        </item>
+        <item>
+            <title>#Ubuntu #Quantal 12.10 Beta 2 ha sido Lanzado</title>
+            <link>http://jhosman.com/es/component/content/article/69-ubuntu/279-ubuntu-quantal-12-10-beta-2-ha-sido-lanzado.html</link>
+            <description>&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Hoy el equipo&lt;/span&gt;&lt;span class="hps"&gt;de&lt;/span&gt;&lt;span class="hps"&gt;desarrolladores de&lt;/span&gt;&lt;span class="hps"&gt;Ubuntu&lt;/span&gt;&lt;span class="hps"&gt;12.10,&lt;/span&gt;&lt;span class="hps"&gt;han lanzado&lt;/span&gt;&lt;span class="hps"&gt;la versión&lt;/span&gt;&lt;span class="hps"&gt;Beta 2&lt;/span&gt;&lt;span class="hps"&gt;de esta versión&lt;/span&gt;&lt;span&gt;, que está de &lt;/span&gt;&lt;span class="hps"&gt;lujo&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span class="hps"&gt;Muchas de las innovaciones&lt;/span&gt;&lt;span class="hps"&gt;y el desarrollo&lt;/span&gt;&lt;span class="hps"&gt;han venido a esta&lt;/span&gt;&lt;span class="hps"&gt;versión.&lt;/span&gt;&lt;span class="hps"&gt;Por lo tanto&lt;/span&gt;&lt;span class="hps"&gt;lo que he encontrado&lt;/span&gt;&lt;span class="hps"&gt;describir.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class="hps"&gt;Como muchos saben&lt;/span&gt;&lt;span class="hps"&gt;ya incluye soporte&lt;/span&gt;&lt;span class="hps"&gt;para el servicio de&lt;/span&gt;&lt;a href="http://landscape.canonical.com/"&gt;#Landscape&lt;/a&gt;&lt;span class="hps"&gt;ya se está ejecutando&lt;/span&gt;&lt;span&gt;, pero&lt;/span&gt;&lt;span class="hps"&gt;no puedo probar&lt;/span&gt;&lt;span class="hps"&gt;la falta de recursos&lt;/span&gt;&lt;span&gt;, pero podemos&lt;/span&gt;&lt;span class="hps"&gt;encontrar&lt;/span&gt;&lt;span class="hps"&gt;una&lt;/span&gt;&lt;span class="hps"&gt;versión de prueba.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src="http://i.imgur.com/o3pzW.png" width="600" /&gt;&lt;/center&gt;&lt;center&gt;&lt;/center&gt;&lt;center&gt;&lt;a href="http://www.youtube.com/watch?v=6pSslGRi-ew"&gt;http://www.youtube.com/watch?v=6pSslGRi-ew&lt;/a&gt;&lt;a href="http://www.youtube.com/embed/6pSslGRi-ew?rel=0"&gt;&lt;/a&gt;&lt;/center&gt;&lt;center&gt;&lt;/center&gt;&lt;center&gt;
+&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Se ha añadido la&lt;/span&gt;&lt;span class="hps"&gt;polémica&lt;/span&gt;&lt;a href="http://jhosman.com/en/ubuntu/unity/unity-dash-for-amazon-in-ubuntu-quantal/"&gt;&lt;span class="hps"&gt;Lens&lt;/span&gt;&lt;/a&gt;&lt;span class="hps"&gt;Amazon Shopping&lt;/span&gt;&lt;span&gt;, donde se pueden&lt;/span&gt;&lt;span class="hps"&gt;comprar objetos&lt;/span&gt;&lt;span&gt;, música,&lt;/span&gt;&lt;span class="hps"&gt;videos y más.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Ahora, cada&lt;/span&gt;&lt;span class="hps"&gt;vez que utilizamos&lt;/span&gt;&lt;span class="hps"&gt;el&lt;/span&gt;&lt;span class="hps"&gt;tablero&lt;/span&gt;&lt;span class="hps"&gt;para una vista previa&lt;/span&gt;&lt;span class="hps atn"&gt;(&lt;/span&gt;&lt;span&gt;con la vista previa&lt;/span&gt;&lt;span class="hps"&gt;del objetivo)&lt;/span&gt;&lt;span class="hps"&gt;nuestro panel&lt;/span&gt;&lt;span class="hps"&gt;se abrirá en&lt;/span&gt;&lt;span class="hps"&gt;dos y nos&lt;/span&gt;&lt;span class="hps"&gt;permetirá&lt;/span&gt;&lt;span class="hps"&gt;ver el contenido de&lt;/span&gt;&lt;span class="hps"&gt;lo que se encuentra&lt;/span&gt;&lt;span class="hps"&gt;solicitada.&lt;/span&gt; &lt;img src="http://i.imgur.com/XE16Y.png" width="600" /&gt;&lt;/p&gt;
+&lt;img src="http://i.imgur.com/UepvZ.png" width="600" /&gt; &lt;img src="http://i.imgur.com/xThaF.png" width="600" /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Ahora podemos&lt;/span&gt; &lt;span class="hps"&gt;buscar a través de&lt;/span&gt; &lt;span class="hps"&gt;redes&lt;/span&gt; &lt;span class="hps"&gt;sociales como Facebook y&lt;/span&gt; &lt;span class="hps"&gt;Twitter, con el&lt;/span&gt;&lt;/span&gt;&lt;a href="http://jhosman.com/en/ubuntu/unity/twitter-lens-for-ubuntu-quantal/"&gt; Lens of Twitter&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&lt;img src="http://i.imgur.com/0RivV.jpg" width="600" /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Las mejoras&lt;/span&gt; &lt;span class="hps"&gt;y la integración con&lt;/span&gt; &lt;span class="hps"&gt;cuentas en línea&lt;/span&gt; &lt;span class="hps"&gt;y&lt;/span&gt; &lt;span class="hps"&gt;Ubuntu&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src="http://i.imgur.com/aV3PV.png" height="426" width="754" /&gt;&lt;/center&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Nueva versión de Kernel 3.5.0-15.23&lt;/p&gt;
+&lt;center&gt;&lt;img src="http://i.imgur.com/zoYNn.png" /&gt;&lt;/center&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;La lista de todos los cambios &lt;a href="https://wiki.ubuntu.com/QuantalQuetzal/TechnicalOverview/Beta2"&gt;aqui&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;&amp;nbsp;&lt;/h1&gt;
+&lt;h1&gt;Descarga&lt;/h1&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Nota:&lt;/p&gt;
+&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Las imágenes&lt;/span&gt; &lt;span class="hps"&gt;de escritorio&lt;/span&gt; &lt;span class="hps"&gt;de Ubuntu&lt;/span&gt; &lt;span class="hps"&gt;es&lt;/span&gt; &lt;span class="hps"&gt;ahora&lt;/span&gt; &lt;span class="hps"&gt;más grande que un&lt;/span&gt; &lt;span class="hps"&gt;CD&lt;/span&gt; &lt;span class="hps"&gt;estándar,&lt;/span&gt; &lt;span class="hps"&gt;y usted debe utilizar&lt;/span&gt; &lt;span class="hps"&gt;un cable USB o&lt;/span&gt; &lt;span class="hps"&gt;DVD&lt;/span&gt; &lt;span class="hps"&gt;para la instalación.&lt;/span&gt; &lt;span class="hps"&gt;Algunas compilaciones de&lt;/span&gt; &lt;span class="hps"&gt;imagen&lt;/span&gt; &lt;span class="hps"&gt;se ha producido&lt;/span&gt; &lt;span class="hps"&gt;así&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Puede descargar&lt;/span&gt; &lt;span class="hps"&gt;la versión Beta 2&lt;/span&gt; &lt;span class="hps"&gt;ISOs&lt;/span&gt; &lt;span class="hps"&gt;desde&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://releases.ubuntu.com/12.10/" title="http://releases.ubuntu.com/12.10/"&gt;&lt;/a&gt;&lt;a href="http://releases.ubuntu.com/12.10/"&gt;http://releases.ubuntu.com/12.10/&lt;/a&gt; (Ubuntu Desktop and Server)&lt;br /&gt; &lt;a href="http://cloud-images.ubuntu.com/releases/12.10/beta-2/"&gt;&lt;/a&gt;&lt;a href="http://cloud-images.ubuntu.com/releases/12.10/beta-2/"&gt;http://cloud-images.ubuntu.com/releases/12.10/beta-2/&lt;/a&gt; (Ubuntu Cloud Server)&lt;br /&gt; &lt;a href="http://cdimage.ubuntu.com/netboot/12.10/"&gt;&lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/netboot/12.10/"&gt;http://cdimage.ubuntu.com/netboot/12.10/&lt;/a&gt; (Ubuntu Netboot)&lt;br /&gt; &lt;a href="http://cdimage.ubuntu.com/ubuntu-core/releases/12.10/beta-2/"&gt;&lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/ubuntu-core/releases/12.10/beta-2/"&gt;http://cdimage.ubuntu.com/ubuntu-core/releases/12.10/beta-2/&lt;/a&gt; (Ubuntu Core)&lt;br /&gt; &lt;a href="http://cdimage.ubuntu.com/kubuntu/releases/12.10/beta-2/"&gt;&lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/kubuntu/releases/12.10/beta-2/"&gt;http://cdimage.ubuntu.com/kubuntu/releases/12.10/beta-2/&lt;/a&gt; (Kubuntu)&lt;a href="http://cdimage.ubuntu.com/kubuntu-active/releases/12.10/beta-2/"&gt;&lt;br /&gt; &lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/kubuntu-active/releases/12.10/beta-2/"&gt;http://cdimage.ubuntu.com/kubuntu-active/releases/12.10/beta-2/&lt;/a&gt; (Kubuntu Active)&lt;a href="http://cdimage.ubuntu.com/lubuntu/releases/12.10/beta-2/"&gt;&lt;br /&gt; &lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/lubuntu/releases/12.10/beta-2/"&gt;http://cdimage.ubuntu.com/lubuntu/releases/12.10/beta-2/&lt;/a&gt; (Lubuntu)&lt;br /&gt; &lt;a href="http://cdimage.ubuntu.com/edubuntu/releases/12.10/beta-2/"&gt;&lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/edubuntu/releases/12.10/beta-2/"&gt;http://cdimage.ubuntu.com/edubuntu/releases/12.10/beta-2/&lt;/a&gt; (Edubuntu DVD)&lt;br /&gt; &lt;a href="http://cdimage.ubuntu.com/ubuntustudio/releases/12.10/beta-2/"&gt;&lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/ubuntustudio/releases/12.10/beta-2/"&gt;http://cdimage.ubuntu.com/ubuntustudio/releases/12.10/beta-2/&lt;/a&gt; (Ubuntu Studio)&lt;br /&gt; &lt;a href="http://cdimage.ubuntu.com/xubuntu/releases/12.10/beta-2/"&gt;&lt;/a&gt;&lt;a href="http://cdimage.ubuntu.com/xubuntu/releases/12.10/beta-2/"&gt;http://cdimage.ubuntu.com/xubuntu/releases/12.10/beta-2/&lt;/a&gt; (Xubuntu)&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=LSzZCQYhJ2M:ouyJTMAxvjI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=LSzZCQYhJ2M:ouyJTMAxvjI:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=LSzZCQYhJ2M:ouyJTMAxvjI:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=LSzZCQYhJ2M:ouyJTMAxvjI:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Thu, 27 Sep 2012 19:38:43 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/component/content/article/69-ubuntu/279-ubuntu-quantal-12-10-beta-2-ha-sido-lanzado.html</guid>
+        </item>
+        <item>
+            <title>F3 pantalla dividida regresa a  #Ubuntu 12.10</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/unity/278-f3-pantalla-dividida-regresa-a-ubuntu-12-10.html</link>
+            <description>&lt;h2 id="site-description"&gt;Documentation for Ubuntu site principal: &lt;a href="http://jhosman.com/es"&gt;http://jhosman.com/es&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;header class="entry-header"&gt;
+&lt;h1&gt;&lt;a href="http://jhosman.com/en/ubuntu/unity/f3-split-screen-returns-in-ubuntu-12-10/" title="F3 split screen returns in #Ubuntu 12.10" rel="bookmark"&gt;F3 split screen returns in #Ubuntu 12.10&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;by Jhosman on 8 septiembre, 2012&lt;/p&gt;
+&lt;/header&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;center&gt;&lt;br /&gt; &lt;img class="aligncenter" src="http://i.imgur.com/ge29J.png" alt="" width="700" /&gt;&lt;/center&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;De acuerdo con&lt;/span&gt; &lt;span class="hps"&gt;el anuncio de que&lt;/span&gt; &lt;span class="hps"&gt;se produjo&lt;/span&gt; &lt;span class="hps"&gt;hace unos meses&lt;/span&gt; &lt;span class="hps"&gt;a través de&lt;/span&gt; &lt;a href="http://www.omgubuntu.co.uk/2012/07/is-the-new-nautilus-a-step-in-the-direction-poll"&gt;&lt;span class="hps"&gt;omgubuntu&lt;/span&gt;&lt;/a&gt; &lt;span class="hps"&gt;se informó de que&lt;/span&gt; &lt;span class="hps"&gt;la función de&lt;/span&gt; &lt;span class="hps"&gt;pantalla dividida&lt;/span&gt; &lt;span class="hps"&gt;en&lt;/span&gt; &lt;span class="hps"&gt;Ubuntu&lt;/span&gt; &lt;span class="hps"&gt;12.10&lt;/span&gt; &lt;span class="hps"&gt;desaparecer,&lt;/span&gt; &lt;span class="hps"&gt;hoy, en la&lt;/span&gt; &lt;span class="hps"&gt;Jam&lt;/span&gt; &lt;span class="hps"&gt;de Ubuntu&lt;/span&gt; &lt;span class="hps"&gt;Global&lt;/span&gt; &lt;span class="hps"&gt;me di cuenta de&lt;/span&gt; &lt;span class="hps"&gt;que&lt;/span&gt; &lt;span class="hps"&gt;en la versión Beta&lt;/span&gt;&lt;span&gt;, y&lt;/span&gt; &lt;span class="hps"&gt;no lo es y&lt;/span&gt; &lt;span class="hps"&gt;la función de&lt;/span&gt; &lt;span class="hps"&gt;pantalla dividida&lt;/span&gt; &lt;span class="hps"&gt;ha vuelto,&lt;/span&gt; &lt;span class="hps"&gt;sorprendentemente&lt;/span&gt; &lt;span class="hps"&gt;presione&lt;/span&gt; &lt;span class="hps"&gt;F3&lt;/span&gt; &lt;span class="hps"&gt;en Nautilus&lt;/span&gt; &lt;span class="hps"&gt;y obras,&lt;/span&gt; &lt;span class="hps"&gt;&lt;a href="http://www.omgubuntu.co.uk/2012/07/is-the-new-nautilus-a-step-in-the-direction-poll"&gt;link &lt;/a&gt;de&lt;/span&gt; &lt;span class="hps"&gt;Gnome y&lt;/span&gt; &lt;span class="hps"&gt;Nautilus.&lt;/span&gt; &lt;span class="hps"&gt;Incluso&lt;/span&gt; &lt;span class="hps"&gt;en las versiones&lt;/span&gt; &lt;span class="hps"&gt;Alpha&lt;/span&gt;&lt;span&gt;, pero creo que es &lt;/span&gt;&lt;span class="hps"&gt;algo feliz&lt;/span&gt; &lt;span class="hps"&gt;para&lt;/span&gt; &lt;span class="hps"&gt;muchos!&lt;/span&gt; &lt;span class="hps"&gt;Por lo menos&lt;/span&gt; &lt;span class="hps"&gt;yo lo veo muy&lt;/span&gt; &lt;span class="hps"&gt;útil&lt;/span&gt; &lt;span class="hps"&gt;al copiar o&lt;/span&gt; &lt;span class="hps"&gt;mover archivos&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Otra cosa&lt;/span&gt; &lt;span class="hps"&gt;que me molestó sobre&lt;/span&gt; &lt;span class="hps"&gt;esta nueva versión de&lt;/span&gt; &lt;span class="hps"&gt;Nautilus&lt;/span&gt;&lt;span&gt;, era que&lt;/span&gt; &lt;span class="hps"&gt;cuando se busca un&lt;/span&gt; &lt;span class="hps"&gt;archivo con el teclado&lt;/span&gt; &lt;span class="hps"&gt;todo&lt;/span&gt; &lt;span class="hps"&gt;desapareció y se&lt;/span&gt; &lt;span class="hps"&gt;llevó un montón&lt;/span&gt; &lt;span class="hps"&gt;de búsqueda de&lt;/span&gt; &lt;span class="hps"&gt;archivo en particular&lt;/span&gt;&lt;span&gt;, que también ha&lt;/span&gt; &lt;span class="hps"&gt;sido corregido.&lt;/span&gt; &lt;span class="hps"&gt;Palabras&lt;/span&gt; &lt;span class="hps"&gt;abre&lt;/span&gt; &lt;span class="hps"&gt;un cuadro de búsqueda&lt;/span&gt; &lt;span class="hps"&gt;y todo&lt;/span&gt; &lt;span class="hps"&gt;se volvía&lt;/span&gt; &lt;span class="hps"&gt;oscuro.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src="http://i.imgur.com/5BxFY.png" alt="" /&gt;&lt;/center&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=-JaHN8GCjLk:Rd4_6Ji3HfI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=-JaHN8GCjLk:Rd4_6Ji3HfI:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=-JaHN8GCjLk:Rd4_6Ji3HfI:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=-JaHN8GCjLk:Rd4_6Ji3HfI:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Sat, 08 Sep 2012 23:56:37 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/unity/278-f3-pantalla-dividida-regresa-a-ubuntu-12-10.html</guid>
+        </item>
+        <item>
+            <title>12 nuevos fondos de pantalla para #Ubuntu 12.10</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/diseno12/276-12-nuevos-fondos-de-pantalla-para-ubuntu-12-10.html</link>
+            <description>&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" class="aligncenter" title="Wallpaper" src="http://farm8.staticflickr.com/7279/7858128196_2731463c7d_h.jpg" alt="" width="600" /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Los trabajos presentados&lt;/span&gt;&lt;span&gt;, según lo anunciado &lt;/span&gt;&lt;span class="hps"&gt;&lt;a href="http://www.jhosman.com/es/documentacion-ubuntu/diseno12/273-convocatoria-para-wallpapers-de-ubuntu-12-10.html"&gt;en esta publicación&lt;/a&gt;,&lt;/span&gt;&lt;span class="hps"&gt;son muy buenas&lt;/span&gt;&lt;span&gt;, la competencia&lt;/span&gt;&lt;span class="hps"&gt;difícil,&lt;/span&gt;&lt;span class="hps"&gt;donde finalmente&lt;/span&gt;&lt;span class="hps"&gt;escogieron&lt;/span&gt;&lt;span class="hps"&gt;12 fondos de pantalla&lt;/span&gt;&lt;span class="hps"&gt;para la entrega de&lt;/span&gt;&lt;span class="hps"&gt;Ubuntu&lt;/span&gt;&lt;span class="hps"&gt;12.10.&lt;/span&gt;&lt;span class="hps"&gt;Ubuntu&lt;/span&gt;&lt;span class="hps"&gt;12.10&lt;/span&gt; cada vez &lt;span class="hps"&gt;me sorprende&lt;/span&gt;&lt;span class="hps"&gt;más,&lt;/span&gt;&lt;span class="hps"&gt;y está llegando a&lt;/span&gt;&lt;span class="hps"&gt;algo espectacular.&lt;/span&gt;&lt;span class="hps"&gt;Gracias a todo el&lt;/span&gt;&lt;span class="hps"&gt;equipo de desarrollo de&lt;/span&gt;&lt;span class="hps"&gt;Ubuntu&lt;/span&gt; se vé &lt;span class="hps"&gt;mucho más completo&lt;/span&gt;&lt;span class="hps"&gt;y fácil de usar&lt;/span&gt;&lt;span&gt;, yo personalmente creo&lt;/span&gt;&lt;span class="hps"&gt;que esta versión&lt;/span&gt;&lt;span class="hps"&gt;será capaz de&lt;/span&gt;&lt;span class="hps"&gt;eliminar&lt;/span&gt;&lt;span class="hps"&gt;gran parte del mercado de&lt;/span&gt;&lt;span class="hps"&gt;Windows 8.&lt;/span&gt;&lt;span class="hps"&gt;Si está probando&lt;/span&gt;&lt;span class="hps"&gt;Ubuntu&lt;/span&gt;&lt;span class="hps"&gt;12.10&lt;/span&gt;&lt;span class="hps"&gt;actualizado&lt;/span&gt;&lt;span class="hps"&gt;seguramente si&lt;/span&gt;&lt;span class="hps"&gt;el sistema debe&lt;/span&gt;&lt;span class="hps"&gt;aparecerles&lt;/span&gt;&lt;span class="hps"&gt;fondos de pantalla&lt;/span&gt;&lt;span class="hps"&gt;de forma automática.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Si descarga&lt;/span&gt;&lt;span class="hps"&gt;este archivo.&lt;/span&gt;&lt;span class="hps"&gt;Deb y&lt;/span&gt;&lt;span class="hps"&gt;descomprime&lt;/span&gt;&lt;span class="hps"&gt;encontrar&lt;/span&gt;&lt;span class="hps"&gt;fondos de pantalla&lt;/span&gt;&lt;span class="hps"&gt;(debe&lt;/span&gt;&lt;span class="hps"&gt;navegar&lt;/span&gt;&lt;span class="hps"&gt;dentro de las carpetas&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://launchpad.net/ubuntu/+source/ubuntu-wallpapers/0.35.0/+build/3754604/+files/ubuntu-wallpapers-quantal_0.35.0_all.deb"&gt;&lt;/a&gt;&lt;a href="https://launchpad.net/ubuntu/+source/ubuntu-wallpapers/0.35.0/+build/3754604/+files/ubuntu-wallpapers-quantal_0.35.0_all.deb"&gt;https://launchpad.net/ubuntu/+source/ubuntu-wallpapers/0.35.0/+build/3754604/+files/ubuntu-wallpapers-quantal_0.35.0_all.deb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;o&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://launchpad.net/ubuntu/quantal/+source/ubuntu-wallpapers/0.35.0/+files/ubuntu-wallpapers_0.35.0.tar.gz"&gt;&lt;/a&gt;&lt;a href="https://launchpad.net/ubuntu/quantal/+source/ubuntu-wallpapers/0.35.0/+files/ubuntu-wallpapers_0.35.0.tar.gz"&gt;https://launchpad.net/ubuntu/quantal/+source/ubuntu-wallpapers/0.35.0/+files/ubuntu-wallpapers_0.35.0.tar.gz&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;En la última actualizacion:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;$ sudo apt-get dist-upgrade&lt;br /&gt; [sudo] password for user:&lt;br /&gt; Leyendo lista de paquetes… Hecho&lt;br /&gt; Creando árbol de dependencias&lt;br /&gt; Leyendo la información de estado… Hecho&lt;br /&gt; Calculando la actualización… Listo&lt;br /&gt; Se instalarán los siguientes paquetes NUEVOS:&lt;br /&gt;&lt;strong&gt;&amp;nbsp; ubuntu-wallpapers-quantal&lt;/strong&gt;&lt;br /&gt; Se actualizarán los siguientes paquetes:&lt;br /&gt; app-install-data apport apport-gtk command-not-found command-not-found-data&lt;br /&gt; gvfs gvfs-backends gvfs-bin gvfs-common gvfs-daemons gvfs-fuse gvfs-libs&lt;br /&gt; humanity-icon-theme liblightdm-gobject-1-0 libnm-gtk-common libnm-gtk0&lt;br /&gt; libsyncdaemon-1.0-1 light-themes lightdm network-manager-gnome python-apport&lt;br /&gt; python-problem-report python-ubuntuone-client python3-apport&lt;br /&gt; python3-distupgrade python3-problem-report software-center ubuntu-mono&lt;br /&gt; ubuntu-release-upgrader-core ubuntu-release-upgrader-gtk ubuntu-wallpapers&lt;br /&gt;&lt;strong&gt;&amp;nbsp; ubuntu-wallpapers-precise&lt;/strong&gt; ubuntuone-client ubuntuone-client-gnome&lt;br /&gt; unity-greeter xserver-xorg-input-synaptics yelp-xsl&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Estos son los seleccionados&lt;br /&gt;&lt;a href="http://i.imgur.com/W4wrF.png"&gt;&lt;img class="aligncenter" src="http://i.imgur.com/W4wrF.png" alt="" width="600" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=qKy2XPdMCnk:rGPho6W99mc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=qKy2XPdMCnk:rGPho6W99mc:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=qKy2XPdMCnk:rGPho6W99mc:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=qKy2XPdMCnk:rGPho6W99mc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Fri, 31 Aug 2012 02:08:24 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/diseno12/276-12-nuevos-fondos-de-pantalla-para-ubuntu-12-10.html</guid>
+        </item>
+        <item>
+            <title>#FormatJunkie convierte archivos multimedia en #Ubuntu</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/audio-y-video13/275-formatjunkie-convierte-archivos-multimedia-en-ubuntu.html</link>
+            <description>&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;&lt;a href="http://sourceforge.net/projects/format-junkie/"&gt;Format Junkie &lt;/a&gt;es una de las aplicaciones enviadas al Ubuntu App Showdown&amp;nbsp;(un concurso organizado por Canonical para fomentar el desarrollo de aplicaciones para Ubuntu) que con una gran integración con el escritorio Ubuntu (Notificaciones, barra de progreso en el programa de lanzamiento, etc), le permite convertir muchos formatos de archivos multimedia.&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;Dentro de esta aplicación podemos convertir archivos&amp;nbsp;&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;a) Audio:&lt;br /&gt;Formatos de Audio: mp3, mp2, wav, ogg, wma, flac, m4r, m4a and aac&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;b) Video:&lt;br /&gt;Formatos de Video: avi, ogv, vob, mp4, vob, flv, 3gp, mpg, mkv, wmv&lt;/p&gt;
+&lt;p id="yui_3_3_0_1_134618593834363" style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;c) Image:&lt;br /&gt;Conversión de Imágenes: jpg, png, ico, bmp, svg, tif, pcx, pdf, tga, pnm&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;d) Iso|Cso&lt;br /&gt;Convertir archivos a un formato ISO y viceversa&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;e) Avanzado&lt;/p&gt;
+&lt;p&gt;Codificar subtítulos a un archivo avi.&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;&lt;strong&gt;Instalación&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif; line-height: 19px;"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote style="font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif; line-height: 19px;" class="inputbox"&gt;
+&lt;p&gt;sudo add-apt-repository ppa:hakermania/format-junkie&lt;br /&gt;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install formatjunkie&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;Por ahora solo funciona con Ubuntu 12.04 a menos de que la siguiente URL abra :) &lt;a href="http://ppa.launchpad.net/hakermania/format-junkie/ubuntu/dists/quantal/main/binary-i386/Packages"&gt;&lt;/a&gt;&lt;a href="http://ppa.launchpad.net/hakermania/format-junkie/ubuntu/dists/quantal/main/binary-i386/Packages"&gt;http://ppa.launchpad.net/hakermania/format-junkie/ubuntu/dists/quantal/main/binary-i386/Packages&lt;/a&gt;&lt;/p&gt;
+&lt;div class="sociable_tagline"&gt;Share!&lt;/div&gt;
+&lt;p style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; line-height: 19px;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=c6vqMaIATmc:xKKwjr2jVD8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=c6vqMaIATmc:xKKwjr2jVD8:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=c6vqMaIATmc:xKKwjr2jVD8:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=c6vqMaIATmc:xKKwjr2jVD8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Tue, 28 Aug 2012 18:45:03 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/audio-y-video13/275-formatjunkie-convierte-archivos-multimedia-en-ubuntu.html</guid>
+        </item>
+        <item>
+            <title> Ambiance theme para #Empathy en #Ubuntu</title>
+            <link>http://jhosman.com/es/documentacion-ubuntu/mensajeria-instantanea/274-ambiance-theme-para-empathy-en-ubuntu.html</link>
+            <description>&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;header class="entry-header"&gt;
+&lt;h1&gt;&lt;a href="http://jhosman.com/en/ubuntu/instant-messaging/ambiance-theme-for-empathy-in-ubuntu/" title="Ambiance theme for #Empathy in #Ubuntu" rel="bookmark"&gt;Ambiance theme for #Empathy in #Ubuntu&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;by admin on 25 agosto, 2012&lt;/p&gt;
+&lt;/header&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img class="aligncenter" src="http://i.imgur.com/pe1k3.png" alt="http://i.imgur.com/pe1k3.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="result_box" lang="es"&gt;&lt;span class="hps"&gt;Empathy&lt;/span&gt; &lt;span class="hps"&gt;es el cliente de&lt;/span&gt; &lt;span class="hps"&gt;mensajería&lt;/span&gt; &lt;span class="hps"&gt;instantánea que viene&lt;/span&gt; &lt;span class="hps"&gt;por defecto en&lt;/span&gt; &lt;span class="hps"&gt;las últimas versiones de&lt;/span&gt; &lt;span class="hps"&gt;Ubuntu,&lt;/span&gt; &lt;span class="hps"&gt;pero personalmente&lt;/span&gt;&lt;span&gt;, me gusta su&lt;/span&gt; &lt;span class="hps"&gt;estilo&lt;/span&gt; &lt;span class="hps"&gt;y el diseño es&lt;/span&gt; &lt;span class="hps"&gt;muy&lt;/span&gt; &lt;span class="hps"&gt;simple,&lt;/span&gt; &lt;span class="hps"&gt;pero&amp;nbsp; en &lt;/span&gt;&lt;a href="http://gnome-look.org/content/show.php/Ambiance+Adium+Message+Style?content=146855"&gt;&lt;span class="hps"&gt;GnomeLook&lt;/span&gt;&lt;/a&gt; &lt;span class="hps"&gt;navegando este tema que es mas amigable&lt;/span&gt; &lt;span class="hps"&gt;y da una&lt;/span&gt; &lt;span class="hps"&gt;mejor&lt;/span&gt; &lt;span class="hps"&gt;suavidad&lt;/span&gt; &lt;span class="hps"&gt;de&lt;/span&gt; &lt;span class="hps"&gt;nuestras conversaciones.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="es"&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Aunque son compatibles&lt;/span&gt; &lt;span class="hps atn"&gt;(&lt;/span&gt;&lt;span&gt;según el autor&lt;/span&gt;&lt;span&gt;) con&lt;/span&gt; &lt;span class="hps"&gt;otros&lt;/span&gt; &lt;span class="hps"&gt;clientes de mensajería instantánea&lt;/span&gt;&lt;span&gt;, tales como:&lt;/span&gt; &lt;span class="hps"&gt;pidgin&lt;/span&gt; &lt;span class="hps"&gt;amsn&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;emesene&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;kopete&lt;/span&gt;&lt;span&gt;, la empathy y&lt;/span&gt; &lt;span class="hps"&gt;Instantbird&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="hps"&gt;Instalación&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="hps"&gt;Extraiga el&lt;/span&gt; &lt;span class="hps"&gt;archivo&lt;/span&gt; &lt;span class="hps"&gt;tar.gz&lt;/span&gt; &lt;span class="hps"&gt;que has descargado&lt;/span&gt; &lt;span class="hps"&gt;anteriormente y&lt;/span&gt; &lt;span class="hps"&gt;mover&lt;/span&gt; &lt;span class="hps"&gt;la carpeta.&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class="inputbox"&gt;
+&lt;p&gt;&lt;em&gt;.local/share/adium/message-styles/&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Si el directorio no existe por favor creelo&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Descarga:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://gnome-look.org/content/download.php?content=146855&amp;amp;id=1&amp;amp;tan=72963614"&gt;(Ambiance 1.8 for Empathy, Emesene and Pidgin)&lt;/a&gt;&lt;br /&gt; &lt;a href="http://gnome-look.org/content/download.php?content=146855&amp;amp;id=2&amp;amp;tan=99489626"&gt;(Ambiance 1.8 for Kopete)&lt;/a&gt;&lt;br /&gt; &lt;a href="http://gnome-look.org/content/download.php?content=146855&amp;amp;id=3&amp;amp;tan=95479458"&gt;(Ambiance 1.8 for Instantbird)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=U3E3c0BCNGU:3s2y5ofXEd4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=U3E3c0BCNGU:3s2y5ofXEd4:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?i=U3E3c0BCNGU:3s2y5ofXEd4:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/JhosmanLizarazo?a=U3E3c0BCNGU:3s2y5ofXEd4:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/JhosmanLizarazo?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+            <author> yo@jhosman.com (Administrator)</author>
+            <pubDate>Sat, 25 Aug 2012 19:55:04 GMT</pubDate>
+            <guid isPermaLink="false">http://jhosman.com/es/documentacion-ubuntu/mensajeria-instantanea/274-ambiance-theme-para-empathy-en-ubuntu.html</guid>
+        </item>
+        <language>en-us</language>
+        <media:rating>nonadult</media:rating>
+    </channel>
+</rss>

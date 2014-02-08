@@ -37,7 +37,12 @@ class Item
     /**
      * @var string
      */
-    protected $url;
+    protected $source;
+
+    /**
+     * @var string
+     */
+    protected $image;
 
     /**
      * @var string
@@ -45,9 +50,14 @@ class Item
     protected $author;
 
     /**
-     * @var string
+     * @var \DateTime
      */
     protected $date;
+
+    /**
+     * @var array
+     */
+    protected $tags;
 
     /**
      * @param string $author
@@ -146,19 +156,59 @@ class Item
     }
 
     /**
-     * @param string $url
+     * @param string $image
      */
-    public function setUrl($url)
+    public function setImage($image)
     {
-        $this->url = $url;
+        $this->image = $image;
     }
 
     /**
      * @return string
      */
-    public function getUrl()
+    public function getImage()
     {
-        return $this->url;
+        return $this->image;
+    }
+
+    /**
+     * @param $tag
+     */
+    public function addTag($tag)
+    {
+        $this->tags[] = $tag;
+    }
+
+    /**
+     * @param array $tags
+     */
+    public function setTags($tags)
+    {
+        $this->tags = $tags;
+    }
+
+    /**
+     * @return array
+     */
+    public function getTags()
+    {
+        return $this->tags;
+    }
+
+    /**
+     * @param string $source
+     */
+    public function setSource($source)
+    {
+        $this->source = $source;
+    }
+
+    /**
+     * @return string
+     */
+    public function getSource()
+    {
+        return $this->source;
     }
 
 }

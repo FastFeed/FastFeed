@@ -12,6 +12,8 @@ namespace FastFeed\Parser;
 /**
  * ParserInterface
  */
-interface ParserInterface {
+interface ParserInterface
+{
 
+    public function getNodes($content);
 } 

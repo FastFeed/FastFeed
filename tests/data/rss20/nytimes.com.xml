@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='http://rss.nytimes.com/xsl/eng/rss.xsl'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <atom:link href="http://www.nytimes.com/services/xml/rss/nyt/World.xml" rel="self" type="application/rss+xml" />
+        <title>NYT &gt; World</title>
+        <link>http://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+        <description>World</description>
+        <language>en-us</language>
+        <copyright>Copyright 2013 The New York Times Company</copyright>
+        <pubDate>Fri, 22 Mar 2013 11:30:35 GMT</pubDate>
+        <lastBuildDate>Fri, 22 Mar 2013 11:30:35 GMT</lastBuildDate>
+        <ttl>5</ttl>
+        <image>
+            <title>NYT &gt; World</title>
+            <url>http://graphics8.nytimes.com/images/misc/NYT_logo_rss_250x40.png</url>
+            <link>http://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+        </image>
+        <item>
+            <title>At Yad Vashem in Israel, Obama Urges Action Against Racism</title>
+            <atom:link href="http://www.nytimes.com/2013/03/23/world/middleeast/president-obama-israel.html?partner=rss&amp;emc=rss" rel="standout" />
+            <link>http://www.nytimes.com/2013/03/23/world/middleeast/president-obama-israel.html?partner=rss&amp;emc=rss</link>
+            <description>Short description</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Funerals and Memorials</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
+            <pubDate>Fri, 22 Mar 2013 11:01:46 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/23/world/middleeast/president-obama-israel.html</guid>
+            <dc:creator>By JODI RUDOREN</dc:creator>
+            <media:credit scheme="urn:ebu">Doug Mills/The New York Times</media:credit>
+            <media:description>President Obama paused after laying a wreath at the Yad Vashem Holocaust memorial in Jerusalem on Friday.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/23/world/23prexy1-cnd/23prexy1-cnd-moth.jpg" />
+        </item>
+        <item>
+            <title>Cyprus Lawmakers Prepare to Vote on New Bailout</title>
+            <link>http://www.nytimes.com/2013/03/23/business/global/cyprus-bailout-vote.html?partner=rss&amp;emc=rss</link>
+            <description>With a potential default looming, the Cypriot Parliament was preparing to vote Friday morning on a revised bailout proposal that removes any mention of a controversial bank deposit tax.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29ddd91e/mf.gif' border='0'/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Central Bank</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cyprus</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">International Monetary Fund</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Commission</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">European Sovereign Debt Crisis (2010- )</category>
+            <pubDate>Fri, 22 Mar 2013 10:56:37 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/23/business/global/cyprus-bailout-vote.html</guid>
+            <dc:creator>By LIZ ALDERMAN</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/23/world/asia/pakistan-says-us-drone-strike-kills-4.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Pakistan Says U.S. Drone Strike Kills 4</title>
+            <link>http://www.nytimes.com/2013/03/23/world/asia/pakistan-says-us-drone-strike-kills-4.html?partner=rss&amp;emc=rss</link>
+            <description>The attack hit a vehicle in northwestern Pakistan late on Thursday night, government officials said.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29ddbb38/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393886213/u/192/f/642565/c/34625/s/29ddbb38/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393886213/u/192/f/642565/c/34625/s/29ddbb38/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393886213/u/192/f/642565/c/34625/s/29ddbb38/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Central Intelligence Agency</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pakistan</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Drones (Pilotless Planes)</category>
+            <pubDate>Fri, 22 Mar 2013 10:41:43 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/23/world/asia/pakistan-says-us-drone-strike-kills-4.html</guid>
+            <dc:creator>By ISMAIL KHAN and SALMAN MASOOD</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/23/world/europe/sarkozy-investigation.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Sarkozy Investigation</title>
+            <link>http://www.nytimes.com/2013/03/23/world/europe/sarkozy-investigation.html?partner=rss&amp;emc=rss</link>
+            <description>Allies of former President Nicolas Sarkozy expressed shock Friday that he would face an investigation into whether he abused the frailty of France’s richest woman to get funds for his 2007 presidential campaign.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29ddbb39/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393886212/u/192/f/642565/c/34625/s/29ddbb39/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393886212/u/192/f/642565/c/34625/s/29ddbb39/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393886212/u/192/f/642565/c/34625/s/29ddbb39/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sarkozy, Nicolas</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bettencourt, Liliane</category>
+            <pubDate>Fri, 22 Mar 2013 10:33:44 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/23/world/europe/sarkozy-investigation.html</guid>
+            <dc:creator>By SCOTT SAYARE and STEVEN ERLANGER</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/23/world/asia/south-korea-says-it-misidentified-source-of-cyberattack.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>South Korea Says It Misidentified Source of Cyberattack</title>
+            <link>http://www.nytimes.com/2013/03/23/world/asia/south-korea-says-it-misidentified-source-of-cyberattack.html?partner=rss&amp;emc=rss</link>
+            <description>Seoul said Friday it was mistaken when it identified an Internet address in China as the source of attacks on South Korean banks and broadcasters.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29dd4825/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393928769/u/192/f/642565/c/34625/s/29dd4825/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393928769/u/192/f/642565/c/34625/s/29dd4825/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393928769/u/192/f/642565/c/34625/s/29dd4825/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Seoul (South Korea)</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberattacks and Hackers</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Tests</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+            <pubDate>Fri, 22 Mar 2013 10:03:26 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/23/world/asia/south-korea-says-it-misidentified-source-of-cyberattack.html</guid>
+            <dc:creator>By CHOE SANG-HUN</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/23/world/asia/australias-ex-premier-renounces-future-party-leadership.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Australia’s Ex-Premier Renounces Future Party Leadership</title>
+            <link>http://www.nytimes.com/2013/03/23/world/asia/australias-ex-premier-renounces-future-party-leadership.html?partner=rss&amp;emc=rss</link>
+            <description>A day after a failed attempt by his supporters to reinstall him, former Prime Minister Kevin Rudd said that he would never again seek to lead the governing Labor Party.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29dc0390/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393925047/u/192/f/642565/c/34625/s/29dc0390/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393925047/u/192/f/642565/c/34625/s/29dc0390/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393925047/u/192/f/642565/c/34625/s/29dc0390/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rudd, Kevin</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gillard, Julia</category>
+            <pubDate>Fri, 22 Mar 2013 08:31:06 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/23/world/asia/australias-ex-premier-renounces-future-party-leadership.html</guid>
+            <dc:creator>By MATT SIEGEL</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://india.blogs.nytimes.com/2013/03/22/indias-coal-power-plants-kill-tens-of-thousands-every-year-study-says/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>India Ink: India’s Coal Power Plants Kill Tens of Thousands Every Year, Study Says</title>
+            <link>http://india.blogs.nytimes.com/2013/03/22/indias-coal-power-plants-kill-tens-of-thousands-every-year-study-says/?partner=rss&amp;emc=rss</link>
+            <description>India has no minimum standards for most coal power pollutants, leading to as many as 115,000 premature deaths a year.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29dbb2e8/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393742628/u/192/f/642565/c/34625/s/29dbb2e8/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393742628/u/192/f/642565/c/34625/s/29dbb2e8/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393742628/u/192/f/642565/c/34625/s/29dbb2e8/a2t.img" border="0"/&gt;</description>
+            <pubDate>Fri, 22 Mar 2013 07:31:54 GMT</pubDate>
+            <guid isPermaLink="false">http://india.blogs.nytimes.com/2013/03/22/indias-coal-power-plants-kill-tens-of-thousands-every-year-study-says/</guid>
+            <dc:creator>By JONATHAN MINGLE</dc:creator>
+            <media:credit scheme="urn:ebu">Amit Dave/Reuters</media:credit>
+            <media:description>The Adani Power Company thermal power plant at Mundra in the western Indian state of Gujarat.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/world/22india-coal/22india-coal-moth.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://rendezvous.blogs.nytimes.com/2013/03/22/iht-quick-read-march-22/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>IHT Rendezvous: IHT Quick Read: March 22</title>
+            <link>http://rendezvous.blogs.nytimes.com/2013/03/22/iht-quick-read-march-22/?partner=rss&amp;emc=rss</link>
+            <description>A Cyprus bailout is still up in the air; a jailed Kurdish rebel leader calls for a truce with Turkey; President Obama in Israel; the textile industry gets greener; and bigger prizes at the French Open.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29db900a/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393922919/u/192/f/642565/c/34625/s/29db900a/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393922919/u/192/f/642565/c/34625/s/29db900a/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393922919/u/192/f/642565/c/34625/s/29db900a/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/">IHT Rendezvous</category>
+            <pubDate>Fri, 22 Mar 2013 07:24:43 GMT</pubDate>
+            <guid isPermaLink="false">http://rendezvous.blogs.nytimes.com/2013/03/22/iht-quick-read-march-22/</guid>
+            <dc:creator>By THE INTERNATIONAL HERALD TRIBUNE</dc:creator>
+            <media:credit scheme="urn:ebu">Sedat Suna/European Pressphoto Agency</media:credit>
+            <media:description>Flags bore the image of the Kurdish leader Abdullah Ocalan at a rally in Diyarbakir on Thursday.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/world/0322KURDS/0322KURDS-moth-v2.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://rendezvous.blogs.nytimes.com/2013/03/21/the-dark-side-of-the-expat-life/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>IHT Rendezvous: The Dark Side of the Expat Life</title>
+            <link>http://rendezvous.blogs.nytimes.com/2013/03/21/the-dark-side-of-the-expat-life/?partner=rss&amp;emc=rss</link>
+            <description>An American reader living overseas writes: “I’ve watched as peers back home have married, had children, bought houses, advanced in their careers.” He, meanwhile, finds himself living a Peter Pan-like existence, neither here nor there. Have you left your native country, for work or study? Do you plan to return? What have you valued about being abroad? What do you miss?&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d8f144/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393868498/u/192/f/642565/c/34625/s/29d8f144/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393868498/u/192/f/642565/c/34625/s/29d8f144/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393868498/u/192/f/642565/c/34625/s/29d8f144/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/">Your Say</category>
+            <category domain="http://www.nytimes.com/namespaces/">Americans Abroad</category>
+            <category domain="http://www.nytimes.com/namespaces/">Expatriate Life</category>
+            <pubDate>Fri, 22 Mar 2013 07:12:59 GMT</pubDate>
+            <guid isPermaLink="false">http://rendezvous.blogs.nytimes.com/2013/03/21/the-dark-side-of-the-expat-life/</guid>
+            <dc:creator>By THE INTERNATIONAL HERALD TRIBUNE</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://india.blogs.nytimes.com/2013/03/22/answers-to-readers-questions-about-paying-for-college-2/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>India Ink: Answers to Readers’ Questions About Paying for College</title>
+            <link>http://india.blogs.nytimes.com/2013/03/22/answers-to-readers-questions-about-paying-for-college-2/?partner=rss&amp;emc=rss</link>
+            <description>Laura Perna, a researcher in college finance and affordability, answers select readers’ questions about paying for college.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29db324e/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393878652/u/192/f/642565/c/34625/s/29db324e/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393878652/u/192/f/642565/c/34625/s/29db324e/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393878652/u/192/f/642565/c/34625/s/29db324e/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/">Financial Aid (Education)</category>
+            <category domain="http://www.nytimes.com/namespaces/">Student Loans</category>
+            <category domain="http://www.nytimes.com/namespaces/">India</category>
+            <category domain="http://www.nytimes.com/namespaces/">The Choice on India Ink</category>
+            <category domain="http://www.nytimes.com/namespaces/">Pennsylvania</category>
+            <category domain="http://www.nytimes.com/namespaces/">Foreign Students (in US)</category>
+            <category domain="http://www.nytimes.com/namespaces/">Education Department (US)</category>
+            <category domain="http://www.nytimes.com/namespaces/">Education (K-12)</category>
+            <category domain="http://www.nytimes.com/namespaces/">Ivy League</category>
+            <category domain="http://www.nytimes.com/namespaces/">University of Pennsylvania</category>
+            <category domain="http://www.nytimes.com/namespaces/">Colleges and Universities</category>
+            <category domain="http://www.nytimes.com/namespaces/">Admissions Standards</category>
+            <pubDate>Fri, 22 Mar 2013 06:55:21 GMT</pubDate>
+            <guid isPermaLink="false">http://india.blogs.nytimes.com/2013/03/22/answers-to-readers-questions-about-paying-for-college-2/</guid>
+            <dc:creator>By LAURA PERNA</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/23/world/asia/toll-rises-as-sectarian-violence-in-myanmar-spreads.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Toll Rises as Sectarian Violence in Myanmar Spreads</title>
+            <link>http://www.nytimes.com/2013/03/23/world/asia/toll-rises-as-sectarian-violence-in-myanmar-spreads.html?partner=rss&amp;emc=rss</link>
+            <description>At least 20 people have died in clashes between Buddhists and Muslims outside a city in central Myanmar, according to residents, a member of Parliament and local journalists.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29db0b19/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393685969/u/192/f/642565/c/34625/s/29db0b19/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393685969/u/192/f/642565/c/34625/s/29db0b19/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393685969/u/192/f/642565/c/34625/s/29db0b19/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Demonstrations, Protests, and Riots</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Buddhism</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Muslims and Islam</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
+            <pubDate>Fri, 22 Mar 2013 06:52:40 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/23/world/asia/toll-rises-as-sectarian-violence-in-myanmar-spreads.html</guid>
+            <dc:creator>By THOMAS FULLER and WAI MOE</dc:creator>
+            <media:credit scheme="urn:ebu">Soe Zeya Tun/Reuters</media:credit>
+            <media:description>A man in Meiktila, Myanmar, where Buddhists led a rampage through the Muslim quarter to avenge the death of a monk. The authorities imposed a curfew.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/world/0322MYANMAR/0322MYANMAR-moth-v2.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://india.blogs.nytimes.com/2013/03/22/italian-marines-to-return-to-india-for-trial/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>India Ink: Italian Marines to Return to India for Trial</title>
+            <link>http://india.blogs.nytimes.com/2013/03/22/italian-marines-to-return-to-india-for-trial/?partner=rss&amp;emc=rss</link>
+            <description>Italy said Thursday that it would return two marines facing murder charges in the shooting of two Indian fishermen.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29dae416/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393921057/u/192/f/642565/c/34625/s/29dae416/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393921057/u/192/f/642565/c/34625/s/29dae416/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393921057/u/192/f/642565/c/34625/s/29dae416/a2t.img" border="0"/&gt;</description>
+            <pubDate>Fri, 22 Mar 2013 06:25:10 GMT</pubDate>
+            <guid isPermaLink="false">http://india.blogs.nytimes.com/2013/03/22/italian-marines-to-return-to-india-for-trial/</guid>
+            <dc:creator>By THE NEW YORK TIMES</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://india.blogs.nytimes.com/2013/03/22/a-friendship-interrupted/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>India Ink: A Friendship, Interrupted</title>
+            <link>http://india.blogs.nytimes.com/2013/03/22/a-friendship-interrupted/?partner=rss&amp;emc=rss</link>
+            <description>A shared battle against cancer brings two women together, only to take them apart.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29dae131/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393920773/u/192/f/642565/c/34625/s/29dae131/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393920773/u/192/f/642565/c/34625/s/29dae131/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393920773/u/192/f/642565/c/34625/s/29dae131/a2t.img" border="0"/&gt;</description>
+            <pubDate>Fri, 22 Mar 2013 06:10:28 GMT</pubDate>
+            <guid isPermaLink="false">http://india.blogs.nytimes.com/2013/03/22/a-friendship-interrupted/</guid>
+            <dc:creator>By THE NEW YORK TIMES</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://india.blogs.nytimes.com/2013/03/22/a-tour-where-little-has-gone-right-for-australia/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>India Ink: A Tour Where Little Has Gone Right for Australia</title>
+            <link>http://india.blogs.nytimes.com/2013/03/22/a-tour-where-little-has-gone-right-for-australia/?partner=rss&amp;emc=rss</link>
+            <description>Shikhar Dhawan will not play the final match of the India-Australia cricket test series, which India leads 3-0.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29dae133/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393920772/u/192/f/642565/c/34625/s/29dae133/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393920772/u/192/f/642565/c/34625/s/29dae133/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393920772/u/192/f/642565/c/34625/s/29dae133/a2t.img" border="0"/&gt;</description>
+            <pubDate>Fri, 22 Mar 2013 06:08:38 GMT</pubDate>
+            <guid isPermaLink="false">http://india.blogs.nytimes.com/2013/03/22/a-tour-where-little-has-gone-right-for-australia/</guid>
+            <dc:creator>By THE NEW YORK TIMES</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/world/asia/north-korea-threatens-us-military-bases-in-the-pacific.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>North Korea Threatens U.S. Bases in the Pacific</title>
+            <link>http://www.nytimes.com/2013/03/22/world/asia/north-korea-threatens-us-military-bases-in-the-pacific.html?partner=rss&amp;emc=rss</link>
+            <description>The country threatened to attack American bases in retaliation for training missions over the Korean Peninsula, while state radio blared air-raid warnings to the North Korean people.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d2019b/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393733801/u/192/f/642565/c/34625/s/29d2019b/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393733801/u/192/f/642565/c/34625/s/29d2019b/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393733801/u/192/f/642565/c/34625/s/29d2019b/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Intelligence Service (South Korea)</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Military Bases and Installations</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+            <pubDate>Fri, 22 Mar 2013 02:53:19 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/world/asia/north-korea-threatens-us-military-bases-in-the-pacific.html</guid>
+            <dc:creator>By CHOE SANG-HUN and STEVEN ERLANGER</dc:creator>
+        </item>
+        <item>
+            <title>WORLD: Israelis Meet Obama Anew</title>
+            <link>http://www.nytimes.com/video/2013/03/21/world/middleeast/100000002131558/israelis-meet-obama-anew.html?partner=rss&amp;emc=rss</link>
+            <description>President Obama’s speech elicited appreciation and hope from Israelis at a viewing party in Tel Aviv, organized by a group called Peace Now.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29da2ab7/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393873059/u/192/f/642565/c/34625/s/29da2ab7/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393873059/u/192/f/642565/c/34625/s/29da2ab7/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393873059/u/192/f/642565/c/34625/s/29da2ab7/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/nyt_geo">Israel</category>
+            <category domain="http://www.nytimes.com/namespaces/nyt_per">Obama, Barack</category>
+            <category domain="http://www.nytimes.com/namespaces/des">Speeches and Statements</category>
+            <category domain="http://www.nytimes.com/namespaces/des">United States International Relations</category>
+            <pubDate>Fri, 22 Mar 2013 02:15:22 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/video/2013/03/21/world/middleeast/100000002131558/israelis-meet-obama-anew.html</guid>
+            <dc:creator />
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/world/americas/jesuit-priest-rejects-popes-connection-to-kidnapping.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Jesuit Priest Rejects Pope’s Connection to Kidnapping</title>
+            <link>http://www.nytimes.com/2013/03/22/world/americas/jesuit-priest-rejects-popes-connection-to-kidnapping.html?partner=rss&amp;emc=rss</link>
+            <description>A priest kidnapped by the Argentine junta in the 1970s rejects accusations made by a fellow victim that the new pope brought about his capture.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29da2ab4/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393873058/u/192/f/642565/c/34625/s/29da2ab4/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393873058/u/192/f/642565/c/34625/s/29da2ab4/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393873058/u/192/f/642565/c/34625/s/29da2ab4/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jalics, Francisco</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Argentina</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roman Catholic Church</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Priests</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Francis</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Hostages</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yorio, Orlando</category>
+            <pubDate>Fri, 22 Mar 2013 02:03:43 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/world/americas/jesuit-priest-rejects-popes-connection-to-kidnapping.html</guid>
+            <dc:creator>By WILLIAM NEUMAN</dc:creator>
+            <media:credit scheme="urn:ebu">Sj-Bild/Agence France-Presse — Getty Images</media:credit>
+            <media:description>Franz Jalics, a priest who was held captive for months by the Argentine military in 1976.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/world/0322ARGENTINA/0322ARGENTINA-moth.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://thelede.blogs.nytimes.com/2013/03/21/egyptian-activists-defend-use-of-force-against-an-unreformed-police-force/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>The Lede: Egyptian Activists Defend ‘Riots’ Against an Unreformed Police Force</title>
+            <link>http://thelede.blogs.nytimes.com/2013/03/21/egyptian-activists-defend-use-of-force-against-an-unreformed-police-force/?partner=rss&amp;emc=rss</link>
+            <description>In their latest video, the activists of Cairo’s Mosireen film collective argue that violent resistance to an unreformed police force is not only justified, but also necessary.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d96677/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393733799/u/192/f/642565/c/34625/s/29d96677/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393733799/u/192/f/642565/c/34625/s/29d96677/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393733799/u/192/f/642565/c/34625/s/29d96677/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/">Middle East</category>
+            <category domain="http://www.nytimes.com/namespaces/">Middle East and North Africa Unrest (2010- )</category>
+            <category domain="http://www.nytimes.com/namespaces/">Cairo (Egypt)</category>
+            <category domain="http://www.nytimes.com/namespaces/">Egypt</category>
+            <category domain="http://www.nytimes.com/namespaces/">News</category>
+            <category domain="http://www.nytimes.com/namespaces/">world</category>
+            <pubDate>Fri, 22 Mar 2013 01:56:12 GMT</pubDate>
+            <guid isPermaLink="false">http://thelede.blogs.nytimes.com/2013/03/21/egyptian-activists-defend-use-of-force-against-an-unreformed-police-force/</guid>
+            <dc:creator>By ROBERT MACKEY</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/business/global/hockey-gear-is-the-focus-of-tariff-cut-in-canada.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Hockey Gear Is the Focus of a Tariff Cut in Canada</title>
+            <link>http://www.nytimes.com/2013/03/22/business/global/hockey-gear-is-the-focus-of-tariff-cut-in-canada.html?partner=rss&amp;emc=rss</link>
+            <description>The cut was meant to match the prices of American online retailers, but has highlighted a source of embarrassment: that most hockey gear is made in China.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29da2ab6/mf.gif' border='0'/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Sporting Goods</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Hockey, Ice</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
+            <category domain="http://www.nytimes.com/namespaces/nyt_org_all">NIKE Inc|NKE|NYSE</category>
+            <pubDate>Fri, 22 Mar 2013 01:48:34 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/business/global/hockey-gear-is-the-focus-of-tariff-cut-in-canada.html</guid>
+            <dc:creator>By IAN AUSTEN</dc:creator>
+            <media:credit scheme="urn:ebu">Tom Szczerbowski/Getty Images</media:credit>
+            <media:description>Hockey players on Lake Louise. The hockey goods tariff shielded a largely nonexistent industry.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/business/Puckjp/Puckjp-moth.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/world/middleeast/obama-mends-fences-in-israel.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Obama Mends Fences in Israel</title>
+            <link>http://www.nytimes.com/2013/03/22/world/middleeast/obama-mends-fences-in-israel.html?partner=rss&amp;emc=rss</link>
+            <description>President Obama has captured the hearts of many Israelis over the past two days, but he warned on Thursday that Israel’s future as a Jewish and democratic state was at risk.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d97051/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393734945/u/192/f/642565/c/34625/s/29d97051/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393734945/u/192/f/642565/c/34625/s/29d97051/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393734945/u/192/f/642565/c/34625/s/29d97051/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Israeli Settlements</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Speeches and Statements</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Jews and Judaism</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States International Relations</category>
+            <pubDate>Fri, 22 Mar 2013 01:03:28 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/world/middleeast/obama-mends-fences-in-israel.html</guid>
+            <dc:creator>By JODI RUDOREN and ISABEL KERSHNER</dc:creator>
+            <media:credit scheme="urn:ebu">Doug Mills/The New York Times</media:credit>
+            <media:description>The audience for President Obama's speech, which one writer called "a love song to Israel."</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/world/0322ISRAEL/0322ISRAEL-moth.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/world/europe/new-archbishop-of-canterbury-to-be-enthroned.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>New Archbishop of Canterbury Is Installed</title>
+            <link>http://www.nytimes.com/2013/03/22/world/europe/new-archbishop-of-canterbury-to-be-enthroned.html?partner=rss&amp;emc=rss</link>
+            <description>The Most Rev. Justin Welby, the new archbishop, spoke in sympathetic terms of same-sex relationships, but reaffirmed his commitment to opposing gay weddings in church.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d443be/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393895352/u/192/f/642565/c/34625/s/29d443be/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393895352/u/192/f/642565/c/34625/s/29d443be/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393895352/u/192/f/642565/c/34625/s/29d443be/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Welby, Justin</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Church of England</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Same-Sex Marriage, Civil Unions and Domestic Partnerships</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Anglican Churches</category>
+            <pubDate>Fri, 22 Mar 2013 00:56:57 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/world/europe/new-archbishop-of-canterbury-to-be-enthroned.html</guid>
+            <dc:creator>By JOHN F. BURNS and ALAN COWELL</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/world/middleeast/gaza-militants-fire-rockets-as-obama-visits.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>Obama Appears to Move Closer to Israeli Position on Peace Talks</title>
+            <link>http://www.nytimes.com/2013/03/22/world/middleeast/gaza-militants-fire-rockets-as-obama-visits.html?partner=rss&amp;emc=rss</link>
+            <description>President Obama moved closer to Israel’s position on resuming stalled peace talks with the Palestinians, even as he passionately implored a young audience to get ahead of its own leaders.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d091a0/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393704933/u/192/f/642565/c/34625/s/29d091a0/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393704933/u/192/f/642565/c/34625/s/29d091a0/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393704933/u/192/f/642565/c/34625/s/29d091a0/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hamas</category>
+            <pubDate>Fri, 22 Mar 2013 00:47:38 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/world/middleeast/gaza-militants-fire-rockets-as-obama-visits.html</guid>
+            <dc:creator>By MARK LANDLER</dc:creator>
+            <media:credit scheme="urn:ebu">Doug Mills/The New York Times</media:credit>
+            <media:description>President Obama after his speech Thursday in Jerusalem, in which he called on young Israelis to press their leaders for peace.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/world/0322PREXY/0322PREXY-moth-v2.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/business/global/iphone-contracts-with-carriers-under-scrutiny-in-europe.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>IPhone Contracts With Carriers Under Scrutiny in Europe</title>
+            <link>http://www.nytimes.com/2013/03/22/business/global/iphone-contracts-with-carriers-under-scrutiny-in-europe.html?partner=rss&amp;emc=rss</link>
+            <description>Some wireless carriers contend Apple’s strict contracts are putting other cellphone makers at a disadvantage.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d95ffe/mf.gif' border='0'/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Google Inc|GOOG|NASDAQ</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">iPhone</category>
+            <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Intel Corporation|INTC|NASDAQ</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+            <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Nokia Oyj|NOK|NYSE</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Antitrust Laws and Competition Issues</category>
+            <category domain="http://www.nytimes.com/namespaces/nyt_org_all">France Telecom SA|FTE|NYSE</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prices (Fares, Fees and Rates)</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Apple Inc|AAPL|NASDAQ</category>
+            <pubDate>Fri, 22 Mar 2013 00:39:59 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/business/global/iphone-contracts-with-carriers-under-scrutiny-in-europe.html</guid>
+            <dc:creator>By BRIAN X. CHEN, NICK WINGFIELD and KEVIN J. O’BRIEN</dc:creator>
+            <media:credit scheme="urn:ebu">Ian Langsdon/European Pressphoto Agency</media:credit>
+            <media:description>Buying an iPhone 5 at an Apple Store in Paris. Some dealers have complained about Apple's rules for selling the phones.</media:description>
+            <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2013/03/22/business/Apple/Apple-moth.jpg" />
+        </item>
+        <item>
+            <atom:link href="http://thelede.blogs.nytimes.com/2013/03/21/highlights-from-obamas-speech-in-israel/?partner=rss&amp;emc=rss" rel="standout" />
+            <title>The Lede: Video Highlights From Obama's Speech in Israel</title>
+            <link>http://thelede.blogs.nytimes.com/2013/03/21/highlights-from-obamas-speech-in-israel/?partner=rss&amp;emc=rss</link>
+            <description>President Obama outlined his case for a future Israel at peace with the Palestinians in Jerusalem on March 21, 2013.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d855c2/mf.gif' border='0'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/161393866327/u/192/f/642565/c/34625/s/29d855c2/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/161393866327/u/192/f/642565/c/34625/s/29d855c2/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/161393866327/u/192/f/642565/c/34625/s/29d855c2/a2t.img" border="0"/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/">Middle East</category>
+            <category domain="http://www.nytimes.com/namespaces/">Hezbollah</category>
+            <category domain="http://www.nytimes.com/namespaces/">Israel</category>
+            <category domain="http://www.nytimes.com/namespaces/">Obama, Barack</category>
+            <category domain="http://www.nytimes.com/namespaces/">News</category>
+            <category domain="http://www.nytimes.com/namespaces/">Palestinians</category>
+            <category domain="http://www.nytimes.com/namespaces/">Iran</category>
+            <category domain="http://www.nytimes.com/namespaces/">world</category>
+            <category domain="http://www.nytimes.com/namespaces/">Syria</category>
+            <category domain="http://www.nytimes.com/namespaces/">Abbas, Mahmoud</category>
+            <category domain="http://www.nytimes.com/namespaces/">West Bank</category>
+            <pubDate>Fri, 22 Mar 2013 00:37:25 GMT</pubDate>
+            <guid isPermaLink="false">http://thelede.blogs.nytimes.com/2013/03/21/highlights-from-obamas-speech-in-israel/</guid>
+            <dc:creator>By SHREEYA SINHA</dc:creator>
+        </item>
+        <item>
+            <atom:link href="http://www.nytimes.com/2013/03/22/world/middleeast/un-to-investigate-chemical-weapons-accusations-in-syria.html?partner=rss&amp;emc=rss" rel="standout" />
+            <title>U.N. to Investigate Chemical Weapons Accusations in Syria</title>
+            <link>http://www.nytimes.com/2013/03/22/world/middleeast/un-to-investigate-chemical-weapons-accusations-in-syria.html?partner=rss&amp;emc=rss</link>
+            <description>An inquiry will begin “as soon as practically possible” over allegations that the weapons were used in Aleppo Province, said the Secretary General Ban Ki-moon.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/642565/s/29d955f9/mf.gif' border='0'/&gt;</description>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United Nations</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Biological and Chemical Warfare</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+            <pubDate>Fri, 22 Mar 2013 00:34:05 GMT</pubDate>
+            <guid isPermaLink="false">http://www.nytimes.com/2013/03/22/world/middleeast/un-to-investigate-chemical-weapons-accusations-in-syria.html</guid>
+            <dc:creator>By NEIL MacFARQUHAR</dc:creator>
+        </item>
+    </channel>
+</rss>
