@@ -30,12 +30,12 @@ abstract class AbstractRSSParserTest extends \PHPUnit_Framework_TestCase
      * @var array
      */
     protected $xmls = array(
-        'banen.bol.com.xml',
+        /*'banen.bol.com.xml',
         'jhosman.com.xml',
         'libuntu.com.xml',
         'nytimes.com.xml',
         'slashdot.com.xml',
-        'ubuntu-espana.org.xml',
+        'ubuntu-espana.org.xml',*/
         'ubuntuleon.com.xml'
     );
 

@@ -12,12 +12,40 @@ namespace FastFeed\Parser;
 use DOMElement;
 use DOMDocument;
 use FastFeed\Exception\RuntimeException;
+use FastFeed\Exception\LogicException;
+use FastFeed\Processor\ProcessorInterface;
 
 /**
  * AbstractParser
  */
 abstract class AbstractParser
 {
+
+    /**
+     * @var array
+     */
+    protected $processors = array();
+
+    /**
+     * @return mixed
+     * @throws \FastFeed\Exception\LogicException
+     */
+    public function popProcessor()
+    {
+        if (!$this->processors) {
+            throw new LogicException('You tried to pop from an empty processor stack.');
+        }
+
+        return array_shift($this->processors);
+    }
+
+    /**
+     * @param ProcessorInterface $processor
+     */
+    public function pushProcessor(ProcessorInterface $processor)
+    {
+        $this->processors[] = $processor;
+    }
 
     /**
      * @param $content
@@ -70,33 +98,6 @@ abstract class AbstractParser
     /**
      * @param DOMElement $domNode
      * @param            $tagName
-     * @param            $propertyName
-     *
-     * @return array
-     * @throws \FastFeed\Exception\RuntimeException
-     */
-    protected function getNodePropertiesByTagName(DOMElement $domNode, $tagName, $propertyName)
-    {
-        $values = array();
-        try {
-            $results = $domNode->getElementsByTagName($tagName);
-            if ($results->length) {
-                foreach ($results as $result) {
-                    if ($result->getAttribute($propertyName)) {
-                        $values[] = $result->getAttribute($propertyName);
-                    }
-                }
-            }
-        } catch (\Exception $e) {
-            throw new RuntimeException($e->getMessage());
-        }
-
-        return $values;
-    }
-
-    /**
-     * @param DOMElement $domNode
-     * @param            $tagName
      *
      * @return array
      * @throws \FastFeed\Exception\RuntimeException
@@ -118,15 +119,5 @@ abstract class AbstractParser
         }
 
         return $values;
-    }
-
-    /**
-     * @param $url
-     *
-     * @return bool
-     */
-    protected function isValidURL($url)
-    {
-        return filter_var($url, FILTER_VALIDATE_URL) ? true : false;
     }
 } 

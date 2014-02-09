@@ -10,7 +10,7 @@
 namespace FastFeed\Parser;
 
 use DOMElement;
-use DOMDocument;
+use DateTime;
 use FastFeed\Item;
 use FastFeed\Exception\RuntimeException;
 
@@ -45,6 +45,8 @@ class RSSParser extends AbstractParser
     {
         $item = new Item();
         $this->setProperties($entry, $item);
+        $this->setDate($entry, $item);
+        $this->setTags($entry, $item);
 
         return $item;
     }
@@ -56,7 +58,12 @@ class RSSParser extends AbstractParser
     protected function setProperties(DOMElement $node, Item $item)
     {
         $properties = array(
-            'setName' => 'title'
+            'setId' => 'link',
+            'setName' => 'title',
+            'setIntro' => 'description',
+            'setContent' => 'description',
+            'setSource' => 'link',
+            'setAuthor' => 'author'
         );
         foreach ($properties as $methodName => $propertyName) {
             $value = $this->getNodeValueByTagName($node, $propertyName);
@@ -66,37 +73,30 @@ class RSSParser extends AbstractParser
         }
     }
 
-    protected function setPubDate(DOMElement $item, Item $item)
+    /**
+     * @param DOMElement $node
+     * @param Item       $item
+     */
+    protected function setDate(DOMElement $node, Item $item)
     {
-        $value = $this->getNodeValueByTagName($item, 'pubDate');
+        $value = $this->getNodeValueByTagName($node, 'pubDate');
         if ($value) {
             if (strtotime($value)) {
-                $node->setPubDate(new DateTime($value));
+                $item->setDate(new DateTime($value));
             }
         }
     }
 
     /**
-     * @param DOMElement $item
+     * @param DOMElement $node
      * @param Item       $item
      */
-    protected function setCategories(DOMElement $item, Item $item)
+    protected function setTags(DOMElement $node, Item $item)
     {
-        $categories = $this->getNodeValuesByTagName($item, 'category');
-        foreach ($categories as $category) {
-            $item->addCategory($category);
+        $tags = $this->getNodeValuesByTagName($node, 'category');
+        foreach ($tags as $tag) {
+            $item->addTag($tag);
         }
     }
 
-    /**
-     * @param DOMElement $item
-     * @param RSS20      $node
-     */
-    protected function setLink(DOMElement $item, Item $item)
-    {
-        $value = $this->getNodeValueByTagName($item, 'link');
-        if ($this->isValidURL($value)) {
-            $node->setLink($value);
-        }
-    }
 } 

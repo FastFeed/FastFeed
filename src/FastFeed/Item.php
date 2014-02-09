@@ -42,12 +42,12 @@ class Item
     /**
      * @var string
      */
-    protected $image;
+    protected $author;
 
     /**
      * @var string
      */
-    protected $author;
+    protected $image;
 
     /**
      * @var \DateTime
@@ -57,7 +57,7 @@ class Item
     /**
      * @var array
      */
-    protected $tags;
+    protected $tags = array();
 
     /**
      * @param string $author
@@ -172,7 +172,7 @@ class Item
     }
 
     /**
-     * @param $tag
+     * @param string $tag
      */
     public function addTag($tag)
     {
@@ -182,7 +182,7 @@ class Item
     /**
      * @param array $tags
      */
-    public function setTags($tags)
+    public function setTags(array $tags)
     {
         $this->tags = $tags;
     }

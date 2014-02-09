@@ -28,4 +28,4 @@ abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
 
         $this->fastFeed = new FastFeed($guzzleMock, $loggerMock);
     }
-} 
+}
