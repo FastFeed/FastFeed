@@ -9,9 +9,13 @@
  */
 namespace FastFeed\Processor;
 
+use DOMElement;
+use FastFeed\Item;
+
 /**
  * ProcessorInterface
  */
-interface ProcessorInterface {
-
+interface ProcessorInterface
+{
+    public function process(DOMElement $node, Item $item);
 } 

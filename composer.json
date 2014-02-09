@@ -21,7 +21,8 @@
     },
     "autoload": {
         "psr-0": {
-            "FastFeed\\": "src/"
+            "FastFeed\\": "src/",
+            "FastFeed\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev"

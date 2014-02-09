@@ -15,4 +15,4 @@ namespace FastFeed\Exception;
 class InvalidArgumentException extends \InvalidArgumentException
 {
 
-} 
+}

@@ -19,6 +19,12 @@ use FastFeed\Exception\RuntimeException;
  */
 class RSSParser extends AbstractParser
 {
+    /**
+     * @param $content
+     *
+     * @return array
+     * @throws \FastFeed\Exception\RuntimeException
+     */
     public function getNodes($content)
     {
         $items = array();
@@ -41,14 +47,31 @@ class RSSParser extends AbstractParser
         return $items;
     }
 
-    public function create(DOMElement $entry)
+    /**
+     * @param DOMElement $node
+     *
+     * @return Item
+     */
+    public function create(DOMElement $node)
     {
         $item = new Item();
-        $this->setProperties($entry, $item);
-        $this->setDate($entry, $item);
-        $this->setTags($entry, $item);
+        $this->setProperties($node, $item);
+        $this->setDate($node, $item);
+        $this->setTags($node, $item);
+        $this->executeProcessors($node, $item);
 
         return $item;
+    }
+
+    /**
+     * @param DOMElement $node
+     * @param Item       $item
+     */
+    protected function executeProcessors(DOMElement $node, Item $item)
+    {
+        foreach ($this->processors as $processor) {
+            $processor->process($node, $item);
+        }
     }
 
     /**

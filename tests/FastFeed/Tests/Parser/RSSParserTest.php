@@ -7,7 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Manager\Feed\Parser;
+namespace FastFeed\Tests\Parser;
 
 use FastFeed\Parser\RSSParser;
 
@@ -16,7 +16,6 @@ use FastFeed\Parser\RSSParser;
  */
 class RSSParserTest extends AbstractRSSParserTest
 {
-
     public function dataProvider()
     {
         $data = array();
