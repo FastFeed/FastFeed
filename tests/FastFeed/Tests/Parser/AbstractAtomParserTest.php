@@ -9,39 +9,35 @@
  */
 namespace FastFeed\Tests\Parser;
 
-use FastFeed\Parser\RSSParser;
+use FastFeed\Parser\AtomParser;
 
 /**
- * AbstractRSSParserTest
+ * AbstractAtomParserTest
  */
-abstract class AbstractRSSParserTest extends AbstractParserTest
+abstract class AbstractAtomParserTest extends AbstractParserTest
 {
     /**
-     * @var RSSParser
+     * @var AtomParser
      */
     protected $parser;
 
     /**
      * @var string
      */
-    protected $path = '/../../../data/rss20/';
+    protected $path = '/../../../data/atom10/';
 
     /**
      * @var array
      */
     protected $xmls = array(
-        'banen.bol.com.xml',
-        'jhosman.com.xml',
-        'libuntu.com.xml',
-        'nytimes.com.xml',
-        'slashdot.com.xml',
-        'ubuntu-espana.org.xml',
-        'ubuntuleon.com.xml'
+        'diegohacking.blogspot.com.es.xml',
+        'ubuntuleon.com.xml',
+        'unawebmaslibre.blogspot.com.xml',
     );
 
     public function setUp()
     {
-        $this->parser = new RSSParser();
+        $this->parser = new AtomParser();
     }
 
 } 

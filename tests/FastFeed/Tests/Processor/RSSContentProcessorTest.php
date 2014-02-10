@@ -46,7 +46,6 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
     public function testContent(Item $item, $content, $fileName)
     {
         $expected = $this->getFirstValueFromXpath($content, "*/item/content:encoded");
-
         if (!$expected) {
             $expected = $item->getContent();
         }
@@ -78,7 +77,7 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
                 return $result->item(0)->nodeValue;
             }
         } catch (\Exception $e) {
-            
+
         }
 
         return false;

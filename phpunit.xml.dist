@@ -20,7 +20,7 @@
 
     <logging>
         <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
-        <log type="coverage-html" target="build/coverage" title="RSS Client" charset="UTF-8"
+        <log type="coverage-html" target="build/coverage" title="FastFeed" charset="UTF-8"
              yui="true" highlight="true" lowUpperBound="20" highLowerBound="80"/>
     </logging>
 </phpunit>

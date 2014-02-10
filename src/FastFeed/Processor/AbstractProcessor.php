@@ -120,4 +120,31 @@ abstract class AbstractProcessor
 
         return $values;
     }
+
+    /**
+     * @param DOMElement $node
+     * @param            $tagName
+     * @param            $propertyName
+     *
+     * @return array
+     * @throws \FastFeed\Exception\RuntimeException
+     */
+    protected function getNodePropertyByTagName(\DOMElement $node, $tagName, $propertyName)
+    {
+        $values = array();
+        try {
+            $results = $node->getElementsByTagName($tagName);
+            if ($results->length) {
+                foreach ($results as $result) {
+                    if ($result->getAttribute($propertyName)) {
+                        $values[] = $result->getAttribute($propertyName);
+                    }
+                }
+            }
+        } catch (\Exception $e) {
+            throw new RuntimeException($e->getMessage());
+        }
+
+        return $values;
+    }
 } 

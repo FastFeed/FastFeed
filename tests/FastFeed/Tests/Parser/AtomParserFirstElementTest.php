@@ -10,17 +10,16 @@
 namespace FastFeed\Tests\Parser;
 
 use FastFeed\Item;
-use FastFeed\Parser\RSSParser;
+use FastFeed\Parser\AtomParser;
 
 /**
- * RSSParserFirstElementTest
+ * AtomFirstElementParserTest
  */
-class AtomParserFirstElementTest extends AbstractRSSParserTest
+class AtomFirstElementParserTest extends AbstractAtomParserTest
 {
-
     public function dataProvider()
     {
-        $this->parser = new RSSParser();
+        $this->parser = new AtomParser();
         $data = array();
 
         foreach ($this->xmls as $xml) {
@@ -41,7 +40,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
      */
     public function testId(Item $item, $content, $fileName)
     {
-        $expected = $this->getFirstValueFromXpath($content, "*/item[1]/link");
+        $expected = $this->getFirstValueFromXpath($content, "*/ns:id[1]");
 
         $this->assertEquals(
             $expected,
@@ -55,7 +54,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
      */
     public function testName(Item $item, $content, $fileName)
     {
-        $expected = $this->getFirstValueFromXpath($content, "*/item[1]/title");
+        $expected = $this->getFirstValueFromXpath($content, "*/ns:title[1]");
 
         $this->assertEquals(
             $expected,
@@ -69,7 +68,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
      */
     public function testIntro(Item $item, $content, $fileName)
     {
-        $expected = $this->getFirstValueFromXpath($content, "*/item[1]/description");
+        $expected = $this->getFirstValueFromXpath($content, "*/ns:content[1]");
 
         $this->assertEquals(
             $expected,
@@ -83,7 +82,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
      */
     public function testContent(Item $item, $content, $fileName)
     {
-        $expected = $this->getFirstValueFromXpath($content, "*/item[1]/description");
+        $expected = $this->getFirstValueFromXpath($content, "*/ns:content[1]");
 
         $this->assertEquals(
             $expected,
@@ -97,7 +96,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
      */
     public function testSource(Item $item, $content, $fileName)
     {
-        $expected = $this->getFirstValueFromXpath($content, "*/item[1]/link");
+        $expected = $this->getFistAttributeFromXpath($content, "*/ns:link[@type='text/html']", 'href');
 
         $this->assertEquals(
             $expected,
@@ -111,7 +110,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
      */
     public function testAuthor(Item $item, $content, $fileName)
     {
-        $expected = $this->getFirstValueFromXpath($content, "*/item[1]/author");
+        $expected = $this->getFirstValueFromXpath($content, "*/ns:email");
 
         $this->assertEquals(
             $expected,
@@ -139,37 +138,12 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
      */
     public function testDate(Item $item, $content, $fileName)
     {
-        $expected = strtotime($this->getFirstValueFromXpath($content, "*/item[1]/pubDate"));
+        $expected = strtotime($this->getFirstValueFromXpath($content, "*/ns:published"));
 
         $this->assertEquals(
             $expected,
             $item->getDate()->getTimestamp(),
             'Fail in assert of first element date of ' . $fileName . '  '
-        );
-    }
-
-    /**
-     * @dataProvider dataProvider
-     */
-    public function testTags(Item $item, $content, $fileName)
-    {
-        $expected = $this->getFirstValueFromXpath($content, "*/item[1]/category");
-        $tags = $item->getTags();
-
-        if (!$expected) {
-            $this->assertCount(
-                0,
-                $item->getTags(),
-                'Fail asserting that first element of ' . $fileName . ' has no tags'
-            );
-
-            return;
-        }
-
-        $this->assertEquals(
-            $expected,
-            array_shift($tags),
-            'Fail asserting that first element of ' . $fileName . ' has first tag "' . $expected . '"'
         );
     }
 } 

@@ -23,7 +23,6 @@
 
     <target name="init" depends="clean"
             description="Prepare for build">
-        <mkdir dir="cache/htmlpurifier"/>
         <mkdir dir="build/api"/>
         <mkdir dir="build/coverage"/>
         <mkdir dir="build/pdepend"/>

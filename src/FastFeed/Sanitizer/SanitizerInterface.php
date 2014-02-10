@@ -12,6 +12,7 @@ namespace FastFeed\Sanitizer;
 /**
  * SanitizerInterface
  */
-class SanitizerInterface {
+class SanitizerInterface
+{
 
-} 
+}
