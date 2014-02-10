@@ -42,15 +42,15 @@ tools:
                 - 'vendor/*'
 
     # PHP HHVM
-    php_hhvm:
-        command:              hhvm
-        extensions:
-            - php
-        enabled:              true
-        filter:
-            excluded_paths:
-                - 'vendor/*'
-                - 'tests/*'
+#    php_hhvm:
+#        command:              hhvm
+#        extensions:
+#            - php
+#        enabled:              true
+#        filter:
+#            excluded_paths:
+#                - 'vendor/*'
+#                - 'tests/*'
 
 
     # PHP Mess Detector (http://phpmd.org).
