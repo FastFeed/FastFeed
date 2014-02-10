@@ -15,4 +15,4 @@ namespace FastFeed\Exception;
 class LogicException extends \LogicException
 {
 
-} 
+}
