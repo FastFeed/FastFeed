@@ -6,11 +6,14 @@ php:
   - 5.5
   - hhvm
 
+matrix:
+  allow_failures:
+    - php: hhvm
+
 notifications:
   email:
     - daniel@desarrolla2.com
 
 before_script:
   - cp phpunit.xml.dist phpunit.xml
-  - curl -s http://getcomposer.org/installer | php
-  - php composer.phar install --prefer-source
+  - composer install --prefer-source --no-interaction
