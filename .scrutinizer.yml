@@ -64,7 +64,7 @@ tools:
                 - naming
                 - design
                 - controversial
-        naming_rules:
+            naming_rules:
                 short_variable:       false
         filter:
             excluded_paths:
