@@ -9,6 +9,8 @@
  */
 namespace FastFeed;
 
+use DateTime;
+
 /**
  * Node
  */
@@ -50,7 +52,7 @@ class Item
     protected $image;
 
     /**
-     * @var \DateTime
+     * @var DateTime
      */
     protected $date;
 
@@ -60,59 +62,11 @@ class Item
     protected $tags = array();
 
     /**
-     * @param string $author
-     */
-    public function setAuthor($author)
-    {
-        $this->author = $author;
-    }
-
-    /**
-     * @return string
-     */
-    public function getAuthor()
-    {
-        return $this->author;
-    }
-
-    /**
-     * @param string $content
-     */
-    public function setContent($content)
-    {
-        $this->content = $content;
-    }
-
-    /**
-     * @return string
-     */
-    public function getContent()
-    {
-        return $this->content;
-    }
-
-    /**
-     * @param string $date
-     */
-    public function setDate($date)
-    {
-        $this->date = $date;
-    }
-
-    /**
-     * @return string
-     */
-    public function getDate()
-    {
-        return $this->date;
-    }
-
-    /**
      * @param string $id
      */
     public function setId($id)
     {
-        $this->id = $id;
+        $this->id = (string)$id;
     }
 
     /**
@@ -124,11 +78,27 @@ class Item
     }
 
     /**
+     * @return string
+     */
+    public function getContent()
+    {
+        return $this->content;
+    }
+
+    /**
+     * @param string $name
+     */
+    public function setName($name)
+    {
+        $this->name = (string)$name;
+    }
+
+    /**
      * @param string $intro
      */
     public function setIntro($intro)
     {
-        $this->intro = $intro;
+        $this->intro = (string)$intro;
     }
 
     /**
@@ -140,11 +110,11 @@ class Item
     }
 
     /**
-     * @param string $name
+     * @param string $content
      */
-    public function setName($name)
+    public function setContent($content)
     {
-        $this->name = $name;
+        $this->content = (string)$content;
     }
 
     /**
@@ -156,11 +126,19 @@ class Item
     }
 
     /**
+     * @return bool
+     */
+    public function hasImage()
+    {
+        return strlen($this->image) ? true : false;
+    }
+
+    /**
      * @param string $image
      */
     public function setImage($image)
     {
-        $this->image = $image;
+        $this->image = (string)$image;
     }
 
     /**
@@ -176,7 +154,7 @@ class Item
      */
     public function addTag($tag)
     {
-        $this->tags[] = $tag;
+        $this->tags[] = (string)$tag;
     }
 
     /**
@@ -184,7 +162,10 @@ class Item
      */
     public function setTags(array $tags)
     {
-        $this->tags = $tags;
+        $this->tags = array();
+        foreach ($tags as $tag) {
+            $this->addTag($tag);
+        }
     }
 
     /**
@@ -200,7 +181,7 @@ class Item
      */
     public function setSource($source)
     {
-        $this->source = $source;
+        $this->source = (string)$source;
     }
 
     /**
@@ -209,6 +190,38 @@ class Item
     public function getSource()
     {
         return $this->source;
+    }
+
+    /**
+     * @param string $author
+     */
+    public function setAuthor($author)
+    {
+        $this->author = (string)$author;
+    }
+
+    /**
+     * @return string
+     */
+    public function getAuthor()
+    {
+        return $this->author;
+    }
+
+    /**
+     * @param DateTime $date
+     */
+    public function setDate(DateTime $date)
+    {
+        $this->date = $date;
+    }
+
+    /**
+     * @return DateTime
+     */
+    public function getDate()
+    {
+        return $this->date;
     }
 
 }

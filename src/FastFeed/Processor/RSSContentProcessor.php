@@ -33,6 +33,7 @@ class RSSContentProcessor extends AbstractProcessor implements ProcessorInterfac
     protected function setContent(DOMElement $node, Item $item)
     {
         $value = $this->getNodeValueByTagNameNS($node, 'http://purl.org/rss/1.0/modules/content/', 'encoded');
+
         if ($value) {
             $item->setContent($value);
         }

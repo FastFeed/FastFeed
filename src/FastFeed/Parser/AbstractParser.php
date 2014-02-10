@@ -48,11 +48,6 @@ abstract class AbstractParser extends AbstractProcessor
     }
 
     /**
-     * @return array
-     */
-    abstract protected function getPropertiesMapping();
-
-    /**
      * @param DOMElement $node
      * @param Item       $item
      */
@@ -62,6 +57,11 @@ abstract class AbstractParser extends AbstractProcessor
             $processor->process($node, $item);
         }
     }
+
+    /**
+     * @return array
+     */
+    abstract protected function getPropertiesMapping();
 
     /**
      * @param DOMElement $node
