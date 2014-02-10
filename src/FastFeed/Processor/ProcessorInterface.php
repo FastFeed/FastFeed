@@ -18,4 +18,4 @@ use FastFeed\Item;
 interface ProcessorInterface
 {
     public function process(DOMElement $node, Item $item);
-} 
+}

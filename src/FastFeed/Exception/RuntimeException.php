@@ -14,4 +14,5 @@ namespace FastFeed\Exception;
  */
 class RuntimeException extends \RuntimeException
 {
+
 }

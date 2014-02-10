@@ -104,5 +104,4 @@ class RSSParser extends AbstractParser implements ParserInterface
             $item->addTag($tag);
         }
     }
-
-} 
+}

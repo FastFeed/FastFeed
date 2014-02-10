@@ -16,4 +16,4 @@ interface ParserInterface
 {
 
     public function getNodes($content);
-} 
+}

@@ -48,4 +48,4 @@ interface FeedManagerInterface
      */
     public function getFeeds();
 
-} 
+}
