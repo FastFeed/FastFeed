@@ -9,6 +9,7 @@
  */
 namespace FastFeed\Processor;
 
+use DOMDocument;
 use DOMElement;
 use FastFeed\Item;
 
@@ -21,6 +22,11 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
      * @var array
      */
     protected $ignoredPatterns = array();
+
+    /**
+     * @var bool
+     */
+    protected $overrideImage = false;
 
     /**
      * @param array $ignoredPatterns
@@ -50,12 +56,28 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
     }
 
     /**
+     * @param boolean $overrideImage
+     */
+    public function setOverrideImage($overrideImage)
+    {
+        $this->overrideImage = (bool)$overrideImage;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function getOverrideImage()
+    {
+        return $this->overrideImage;
+    }
+
+    /**
      * @param DOMElement $node
      * @param Item       $item
      */
     public function process(DOMElement $node, Item $item)
     {
-        if ($item->hasImage()) {
+        if ($item->hasImage() && !$this->getOverrideImage()) {
             return;
         }
 
@@ -70,7 +92,11 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
     protected function setImageFromContent(Item $item)
     {
         $dom = new DOMDocument();
-        $dom->loadHTML($item->getContent());
+        $content = $item->getContent();
+        if (!$content) {
+            return false;
+        }
+        $dom->loadHTML($content);
         $dom->preserveWhiteSpace = false;
         $images = $dom->getElementsByTagName('img');
 
@@ -80,11 +106,10 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
             if ($this->isOnIgnoredPatterns($imageSrc)) {
                 continue;
             }
+            $item->setImage($imageSrc);
 
-            return $imageSrc;
+            return;
         }
-
-        return false;
     }
 
     /**

@@ -15,7 +15,7 @@ use DOMXPath;
 /**
  * AbstractParserTest
  */
-class AbstractParserTest extends \PHPUnit_Framework_TestCase
+abstract class AbstractParserTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @param $content

@@ -65,14 +65,18 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
      */
     protected function getFirstValueFromXpath($content, $query)
     {
-        $dom = new DOMDocument();
-        $dom->loadXML(trim($content));
+        try {
+            $dom = new DOMDocument();
+            $dom->loadXML(trim($content));
 
-        $xpath = new DOMXPath($dom);
-        $result = $xpath->query($query);
+            $xpath = new DOMXPath($dom);
+            $result = $xpath->query($query);
 
-        if ($result->length) {
-            return $result->item(0)->nodeValue;
+            if ($result->length) {
+                return $result->item(0)->nodeValue;
+            }
+        } catch (\Exception $e) {
+
         }
 
         return false;
