@@ -39,5 +39,4 @@ class FastFeedSetterTest extends AbstractFastFeedTest
         $this->fastFeed->pushParser($parserMock);
         $this->assertInstanceOf('FastFeed\Parser\ParserInterface', $this->fastFeed->popParser());
     }
-
-} 
+}

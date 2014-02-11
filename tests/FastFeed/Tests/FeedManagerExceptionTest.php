@@ -53,5 +53,4 @@ class FeedManagerExceptionTest extends AbstractFastFeedTest
     {
         $this->fastFeed->getFeed('this channel no exist');
     }
-
-} 
+}

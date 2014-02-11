@@ -81,4 +81,4 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
 
         return false;
     }
-} 
+}

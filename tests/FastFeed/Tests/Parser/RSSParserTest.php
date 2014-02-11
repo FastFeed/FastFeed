@@ -44,4 +44,4 @@ class RSSParserTest extends AbstractRSSParserTest
             'Fail asserting that ' . $fileName . ' has ' . $expectedNodes . ' nodes'
         );
     }
-} 
+}

@@ -64,20 +64,12 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
     }
 
     /**
-     * @return boolean
-     */
-    public function getOverrideImage()
-    {
-        return $this->overrideImage;
-    }
-
-    /**
      * @param DOMElement $node
      * @param Item       $item
      */
     public function process(DOMElement $node, Item $item)
     {
-        if ($item->hasImage() && !$this->getOverrideImage()) {
+        if ($item->hasImage() && !$this->overrideImage) {
             return;
         }
 
@@ -127,5 +119,4 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
 
         return false;
     }
-
-} 
+}

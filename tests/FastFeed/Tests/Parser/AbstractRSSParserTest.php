@@ -43,5 +43,4 @@ abstract class AbstractRSSParserTest extends AbstractParserTest
     {
         $this->parser = new RSSParser();
     }
-
-} 
+}

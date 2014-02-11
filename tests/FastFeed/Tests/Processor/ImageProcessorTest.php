@@ -84,12 +84,6 @@ class ImageProcessorTest extends AbstractParserTest
         $this->assertEquals($patterns, $this->processor->getIgnoredPatterns());
     }
 
-    public function testSetOverrideImage()
-    {
-        $this->processor->setOverrideImage(true);
-        $this->assertTrue($this->processor->getOverrideImage());
-    }
-
     public function testNotOverrideImage()
     {
         $this->item->setImage('http://great.image.com/not-override.jpg');
@@ -113,4 +107,4 @@ class ImageProcessorTest extends AbstractParserTest
 
         $this->assertEquals('http://great.image.com/override.jpg', $this->item->getImage());
     }
-} 
+}

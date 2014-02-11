@@ -39,5 +39,4 @@ abstract class AbstractAtomParserTest extends AbstractParserTest
     {
         $this->parser = new AtomParser();
     }
-
-} 
+}

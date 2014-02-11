@@ -47,5 +47,4 @@ interface FeedManagerInterface
      * @return array
      */
     public function getFeeds();
-
 }

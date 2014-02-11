@@ -172,4 +172,4 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
             'Fail asserting that first element of ' . $fileName . ' has first tag "' . $expected . '"'
         );
     }
-} 
+}

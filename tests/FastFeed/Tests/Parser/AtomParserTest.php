@@ -42,4 +42,4 @@ class AtomParserTest extends AbstractAtomParserTest
             'Fail asserting that ' . $fileName . ' has ' . $expectedNodes . ' nodes'
         );
     }
-} 
+}
