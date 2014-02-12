@@ -13,6 +13,7 @@ namespace FastFeed;
 use FastFeed\Exception\LogicException;
 use FastFeed\Exception\InvalidArgumentException;
 use FastFeed\Parser\ParserInterface;
+use FastFeed\Processor\ProcessorInterface;
 use Guzzle\Http\ClientInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
@@ -46,6 +47,11 @@ class FastFeed
      * @var array
      */
     protected $parsers = array();
+
+    /**
+     * @var array
+     */
+    protected $processors = array();
 
     /**
      * @var array
@@ -96,7 +102,6 @@ class FastFeed
 
         $items = $this->retrieve($channel);
 
-        // processo de sanitización,  proceso de ordenacion
         // proceso de limitacion
 
         return $items;
@@ -138,6 +143,27 @@ class FastFeed
     public function pushParser(ParserInterface $parser)
     {
         $this->parsers[] = $parser;
+    }
+
+    /**
+     * @return ProcessorInterface
+     * @throws Exception\LogicException
+     */
+    public function popProcessor()
+    {
+        if (!$this->processors) {
+            throw new LogicException('You tried to pop from an empty Processor stack.');
+        }
+
+        return array_shift($this->processors);
+    }
+
+    /**
+     * @param ProcessorInterface $processor
+     */
+    public function pushProcessor(ProcessorInterface $processor)
+    {
+        $this->processors[] = $processor;
     }
 
     /**
@@ -202,10 +228,7 @@ class FastFeed
         $response = $request->send();
 
         if (!$response->isSuccessful()) {
-            $this->logger->log(
-                LogLevel::INFO,
-                'fail with ' . $response->getStatusCode() . ' http code in url "' . $url . '" '
-            );
+            $this->log('fail with ' . $response->getStatusCode() . ' http code in url "' . $url . '" ');
 
             return;
         }

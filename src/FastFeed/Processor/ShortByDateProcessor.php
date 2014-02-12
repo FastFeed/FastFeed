@@ -19,7 +19,7 @@ class ShortByDateProcessor implements ProcessorInterface
         $total = count($items);
         for ($i = 1; $i < $total; $i++) {
             for ($j = 0; $j < $total - $i; $j++) {
-                if ($items[$j]->getDate() === null || $items[$j + 1]->getDate() === null) {
+                if (!$items[$j]->getDate() || !$items[$j + 1]->getDate()) {
                     continue;
                 }
                 if ($items[$j]->getDate()->getTimestamp() > $items[$j + 1]->getDate()->getTimestamp()) {

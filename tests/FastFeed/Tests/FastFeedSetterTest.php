@@ -41,4 +41,17 @@ class FastFeedSetterTest extends AbstractFastFeedTest
         $this->fastFeed->pushParser($parserMock);
         $this->assertInstanceOf('FastFeed\Parser\ParserInterface', $this->fastFeed->popParser());
     }
+
+    public function testPushProcessor()
+    {
+        $processorMock = $this->getMock('FastFeed\Processor\ProcessorInterface');
+        $this->assertNull($this->fastFeed->pushProcessor($processorMock));
+    }
+
+    public function testPopProcessor()
+    {
+        $processorMock = $this->getMock('FastFeed\Processor\ProcessorInterface');
+        $this->fastFeed->pushProcessor($processorMock);
+        $this->assertInstanceOf('FastFeed\Processor\ProcessorInterface', $this->fastFeed->popProcessor());
+    }
 }

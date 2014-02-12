@@ -32,14 +32,11 @@ abstract class AbstractDomParser
     protected function createDocument($content)
     {
         $previousValue = libxml_use_internal_errors(true);
-        try {
-            $document = new DOMDocument();
-            $document->strictErrorChecking = false;
-            $document->loadXML(trim($content));
-        } catch (\Exception $e) {
-            libxml_use_internal_errors($previousValue);
-            throw new RuntimeException($e->getMessage());
-        }
+
+        $document = new DOMDocument();
+        $document->strictErrorChecking = false;
+        $document->loadXML(trim($content));
+
         libxml_use_internal_errors($previousValue);
 
         return $document;
@@ -54,18 +51,14 @@ abstract class AbstractDomParser
      */
     protected function getNodeValueByTagName(DOMElement $node, $tagName)
     {
-        try {
-            $results = $node->getElementsByTagName($tagName);
-            for ($i = 0; $i < $results->length; $i++) {
-                $result = $results->item($i);
-                if (!$result->nodeValue) {
-                    continue;
-                }
-
-                return $result->nodeValue;
+        $results = $node->getElementsByTagName($tagName);
+        for ($i = 0; $i < $results->length; $i++) {
+            $result = $results->item($i);
+            if (!$result->nodeValue) {
+                continue;
             }
-        } catch (\Exception $e) {
-            throw new RuntimeException($e->getMessage());
+
+            return $result->nodeValue;
         }
 
         return false;
@@ -81,18 +74,14 @@ abstract class AbstractDomParser
      */
     protected function getNodeValueByTagNameNS(DOMElement $node, $namespace, $tagName)
     {
-        try {
-            $results = $node->getElementsByTagNameNS($namespace, $tagName);
-            for ($i = 0; $i < $results->length; $i++) {
-                $result = $results->item($i);
-                if (!$result->nodeValue) {
-                    continue;
-                }
-
-                return $result->nodeValue;
+        $results = $node->getElementsByTagNameNS($namespace, $tagName);
+        for ($i = 0; $i < $results->length; $i++) {
+            $result = $results->item($i);
+            if (!$result->nodeValue) {
+                continue;
             }
-        } catch (\Exception $e) {
-            throw new RuntimeException($e->getMessage());
+
+            return $result->nodeValue;
         }
 
         return false;
@@ -108,17 +97,13 @@ abstract class AbstractDomParser
     protected function getNodeValuesByTagName(DOMElement $node, $tagName)
     {
         $values = array();
-        try {
-            $results = $node->getElementsByTagName($tagName);
-            if ($results->length) {
-                foreach ($results as $result) {
-                    if ($result->nodeValue) {
-                        $values[] = $result->nodeValue;
-                    }
+        $results = $node->getElementsByTagName($tagName);
+        if ($results->length) {
+            foreach ($results as $result) {
+                if ($result->nodeValue) {
+                    $values[] = $result->nodeValue;
                 }
             }
-        } catch (\Exception $e) {
-            throw new RuntimeException($e->getMessage());
         }
 
         return $values;
@@ -135,17 +120,13 @@ abstract class AbstractDomParser
     protected function getNodePropertyByTagName(\DOMElement $node, $tagName, $propertyName)
     {
         $values = array();
-        try {
-            $results = $node->getElementsByTagName($tagName);
-            if ($results->length) {
-                foreach ($results as $result) {
-                    if ($result->getAttribute($propertyName)) {
-                        $values[] = $result->getAttribute($propertyName);
-                    }
+        $results = $node->getElementsByTagName($tagName);
+        if ($results->length) {
+            foreach ($results as $result) {
+                if ($result->getAttribute($propertyName)) {
+                    $values[] = $result->getAttribute($propertyName);
                 }
             }
-        } catch (\Exception $e) {
-            throw new RuntimeException($e->getMessage());
         }
 
         return $values;

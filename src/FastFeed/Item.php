@@ -221,6 +221,10 @@ class Item
      */
     public function getDate()
     {
+        if (!$this->date) {
+            return false;
+        }
+
         return $this->date;
     }
 }

@@ -39,6 +39,8 @@ class ShortByDateProcessorTest  extends \PHPUnit_Framework_TestCase
     {
         $this->items[0] = new Item();
         $this->items[1] = new Item();
+        $this->items[2] = new Item();
+        $this->items[3] = new Item();
 
         $date0 = new DateTime();
         $date1 = new DateTime();
@@ -46,6 +48,7 @@ class ShortByDateProcessorTest  extends \PHPUnit_Framework_TestCase
 
         $this->items[0]->setDate($date0);
         $this->items[1]->setDate($date1);
+        $this->items[2]->setDate($date0);
 
         $this->processor->process($this->items);
         $this->assertEquals($this->items[0]->getDate(), $date1);

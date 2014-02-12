@@ -57,6 +57,11 @@ class ImageAggregatorTest extends AbstractParserTest
                 null
             ),
             array(
+                '<html><p><img alt="mi image"/></p></html>',
+                '',
+                '#b.gif#'
+            ),
+            array(
                 '<html><p><img src="http://great.image.com/b.gif"/></p></html>',
                 '',
                 '#b.gif#'

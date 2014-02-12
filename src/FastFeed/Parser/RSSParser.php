@@ -35,9 +35,6 @@ class RSSParser extends AbstractParser implements ParserInterface
             foreach ($nodes as $node) {
                 try {
                     $item = $this->create($node);
-                    if (!$item) {
-                        continue;
-                    }
                     $items[] = $item;
                 } catch (\Exception $e) {
                     throw new RuntimeException($e->getMessage());
