@@ -7,15 +7,15 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Processor;
+namespace FastFeed\Aggregator;
 
 use DOMElement;
 use FastFeed\Item;
 
 /**
- * RSSContentProcessor
+ * RSSContentAggregator
  */
-class RSSContentProcessor extends AbstractProcessor implements ProcessorInterface
+class RSSContentAggregator extends AbstractAggregator implements AggregatorInterface
 {
     /**
      * @param DOMElement $node

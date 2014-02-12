@@ -10,51 +10,53 @@
 namespace FastFeed\Parser;
 
 use DOMElement;
+use DOMDocument;
+use DOMXPath;
 use FastFeed\Item;
+use FastFeed\Aggregator\AggregatorInterface;
 use FastFeed\Exception\LogicException;
-use FastFeed\Processor\AbstractProcessor;
-use FastFeed\Processor\ProcessorInterface;
+use FastFeed\Exception\RuntimeException;
 
 /**
  * AbstractParser
  */
-abstract class AbstractParser extends AbstractProcessor
+abstract class AbstractParser extends AbstractDomParser
 {
 
     /**
      * @var array
      */
-    protected $processors = array();
+    protected $aggregators = array();
 
     /**
      * @return mixed
      * @throws \FastFeed\Exception\LogicException
      */
-    public function popProcessor()
+    public function popAggregator()
     {
-        if (!$this->processors) {
-            throw new LogicException('You tried to pop from an empty processor stack.');
+        if (!$this->aggregators) {
+            throw new LogicException('You tried to pop from an empty Aggregator stack.');
         }
 
-        return array_shift($this->processors);
+        return array_shift($this->aggregators);
     }
 
     /**
-     * @param ProcessorInterface $processor
+     * @param AggregatorInterface $aggregator
      */
-    public function pushProcessor(ProcessorInterface $processor)
+    public function pushAggregator(AggregatorInterface $aggregator)
     {
-        $this->processors[] = $processor;
+        $this->aggregators[] = $aggregator;
     }
 
     /**
      * @param DOMElement $node
      * @param Item       $item
      */
-    protected function executeProcessors(DOMElement $node, Item $item)
+    protected function executeAggregators(DOMElement $node, Item $item)
     {
-        foreach ($this->processors as $processor) {
-            $processor->process($node, $item);
+        foreach ($this->aggregators as $aggregator) {
+            $aggregator->process($node, $item);
         }
     }
 

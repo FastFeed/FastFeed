@@ -59,7 +59,7 @@ class RSSParser extends AbstractParser implements ParserInterface
         $this->setProperties($node, $item);
         $this->setDate($node, $item);
         $this->setTags($node, $item);
-        $this->executeProcessors($node, $item);
+        $this->executeAggregators($node, $item);
 
         return $item;
     }

@@ -7,13 +7,13 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Tests\Processor;
+namespace FastFeed\Tests\Aggregator;
 
 use DOMDocument;
 use DOMXPath;
 use FastFeed\Item;
 use FastFeed\Parser\RSSParser;
-use FastFeed\Processor\RSSContentProcessor;
+use FastFeed\Aggregator\RSSContentAggregator;
 use FastFeed\Tests\Parser\AbstractRSSParserTest;
 
 /**
@@ -24,7 +24,7 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
     public function setUp()
     {
         $this->parser = new RSSParser();
-        $this->parser->pushProcessor(new RSSContentProcessor());
+        $this->parser->pushAggregator(new RSSContentAggregator());
     }
 
     public function dataProvider()

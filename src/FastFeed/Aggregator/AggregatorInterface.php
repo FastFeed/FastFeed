@@ -7,7 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Processor;
+namespace FastFeed\Aggregator;
 
 use DOMElement;
 use FastFeed\Item;
@@ -15,7 +15,7 @@ use FastFeed\Item;
 /**
  * ProcessorInterface
  */
-interface ProcessorInterface
+interface AggregatorInterface
 {
     public function process(DOMElement $node, Item $item);
 }

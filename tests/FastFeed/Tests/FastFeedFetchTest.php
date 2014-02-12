@@ -9,8 +9,10 @@
  */
 namespace FastFeed\Tests;
 
+use FastFeed\Parser\RSSParser;
+
 /**
- * FastFeedFechTest
+ * FastFeedFetchTest
  */
 class FastFeedFetchTest extends AbstractFastFeedTest
 {
@@ -57,6 +59,7 @@ class FastFeedFetchTest extends AbstractFastFeedTest
             ->will($this->returnValue($requestMock));
 
         $this->fastFeed->addFeed('desarrolla2', 'http://desarrolla2.com/feed/');
+        $this->fastFeed->pushParser(new RSSParser());
         $this->fastFeed->fetch('desarrolla2');
     }
 }

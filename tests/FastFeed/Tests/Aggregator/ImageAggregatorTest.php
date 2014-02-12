@@ -7,22 +7,22 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Tests\Processor;
+namespace FastFeed\Tests\Aggregator;
 
 use DOMDocument;
 use FastFeed\Item;
 use FastFeed\Tests\Parser\AbstractParserTest;
-use FastFeed\Processor\ImageProcessor;
+use FastFeed\Aggregator\ImageAggregator;
 
 /**
  * ImageProcessor
  */
-class ImageProcessorTest extends AbstractParserTest
+class ImageAggregatorTest extends AbstractParserTest
 {
     /**
      * @var ImageProcessor
      */
-    protected $processor;
+    protected $aggregator;
 
     /**
      * @var Item
@@ -37,7 +37,7 @@ class ImageProcessorTest extends AbstractParserTest
     public function setUp()
     {
         $this->item = new Item();
-        $this->processor = new ImageProcessor();
+        $this->aggregator = new ImageAggregator();
         $dom = new DOMDocument();
         $dom->loadHTML('<html><p>nothing here</p></html>');
         $this->domElement = $dom->documentElement;
@@ -71,17 +71,17 @@ class ImageProcessorTest extends AbstractParserTest
     {
         $this->item->setContent($content);
         if ($pattern) {
-            $this->processor->addIgnoredPattern($pattern);
+            $this->aggregator->addIgnoredPattern($pattern);
         }
-        $this->processor->process($this->domElement, $this->item);
+        $this->aggregator->process($this->domElement, $this->item);
         $this->assertEquals($expectedImage, $this->item->getImage());
     }
 
     public function testSetIgnoredPatterns()
     {
         $patterns = array('1', '2');
-        $this->processor->setIgnoredPatterns(array('1', '2'));
-        $this->assertEquals($patterns, $this->processor->getIgnoredPatterns());
+        $this->aggregator->setIgnoredPatterns(array('1', '2'));
+        $this->assertEquals($patterns, $this->aggregator->getIgnoredPatterns());
     }
 
     public function testNotOverrideImage()
@@ -90,8 +90,8 @@ class ImageProcessorTest extends AbstractParserTest
         $this->item->setContent(
             '<img src="http://great.image.com/override.jpg"/>'
         );
-        $this->processor->setOverrideImage(false);
-        $this->processor->process($this->domElement, $this->item);
+        $this->aggregator->setOverrideImage(false);
+        $this->aggregator->process($this->domElement, $this->item);
 
         $this->assertEquals('http://great.image.com/not-override.jpg', $this->item->getImage());
     }
@@ -102,8 +102,8 @@ class ImageProcessorTest extends AbstractParserTest
         $this->item->setContent(
             '<img src="http://great.image.com/override.jpg"/>'
         );
-        $this->processor->setOverrideImage(true);
-        $this->processor->process($this->domElement, $this->item);
+        $this->aggregator->setOverrideImage(true);
+        $this->aggregator->process($this->domElement, $this->item);
 
         $this->assertEquals('http://great.image.com/override.jpg', $this->item->getImage());
     }

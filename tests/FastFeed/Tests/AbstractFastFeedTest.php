@@ -10,7 +10,7 @@
 namespace FastFeed\Tests;
 
 use FastFeed\FastFeed;
-use FastFeed\Parser\RSSParser;
+
 
 /**
  * AbstractFeedManagerTest
@@ -43,6 +43,5 @@ abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
             ->getMock();
 
         $this->fastFeed = new FastFeed($this->guzzleMock, $this->loggerMock);
-        $this->fastFeed->pushParser(new RSSParser());
     }
 }

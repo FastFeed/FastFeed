@@ -7,17 +7,20 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Processor;
+namespace FastFeed\Parser;
 
 use DOMElement;
 use DOMDocument;
 use DOMXPath;
+use FastFeed\Item;
+use FastFeed\Aggregator\AggregatorInterface;
+use FastFeed\Exception\LogicException;
 use FastFeed\Exception\RuntimeException;
 
 /**
- * AbstractProcessor
+ * AbstractDomParser
  */
-abstract class AbstractProcessor
+abstract class AbstractDomParser
 {
 
     /**
@@ -147,4 +150,5 @@ abstract class AbstractProcessor
 
         return $values;
     }
+
 }
