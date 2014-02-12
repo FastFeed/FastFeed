@@ -21,18 +21,18 @@ use FastFeed\Tests\Parser\AbstractRSSParserTest;
  */
 class RSSContentProcessorTest extends AbstractRSSParserTest
 {
-    public function dataProvider()
+    public function setUp()
     {
         $this->parser = new RSSParser();
         $this->parser->pushProcessor(new RSSContentProcessor());
-        $data = array();
+    }
 
+    public function dataProvider()
+    {
+        $data = array();
         foreach ($this->xmls as $xml) {
-            $content = file_get_contents(__DIR__ . $this->path . $xml);
-            $nodes = $this->parser->getNodes($content);
+
             $data[] = array(
-                array_shift($nodes),
-                $content,
                 $xml
             );
         }
@@ -43,8 +43,13 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testContent(Item $item, $content, $fileName)
+    public function testContent($fileName)
     {
+        $content = file_get_contents(__DIR__ . $this->path . $fileName);
+        $nodes = $this->parser->getNodes($content);
+
+        $item = array_shift($nodes);
+
         $expected = $this->getFirstValueFromXpath($content, "*/item/content:encoded");
         if (!$expected) {
             $expected = $item->getContent();

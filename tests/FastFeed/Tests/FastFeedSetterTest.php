@@ -9,6 +9,8 @@
  */
 namespace FastFeed\Tests;
 
+use FastFeed\Exception\LogicException;
+
 /**
  * FastFeedSetterTest
  */

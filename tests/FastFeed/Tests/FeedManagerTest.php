@@ -47,4 +47,4 @@ class FeedManager extends AbstractFastFeedTest
     {
         $this->assertEmpty($this->fastFeed->getFeeds());
     }
-} 
+}

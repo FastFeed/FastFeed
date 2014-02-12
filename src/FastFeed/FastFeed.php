@@ -81,46 +81,25 @@ class FastFeed
         $this->feeds[$channel][] = $feed;
     }
 
+    /**
+     * @param string $channel
+     * @param int    $limit
+     *
+     * @return array
+     * @throws Exception\InvalidArgumentException
+     */
     public function fetch($channel = 'default', $limit = 100)
     {
         if (!is_string($channel)) {
             throw new InvalidArgumentException('You tried to add a invalid channel.');
         }
 
-        $result = array();
+        $items = $this->retrieve($channel);
 
-        foreach ($this->feeds[$channel] as $feed) {
-            $content = $this->get($feed);
-            if (!$content) {
-                continue;
-            }
-            foreach ($this->parsers as $parser) {
-                $nodes = $parser->getNodes($content);
-                if (!$nodes) {
-                    continue;
-                }
+        // processo de sanitización,  proceso de ordenacion
+        // proceso de limitacion
 
-                foreach ($nodes as $node) {
-                    $result[] = $node;
-                }
-            }
-        }
-
-        foreach ($this->sanitizers as $sanitizer) {
-            foreach ($result as $key => $node) {
-                $result[$key] = $sanitizer->sanitize($node);
-            }
-        }
-
-        if ($this->sort) {
-            $result = $this->sort->sort($result);
-        }
-
-        if ($limit) {
-            $result = $this->limit($result);
-        }
-
-        return $result;
+        return $items;
     }
 
     /**
@@ -232,6 +211,51 @@ class FastFeed
         $this->logger->log(LogLevel::INFO, 'retrieved url "' . $url . '" ');
 
         return $response->getBody();
+    }
+
+    /**
+     * @param $channel
+     *
+     * @return array
+     */
+    protected function retrieve($channel)
+    {
+        $result = array();
+
+        foreach ($this->feeds[$channel] as $feed) {
+            $content = $this->get($feed);
+            if (!$content) {
+                continue;
+            }
+
+            $tempResult = $this->parse($content);
+            array_merge($result, $tempResult);
+
+        }
+
+        return $result;
+    }
+
+    /**
+     * @param $content
+     *
+     * @return array
+     */
+    protected function parse($content)
+    {
+        $result = array();
+        foreach ($this->parsers as $parser) {
+            $nodes = $parser->getNodes($content);
+            if (!$nodes) {
+                continue;
+            }
+
+            foreach ($nodes as $node) {
+                $result[] = $node;
+            }
+        }
+
+        return $result;
     }
 
     /**

@@ -17,17 +17,18 @@ use FastFeed\Parser\AtomParser;
  */
 class AtomFirstElementParserTest extends AbstractAtomParserTest
 {
-    public function dataProvider()
+
+    public function setUp()
     {
         $this->parser = new AtomParser();
+    }
+
+    public function dataProvider()
+    {
         $data = array();
 
         foreach ($this->xmls as $xml) {
-            $content = file_get_contents(__DIR__ . $this->path . $xml);
-            $nodes = $this->parser->getNodes($content);
             $data[] = array(
-                array_shift($nodes),
-                $content,
                 $xml
             );
         }
@@ -38,8 +39,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testId(Item $item, $content, $fileName)
+    public function testId($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+
         $expected = $this->getFirstValueFromXpath($content, "*/ns:id[1]");
 
         $this->assertEquals(
@@ -52,8 +56,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testName(Item $item, $content, $fileName)
+    public function testName($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+
         $expected = $this->getFirstValueFromXpath($content, "*/ns:title[1]");
 
         $this->assertEquals(
@@ -66,8 +73,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testIntro(Item $item, $content, $fileName)
+    public function testIntro($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+
         $expected = $this->getFirstValueFromXpath($content, "*/ns:content[1]");
 
         $this->assertEquals(
@@ -80,8 +90,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testContent(Item $item, $content, $fileName)
+    public function testContent($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+
         $expected = $this->getFirstValueFromXpath($content, "*/ns:content[1]");
 
         $this->assertEquals(
@@ -94,8 +107,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testSource(Item $item, $content, $fileName)
+    public function testSource($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+
         $expected = $this->getFistAttributeFromXpath($content, "*/ns:link[@type='text/html']", 'href');
 
         $this->assertEquals(
@@ -108,8 +124,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testAuthor(Item $item, $content, $fileName)
+    public function testAuthor($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+
         $expected = $this->getFirstValueFromXpath($content, "*/ns:email");
 
         $this->assertEquals(
@@ -122,8 +141,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testImage(Item $item, $content, $fileName)
+    public function testImage($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+
         $expected = null;
 
         $this->assertEquals(
@@ -136,8 +158,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     /**
      * @dataProvider dataProvider
      */
-    public function testDate(Item $item, $content, $fileName)
+    public function testDate($fileName)
     {
+        $content = $this->getContent($fileName);
+        $item = $this->getItem($content);
+        
         $expected = strtotime($this->getFirstValueFromXpath($content, "*/ns:published"));
 
         $this->assertEquals(
@@ -146,4 +171,16 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
             'Fail in assert of first element date of ' . $fileName . '  '
         );
     }
-} 
+
+    protected function getContent($xml)
+    {
+        return file_get_contents(__DIR__ . $this->path . $xml);
+    }
+
+    protected function getItem($content)
+    {
+        $nodes = $this->parser->getNodes($content);
+
+        return array_shift($nodes);
+    }
+}

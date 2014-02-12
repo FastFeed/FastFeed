@@ -53,4 +53,12 @@ class FeedManagerExceptionTest extends AbstractFastFeedTest
     {
         $this->fastFeed->getFeed('this channel no exist');
     }
+
+    /**
+     * @expectedException \FastFeed\Exception\LogicException
+     */
+    public function testPopParser()
+    {
+        $this->fastFeed->popParser();
+    }
 }
