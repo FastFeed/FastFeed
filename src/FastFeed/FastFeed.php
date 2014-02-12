@@ -89,12 +89,11 @@ class FastFeed
 
     /**
      * @param string $channel
-     * @param int    $limit
      *
      * @return array
      * @throws Exception\InvalidArgumentException
      */
-    public function fetch($channel = 'default', $limit = 100)
+    public function fetch($channel = 'default')
     {
         if (!is_string($channel)) {
             throw new InvalidArgumentException('You tried to add a invalid channel.');
