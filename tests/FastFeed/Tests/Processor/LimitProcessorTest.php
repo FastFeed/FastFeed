@@ -39,5 +39,4 @@ class LimitProcessorTest extends \PHPUnit_Framework_TestCase
 
         $this->assertCount($expected, $items);
     }
-
-} 
+}

@@ -16,7 +16,7 @@ use FastFeed\Processor\ShortByDateProcessor;
 /**
  * ShortByDateProcessorTest
  */
-class ShortByDateProcessorTest  extends \PHPUnit_Framework_TestCase
+class ShortByDateProcessorTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -53,4 +53,4 @@ class ShortByDateProcessorTest  extends \PHPUnit_Framework_TestCase
         $this->processor->process($this->items);
         $this->assertEquals($this->items[0]->getDate(), $date1);
     }
-} 
+}

@@ -69,5 +69,4 @@ class SanitizerProcessor implements ProcessorInterface
 
         return $item;
     }
-
-} 
+}

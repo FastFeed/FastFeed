@@ -51,4 +51,4 @@ class FastFeedLoggerTest extends AbstractFastFeedTest
         $this->fastFeed->pushParser(new RSSParser());
         $this->fastFeed->fetch('desarrolla2');
     }
-} 
+}

@@ -62,11 +62,11 @@ class Item
     protected $tags = array();
 
     /**
-     * @param string $id
+     * @param string $itemId
      */
-    public function setId($id)
+    public function setId($itemId)
     {
-        $this->itemId = (string)$id;
+        $this->itemId = (string)$itemId;
     }
 
     /**

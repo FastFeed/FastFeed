@@ -59,4 +59,4 @@ class SanitizerProcessorTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $this->items[0]->getIntro());
         $this->assertEquals($expected, $this->items[0]->getContent());
     }
-} 
+}

@@ -45,5 +45,4 @@ class ParserManagerTest extends \PHPUnit_Framework_TestCase
     {
         $this->parser->popAggregator();
     }
-
-} 
+}

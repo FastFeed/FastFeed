@@ -11,7 +11,6 @@ namespace FastFeed\Tests;
 
 use FastFeed\FastFeed;
 
-
 /**
  * AbstractFeedManagerTest
  */

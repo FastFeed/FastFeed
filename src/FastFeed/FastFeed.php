@@ -10,13 +10,13 @@
 
 namespace FastFeed;
 
+use Guzzle\Http\ClientInterface;
+use Psr\Log\LoggerInterface;
+use Psr\Log\LogLevel;
 use FastFeed\Exception\LogicException;
 use FastFeed\Exception\InvalidArgumentException;
 use FastFeed\Parser\ParserInterface;
 use FastFeed\Processor\ProcessorInterface;
-use Guzzle\Http\ClientInterface;
-use Psr\Log\LoggerInterface;
-use Psr\Log\LogLevel;
 
 /**
  * FastFeed
@@ -100,8 +100,6 @@ class FastFeed
         }
 
         $items = $this->retrieve($channel);
-
-        // proceso de limitacion
 
         return $items;
     }

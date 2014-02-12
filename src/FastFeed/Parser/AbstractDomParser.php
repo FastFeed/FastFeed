@@ -131,5 +131,4 @@ abstract class AbstractDomParser
 
         return $values;
     }
-
 }
