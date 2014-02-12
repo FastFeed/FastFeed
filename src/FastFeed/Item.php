@@ -19,7 +19,7 @@ class Item
     /**
      * @var string
      */
-    protected $id;
+    protected $itemId;
 
     /**
      * @var string
@@ -66,7 +66,7 @@ class Item
      */
     public function setId($id)
     {
-        $this->id = (string)$id;
+        $this->itemId = (string)$id;
     }
 
     /**
@@ -74,7 +74,7 @@ class Item
      */
     public function getId()
     {
-        return $this->id;
+        return $this->itemId;
     }
 
     /**
