@@ -11,11 +11,6 @@ namespace FastFeed\Parser;
 
 use DOMElement;
 use DOMDocument;
-use DOMXPath;
-use FastFeed\Item;
-use FastFeed\Aggregator\AggregatorInterface;
-use FastFeed\Exception\LogicException;
-use FastFeed\Exception\RuntimeException;
 
 /**
  * AbstractDomParser
