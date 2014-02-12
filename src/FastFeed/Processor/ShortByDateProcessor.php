@@ -12,6 +12,23 @@ namespace FastFeed\Processor;
 /**
  * ShortByDateProcessor
  */
-class ShortByDateProcessor {
-
-} 
+class ShortByDateProcessor implements ProcessorInterface
+{
+    public function process(array &$items)
+    {
+        $total = count($items);
+        for ($i = 1; $i < $total; $i++) {
+            for ($j = 0; $j < $total - $i; $j++) {
+                if ($items[$j]->getDate() === null || $items[$j + 1]->getDate() === null) {
+                    continue;
+                }
+                if ($items[$j]->getDate()->getTimestamp() > $items[$j + 1]->getDate()->getTimestamp()) {
+                    continue;
+                }
+                $aux = $items[$j + 1];
+                $items[$j + 1] = $items[$j];
+                $items[$j] = $aux;
+            }
+        }
+    }
+}

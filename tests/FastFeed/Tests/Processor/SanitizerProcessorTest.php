@@ -21,7 +21,7 @@ class SanitizerProcessorTest extends \PHPUnit_Framework_TestCase
     /**
      * @var SanitizerProcessor
      */
-    protected $processor = null;
+    protected $processor;
 
     /**
      * @var array
@@ -51,10 +51,12 @@ class SanitizerProcessorTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider dataProvider
      */
-    public function testCleanIntro($expected, $actual)
+    public function testProcess($expected, $actual)
     {
         $this->items[0]->setIntro($actual);
+        $this->items[0]->setContent($actual);
         $this->processor->process($this->items);
         $this->assertEquals($expected, $this->items[0]->getIntro());
+        $this->assertEquals($expected, $this->items[0]->getContent());
     }
 } 
