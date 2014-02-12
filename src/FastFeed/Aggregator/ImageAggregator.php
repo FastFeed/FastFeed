@@ -15,6 +15,8 @@ use FastFeed\Item;
 
 /**
  * ImageProcessor
+ *
+ * This Aggregator seem for a image in description and set in image field of Item
  */
 class ImageAggregator extends AbstractAggregator implements AggregatorInterface
 {
@@ -64,6 +66,8 @@ class ImageAggregator extends AbstractAggregator implements AggregatorInterface
     }
 
     /**
+     * Execute the Aggregator
+     *
      * @param DOMElement $node
      * @param Item       $item
      */

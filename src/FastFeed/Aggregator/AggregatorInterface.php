@@ -17,5 +17,11 @@ use FastFeed\Item;
  */
 interface AggregatorInterface
 {
+    /**
+     * Execute the Aggregator
+     *
+     * @param DOMElement $node
+     * @param Item       $item
+     */
     public function process(DOMElement $node, Item $item);
 }

@@ -14,5 +14,10 @@ namespace FastFeed\Processor;
  */
 interface ProcessorInterface
 {
+    /**
+     * Execute processor
+     *
+     * @param array $items
+     */
     public function process(array &$items);
 }

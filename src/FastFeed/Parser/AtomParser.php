@@ -21,6 +21,8 @@ class AtomParser extends AbstractParser implements ParserInterface
 {
 
     /**
+     * Retrieve a Items's array
+     *
      * @param $content
      *
      * @return array

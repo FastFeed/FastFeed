@@ -14,6 +14,12 @@ namespace FastFeed\Parser;
  */
 interface ParserInterface
 {
-
+    /**
+     * Retrieve a Items's array
+     *
+     * @param $content
+     *
+     * @return array
+     */
     public function getNodes($content);
 }

@@ -14,10 +14,14 @@ use FastFeed\Item;
 
 /**
  * RSSContentAggregator
+ *
+ * This Aggregator seem for a content:encoded field in item node and set as description
  */
 class RSSContentAggregator extends AbstractAggregator implements AggregatorInterface
 {
     /**
+     * Execute the Aggregator
+     *
      * @param DOMElement $node
      * @param Item       $item
      */
@@ -27,6 +31,7 @@ class RSSContentAggregator extends AbstractAggregator implements AggregatorInter
     }
 
     /**
+     *
      * @param DOMElement $node
      * @param Item       $item
      */

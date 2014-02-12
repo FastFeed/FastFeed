@@ -10,10 +10,16 @@
 namespace FastFeed\Processor;
 
 /**
- * ShortByDateProcessor
+ * SortByDateProcessor
+ * Sort
  */
-class ShortByDateProcessor implements ProcessorInterface
+class SortByDateProcessor implements ProcessorInterface
 {
+    /**
+     * Execute processor
+     *
+     * @param array $items
+     */
     public function process(array &$items)
     {
         $total = count($items);

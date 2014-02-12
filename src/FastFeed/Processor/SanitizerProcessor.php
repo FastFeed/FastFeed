@@ -14,6 +14,7 @@ use FastFeed\Item;
 
 /**
  * SanitizerProcessor
+ * Remove malicious HTML
  */
 class SanitizerProcessor implements ProcessorInterface
 {
@@ -44,6 +45,8 @@ class SanitizerProcessor implements ProcessorInterface
     }
 
     /**
+     * Execute processor
+     *
      * @param array $items
      */
     public function process(array &$items)

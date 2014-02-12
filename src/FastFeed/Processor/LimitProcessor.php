@@ -11,17 +11,36 @@ namespace FastFeed\Processor;
 
 /**
  * LimitProcessor
+ * Set the max number of items in result set
  */
 class LimitProcessor implements ProcessorInterface
 {
+    /**
+     * @var int
+     */
     protected $limit;
 
+    /**
+     * @param int $limit
+     */
     public function __construct($limit)
+    {
+        $this->setLimit($limit);
+    }
+
+    /**
+     * Set the max number of items in result set
+     *
+     * @param int $limit
+     */
+    public function setLimit($limit)
     {
         $this->limit = (int)$limit;
     }
 
     /**
+     * Execute processor
+     *
      * @param array $items
      */
     public function process(array &$items)

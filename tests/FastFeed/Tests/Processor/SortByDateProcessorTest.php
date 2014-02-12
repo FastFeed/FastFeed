@@ -11,16 +11,16 @@ namespace FastFeed\Tests\Processor;
 
 use DateTime;
 use FastFeed\Item;
-use FastFeed\Processor\ShortByDateProcessor;
+use FastFeed\Processor\SortByDateProcessor;
 
 /**
- * ShortByDateProcessorTest
+ * SortByDateProcessorTest
  */
-class ShortByDateProcessorTest extends \PHPUnit_Framework_TestCase
+class SortByDateProcessorTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var ShortByDateProcessor
+     * @var SortByDateProcessor
      */
     protected $processor = null;
 
@@ -31,7 +31,7 @@ class ShortByDateProcessorTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->processor = new ShortByDateProcessor();
+        $this->processor = new SortByDateProcessor();
         $this->items = array();
     }
 
