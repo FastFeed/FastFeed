@@ -61,4 +61,12 @@ class FeedManagerExceptionTest extends AbstractFastFeedTest
     {
         $this->fastFeed->popParser();
     }
+
+    /**
+     * @expectedException \FastFeed\Exception\InvalidArgumentException
+     */
+    public function testFetch()
+    {
+        $this->fastFeed->fetch(34);
+    }
 }

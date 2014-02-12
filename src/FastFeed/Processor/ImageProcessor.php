@@ -83,22 +83,13 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
      */
     protected function setImageFromContent(Item $item)
     {
-        $dom = new DOMDocument();
-        $content = $item->getContent();
-        if (!$content) {
-            return false;
-        }
-        $dom->loadHTML($content);
-        $dom->preserveWhiteSpace = false;
-        $images = $dom->getElementsByTagName('img');
+        $images = $this->getImages($item->getContent());
 
         foreach ($images as $image) {
-            $imageSrc = $image->getAttribute('src');
-
-            if ($this->isOnIgnoredPatterns($imageSrc)) {
+            if ($this->isOnIgnoredPatterns($image)) {
                 continue;
             }
-            $item->setImage($imageSrc);
+            $item->setImage($image);
 
             return;
         }
@@ -118,5 +109,50 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
         }
 
         return false;
+    }
+
+    /**
+     * @param $content
+     *
+     * @return bool|DOMDocument
+     */
+    protected function createDOM($content)
+    {
+        if (!$content) {
+            return false;
+        }
+        $dom = new DOMDocument();
+        $dom->loadHTML($content);
+        $dom->preserveWhiteSpace = false;
+
+        return $dom;
+    }
+
+    /**
+     * @param $content
+     *
+     * @return bool
+     */
+    protected function getImages($content)
+    {
+        $images = array();
+
+        $dom = $this->createDOM($content);
+        if (!$dom) {
+            return $images;
+        }
+
+        $domList = $dom->getElementsByTagName('img');
+
+        foreach ($domList as $image) {
+            $imageSrc = $image->getAttribute('src');
+
+            if (!$imageSrc) {
+                continue;
+            }
+            $images[] = $imageSrc;
+        }
+
+        return $images;
     }
 }
