@@ -198,6 +198,7 @@ class FastFeed
             $url,
             array('User-Agent' => self::USER_AGENT . ' v.' . self::VERSION)
         );
+
         $response = $request->send();
 
         if (!$response->isSuccessful()) {

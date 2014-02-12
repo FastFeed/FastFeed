@@ -10,6 +10,7 @@
 namespace FastFeed\Tests;
 
 use FastFeed\FastFeed;
+use FastFeed\Parser\RSSParser;
 
 /**
  * AbstractFeedManagerTest
@@ -21,11 +22,27 @@ abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
      */
     protected $fastFeed;
 
+    /**
+     * @var \Guzzle\Http\ClientInterface
+     */
+    protected $guzzleMock;
+
+    /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    protected $loggerMock;
+
     public function setUp()
     {
-        $guzzleMock = $this->getMock('Guzzle\Http\ClientInterface');
-        $loggerMock = $this->getMock('Psr\Log\LoggerInterface');
+        $this->guzzleMock = $this->getMockBuilder('Guzzle\Http\ClientInterface')
+            ->disableOriginalConstructor()
+            ->getMock();
 
-        $this->fastFeed = new FastFeed($guzzleMock, $loggerMock);
+        $this->loggerMock = $this->getMockBuilder('Psr\Log\LoggerInterface')
+            ->disableOriginalConstructor()
+            ->getMock();
+
+        $this->fastFeed = new FastFeed($this->guzzleMock, $this->loggerMock);
+        $this->fastFeed->pushParser(new RSSParser());
     }
 }

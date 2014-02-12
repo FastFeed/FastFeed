@@ -131,7 +131,7 @@ class ImageProcessor extends AbstractProcessor implements ProcessorInterface
     /**
      * @param $content
      *
-     * @return bool
+     * @return bool|array
      */
     protected function getImages($content)
     {

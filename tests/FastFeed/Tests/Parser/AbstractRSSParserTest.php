@@ -31,6 +31,7 @@ abstract class AbstractRSSParserTest extends AbstractParserTest
      */
     protected $xmls = array(
         'banen.bol.com.xml',
+        'desarrolla2.com.xml',
         'jhosman.com.xml',
         'libuntu.com.xml',
         'nytimes.com.xml',

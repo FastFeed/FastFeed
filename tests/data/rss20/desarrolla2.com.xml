@@ -1,0 +1,825 @@
+<rss version="2.0">
+    <channel>
+        <title>Desarrolla2</title>
+        <link>http://desarrolla2.com/</link>
+        <description>desarrolla2</description>
+        <language>es_ES</language>
+        <pubDate>Wed, 12 Feb 2014 12:47:43 +0100</pubDate>
+        <lastBuildDate>Wed, 12 Feb 2014 12:47:43 +0100</lastBuildDate>
+        <generator>BlogBundle</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <ttl>60</ttl>
+        <item>
+            <title>
+                Mi fichero de configuración de nginx (compatible con ImagineBundle)
+            </title>
+            <link>
+                http://desarrolla2.com/post/mi-fichero-de-configuracion-de-nginx-compatible-con-imaginebundle
+            </link>
+            <description>
+                <![CDATA[
+<p>Hace unos d&iacute;as salio est&eacute; <a href="http://egeloen.fr/2013/12/10/configure-nginx-with-avalanche-imagine-bundle/" target="_blank">art&iacute;culo</a>&nbsp;en el que se detalla una configuraci&oacute;n de nginx, compatible con ImagineBundle. Precisamente hace un par de semanas que tambi&eacute;n active ImagineBundle para este y&nbsp;<a href="planetubuntu.es">otros</a>&nbsp;<a href="planet-android.es">sitios</a>&nbsp;que tengo, asi que creo que puede ser interesante tambien compartir como lo resolv&iacute; yo, adem&aacute;s de detallar, el resto de la configuraci&oacute;n.</p>
+ <h3>Eliminar www</h3>
+ <p>Yo soy partidario de eliminar las www, ya que no aportan nada, y hacen el nombre de dominio, m&aacute;s largo, en este bloque que responde a todas las peticiones www.desarrolla2.com y blog.desarrolla2.com, con una redirecci&oacute;n 301 a desarrolla2.com</p>
+ <pre class="nginx">server {
+ listen 8080;
+ server_name www.desarrolla2.com blog.desarrolla2.com;
+ rewrite ^(.*) http://desarrolla2.com$1 permanent;
+ }
+ </pre>
+ <h3>Configuraci&oacute;n</h3>
+ <p>En este bloque, aparecen los datos generales de la configuraci&oacute;n, el puerto que escicha, el nombre del servidor, el document root, y el fichero index.</p>
+ <pre class="nginx"> listen 8080;
+ server_name desarrolla2.com;
+ root /var/www/desarrolla2.com/current/web;
+ index app.php;
+ </pre>
+ <h3>Redirigiendo las peticiones a Symfony2</h3>
+ <p>El siguiente bloque redirige las peticiones al fichero app.php ( symfony2 ), adem&aacute;s es importante no olvidar pasarle el parametro $query_string, ya que si no, se pierden los parametros pasados por url.</p>
+ <pre class="nginx"> location / {
+ try_files $uri $uri/ /app.php?$query_string;
+ }
+ </pre>
+ <h3>Habilitando ImagineBundle</h3>
+ <p>Habilito que las peticiones de /media/cache, sean redirigidas tambien a app.php</p>
+ <pre class="nginx"> location ~ ^/media/cache {
+ try_files $uri /app.php?$query_string;
+ }
+ </pre>
+ <h3>Configuraci&oacute;n de php en modo fastcgi</h3>
+ <p>php-fastcgi es una configuraci&oacute;n de ejecuci&oacute;n de php, en modo servicio, es decir, que escucha peticiones en un determinado puerto, en lugar de estar como m&oacute;dulo de un servidor web.</p>
+ <pre class="nginx"> location ~ \.php$ {
+ fastcgi_split_path_info ^(.+\.php)(/.+)$;
+ fastcgi_pass unix:/var/run/php5-fpm.sock;
+ fastcgi_index app.php;
+ include fastcgi_params;
+ fastcgi_param SERVER_PORT $http_x_forwarded_port;
+ }</pre>
+ <h3>Eliminanar cookies y a&ntilde;adir cabeceras http cache</h3>
+ <p>Es responsabilidad de la aplicaci&oacute;n y no del servidor web, realizar esta tarea, sin embargo en recursos (css, js, etc), ser&aacute; el servidor web, el encargado.</p>
+ <pre class="nginx"> location ~* ^.+\.(jpg|jpeg|gif|png|ico|swf|flv|woff)$ {
+ access_log off;
+ expires 30d;
+ }
+
+ location ~* ^.+\.(css|js)$ {
+ access_log off;
+ expires 7d;
+ }</pre>
+ <h3>Configurar Gzip</h3>
+ <p>Habilitar gzip, reduce el tiempo de transferencia, a cambio de una peque&ntilde;a ganancia en la carga del servidor. En este caso, adem&aacute;s indico para que content-type quiero que se ejecute, por ejemplo no tiene sentido, comprimir un fichero zip, o un video.</p>
+ <pre class="nginx"> gzip on;
+ gzip_vary on;
+ gzip_types text/plain text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+ </pre>
+ <h3>Ficheros de log</h3>
+ <p>Me gusta especificar carpetas diferentes para los logs, y los errores, ya que me permite por ejemplo realizar un tal *.log sobre la carpeta concreta, adem&aacute;s de tener ficheros diferentes para cada sitio web.</p>
+ <pre class="nginx"> access_log /var/log/nginx/access/desarrolla2.com.log;
+ error_log /var/log/nginx/error/desarrolla2.com.log error;
+ </pre>
+ <p>Si quieres ver la versi&oacute;n completa la tienes&nbsp;<a href="https://gist.github.com/desarrolla2/8314651">aqu&iacute;</a></p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/mi-fichero-de-configuracion-de-nginx-compatible-con-imaginebundle
+            </guid>
+            <pubDate>Wed, 08 Jan 2014 11:31:45 +0100</pubDate>
+        </item>
+        <item>
+            <title>Advanced Php Programming de George Schlossnagle</title>
+            <link>
+                http://desarrolla2.com/post/advanced-php-programming-de-george-schlossnagle
+            </link>
+            <description>
+                <![CDATA[
+<p>Este libro cubre diversos temas de desarrollo avanzado con PHP5.&nbsp;Concretamente yo s&oacute;lo he leido el bloque V, que trata sobre "Extensibility", es decir sobre como crear extensiones para PHP.</p>
+ <p>A lo largo de cuatro cap&iacute;tulos explica bastante bien y con ejemplos l
+]]>
+                <![CDATA[
+as tripas del Zend Engine. Sin ser una guia de principio a f&iacute;n, es decir deber&aacute;s leer algunas cosas m&aacute;s, si que est&aacute; muy bien como primera aproximaci&oacute;n al desarrollo de extensiones PHP.</p>
+ <p>Expero que os guste tanto como me gust&oacute; a mi.</p>
+ <p><a href="http://www.amazon.es/gp/product/0672325616/ref=as_li_ss_tl?ie=UTF8&amp;camp=3626&amp;creative=24822&amp;creativeASIN=0672325616&amp;linkCode=as2&amp;tag=desarrolla2-21"><img src="/up/1f87d99166d082c9f761340e7d0ca904adc2fa73.jpg" alt="Advanced PHP Programming" /></a></p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/advanced-php-programming-de-george-schlossnagle
+            </guid>
+            <pubDate>Fri, 27 Dec 2013 19:49:38 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                Assetic Cache Busting o como generar paths únicos para los assets con assetic
+            </title>
+            <link>
+                http://desarrolla2.com/post/assetic-cache-busting-o-como-generar-paths-unicos-para-los-assets-con-assetic
+            </link>
+            <description>
+                <![CDATA[
+<p>Un problema que puede dar lugar el uso de assetic es invalidar la cache, es decir que los recursos que se generaron en un deploy y que en mi caso est&aacute;n cacheados tanto en el cliente ( http cache ) como en el servidor ( varnish ) y ahora es necesario que el navegador use las nuevas versiones.</p>
+ <p>La soluci&oacute;n es sencilla cambiar los nombres de dichos recursos.</p>
+ <p>Hasta la &uacute;ltima versi&oacute;n de symfony, es decir, hasta la 2.3 hab&iacute;a que crear un AssetFactory tal y como indico aqui</p>
+ <pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;?php
+
+
+ namespace Desarrolla2\Bundle\WebBundle\Factory;
+
+ use Symfony\Bundle\AsseticBundle\Factory\AssetFactory as BaseAssetFactory;
+ use Assetic\Factory\LazyAssetManager;
+ use Assetic\Factory\Worker\CacheBustingWorker;
+ use Symfony\Component\DependencyInjection\ContainerInterface;
+ use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
+ use Symfony\Component\HttpKernel\KernelInterface;
+
+ /**
+ * Class AssetFactory
+ */
+ class AssetFactory extends BaseAssetFactory
+ {
+ public function __construct(
+ KernelInterface $kernel,
+ ContainerInterface $container,
+ ParameterBagInterface $parameterBag,
+ $baseDir,
+ $debug = false
+ ) {
+ parent::__construct($kernel, $container, $parameterBag, $baseDir, $debug);
+ $this-&gt;addWorker(
+ new CacheBustingWorker(new LazyAssetManager(new BaseAssetFactory(
+ $kernel,
+ $container,
+ $parameterBag,
+ $baseDir,
+ $debug
+ )))
+ );
+ }
+ }</pre>
+ <p>Y luego publicar el worker</p>
+ <pre class="yml">parameters:
+ assetic.asset_factory.class: Desarrolla2\Bundle\WebBundle\Factory\AssetFactory
+ </pre>
+ <p>Ahora desde la versi&oacute;n 2.4 esto es mucho m&aacute;s sencillo, solo necesitas incluir esto en la configuraci&oacute;n</p>
+ <pre>assetic:
+ workers:
+ cache_busting: ~
+ </pre>
+ <p>Ambas soluciones la que funciona hasta la 2.3 y la que funciona en la 2.4, son muy sencillas de implementar, pero est&aacute;n escondidas en comentarios de PR, y no documentadas, por lo que es bastante dificil encontrarlas.</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/assetic-cache-busting-o-como-generar-paths-unicos-para-los-assets-con-assetic
+            </guid>
+            <pubDate>Sun, 22 Dec 2013 23:59:06 +0100</pubDate>
+        </item>
+        <item>
+            <title>El sistema de afiliación de amazon ... un fiasco</title>
+            <link>
+                http://desarrolla2.com/post/el-sistema-de-afiliacion-de-amazon-un-fiasco
+            </link>
+            <description>
+                <![CDATA[
+<p>Durante una semana, he probado a utilizar un 50% de la publicidad de amazon y un 50% de adsense.&nbsp;No se puede decir que ninguno de ellos vaya a quitarme de trabajar, pero el resultado, han sido unos 6E por adsense vs 0E por amazon.</p>
+ <p>El sitio donde estoy realizando las pruebas es <a href="http://planetubuntu.es/" rel="external">planetubuntu</a>, un agregador de contenidos con unas 3000 visitas diarias, y los banner est&aacute;n claramente diferenciados.</p>
+ <p>Amazon ofrece comisiones sobre las ventas de productos, entre un 4 y un 10% dependiendo del producto. En el caso concreto de los banner gen&eacute;ricos que yo estaba usando, para que yo cobre la comisi&oacute;n, un usuario deber&iacute;a clickar en el enlace y luego realizar la compra en las siguientes 24h.</p>
+ <p>En mi caso esto gener&oacute; 0E, ya que es muy complicado que alguien compre en las 24h posteriores, a hacer click en un banner gen&eacute;rico.</p>
+ <p>No voy a decir, que amazon no sirva, ya que seguro que tiene otros modelos mucho m&aacute;s eficaces, por ejemplo si ofreces un banner a un producto concreto, el usuario tiene 90 d&iacute;as para realizar la compra, y que tu te lleves la comisi&oacute;n.</p>
+ <p>Pero en mi caso, en el que no quiero dedicar mucho tiempo, a estar eligiendo productos, adsense, es mucho m&aacute;s efectivo, ya que pones la publicidad, y te olvidas, es google el que se encarga de ofrecer algo atractivo para tus usuarios.</p>
+ <p>En el futuro quiero ir probando con otros sistemas, para ver que resultados ofrecen.</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/el-sistema-de-afiliacion-de-amazon-un-fiasco
+            </guid>
+            <pubDate>Tue, 12 Nov 2013 22:00:13 +0100</pubDate>
+        </item>
+        <item>
+            <title>Jugando con marketing de afiliación de amazón.</title>
+            <link>
+                http://desarrolla2.com/post/jugando-con-marketing-de-afiliacion-de-amazon
+            </link>
+            <description>
+                <![CDATA[
+<p>Durante los &uacute;ltimos 6-8 meses&nbsp;he estado trabajando en planetubuntu.es.</p>
+ <p>He tenido la suerte de poder experimentar con algunas cosas, con las que no es sencillo experimentar, si no tienes un sitio web con un tr&aacute;fico medio/alto.</p>
+ <p>A&uacute;n queda bastante trabajo por hacer, varios bug detectados y muchas mejoras, en total tengo 28 issues pendientes, algunas de las cuales, requieren de bastante trabajo.</p>
+ <p>Mi idea, era que cuando el sitio estuviera m&aacute;s o menos estable, &nbsp;alg&uacute;n proveedor de hosting se hiciera cargo de los costes del servidor, pero tras algunos intentos de contactar con alguno, a sido totalmente infructuoso.</p>
+ <p>El siguiente paso es a&ntilde;adir publicidad al sitio, para ver si se pueden sufragar los gastos. He elegido, amazon, &nbsp;porque es un sitio en el que suelo comprar, asi que supongo que los usuarios del planeta tambi&eacute;n comprar&aacute;n habitualmente aqui.</p>
+ <p>De momento, solo he a&ntilde;adido, un enlace lateral, donde no moleste, y anunciandolo como patrocinio.</p>
+ <p>En el futuro, me gustar&iacute;a poder experimentar con otros sistemas, adsense y dem&aacute;s, ir&eacute; publicando aqu&iacute; mis conclusiones.</p>
+ <p>&nbsp;</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/jugando-con-marketing-de-afiliacion-de-amazon
+            </guid>
+            <pubDate>Sun, 03 Nov 2013 14:49:21 +0100</pubDate>
+        </item>
+        <item>
+            <title>Mi fichero de configuración de varnish</title>
+            <link>
+                http://desarrolla2.com/post/mi-fichero-de-configuracion-de-varnish
+            </link>
+            <description>
+                <![CDATA[
+<p>Configurar Varnish, no es una tarea sencilla, en mi caso, fueron un monton de conceptos nuevos, y un mont&oacute;n de ejemplos, algunos de los cuales no funcionaban del todo, por lo que quiero publicar mi versi&oacute;n, para quien le pueda servir, y por si alguien quiere dejar alguna
+]]>
+                <![CDATA[
+sugerencia.</p>
+ <p>A continuaci&oacute;n el detalle de mi fichero de configuraci&oacute;n de varnish, tened en cuenta, de que estoy utilizando la versi&oacute;n 3.0.x</p>
+ <h3>backends</h3>
+ <p>Comienza definiendo los backend, en mi caso solo tengo un backend, que se trata de un nginx en la misma m&aacute;quina, y en el puerto 8080.</p>
+ <pre class="bash">backend default {
+ .host = "127.0.0.1";
+ .port = "8080";
+ }</pre>
+ <h3>vcl_recv</h3>
+ <p>vcl_recv es un "hook", algo as&iacute; como un evento que sucede cuando la petici&oacute;n llega al vanirsh, y se a procesado correctamente, esto, es que tenemos un objeto req disponible que podemos usar, para tomar decisiones.</p>
+ <p>No voy a entrar en el detalle, pero en mi caso utilizo el hook para eliminar cookies, y decidir si la respuesta debe solicitarse al backend ( pass ) o buscar en la cache ( lookup ).</p>
+ <p>Gran parte del contenido, son peque&ntilde;os snipped que he ido encontrando y afinando para mi propia configuraci&oacute;n.</p>
+ <pre class="bash">sub vcl_recv {
+
+ # Serve objects up to 2 minutes
+ set req.grace = 2m;
+ set req.http.X-Forwarded-For = client.ip;
+ set req.http.Host = regsub(req.http.Host, ":[0-9]+", "");
+ set req.backend = default;
+
+
+ if (req.request == "PURGE") {
+ error 405 "Not allowed.";
+
+ return(lookup);
+ }
+
+ if (
+ req.request != "GET" &amp;&amp;
+ req.request != "HEAD" &amp;&amp;
+ req.request != "PUT" &amp;&amp;
+ req.request != "POST" &amp;&amp;
+ req.request != "TRACE" &amp;&amp;
+ req.request != "OPTIONS" &amp;&amp;
+ req.request != "DELETE"
+ ) {
+ # Non-RFC2616 or CONNECT which is weird.
+
+ return (pipe);
+ }
+
+ if (req.request != "GET" &amp;&amp; req.request != "HEAD") {
+ # We only deal with GET and HEAD by default
+
+ return (pass);
+ }
+
+ # Remove cookies set by Google Analytics (pattern: '__utmABC')
+ if (req.http.Cookie) {
+ set req.http.Cookie = regsuball(req.http.Cookie, "(^|; ) *__utm.=[^;]+;? *", "\1");
+ if (req.http.Cookie == "") {
+ remove req.http.Cookie;
+ }
+ }
+
+ if (req.http.X-Forwarded-Proto == "https" ) {
+ set req.http.X-Forwarded-Port = "443";
+ } else {
+ set req.http.X-Forwarded-Port = "80";
+ set req.http.X-Forwarded-Proto = "http";
+ }
+
+ # Search in cache
+ if (req.url ~ "\.(jpg|jpeg|gif|png|ico|css|zip|tgz|gz|rar|bz2|pdf|txt|tar|wav|bmp|rtf|js|flv|swf|xml)$") {
+ set req.http.user-agent = "Mozilla";
+ unset req.http.Cookie;
+
+ return(lookup);
+ }
+
+ # Normalize Accept-Encoding to reduce vary
+ if (req.http.Accept-Encoding) {
+ if (req.http.User-Agent ~ "MSIE 6") {
+ unset req.http.Accept-Encoding;
+ } elsif (req.http.Accept-Encoding ~ "gzip") {
+ set req.http.Accept-Encoding = "gzip";
+ } elsif (req.http.Accept-Encoding ~ "deflate") {
+ set req.http.Accept-Encoding = "deflate";
+ } else {
+ unset req.http.Accept-Encoding;
+ }
+ }
+
+ # Not cacheable by default
+ if (req.http.Authorization /* || req.http.Cookie */) {
+
+ return (pass);
+ }
+
+ return(lookup);
+ }</pre>
+ <h3>vcl_fetch</h3>
+ <p>Este "hook" es el responsable de procesar una respuesta que ha sido enviada desde el backend, en este caso, elimino las cookies de los ficheros estaticos.</p>
+ <pre class="bash"> if (req.url ~ "\.(jpg|jpeg|gif|png|ico|css|zip|tgz|gz|rar|bz2|pdf|txt|tar|wav|bmp|rtf|js|flv|swf|xml)$") {
+ unset beresp.http.set-cookie;
+ }
+
+ return (deliver);
+ </pre>
+ <h3>Toques finales</h3>
+ <p>Mi fichero de configuraci&oacute;n de varnish contiene algunos detalles extra, sobre los que no quiero profundizar en esta entrada, como por ejemplo eliminar algunas cabezeras HTTP, y a&ntilde;adir algunas personalizadas.</p>
+ <p>En general tu fichero de configuraci&oacute;n de varnish deber&iacute;a ser lo m&aacute;s agnostico de tu aplicaci&oacute;n posible, es decir, que es necesario que utilizes las cabeceras HTTP, para indicarle a varnish como deseas que se comporte.</p>
+ <p>Espero que os sea util.</p>
+ <p>Puedes ver <a href="https://gist.github.com/desarrolla2/7216729" rel="external">aqui</a> la versi&oacute;n completa.</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/mi-fichero-de-configuracion-de-varnish
+            </guid>
+            <pubDate>Tue, 29 Oct 2013 13:18:14 +0100</pubDate>
+        </item>
+        <item>
+            <title>Desarrollo de extensiones PHP en c/c++</title>
+            <link>
+                http://desarrolla2.com/post/desarrollo-de-extensiones-php-en-c-c
+            </link>
+            <description>
+                <![CDATA[
+<p>Mi presentaci&oacute;n&nbsp;en el unconference de Codemotion Madrid en Octubre de 2013. Codemotion es el evento m&aacute;s grande dirigido a comunidades de desarrolladores de todo tipo, este a&ntilde;o tuvo lugar en la Universidad Polit&eacute;cnica de Madrid, y aunque no recuerdo la cifra de asistentes, creo que era entre 2 y 3.000.</p>
+ <p>Esta charla fue bastante especial, por que es un tema del que no hay demasiada informaci&oacute;n publicada, y practicamente nada en castellano, por lo que creo que aport&eacute; un granito de arena a la comunidad dando un poco de luz en este asunto.</p>
+ <p><iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin: 5px 40px;" src="http://www.slideshare.net/slideshow/embed_code/27415962" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe></p>
+ <h3>Esquema</h3>
+ <ol>
+ <li>&iquest;Que es PHP? &ldquo;PHP is a serverside scripting language designed for web development but also used as a general-purpose programming language&rdquo;. -wikipedia</li>
+ <li>&iquest;Que es una extensi&oacute;n? &ldquo;An extension in PHP is in fact a module providing some functionality to the PHP Engine.&rdquo; - Shahar Evron</li>
+ <li>&nbsp;&iquest;Para que extender PHP?</li>
+ <li>&iquest;Por que no hacerlo?</li>
+ <li>Ejemplos de c&oacute;digo</li>
+ <li>&nbsp;&iquest;Que necesito?<ol>
+ <li>c&oacute;digo fuente de php</li>
+ <li>entorno de compilaci&oacute;n</li>
+ <li>conocimientos de c/c++</li>
+ <li>conocimientos de php ( bajo el cap&oacute; )<ol>
+ <li>SAPI PHP API</li>
+ <li>Signals</li>
+ <li>Sandboxing&nbsp;</li>
+ <li>LEXER / PARSER</li>
+ </ol></li>
+ </ol></li>
+ <li>&nbsp;Ejemplos pr&aacute;cticos<ol>
+ <li>RelaxingCup();</li>
+ <li>PrimeNumbers -&gt;factorize(1000,10000);</li>
+ <li>afile_put_contents();</li>
+ </ol></li>
+ <li>Conclusiones</li>
+ <li>Referencias</li>
+ </ol>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/desarrollo-de-extensiones-php-en-c-c
+            </guid>
+            <pubDate>Sun, 27 Oct 2013 12:48:23 +0100</pubDate>
+        </item>
+        <item>
+            <title>El terrorismo y la politica.</title>
+            <link>
+                http://desarrolla2.com/post/el-terrorismo-y-la-politica
+            </link>
+            <description>
+                <![CDATA[
+<p dir="ltr">Hace poco le&iacute; una noticia, relacionada con una serie de subvenciones a las v&iacute;ctimas del terrorismo. Puede parecer una buena noticia, pero lo cierto, es que no es m&aacute;s que una hipocres&iacute;a.</p>
+ <p dir="ltr">Desde aqu&iacute; todo mi cari&ntilde;o a cualquiera que haya sido o tenga alguien cercano que haya sido v&iacute;ctima de cualquier clase de terrorismo. Pero no entiendo por que una persona que ha perdido a alguien en manos, de una banda terrorista en espa&ntilde;a, debe tener mayor protecci&oacute;n, que una persona que haya perdido a alguien en un accidente de tr&aacute;fico, o v&iacute;ctima de un delincuente com&uacute;n.</p>
+ <p dir="ltr">Creo que la &uacute;nica diferencia, es que el terrorismo est&aacute; claramente politizado, y las v&iacute;ctimas tambi&eacute;n, se les da espacio, en peri&oacute;dicos, y en la televisi&oacute;n, y hacen mucho ruido, pero estoy casi seguro, de que hay un n&uacute;mero muy grande de v&iacute;ctimas de atropellos a ciclistas en espa&ntilde;a, y estos no tienen esa cobertura o ese reconocimiento social.</p>
+ <p dir="ltr">Quiero dejar otra reflexi&oacute;n m&aacute;s con respecto al terrorismo, y como es utilizado como justificaci&oacute;n.</p>
+ <p dir="ltr">En estados unidos, como todos sabemos existe una especie de caza de brujas contra el terrorismo, en gran parte provocado por el atentado del 11S en el que murieron miles de personas.</p>
+ <p dir="ltr">Mi pensamiento es el siguiente, estoy seguro que cada a&ntilde;o, mueren muchas m&aacute;s personas en EEUU por accidentes de tr&aacute;fico, accidentes laborales, asesinatos, falta de protecci&oacute;n sanitaria, etc. Entonces, &iquest;Porqu&eacute; no se dedican m&aacute;s recursos a proteger a sus ciudadanos en este aspecto?, es decir, &iquest;cual es la probabilidad de morir por un ataque terrorista con respecto a la probabilidad de morir, por otras causas? &iquest;Es racional entonces esta paranoia?</p>
+ <p>Un saludo!</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/el-terrorismo-y-la-politica
+            </guid>
+            <pubDate>Thu, 19 Sep 2013 12:32:43 +0200</pubDate>
+        </item>
+        <item>
+            <title>Monolog</title>
+            <link>http://desarrolla2.com/post/monolog</link>
+            <description>
+                <![CDATA[
+<p>Mi presentaci&oacute;n&nbsp;en el unconference de deSymfony en Junio 2013. El unconference es una especie de pre evento que se realiz&oacute; el d&iacute;a previo a deSymfony en la Universidad Polit&eacute;cnica de Madrid.</p>
+ <p>La charla es cortita, ya que no hay demasiado que decir
+]]>
+                <![CDATA[
+sobre Monolog, sin embargo si tuve la posibilidad de explicar las entra&ntilde;as, que mucha gente no conoce, y algunos casos de uso.</p>
+ <p>Adem&aacute;s fue valorada con un 5/5 en <a href="http://joind.in/talk/view/8932/" target="_blank">join.in</a>.</p>
+ <p><iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin: 5px 40px;" src="http://www.slideshare.net/slideshow/embed_code/23772375" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe></p>
+ <h3>Esquema</h3>
+ <ol>
+ <li>Monolog<ol>
+ <li>Open Source PHP5.3+ Inspired LogBook</li>
+ <li>2,5 Years old 220 Forks 65 Contributors</li>
+ <li>+200 Asserts + 70% Coverage</li>
+ <li>170,000 installations / month 820,000 total installations</li>
+ <li>It has not dependencies !!</li>
+ </ol></li>
+ <li>Monolog Logger</li>
+ <li>Monolog Handlers</li>
+ <li>Monolog Processors</li>
+ <li>Monolog Formatters</li>
+ <li>Use cases<ol>
+ <li>Monolog MYSQL performance debug</li>
+ <li>Monolog Monitoring Errors</li>
+ <li>Monolog Dashboard</li>
+ </ol></li>
+ </ol>
+]]>
+            </description>
+            <guid>http://desarrolla2.com/post/monolog</guid>
+            <pubDate>Thu, 20 Jun 2013 12:16:10 +0200</pubDate>
+        </item>
+        <item>
+            <title>Introducción a HTTP Cache</title>
+            <link>
+                http://desarrolla2.com/post/introduccion-a-http-cache
+            </link>
+            <description>
+                <![CDATA[
+<p>HTTP Cach&eacute; cumple un doble objetivo.</p>
+ <p>Mejora la latencia de tus sitios web, tus usuarios ver&aacute;n tus sitios web carga mucho m&aacute;s r&aacute;pido.</p>
+ <p>Disminuye el tr&aacute;fico de red y la carga de tus servidores, en otras palabras, tu servicio ser&aacute; m&aacute;s barato.</p>
+ <p>&iexcl;&iexcl;&iexcl; Adem&aacute;s es muy f&aacute;cil de implementar !!!</p>
+ <h1>&iquest;Que &eacute;s?</h1>
+ <p>Es un conjunto de reglas de HTTP que te permiten indicar cuanto tiempo ser&aacute; v&aacute;lido un recurso, o si este no ha sido modificado desde la &uacute;ltima solicitud.</p>
+ <p>Veremos m&aacute;s adelante y m&aacute;s profundamente estos dos conceptos.</p>
+ <h2>&iquest;C&oacute;mo funciona?</h2>
+ <p>HTTP Cache implementa las reglas para que se genere un tipo de cache llamada &ldquo;cach&eacute; web&rdquo;.</p>
+ <p>Estas cabeceras viajan con el recurso de la siguiente forma</p>
+ <pre class="bash">HTTP/1.0 200 OK
+ Content-Type: text/html; charset=UTF-8
+ Cache-Control: public, s-maxage=1800
+ Last-Modified: Wed, 03 Apr 2013 13:22:21 GMT
+ Date: Wed, 03 Apr 2013 14:16:04 GMT</pre>
+ <p>Puedes adivinar que estas cabeceras son las responsables de gestionar la cache.</p>
+ <p>La cach&eacute; web puede estar alojada en diferentes sitios.</p>
+ <h2>Cache en el navegador del usuario</h2>
+ <p>Esto es, el usuario solicita un recurso al servidor, lo almacena, y cuando lo vuelve a necesitar, el navegador lo recupera del disco duro del propio dispositivo. El tiempo de respuesta de este tipo de cache, es con diferencia el m&aacute;s r&aacute;pido que existe.</p>
+ <h2>Cache en servidores proxy</h2>
+ <p>Aunque no te des cuenta, es muy posible que existan varios servidores proxy entre tu y la web. A este tipo de proxy se les denomina &ldquo;proxy transparente&rdquo;.</p>
+ <p>Lo que nos interesa en este momento es la funci&oacute;n que ejercen, cacheando determinados recursos, de forma que no se vuelven a solicitar.</p>
+ <h2>Tipos de cache web</h2>
+ <p>Principalmente existen dos tipos de cache web, expiraci&oacute;n y validaci&oacute;n, vamos a ver como funciona cada una de ellas, y c&oacute;mo funcionan cuando trabajan juntas.</p>
+ <h3>Frescura</h3>
+ <p>Cuando un servidor web env&iacute;a un recurso a un navegador o a otro sistema que lo est&aacute; solicitando, a&ntilde;ade una cabecera que indica que ese recurso ser&aacute; valido durante un determinado periodo de tiempo, por ejemplo 3600 segundos, o hasta una fecha determinada, por ejemplo 1 de Enero de 2014.</p>
+ <p>El navegador o el servidor proxy guardar&aacute;n el recurso y no lo volver&aacute;n a solicitar hasta que ese recurso no haya expirado, veamos a continuaci&oacute;n cuales son las directivas</p>
+ <h5>Expires</h5>
+ <p>Esta directiva indica el momento hasta el cual el recurso ser&aacute; v&aacute;lido.</p>
+ <p>Tiene una forma similar a esto</p>
+ <p>Expires: Fri, 30 Oct 1998 14:19:41 GMT</p>
+ <h5>Cache-Control.</h5>
+ <p>Esta directiva es un poco m&aacute;s compleja, ya que puede tener una lista de propiedades separados por comas.</p>
+ <ul>
+ <li>
+ <p>max-age=[seconds] esta directiva es equivalente a Expires, e indica el n&uacute;mero de segundos durante los cuales el recurso ser&aacute; v&aacute;lido.</p>
+ </li>
+ <li>
+ <p>s-maxage=[seconds] es identica a la anterior, pero solo aplica a sistemas de cache compartida, por ejemplo los proxy cache.</p>
+ </li>
+ <li>
+ <p>public indica que la respuesta de una petici&oacute;n es cacheable, por todo tipo de sistemas de cache (compartidos y no)</p>
+ </li>
+ <li>
+ <p>private indica que la respuesta se gener&oacute; para un &uacute;nico usuario, y por lo tanto no debe ser cacheada por sistemas compartidos pero si por ejemplo por un navegador web.</p>
+ </li>
+ <li>
+ <p>no-cache indica que el sistema no deber&iacute;a cachear la respuesta</p>
+ </li>
+ <li>
+ <p>no-store indica que no se debe guardar el recurso en la cache.</p>
+ </li>
+ <li>
+ <p>must-revalidate: indica a los sistemas de cache si pueden utilizar el recurso una vez que este se encuentra caducado.</p>
+ </li>
+ <li>
+ <p>proxy-revalidate &mdash; similar a must-revalidate, excepto que aplica s&oacute;lo a sistemas proxy.</p>
+ </li>
+ </ul>
+ <p>Cache-Control ofrece bastantes herramientas para gestionar la cache, tal y como tu necesites.</p>
+ <p>Veamos algunos ejemplos.</p>
+ <pre class="bash">Cache-Control: public, max-age=3600</pre>
+ <p>Esta es ejemplo t&iacute;pico, quiere decir, que todos los sistemas deben cachear la respuesta hasta dentro de una hora.</p>
+ <pre class="bash">Cache-Control: max-age=0, must-revalidate</pre>
+ <p>En el ejemplo indicamos que el recurso caduca en el momento de la respuesta, pero a&uacute;n as&iacute; un servidor proxy podr&iacute;a cachear, y regresar la misma respuesta si por ejemplo no se puede conectar con el servidor original o si este regresa un error 5xx.</p>
+ <p>Cuando una directiva Cache-Control y una directiva Expires est&aacute; presente, Cache-Control es la que tiene validez.</p>
+ <h3>Validaci&oacute;n</h3>
+ <p>El otro tipo de directivas HTTP Cache son las directivas de validaci&oacute;n. En lugar de entregar la respuesta e indicarle al sistema de cache, cu&aacute;nto tiempo debe considerarse fresca y por lo tanto utilizar esa copia, cada vez que sea necesario, el sistema de validaci&oacute;n ofrece una forma de que el servidor de cache, pueda comprobar si el recurso a cambiado.</p>
+ <h4>Last-Modified</h4>
+ <p>Esta directiva indica cuando se modific&oacute; por &uacute;ltima vez un recurso, cuando el navegador realiza la petici&oacute;n env&iacute;a la fecha de la &uacute;ltima modificaci&oacute;n del recurso que tiene. El servidor la compara con la fecha de &uacute;ltima modificaci&oacute;n actual, y si no ha cambiado, regresa un codigo 200, pero no regresa el recurso, indicando a la cache que utilize el que ya tiene.</p>
+ <h4>ETag</h4>
+ <p>Funciona exactamente igual que Last-Modified, solo que el etag es un identificador &uacute;nico del recurso, puede ser por ejemplo un md5 del mismo.</p>
+ <p>Cuando la directiva Last-Modified y Etag est&aacute;n presentes, Etag es la que tiene mayor prioridad.</p>
+ <p>Como puedes ver, las cabeceras de frescura son mucho m&aacute;s r&aacute;pidas, ya que no se produce ning&uacute;n tipo de petici&oacute;n, mientras que las cabeceras de validaci&oacute;n te permiten un mayor control sobre lo que se almacena en la cache.</p>
+ <p>Referencias</p>
+ <ul>
+ <li><a href="http://www.mnot.net/cache_docs/">http://www.mnot.net/cache_docs/</a></li>
+ <li><a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html">http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</a></li>
+ </ul>
+ <p>Continuar&aacute;</p>
+ <p>Durante los pr&oacute;ximos d&iacute;as pienso seguir escribiendo sobre HTTP Cache, cuales son los problemas que tiene, cuales son las preguntas m&aacute;s frecuentes, como implementar f&aacute;cilmente http cache, como utilizar inteligentemente frescura y validaci&oacute;n, como implementar HTTP cache utilizando apache y php, y algunos consejos personales.</p>
+ <p>Pasate por aqui si quieres verlos.</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/introduccion-a-http-cache
+            </guid>
+            <pubDate>Wed, 27 Mar 2013 11:44:54 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                Instalar la última versión del JDK y JRE de Java / Oracle en Fedora 13
+            </title>
+            <link>
+                http://desarrolla2.com/post/instalar-la-ultima-version-del-jdk-y-jre-de-java-oracle-en-fedora-13
+            </link>
+            <description>
+                <![CDATA[
+<p>Si quieres instalar la &uacute;ltima versi&oacute;n del JDK y del JRE en tu equipo con fedora, sigue estos pasos.</p>
+ <h2>Descarga los RPM de la web de Java</h2>
+ <p>En esta web tienes los enlaces de<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"> descarga para el JDK y el JRE</a>, si no sabes lo que es el JDK y el JRE son dos paquetes, el primero contiene las herramientas necesarias para desarrollar software en tecnolog&iacute;a java, y el segundo contiene la Java Virtual Machine, necesaria para ejecutar software en Java.</p>
+ <p>Normalmente huir&iacute;a del uso del software original de Oracle, por su politica de empresa, tan "fea" con el Software Libre, pero en mi caso particular, tengo que ejecutar ciertas librer&iacute;as que no acaban de funcionar correctamente, en Linux y con el OpenJDK.</p>
+ <p>Volviendo al asunto.</p>
+ <p>&nbsp;</p>
+ <h2>Instala los binarios</h2>
+ <p>Ejecuta lo siguiente.</p>
+ <pre class="bash">sudo yum install jdk-7u15-linux-x64.rpm -y
+ sudo yum install jre-7u15-linux-x64.rpm -y</pre>
+ <p>Por lo visto la versi&oacute;n 7.15 genera unos mensajes de error, por la forma en la que est&aacute; empaquetado, pero no afectar&aacute;n a la ejecuci&oacute;n normal del entorno.</p>
+ <pre class="bash">Unpacking JAR files...
+ rt.jar...
+ Error: Could not open input file: /usr/java/jre1.7.0_15/lib/rt.pack
+ jsse.jar...
+ Error: Could not open input file: /usr/java/jre1.7.0_15/lib/jsse.pack
+ charsets.jar...
+ Error: Could not open input file: /usr/java/jre1.7.0_15/lib/charsets.pack
+ localedata.jar...
+ Error: Could not open input file: /usr/java/jre1.7.0_15/lib/ext/localedata.pack
+ Verifying : jre-1.7.0_15-fcs.x86_64</pre>
+ <p>&nbsp;</p>
+ <h2>A&ntilde;adir los binarios de Java al PATH del sistema</h2>
+ <p>Yo a&ntilde;adi las siguientes lineas al final del fichero /etc/profile</p>
+ <pre class="bash">export PATH=/usr/java/default/bin:$PATH
+ export JAVA_HOME=/usr/java/default</pre>
+ <p>Es necesario salir de la sesion del terminal y entrar de nuevo, para que las variables de entorno sean actualizadas.</p>
+ <p>&nbsp;Listo, ya tienes tu nueva versi&oacute;n de java funcionando como un tiro</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/instalar-la-ultima-version-del-jdk-y-jre-de-java-oracle-en-fedora-13
+            </guid>
+            <pubDate>Fri, 22 Feb 2013 10:17:18 +0100</pubDate>
+        </item>
+        <item>
+            <title>Añadir binarios como vendors a través de composer</title>
+            <link>
+                http://desarrolla2.com/post/anadir-binarios-como-vendors-a-traves-de-composer
+            </link>
+            <description>
+                <![CDATA[
+<p>En muchas ocasiones cuando te enfrentas a un problema es muy probable que este lo resuelva alg&uacute;n programa que ya existe y no desees lidiar con esta situaci&oacute;n. En tiempos pret&eacute;ritos lo que hac&iacute;amos era meter el binario "a pelo" dentro del sistema de control de versiones y a correr.&nbsp;</p>
+ <p>Pero en el fondo, sab&iacute;as que estabas haciendo mal. Hoy me he enfrentado a esa situaci&oacute;n y he visto c&oacute;mo composer permite solucionarlo de forma muy sencilla.</p>
+ <p>Para ello en el fichero composer.json, necesitas definir un bloque repositories en el que se a&ntilde;aden las fuentes externas. Aqui pueden ir diferentes tipos, desde otro <a href="https://packagist.org/">packagist</a>, un <a href="https://github.com/composer/satis">satis</a>&nbsp;o&nbsp;un git, pero en el ejemplo que me ocupa se trata de un fichero comprimido.</p>
+ <pre class="json">{
+ // ..
+ "repositories": [{
+ "type": "package",
+ "package": {
+ "name": "desarrolla2/myBinaryProgram",
+ "version": "0.11.0_rc1",
+ "dist": {
+ "url": "http://desarrolla2.com/myBinaryProgram.tar.gz",
+ "type": "tar"
+ }
+ }
+ }
+ ]
+ }</pre>
+ <p>y una vez que hemos declarado el repositorio, a&ntilde;adirlo al bloque de require correspondiente.</p>
+ <pre class="json">{
+ // ..
+ "require": {
+ "desarrolla2/myBinaryProgram" : "*"
+ },
+ }</pre>
+ <p>Y finalmente actualizar</p>
+ <pre class="bash">composer update</pre>
+ <p>Si quieres puedes leer la <a href="http://getcomposer.org/doc/05-repositories.md">referencia completa de repositorios</a> en la documentaci&oacute;n de composer.</p>
+ <p>Muy &uacute;til, para no tener que incluir binarios dentro del control de versiones, y que funcione tan ligero como nos gusta, nos vemos.</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/anadir-binarios-como-vendors-a-traves-de-composer
+            </guid>
+            <pubDate>Thu, 31 Jan 2013 16:37:44 +0100</pubDate>
+        </item>
+        <item>
+            <title>Configurando Nginx y Symfony2</title>
+            <link>
+                http://desarrolla2.com/post/configurando-nginx-y-symfony2
+            </link>
+            <description>
+                <![CDATA[
+<p>En este art&iacute;culo vamos a ver como configurar un sitio web con Symfony2 y Nginx.</p>
+ <p>Si vienes como yo desde el mundo apache, trabajar con nginx puede parecerte un poco raro, pero en seguida te das cuenta que la sintaxis de nginx es mucho m&aacute;s clara y limpia.</p>
+ <p>Al
+]]>
+                <![CDATA[
+igual que la configuraci&oacute;n de apache suele estar en el fichero apache2.conf la de nginx se encuentra en nginx.conf, normalmente en la carpeta /etc/nginx.</p>
+ <p>En ese fichero est&aacute; incluido esta directiva, es decir ejecutar todo lo incluido en la carpeta sites-enabled.</p>
+ <pre class="bash">include /etc/nginx/sites-enabled/*;</pre>
+ <p>Por convenci&oacute;n debes generar tu sitio en la carpeta sites-available, con un aspecto parecido a esto.</p>
+ <pre class="bash">server {
+ listen 8080;
+ root /var/www/desarrolla2.com/current/web;
+ index app.php;
+
+ server_name desarrolla2.com www.desarrolla2.com blog.desarrolla2.com;
+
+ location / {
+ try_files $uri $uri/ /app.php?$query_string;
+ }
+
+ location ~ \.php$ {
+ fastcgi_split_path_info ^(.+\.php)(/.+)$;
+ fastcgi_pass unix:/var/run/php5-fpm.sock;
+ fastcgi_index app.php;
+ include fastcgi_params;
+ fastcgi_param SERVER_PORT $http_x_forwarded_port;
+ }
+
+ location ~* ^.+\.(jpg|jpeg|gif|png|ico|swf|flv|woff)$ {
+ access_log off;
+ expires 9d;
+ }
+
+ location ~* ^.+\.(css|js)$ {
+ access_log off;
+ expires 1d;
+ }
+
+ access_log /var/log/nginx/access/desarrolla2.com.log;
+ error_log /var/log/nginx/error/desarrolla2.com.log error;
+ }</pre>
+ <p>Destacando lo m&aacute;s importante de arriba a abajo:</p>
+ <ul>
+ <li>La directiva server_name indica cuales son los host para los que se ejecutar&aacute; este sitio, en este caso, el de mi blog, el sitio respondera a cualquiera de estos tres&nbsp;desarrolla2.com www.desarrolla2.com blog.desarrolla2.com</li>
+ <li>La primera directiva location es una reescritura de url muy simple, no necesito m&aacute;s .htacces ni otras reescrituras como en apache, las cuales son bastante cripticas. En este punto ojo al final, de a&ntilde;adirle el parametro&nbsp;?$query_string; ya que en la <a href="http://wiki.nginx.org/Symfony">documentaci&oacute;n oficial</a> de nginx est&aacute; mal y sin esto se ignoran los parametros pasados por GET.</li>
+ <li>La siguiente directiva location&nbsp;~ \.php$ es la forma en la que le indico a nginx que todos los ficheros .php los tiene que ejecutar a trav&eacute;s del socket de php-fpm</li>
+ <li>Tambien es interesante lo facil que es a&ntilde;adir http cache a los ficheros de imagenes, css, y javascripts puede verse en las dos directivas siguientes. Tambien he desabilitado el log de acceso para estos recursos, ya que no tiene sentifo.</li>
+ <li>Las &uacute;ltimas lineas son para indicar donde quiero que se generen los log, un detalle al respecto, y es que est&aacute;n en diferentes carpetas, por lo que luego es un poco m&aacute;s sencillo acceder a ellos.</li>
+ </ul>
+ <div>Espero que os haya sido &uacute;til.</div>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/configurando-nginx-y-symfony2
+            </guid>
+            <pubDate>Sat, 26 Jan 2013 00:40:16 +0100</pubDate>
+        </item>
+        <item>
+            <title>Una reseña sobre Silex</title>
+            <link>http://desarrolla2.com/post/una-resena-sobre-silex</link>
+            <description>
+                <![CDATA[
+<p>Los micro frameworks est&aacute;n de moda en PHP, entre otras opciones que est&aacute;n apareciendo nos encontramos&nbsp;<a href="http://silex.sensiolabs.org/">Silex</a>&nbsp;sobre el que vamos a comentar en este art&iacute;culo, &nbsp;tambi&eacute;n hay otros como <a href="http://www.slimframework.com/">Slim</a>, <a href="http://flightphp.com/">Flight</a>, <a href="http://www.waveframework.com/">Wave</a>, <a href="http://gluephp.com/">GluePHP</a> y estoy seguro de que a esta lista puedes a&ntilde;adirle unos cuantos m&aacute;s.</p>
+ <p>Ten&iacute;a ganas de probar un proyecto con Silex, ver que ofrece y cuales son sus carencias, me interesaba sobre todo ver cuales son los motivos por lo que est&aacute; tan de moda este tipo de frameworks.</p>
+ <p>La semana pasada realic&eacute; un proyecto personal simple que me permitiera realizar algunas estad&iacute;sticas y an&aacute;lisis de datos, es decir, almacenar registros y pintarlos bonitos.</p>
+ <p>Tras el desarrollo de este peque&ntilde;o proyecto he llegado a las siguientes conclusiones.</p>
+ <h2>Silex es un MicroFramework</h2>
+ <p>Con esto quiero decir, que Silex trae lo b&aacute;sico, no trae ORM, no trae formularios, ni validaci&oacute;n, ni seguridad, ni motor de plantillas, en general, no trae casi nada de lo que vas a poder necesitar en un proyecto web. Un MicroFramework, en general lo unico que hace es "bootstraping" del entorno y manejar la petici&oacute;n y la respuesta.</p>
+ <p>A la vez Silex es un framework con el que muy f&aacute;cilmente puedes utilizar componentes de Symfony2, y est&aacute; muy bien documentado, por lo que es muy probable que por muy peque&ntilde;o que sea el proyecto acabes incluyendo tres o cuatro componentes de Symfony2.</p>
+ <p>En mi proyecto trat&eacute; de incluir nada m&aacute;s que lo imprescindible y acab&eacute; incluyendo, solo twig, y el componente de seguridad. Silex ya incluye de por s&iacute; el http-kernel, el http-foundation y el event-dispacher. En el&nbsp;<a href="https://github.com/javiereguiluz/bilbostack/blob/master/composer.json">ejemplo</a>&nbsp;de Javier Eguiluz, por ejemplo acaba incluyendo 14 componentes de Symfony2.</p>
+ <h2>Silex distribuci&oacute;n estandar</h2>
+ <p>En symfony comenzamos nuestros proyectos utilizando una distribuci&oacute;n, normalmente la <a href="https://github.com/symfony/symfony-standard">symfony-standar</a> con esto obtenemos la estructura de carpetas m&aacute;s habitual. En Silex no &nbsp;existe este concepto, lo que significa que est&aacute;s un poco m&aacute;s solo en la forma en la que puedes construir tu proyecto.</p>
+ <p>En el sitio web de Silex aparece mucha documentaci&oacute;n, sin embargo he visto diferentes proyectos realizados con Silex y est&aacute; claro que aunque se parecen no sigen exactamente la misma estrucura. Pueden verse por ejemplo las diferencias en cuanto a estructura entre estos proyectos.</p>
+ <ul>
+ <li><a href="https://github.com/javiereguiluz/bilbostack">Bilbostack</a> de Javier Eguiluz</li>
+ <li>Este <a href="https://github.com/khepin/tsusbos">acortador de URLs</a></li>
+ <li>Este <a href="https://github.com/lyrixx/Silex-Kitchen-Edition/blob/master/web/index.php">ejemplo</a></li>
+ </ul>
+ <p>En general, y no se si esto es un error, en mis proyectos trato de seguir la misma estructura que sigen los proyectos en Symfony2, por ejemplo la configuraci&oacute;n esta en app/config, las vistas est&aacute;n en app/Resources/views/ etc.</p>
+ <p>[<strong>Corregido</strong>] Si existe una distribuci&oacute;n est&aacute;ndar de Silex, est&aacute; en <a href="https://github.com/fabpot/Silex-Skeleton">Silex-Skeleton</a>, quiz&aacute; me despistaron post como <a href="http://php-and-symfony.matthiasnoback.nl/2012/01/silex-getting-your-project-structure-right/">este</a>, tambi&eacute;n hay otras distribuciones no extandar.</p>
+ <h2>MicroORM</h2>
+ <p><span>He escuchado que algunas personas reclamaban un microORM para Silex, no acabo de estar de acuerdo, lo mejor es que utilices PDO, y as&iacute; no pierdes la oportunidad de cambiar sistema de gesti&oacute;n de base de datos.&nbsp;</span>La <a href="http://silex.sensiolabs.org/doc/providers/doctrine.html">otra opci&oacute;n</a> es utilizar DBAL de doctine.</p>
+ <h2>&iquest;Cuando usar Silex?</h2>
+ <p>Realmente Symfony2 es un monstruo, comenzar un proyecto en Symfony2 requiere configurar un mont&oacute;n de cosas y descargar un mont&oacute;n de librer&iacute;as. Ejecutar un composer install por primera vez, significa hacer una parada para tomar caf&eacute;. Con Silex puedes tener algo funcionando en menos de una hora.</p>
+ <p>Al menos en mi opini&oacute;n Silex es una opci&oacute;n muy v&aacute;lida para proyectos muy peque&ntilde;os y sobre todo para prototipos, muy posiblemente si tu proyecto crece vas a querer pasar el proyecto en Symfony2.</p>
+ <p>No lo he probado todav&iacute;a, pero creo que puede ser ideal para el desarrollo de APIS, por ejemplo API REST.</p>
+ <p>Silex es muy extensible, si tan solo necesitas algunas de las caracter&iacute;siticas de Symfony2, puedes a&ntilde;adirlas con solo algunas l&iacute;neas de configuraci&oacute;n, y algunos require en el composer.json.</p>
+ <h2>&iquest;Cuando no usar Silex?</h2>
+ <p>Si crees que tu proyecto va a requerir un desarrollo completo, autenticaci&oacute;n, formularios, varias entidades, etc, ... casi seguro que te interesa utilizar Symfony2.</p>
+ <p>&iquest;A t&iacute; qu&eacute; te parece?</p>
+]]>
+            </description>
+            <guid>http://desarrolla2.com/post/una-resena-sobre-silex</guid>
+            <pubDate>Tue, 22 Jan 2013 19:57:33 +0100</pubDate>
+        </item>
+        <item>
+            <title>Estrategias de etiquetado en composer</title>
+            <link>
+                http://desarrolla2.com/post/estrategias-de-etiquetado-en-composer
+            </link>
+            <description>
+                <![CDATA[
+<p>Composer es un increible gestor de dependencias para php del que ya hemos hablado en este blog, y cada d&iacute;a m&aacute;s y m&aacute;s proyectos comienzan a usarlo.</p>
+ <p>Pero no todo est&aacute; en composer, la principal responsabilidad recae en los desarrolladores de los paquete
+]]>
+                <![CDATA[
+s, es decir, que los dolores de cabeza por problemas de dependencias, son normalmente probocados por una mala gesti&oacute;n de las mismas, por parte de los que mantienen los paquetes.</p>
+ <p>Principalmente he detectado tres tipos de estrategias en cuanto al uso de composer se refiere, y tambien a&ntilde;ado cuales son mis impresiones sobre ellas.</p>
+ <h2>Viviendo en "dev-master"</h2>
+ <p>El desarrollador del paquete no se preocupa por etiquetar &nbsp;correctamente cada versi&oacute;n. Tristemente casi todos los bundles de symfony se encuentran en este caso.</p>
+ <p>Esta es una mala practica, incluso si tu software se encuentra en una fase de fuerte desarrollo, deber&iacute;as usar etiquetas en el momento en el que el paquete es usado por otros, para poder garantizarles algo de estabilidad.</p>
+ <p>No es la primera vez que he realizado un composer update y mi c&oacute;digo ha quedado roto, por cambios en librer&iacute;as en las que sus desarrolladores no se han preocupado en pensar en los problemas que puede conllevar a los que est&aacute;n usando dichas librer&iacute;as.</p>
+ <h2>Versionando en funci&oacute;n del tiempo y/o de las nuevas caracter&iacute;sticas</h2>
+ <p>Las versiones son etiquetadas cuando el desarrollador "siente" que debe hacerlo, es decir, que vive en dev-master y se preocupa de crear una etiqueta una vez que ha alcanzado una "meta", ya puede ser temporal, como por ejemplo cada se&iacute;s meses o a completado una determinada caracteristica.</p>
+ <p>Este tipo de estrategias suelen ser &uacute;tiles en paquetes que son utilizados masivamente.</p>
+ <p>Una critica a este tipo de estrategias, es que la correcci&oacute;n de un error, no es etiquetado, hasta que no se alcanza la siguiente "meta", y por lo tanto no ser&aacute; distribuida hasta dicho momento, salvo por los usuarios que decidan utilizar la rama "dev-master" de su software.</p>
+ <h2>Los frikis de las etiquetas</h2>
+ <p>Un verdadero friki de las etiquetas a&ntilde;adir&aacute; una nueva etiqueta en cuanto pueda, es decir, en cuanto tenga una serie de commits, que generan una nueva versi&oacute;n estable de su paquete, etiquetandolo de la siguiente forma: <em>X.Y+1.0</em> si a&ntilde;adio una nueva caracteristica, o <em>X.Y.Z+1</em> si se corrigio alg&uacute;n error.</p>
+ <p>&iquest;Que hay de problematico en sacar 5 nuevas versiones al d&iacute;a? &nbsp;En la mayor&iacute;a de los casos la respuesta sea nada, as&iacute; que esta es la mejor estrategia que pueda permitir a los que utilizan tus paquetes mantener su c&oacute;digo funcionando correctamente.</p>
+ <p>&nbsp;</p>
+]]>
+            </description>
+            <guid>
+                http://desarrolla2.com/post/estrategias-de-etiquetado-en-composer
+            </guid>
+            <pubDate>Mon, 07 Jan 2013 20:35:05 +0100</pubDate>
+        </item>
+        <item>
+            <title>El patrón Observer</title>
+            <link>http://desarrolla2.com/post/el-patron-observer</link>
+            <description>
+                <![CDATA[
+<p>El patr&oacute;n "Observer" tambi&eacute;n conocido como el patr&oacute;n "Publish-Subscribe" es un patr&oacute;n de dise&ntilde;o de<a href="http://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o#Patrones_de_comportamiento"> comportamiento</a>, que define una relaci&oacute;n de uno a muchos de tal manera que cuando un objeto cambia su estado, todos los objetos dependientes son notificados de la actualizaci&oacute;n autom&aacute;ticamente.</p>
+ <p>Este patr&oacute;n como veremos, resuelve el problema del "crecimiento" de nuestras clases, seg&uacute;n nuestra aplicaci&oacute;n va ganando funcionalidad.</p>
+ <p>El objeto con una relaci&oacute;n de uno a muchos que est&aacute;n suscritos a sus actualizaciones de estado se denomina el "subject" o el "publisher". Los objetos dependientes de el son llamados "observers" o "sucriptors".</p>
+ <p>Los objetos "observers" son notificados de cada actualizaci&oacute;n del "subject" y act&uacute;an en consecuencia. Un objeto "subject" puede tener cualquier n&uacute;mero de "observers".<br />Si te das cuenta es una forma sencilla de aumentar la funcionalidad de una clase, sin modificar la misma.</p>
+ <h2 dir="ltr">La clase Observer</h2>
+ <p>En el ejemplo la clase "observer" facilita un m&eacute;todo update() que ser&aacute; llamado por el "subject" para notificar una actualizaci&oacute;n de su estado. En el ejemplo he definido el m&eacute;todo update() pero si est&aacute;s utilizando este patr&oacute;n seguramente quieras definirlo como abstracto y delegar en las subclases de "observer" la implementaci&oacute;n concreta.</p>
+ <pre class="php">&lt;?php
+ abstract class Observer
+ {
+ public function update(Subject $subject) {
+ // observer's stuff
+ }
+ }</pre>
+ <h2>La clase Subject</h2>
+ <p>La clase "Subject" es tambi&eacute;n una clase abstracta que define los siguientes m&eacute;todos: <em>attach</em>(), <em>detach</em>() y <em>notify()</em>, que son los responsables de a&ntilde;adir y eliminar "Observers" y de notificar que ha existido una actualizaci&oacute;n de estado. Tambien he a&ntilde;adido otro m&eacute;todo <em>setState</em>(), que ser&aacute; el responsable de desencadenar el <em>notify</em>().</p>
+ <pre class="php">&lt;?php abstract class Subject
+ {
+ protected $observers;
+ protected $state;
+
+ public function __construct() {
+ $this-&gt;observers = array();
+ $this-&gt;state = null;
+ }
+
+ public function attach(Observer $observer) {
+ $i = array_search($observer, $this-&gt;observers);
+ if ($i === false) {
+ $this-&gt;observers[] = $observer;
+ }
+ }
+
+ public function detach(Observer $observer) {
+ if (!empty($this-&gt;observers)) {
+ $i = array_search($observer, $this-&gt;observers);
+ if ($i !== false) {
+ unset($this-&gt;observers[$i]);
+ }
+ }
+ }
+
+ public function setState($state) {
+ $this-&gt;state = $state;
+ $this-&gt;notify();
+ }
+
+ public function notify() {
+ if (!empty($this-&gt;observers)) {
+ foreach ($this-&gt;observers as $observer) {
+ $observer-&gt;update($this);
+ }
+ }
+ }
+ }</pre>
+ <p>El m&eacute;todo <em>attach</em>() a&ntilde;ade un suscribe un "observer" al "subject" as&iacute; que cualquier cambio de estado ser&aacute; notificado al suscriptor y este puede actuar en consecuencia.&nbsp;El metodo <em>detach</em>() se encarga de eliminar esa suscripcion.</p>
+ <p>Finalmente el metodo <em>notify</em>() se encarga de notificar a cada uno de los suscriptores.</p>
+ <h2>Resumen</h2>
+ <p>El patron Observer permite diferenciar entre la l&oacute;gica principial de una clase y la l&oacute;gica opcional. Este patr&oacute;n es muy util a la hora de mantener nuestra logica de aplicaci&oacute;n desacoplada, modular y sobre todo extensible a los nuevos requerimientos que pueda tener nuestra aplicaci&oacute;n.</p>
+ <p>Adem&aacute;s es muy util a la hora de permitir una reimplementaci&oacute;n sencilla de cualquiera de los "suscribers" ya que como se ve, la implementaci&oacute;n de cada uno de ellos es totalmente independiente de los dem&aacute;s y del propio "subject"</p>
+]]>
+            </description>
+            <guid>http://desarrolla2.com/post/el-patron-observer</guid>
+            <pubDate>Mon, 17 Dec 2012 19:24:35 +0100</pubDate>
+        </item>
+    </channel>
+</rss>
