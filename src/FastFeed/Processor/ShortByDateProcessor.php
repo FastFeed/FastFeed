@@ -7,12 +7,11 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Sanitizer;
+namespace FastFeed\Processor;
 
 /**
- * SanitizerInterface
+ * ShortByDateProcessor
  */
-class SanitizerInterface
-{
+class ShortByDateProcessor {
 
-}
+} 
