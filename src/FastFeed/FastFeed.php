@@ -249,8 +249,7 @@ class FastFeed
                 continue;
             }
 
-            $tempResult = $this->parse($content);
-            array_merge($result, $tempResult);
+            $result = array_merge($result, $this->parse($content));
 
         }
 

@@ -59,6 +59,11 @@ class Item
     /**
      * @var array
      */
+    protected $extra = array();
+
+    /**
+     * @var array
+     */
     protected $tags = array();
 
     /**
@@ -226,5 +231,28 @@ class Item
         }
 
         return $this->date;
+    }
+
+    /**
+     * @param $key
+     * @param $value
+     */
+    public function setExtra($key, $value)
+    {
+        $this->extra[$key] = (string)$value;
+    }
+
+    /**
+     * @param $key
+     *
+     * @return bool
+     */
+    public function getExtra($key)
+    {
+        if (!isset($this->extra[$key])) {
+            return false;
+        }
+
+        return $this->extra[$key];
     }
 }
