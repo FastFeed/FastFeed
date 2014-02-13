@@ -13,6 +13,7 @@ Insight | [![SensioLabsInsight](https://insight.sensiolabs.com/projects/99e97a62
 
 + [Documentation (english)](https://github.com/FastFeed/FastFeed/blob/master/doc/en/index.md)
 + [Documentation (spanish)](https://github.com/FastFeed/FastFeed/blob/master/doc/es/index.md)
++ [API](http://fastfeed.desarrolla2.com/api/namespaces/FastFeed.html)
 
 ## Contact
 
