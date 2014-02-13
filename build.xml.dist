@@ -44,6 +44,7 @@
             <arg value="src"/>
             <arg value="-t"/>
             <arg value="build/api/"/>
+            <arg value="--template=responsive"/>
         </exec>
     </target>
 

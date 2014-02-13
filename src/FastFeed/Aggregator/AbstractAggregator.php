@@ -16,5 +16,4 @@ use FastFeed\Parser\AbstractDomParser;
  */
 abstract class AbstractAggregator extends AbstractDomParser
 {
-
 }

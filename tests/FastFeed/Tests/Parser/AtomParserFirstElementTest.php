@@ -162,7 +162,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
     {
         $content = $this->getContent($fileName);
         $item = $this->getItem($content);
-        
+
         $expected = strtotime($this->getFirstValueFromXpath($content, "*/ns:published"));
 
         $this->assertEquals(
