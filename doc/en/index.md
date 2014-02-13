@@ -10,10 +10,10 @@ FastFeed is a library that allows you to consume "feeds" atom or rss to be used 
 
 ## Contents
 
-+ [Installation](https://github.com/FastFeed/FastFeed/blob/master/doc/es/install.md)
-+ [Using FastFeed](https://github.com/FastFeed/FastFeed/blob/master/doc/es/use.md)
-+ [Parsers](https://github.com/FastFeed/FastFeed/blob/master/doc/es/parsers.md)
-+ [Agreggators](https://github.com/FastFeed/FastFeed/blob/master/doc/es/aggregators.md)
-+ [Processors](https://github.com/FastFeed/FastFeed/blob/master/doc/es/processors.md)
-+ [Cache](https://github.com/FastFeed/FastFeed/blob/master/doc/es/cache.md)
-+ [Faq](https://github.com/FastFeed/FastFeed/blob/master/doc/es/faq.md)
++ [Installation](https://github.com/FastFeed/FastFeed/blob/master/doc/en/install.md)
++ [Using FastFeed](https://github.com/FastFeed/FastFeed/blob/master/doc/en/use.md)
++ [Parsers](https://github.com/FastFeed/FastFeed/blob/master/doc/en/parsers.md)
++ [Agreggators](https://github.com/FastFeed/FastFeed/blob/master/doc/en/aggregators.md)
++ [Processors](https://github.com/FastFeed/FastFeed/blob/master/doc/en/processors.md)
++ [Cache](https://github.com/FastFeed/FastFeed/blob/master/doc/en/cache.md)
++ [Faq](https://github.com/FastFeed/FastFeed/blob/master/doc/en/faq.md)
