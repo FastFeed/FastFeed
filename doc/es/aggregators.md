@@ -8,7 +8,7 @@ items si el feed tiene tambien la expecificacion http://purl.org/rss/1.0/modules
 
 ## Añadirlos a un Parser
 
-Los **Aggregators** deben ser añadidos a un Parser de la siguiente forma.
+Los **Aggregators** deben ser añadidos a un **Parser** de la siguiente forma.
 
 ``` php
 use FastFeed\Parser\RSSParser;
@@ -19,7 +19,7 @@ $parser->pushAggregator(new RSSContentAggregator());
 $fastFeed->pushParser($parser);
 ```
 
-## Parsers Disponibles
+## Aggregators disponibles
 
 Actualmente tenemos estos **Aggregators** disponibles.
 
@@ -31,8 +31,6 @@ Actualmente tenemos estos **Aggregators** disponibles.
 
 Hecha un vistazo a
 [RSSContentAggregator](https://github.com/FastFeed/FastFeed/blob/master/src/FastFeed/Aggregator/RSSContentAggregator.php).
-
-
 
 Envianos un PR con tus **Aggregators**!!
 

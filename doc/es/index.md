@@ -1,6 +1,6 @@
 # FastFeed
 
-FastFeed es una librería que te permite consumir "feeds" em formatos atom o rss, para ser utilizados en tus aplicaciones.
+FastFeed es una librería que te permite consumir "feeds" en formato atom o rss para ser utilizados en tus aplicaciones.
 
 ## Caracteristicas
 

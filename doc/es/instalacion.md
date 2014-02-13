@@ -9,7 +9,7 @@ FastFeed funciona correctamente en todas las versiones de PHP5.3+
 ## Mediante composer
 
 Instala FastFeed a través de composer añadiendo el siguiente bloque a tu fichero **composer.json**, puedes ver las
-versiones diposnibles en [packagist](https://packagist.org/packages/fastfeed/fastfeed).
+versiones disponibles en [packagist](https://packagist.org/packages/fastfeed/fastfeed).
 
 ``` json
     "require": {

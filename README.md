@@ -1,6 +1,6 @@
 # FastFeed
 
-Proyect description will be here, FastFeed is not ready for use.
+Project description will be here, FastFeed is not ready for use.
 
 Name | Budge | Name | Budge
 --- | --- | --- | --- |
@@ -15,6 +15,10 @@ Insight | [![SensioLabsInsight](https://insight.sensiolabs.com/projects/99e97a62
 + [Documentation (spanish)](https://github.com/FastFeed/FastFeed/blob/master/doc/es/index.md)
 + [API](http://fastfeed.desarrolla2.com/api/namespaces/FastFeed.html)
 
+## License
+
+This library is licensed under the MIT license.
+
 ## Contact
 
-You can contact with me on [twitter](https://twitter.com/desarrolla2).
+You can contact with me on [@desarrolla2](https://twitter.com/desarrolla2).

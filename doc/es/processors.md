@@ -15,7 +15,7 @@ use FastFeed\Processor\SanitizerProcessor;
 $fastFeed->pushProcessor(new SanitizerProcessor());
 ```
 
-## Processors Disponibles
+## Processors disponibles
 
 Actualmente tenemos estos **Processors** disponibles.
 
@@ -23,13 +23,10 @@ Actualmente tenemos estos **Processors** disponibles.
 + FastFeed\Processor\SortByDateProcessor
 + FastFeed\Processor\SanitizerProcessor
 
-
 ## Crear un Processors a medida
 
 Hecha un vistazo a
 [SortByDateProcessor](https://github.com/FastFeed/FastFeed/blob/master/src/FastFeed/Processor/SortByDateProcessor.php).
-
-
 
 Envianos un PR con tus **Processors**!!
 

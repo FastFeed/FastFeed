@@ -1,14 +1,13 @@
 # Parsers
 
-## ¿Que son?
+## What are they?
 
-Son los responsables de analizar el texto y crear un array de elementos items. Actualmente hay implementados dos
-tipos de parsers, uno para **RSS2.0** y otro para **Atom1.0** pero se podrían implementar parsers fácilmente para otros
-formatos como por ejemplo **HTML** o **sitemaps.xml**
+They are the responsible of analyze the text and create a array of items. Now we are implemented two kinds of parsers,
+one for **RSS2.0** and other for **Atom1.0** but is easy to implement for other formats as **HTML** or **sitemap.xml**
 
-## Añadirlos a FastFeed
+## Add it to FastFeed
 
-Simplemente instanciarlos y añadirlos al FastFeed
+Only instance and add it to FastFeed
 
 ``` php
 use FastFeed\Parser\AtomParser;
@@ -18,17 +17,17 @@ $fastFeed->pushParser(new RSSParser());
 $fastFeed->pushParser(new AtomParser());
 ```
 
-## Parsers disponibles
+## Parsers available
 
-Actualmente tenemos estos **Parsers** disponibles.
+Currently we have these **Parsers** available.
 
 + FastFeed\Parser\AtomParser;
 + FastFeed\Parser\RSSParser;
 
 
-## Crear un Parser a medida
+## Create custom Parser
 
-Aquí puedes ver un ejemplo de un **Parser** que recuperaría datos de un **sitemap.xml**
+Here you can see an example of a **Parser** to recover data from a **sitemap.xml**
 
 ``` php
 class SiteMapParser extends AbstractParser implements ParserInterface
@@ -87,8 +86,8 @@ class SiteMapParser extends AbstractParser implements ParserInterface
 }
 ```
 
-Envianos un PR con tus **Parser**!!
+Send us a PR with your **Parser**!
 
-## Continua leyendo
+## Continue reading
 
 [Agreggators](https://github.com/FastFeed/FastFeed/blob/master/doc/es/aggregators.md)
