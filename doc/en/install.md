@@ -22,7 +22,7 @@ versions available in [packagist](https://packagist.org/packages/fastfeed/fastfe
 
 Download FastFeed from his site at [GitHub](https://github.com/desarrolla2/RSSClient/releases) and include it on
 **vendors** folder of your project. Remember that FastFeed need that you register it on the system
-autoloading that supports the [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)
+autoloading that supports the [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4.md)
 
 ## Continue reading
 
