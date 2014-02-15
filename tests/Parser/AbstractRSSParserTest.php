@@ -24,7 +24,7 @@ abstract class AbstractRSSParserTest extends AbstractParserTest
     /**
      * @var string
      */
-    protected $path = '/../../../data/rss20/';
+    protected $path = '/../data/rss20/';
 
     /**
      * @var array

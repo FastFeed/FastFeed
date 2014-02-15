@@ -24,7 +24,7 @@ abstract class AbstractAtomParserTest extends AbstractParserTest
     /**
      * @var string
      */
-    protected $path = '/../../../data/atom10/';
+    protected $path = '/../data/atom10/';
 
     /**
      * @var array
