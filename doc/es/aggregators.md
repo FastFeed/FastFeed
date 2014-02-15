@@ -24,7 +24,6 @@ $fastFeed->pushParser($parser);
 Actualmente tenemos estos **Aggregators** disponibles.
 
 + FastFeed\Aggregator\RSSContentAggregator;
-+ FastFeed\Aggregator\ImageAggregator;
 
 
 ## Crear un Aggregator a medida

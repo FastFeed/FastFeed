@@ -101,6 +101,10 @@ class FastFeed
 
         $items = $this->retrieve($channel);
 
+        foreach($this->processors as $processor){
+            $processor->process($items);
+        }
+
         return $items;
     }
 

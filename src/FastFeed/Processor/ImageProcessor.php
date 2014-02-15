@@ -7,7 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FastFeed\Aggregator;
+namespace FastFeed\Processor;
 
 use DOMDocument;
 use DOMElement;
@@ -15,10 +15,8 @@ use FastFeed\Item;
 
 /**
  * ImageProcessor
- *
- * This Aggregator seem for a image in description and set in image field of Item
  */
-class ImageAggregator extends AbstractAggregator implements AggregatorInterface
+class ImageProcessor implements ProcessorInterface
 {
     /**
      * @var array
@@ -66,18 +64,31 @@ class ImageAggregator extends AbstractAggregator implements AggregatorInterface
     }
 
     /**
-     * Execute the Aggregator
+     * Execute processor
      *
-     * @param DOMElement $node
-     * @param Item       $item
+     * @param array $items
      */
-    public function process(DOMElement $node, Item $item)
+    public function process(array &$items)
+    {
+        foreach ($items as $key => $item) {
+            $items[$key] = $this->setImage($item);
+        }
+    }
+
+    /**
+     * @param Item $item
+     *
+     * @return Item
+     */
+    protected function setImage(Item $item)
     {
         if ($item->hasImage() && !$this->overrideImage) {
-            return;
+            return $item;
         }
 
         $this->setImageFromContent($item);
+
+        return $item;
     }
 
     /**

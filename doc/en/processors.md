@@ -19,6 +19,7 @@ $fastFeed->pushProcessor(new SanitizerProcessor());
 
 Currently we have these **Processors** available.
 
++ FastFeed\Processor\ImageProcessor
 + FastFeed\Processor\LimitProcessor
 + FastFeed\Processor\SortByDateProcessor
 + FastFeed\Processor\SanitizerProcessor
