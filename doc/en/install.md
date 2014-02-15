@@ -26,4 +26,4 @@ autoloading that supports the [PSR-4](https://github.com/php-fig/fig-standards/b
 
 ## Continue reading
 
-[Using FastFeed](https://github.com/FastFeed/FastFeed/blob/master/doc/es/use.md)
+[Using FastFeed](https://github.com/FastFeed/FastFeed/blob/master/doc/en/use.md)

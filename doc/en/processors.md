@@ -34,4 +34,4 @@ Send us a PR with your **Processor**!
 
 ## Continue reading
 
-[Cache](https://github.com/FastFeed/FastFeed/blob/master/doc/es/cache.md)
+[Cache](https://github.com/FastFeed/FastFeed/blob/master/doc/en/cache.md)

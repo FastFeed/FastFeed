@@ -90,4 +90,4 @@ Send us a PR with your **Parser**!
 
 ## Continue reading
 
-[Agreggators](https://github.com/FastFeed/FastFeed/blob/master/doc/es/aggregators.md)
+[Agreggators](https://github.com/FastFeed/FastFeed/blob/master/doc/en/aggregators.md)
