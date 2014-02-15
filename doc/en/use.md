@@ -62,4 +62,4 @@ foreach ($items as $item) {
 
 ## Continue reading
 
-[Parsers](https://github.com/FastFeed/FastFeed/blob/master/doc/es/parsers.md)
+[Parsers](https://github.com/FastFeed/FastFeed/blob/master/doc/en/parsers.md)
