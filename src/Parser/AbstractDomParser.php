@@ -24,13 +24,32 @@ abstract class AbstractDomParser
      * @return DOMDocument
      * @throws \FastFeed\Exception\RuntimeException
      */
-    protected function createDocument($content)
+    protected function createDocumentFromXML($content)
     {
         $previousValue = libxml_use_internal_errors(true);
 
         $document = new DOMDocument();
         $document->strictErrorChecking = false;
         $document->loadXML(trim($content));
+
+        libxml_use_internal_errors($previousValue);
+
+        return $document;
+    }
+
+    /**
+     * @param $content
+     *
+     * @return DOMDocument
+     * @throws \FastFeed\Exception\RuntimeException
+     */
+    protected function createDocumentFromHTML($content)
+    {
+        $previousValue = libxml_use_internal_errors(true);
+
+        $document = new DOMDocument();
+        $document->strictErrorChecking = false;
+        $document->loadHTML(trim($content));
 
         libxml_use_internal_errors($previousValue);
 

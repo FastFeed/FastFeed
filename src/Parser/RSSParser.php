@@ -31,7 +31,7 @@ class RSSParser extends AbstractParser implements ParserInterface
     public function getNodes($content)
     {
         $items = array();
-        $document = $this->createDocument($content);
+        $document = $this->createDocumentFromXML($content);
         $nodes = $document->getElementsByTagName('item');
         if ($nodes->length) {
             foreach ($nodes as $node) {
