@@ -22,7 +22,7 @@ versiones disponibles en [packagist](https://packagist.org/packages/fastfeed/fas
 
 Descarga FastFeed desde su sitio en [GitHub](https://github.com/desarrolla2/RSSClient/releases) e incluyelo dentro
 de la carpeta **vendors** de tu proyecto. Recuerda que FastFeed necesita un que tu lo registres en un sistema
-autoloading compatible con el [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4.md)
+autoloading compatible con el [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
 
 ## Continua leyendo
 
