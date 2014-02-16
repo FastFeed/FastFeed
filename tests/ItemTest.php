@@ -41,7 +41,7 @@ class ItemTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('image', $item->getImage());
         $this->assertEquals($date, $item->getDate());
         $this->assertEquals('value', $item->getExtra('key'));
-        $this->assertEquals(false, $item->getExtra('key-no-exist'));
+        $this->assertEquals(null, $item->getExtra('key-no-exist'));
         $this->assertEquals(array('tag'), $item->getTags());
     }
 }

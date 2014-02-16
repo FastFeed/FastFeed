@@ -250,7 +250,7 @@ class Item
     public function getExtra($key)
     {
         if (!isset($this->extra[$key])) {
-            return false;
+            return;
         }
 
         return $this->extra[$key];

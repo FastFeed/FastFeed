@@ -59,7 +59,9 @@ class ImageProcessorTest extends \PHPUnit_Framework_TestCase
                 '#b.gif#'
             ),
             array(
-                '<p><p><a href="http://ubuntulife.files.wordpress.com/2014/02/apple-might-have-bought-pear-os.jpg"><img  alt="Apple-Might-Have-Bought-Pear-OS" src="http://ubuntulife.files.wordpress.com/2014/02/apple-might-have-bought-pear-os.jpg?w=500&#038;h=273" /></a></p>',
+                '<p><p><a href="http://ubuntulife.files.wordpress.com/2014/02/apple-might-have-bought-pear-os.jpg">' .
+                '<img  alt="Apple-Might-Have-Bought-Pear-OS" src="http://ubuntulife.files.wordpress.com/2014/02/' .
+                'apple-might-have-bought-pear-os.jpg?w=500&#038;h=273" /></a></p>',
                 'http://ubuntulife.files.wordpress.com/2014/02/apple-might-have-bought-pear-os.jpg?w=500&h=273',
                 null
             ),

@@ -10,7 +10,6 @@
 namespace FastFeed\Processor;
 
 use DOMDocument;
-use DOMElement;
 use FastFeed\Item;
 
 /**
