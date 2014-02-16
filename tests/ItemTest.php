@@ -44,4 +44,4 @@ class ItemTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(false, $item->getExtra('key-no-exist'));
         $this->assertEquals(array('tag'), $item->getTags());
     }
-} 
+}

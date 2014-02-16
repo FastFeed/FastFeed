@@ -83,5 +83,4 @@ class FastFeed extends FastFeedBase
     {
         $this->getCache()->set($channel, $items);
     }
-
 }

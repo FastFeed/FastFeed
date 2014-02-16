@@ -32,5 +32,4 @@ class FastFeedManagerExceptionTest extends AbstractFastFeedTest
     {
         $this->fastFeed->fetch('desarrolla2');
     }
-
-} 
+}
