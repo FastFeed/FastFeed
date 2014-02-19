@@ -21,7 +21,7 @@ use FastFeed\Processor\ProcessorInterface;
 /**
  * FastFeed
  */
-class FastFeed
+class FastFeed implements FastFeedInterface
 {
     /**
      * @const VERSION

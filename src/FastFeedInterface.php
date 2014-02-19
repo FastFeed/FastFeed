@@ -13,23 +13,25 @@ namespace FastFeed;
 /**
  * FeedManagerInterface
  */
-interface FeedManagerInterface
+interface FastFeedInterface
 {
-    /**
-     * Set a channel
-     *
-     * @param string $channel
-     * @param string $feed
-     */
-    public function setFeed($channel, $feed);
-
     /**
      * Add feed to channel
      *
      * @param string $channel
      * @param string $feed
+     *
+     * @throws InvalidArgumentException
      */
     public function addFeed($channel, $feed);
+
+    /**
+     * @param string $channel
+     *
+     * @return array
+     * @throws Exception\InvalidArgumentException
+     */
+    public function fetch($channel = 'default');
 
     /**
      * Retrieve a channel
@@ -42,9 +44,53 @@ interface FeedManagerInterface
     public function getFeed($channel);
 
     /**
+     * @return ParserInterface
+     * @throws Exception\LogicException
+     */
+    public function popParser();
+
+    /**
+     * @param ParserInterface $parser
+     */
+    public function pushParser(ParserInterface $parser);
+
+    /**
+     * @return ProcessorInterface
+     * @throws Exception\LogicException
+     */
+    public function popProcessor();
+
+    /**
+     * @param ProcessorInterface $processor
+     */
+    public function pushProcessor(ProcessorInterface $processor);
+
+    /**
      * Retrieve all channels
      *
      * @return array
      */
     public function getFeeds();
+
+    /**
+     * Set Guzzle
+     *
+     * @param ClientInterface $guzzle
+     */
+    public function setHttpClient(ClientInterface $guzzle);
+
+    /**
+     * @param LoggerInterface $logger
+     */
+    public function setLogger(LoggerInterface $logger);
+
+    /**
+     * Set a channel
+     *
+     * @param string $channel
+     * @param string $feed
+     *
+     * @throws InvalidArgumentException
+     */
+    public function setFeed($channel, $feed);
 }
