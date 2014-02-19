@@ -10,6 +10,11 @@
 
 namespace FastFeed;
 
+use Guzzle\Http\ClientInterface;
+use Psr\Log\LoggerInterface;
+use FastFeed\Parser\ParserInterface;
+use FastFeed\Processor\ProcessorInterface;
+
 /**
  * FeedManagerInterface
  */
