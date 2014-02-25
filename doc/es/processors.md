@@ -21,6 +21,7 @@ Actualmente tenemos estos **Processors** disponibles.
 
 + FastFeed\Processor\ImageProcessor
 + FastFeed\Processor\LimitProcessor
++ FastFeed\Processor\PathProcessor
 + FastFeed\Processor\RemoveStylesProcessor
 + FastFeed\Processor\SanitizerProcessor
 + FastFeed\Processor\SortByDateProcessor
