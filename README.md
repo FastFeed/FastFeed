@@ -17,7 +17,7 @@ Insight | [![SensioLabsInsight](https://insight.sensiolabs.com/projects/99e97a62
 
 ## Three-party
 
-+ [Symfony2](https://github.com/FastFeed/FastFeedBundle)
++ [Symfony2 Bundle](https://github.com/FastFeed/FastFeedBundle)
 
 ## License
 
