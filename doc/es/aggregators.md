@@ -26,7 +26,7 @@ Actualmente tenemos estos **Aggregators** disponibles.
 + FastFeed\Aggregator\RSSContentAggregator;
 
 
-## Crear un Aggregator a medida
+## Crear un Aggregator personalizado
 
 Hecha un vistazo a
 [RSSContentAggregator](https://github.com/FastFeed/FastFeed/blob/master/src/FastFeed/Aggregator/RSSContentAggregator.php).

@@ -26,7 +26,7 @@ Actualmente tenemos estos **Parsers** disponibles.
 + FastFeed\Parser\RSSParser;
 
 
-## Crear un Parser a medida
+## Crear un Parser personalizado
 
 Aquí puedes ver un ejemplo de un **Parser** que recuperaría datos de un **sitemap.xml**
 

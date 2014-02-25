@@ -27,7 +27,7 @@ Actualmente tenemos estos **Processors** disponibles.
 + FastFeed\Processor\SortByDateProcessor
 + FastFeed\Processor\StripTagsProcessor
 
-## Crear un Processors a medida
+## Crear un Processor personalizado
 
 Hecha un vistazo a
 [SortByDateProcessor](https://github.com/FastFeed/FastFeed/blob/master/src/FastFeed/Processor/SortByDateProcessor.php).
