@@ -39,23 +39,25 @@ class LimitProcessor implements ProcessorInterface
     }
 
     /**
-     * Execute processor
-     *
      * @param array $items
+     *
+     * @return array
      */
-    public function process(array &$items)
+    public function process(array $items)
     {
         if (!$this->limit) {
-            return;
+            return $items;
         }
         $total = count($items);
         if ($this->limit > $total) {
-            return;
+            return $items;
         }
         for ($i = $this->limit; $i < $total; $i++) {
             if (isset($items[$i])) {
                 unset ($items[$i]);
             }
         }
+
+        return $items;
     }
 }

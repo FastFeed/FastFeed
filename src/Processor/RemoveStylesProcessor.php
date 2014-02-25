@@ -20,12 +20,15 @@ class RemoveStylesProcessor implements ProcessorInterface
      * Execute processor
      *
      * @param array $items
+     *
+     * @return array
      */
-    public function process(array &$items)
+    public function process(array $items)
     {
         foreach ($items as $key => $item) {
             $items[$key] = $this->removeStyle($item);
         }
+        return $items;
     }
 
     /**

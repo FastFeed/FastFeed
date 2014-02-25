@@ -18,6 +18,8 @@ interface ProcessorInterface
      * Execute processor
      *
      * @param array $items
+     *
+     * @return $items
      */
-    public function process(array &$items);
+    public function process(array $items);
 }

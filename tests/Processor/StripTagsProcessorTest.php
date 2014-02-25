@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the FastFeed package.
+ * This file is part of the planetubuntu package.
  *
  * (c) Daniel González <daniel@desarrolla2.com>
  *
@@ -9,17 +9,17 @@
  */
 namespace FastFeed\Tests\Processor;
 
-use FastFeed\Processor\SanitizerProcessor;
+use FastFeed\Processor\StripTagsProcessor;
 use FastFeed\Item;
 
 /**
- * SanitizerProcessorTest
+ * StripTagsProcessorTest
  */
-class SanitizerProcessorTest extends \PHPUnit_Framework_TestCase
+class StripTagsProcessorTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var SanitizerProcessor
+     * @var StripTagsProcessor
      */
     protected $processor;
 
@@ -30,7 +30,7 @@ class SanitizerProcessorTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->processor = new SanitizerProcessor();
+        $this->processor = new StripTagsProcessor();
         $this->items = array(new Item());
     }
 
@@ -42,19 +42,20 @@ class SanitizerProcessorTest extends \PHPUnit_Framework_TestCase
     public function dataProvider()
     {
         return array(
-            array('', ''),
-            array('', '<img src="javascript:evil();" onload="evil();" />'),
-            array('<b>Bold</b>', '<b>Bold'),
+            array('hi', '<p>hi</p>', ''),
+            array('<p>hi</p>', '<p>hi</p>', '<p>'),
         );
     }
 
     /**
      * @dataProvider dataProvider
      */
-    public function testProcess($expected, $actual)
+    public function testProcess($expected, $actual, $allowedTags)
     {
         $this->items[0]->setIntro($actual);
         $this->items[0]->setContent($actual);
+        $this->processor->setAllowedTagsForContent($allowedTags);
+        $this->processor->setAllowedTagsForIntro($allowedTags);
         $this->items = $this->processor->process($this->items);
         $this->assertEquals($expected, $this->items[0]->getIntro());
         $this->assertEquals($expected, $this->items[0]->getContent());

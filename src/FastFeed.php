@@ -102,7 +102,7 @@ class FastFeed implements FastFeedInterface
         $items = $this->retrieve($channel);
 
         foreach ($this->processors as $processor) {
-            $processor->process($items);
+            $items = $processor->process($items);
         }
 
         return $items;

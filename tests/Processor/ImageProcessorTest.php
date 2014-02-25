@@ -77,7 +77,7 @@ class ImageProcessorTest extends \PHPUnit_Framework_TestCase
         if ($pattern) {
             $this->processor->addIgnoredPattern($pattern);
         }
-        $this->processor->process($this->items);
+        $this->items = $this->processor->process($this->items);
         $this->assertEquals($expectedImage, $this->items[0]->getImage());
     }
 
