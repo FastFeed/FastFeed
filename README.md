@@ -1,6 +1,6 @@
 # FastFeed
 
-Project description will be here, FastFeed is not ready for use.
+FastFeed is a php library to consume feeds. FastFeed is very easy to use, extensible and modular.
 
 Name | Budge | Name | Budge
 --- | --- | --- | --- |
@@ -14,6 +14,10 @@ Insight | [![SensioLabsInsight](https://insight.sensiolabs.com/projects/99e97a62
 + [Documentation (english)](https://github.com/FastFeed/FastFeed/blob/master/doc/en/index.md)
 + [Documentation (spanish)](https://github.com/FastFeed/FastFeed/blob/master/doc/es/index.md)
 + [API](http://fastfeed.desarrolla2.com/api/namespaces/FastFeed.html)
+
+## Three-party
+
++ [Symfony2](https://github.com/FastFeed/FastFeedBundle)
 
 ## License
 
