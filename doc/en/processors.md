@@ -22,8 +22,9 @@ Currently we have these **Processors** available.
 + FastFeed\Processor\ImageProcessor
 + FastFeed\Processor\LimitProcessor
 + FastFeed\Processor\RemoveStylesProcessor
-+ FastFeed\Processor\SortByDateProcessor
 + FastFeed\Processor\SanitizerProcessor
++ FastFeed\Processor\SortByDateProcessor
++ FastFeed\Processor\StripTagsProcessor
 
 ## Create custom Processors
 

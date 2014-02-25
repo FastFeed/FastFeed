@@ -18,7 +18,8 @@
         "psr/log": "~1.0",
         "desarrolla2/cache": "1.*",
         "ezyang/htmlpurifier": "4.6.*",
-        "guzzle/guzzle": "~3.7"
+        "guzzle/guzzle": "~3.7",
+        "fastfeed/url": "dev-master"
     },
     "autoload": {
         "psr-4": {

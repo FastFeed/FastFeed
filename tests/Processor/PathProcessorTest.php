@@ -9,17 +9,17 @@
  */
 namespace FastFeed\Tests\Processor;
 
-use FastFeed\Processor\StripTagsProcessor;
 use FastFeed\Item;
+use FastFeed\Processor\PathProcessor;
 
 /**
- * StripTagsProcessorTest
+ * PathProcessorTest
  */
-class StripTagsProcessorTest extends \PHPUnit_Framework_TestCase
+class PathProcessorTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var StripTagsProcessor
+     * @var PathProcessor
      */
     protected $processor;
 
@@ -30,7 +30,7 @@ class StripTagsProcessorTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->processor = new StripTagsProcessor();
+        $this->processor = new PathProcessor();
         $this->items = array(new Item());
     }
 
@@ -42,20 +42,33 @@ class StripTagsProcessorTest extends \PHPUnit_Framework_TestCase
     public function dataProvider()
     {
         return array(
-            array('hi', '<p>hi</p>', ''),
-            array('<p>hi</p>', '<p>hi</p>', '<p>'),
+            array(
+                '<a href="http://example.org/my/path/">link</a>',
+                '<a href="/my/path/">link</a>',
+                'http://example.org/my/other/path/'
+            ),
+            array(
+                '<img src="http://example.org/my/path/"/>',
+                '<img src="/my/path/"/>',
+                'http://example.org/my/other/path/'
+            ),
+            array(
+                '<img src="http://example.org/my/path/"/>',
+                '<img src="http://example.org/my/path/"/>',
+                'http://example.org/my/other/path/'
+            ),
         );
     }
 
     /**
      * @dataProvider dataProvider
      */
-    public function testProcess($expected, $actual, $allowedTags)
+    public function testProcess($expected, $actual, $source)
     {
         $this->items[0]->setIntro($actual);
         $this->items[0]->setContent($actual);
-        $this->processor->setAllowedTagsForContent($allowedTags);
-        $this->processor->setAllowedTagsForIntro($allowedTags);
+        $this->items[0]->setSource($source);
+
         $this->items = $this->processor->process($this->items);
         $this->assertEquals($expected, $this->items[0]->getIntro());
         $this->assertEquals($expected, $this->items[0]->getContent());
