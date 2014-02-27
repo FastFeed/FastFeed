@@ -15,7 +15,7 @@ Insight | [![SensioLabsInsight](https://insight.sensiolabs.com/projects/99e97a62
 + [Documentation (spanish)](https://github.com/FastFeed/FastFeed/blob/master/doc/es/index.md)
 + [API](http://fastfeed.desarrolla2.com/api/namespaces/FastFeed.html)
 
-## Three-party
+## Third
 
 + [Symfony2 Bundle](https://github.com/FastFeed/FastFeedBundle)
 
