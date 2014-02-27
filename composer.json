@@ -17,9 +17,9 @@
         "php": ">=5.3.0",
         "psr/log": "~1.0",
         "desarrolla2/cache": "1.*",
+        "fastfeed/url": "dev-master",
         "ezyang/htmlpurifier": "4.6.*",
-        "guzzle/guzzle": "~3.7",
-        "fastfeed/url": "dev-master"
+        "guzzle/guzzle": "~3.7"
     },
     "autoload": {
         "psr-4": {
