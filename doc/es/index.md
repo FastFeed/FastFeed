@@ -17,3 +17,4 @@ FastFeed es una librería que te permite consumir "feeds" en formato atom o rss 
 + [Processors](https://github.com/FastFeed/FastFeed/blob/master/doc/es/processors.md)
 + [Cache](https://github.com/FastFeed/FastFeed/blob/master/doc/es/cache.md)
 + [Faq](https://github.com/FastFeed/FastFeed/blob/master/doc/es/faq.md)
++ [Esquema de clases](https://github.com/FastFeed/FastFeed/blob/master/doc/images/class-scheme.png)
