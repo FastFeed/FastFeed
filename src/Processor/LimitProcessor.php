@@ -35,7 +35,7 @@ class LimitProcessor implements ProcessorInterface
      */
     public function setLimit($limit)
     {
-        $this->limit = (int)$limit;
+        $this->limit = (int) $limit;
     }
 
     /**

@@ -43,7 +43,7 @@ class ImageProcessor implements ProcessorInterface
      */
     public function addIgnoredPattern($ignoredPattern)
     {
-        $this->ignoredPatterns[] = (string)$ignoredPattern;
+        $this->ignoredPatterns[] = (string) $ignoredPattern;
     }
 
     /**
@@ -59,7 +59,7 @@ class ImageProcessor implements ProcessorInterface
      */
     public function setOverrideImage($overrideImage)
     {
-        $this->overrideImage = (bool)$overrideImage;
+        $this->overrideImage = (bool) $overrideImage;
     }
 
     /**

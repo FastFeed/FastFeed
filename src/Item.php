@@ -71,7 +71,7 @@ class Item
      */
     public function setId($itemId)
     {
-        $this->itemId = (string)$itemId;
+        $this->itemId = (string) $itemId;
     }
 
     /**
@@ -95,7 +95,7 @@ class Item
      */
     public function setName($name)
     {
-        $this->name = (string)$name;
+        $this->name = (string) $name;
     }
 
     /**
@@ -103,7 +103,7 @@ class Item
      */
     public function setIntro($intro)
     {
-        $this->intro = (string)$intro;
+        $this->intro = (string) $intro;
     }
 
     /**
@@ -119,7 +119,7 @@ class Item
      */
     public function setContent($content)
     {
-        $this->content = (string)$content;
+        $this->content = (string) $content;
     }
 
     /**
@@ -143,7 +143,7 @@ class Item
      */
     public function setImage($image)
     {
-        $this->image = (string)$image;
+        $this->image = (string) $image;
     }
 
     /**
@@ -159,7 +159,7 @@ class Item
      */
     public function addTag($tag)
     {
-        $this->tags[] = (string)$tag;
+        $this->tags[] = (string) $tag;
     }
 
     /**
@@ -186,7 +186,7 @@ class Item
      */
     public function setSource($source)
     {
-        $this->source = (string)$source;
+        $this->source = (string) $source;
     }
 
     /**
@@ -202,7 +202,7 @@ class Item
      */
     public function setAuthor($author)
     {
-        $this->author = (string)$author;
+        $this->author = (string) $author;
     }
 
     /**
@@ -239,7 +239,7 @@ class Item
      */
     public function setExtra($key, $value)
     {
-        $this->extra[$key] = (string)$value;
+        $this->extra[$key] = (string) $value;
     }
 
     /**

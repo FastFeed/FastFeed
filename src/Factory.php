@@ -22,7 +22,7 @@ abstract class Factory
     /**
      * @return FastFeed
      */
-    static public function create()
+    public static function create()
     {
         $fastFeed = new FastFeed(new Client(), new Logger());
         $fastFeed->pushParser(new RSSParser());

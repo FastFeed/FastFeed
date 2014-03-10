@@ -28,6 +28,7 @@ class RemoveStylesProcessor implements ProcessorInterface
         foreach ($items as $key => $item) {
             $items[$key] = $this->removeStyle($item);
         }
+
         return $items;
     }
 
