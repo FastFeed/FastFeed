@@ -19,27 +19,22 @@ class StripTagsProcessor implements ProcessorInterface
     /**
      * @var
      */
-    protected $allowedTagsForIntro;
+    protected $allowedTags = array('content', 'intro');
 
     /**
-     * @var
+     * @param mixed $allowedTags
      */
-    protected $allowedTagsForContent;
-
-    /**
-     * @param mixed $allowedTagsForContent
-     */
-    public function setAllowedTagsForContent($allowedTagsForContent)
+    public function setAllowedTagsForContent($allowedTags)
     {
-        $this->allowedTagsForContent = $allowedTagsForContent;
+        $this->allowedTags['content'] = $allowedTags;
     }
 
     /**
-     * @param mixed $allowedTagsForIntro
+     * @param mixed $allowedTags
      */
-    public function setAllowedTagsForIntro($allowedTagsForIntro)
+    public function setAllowedTagsForIntro($allowedTags)
     {
-        $this->allowedTagsForIntro = $allowedTagsForIntro;
+        $this->allowedTags['intro'] = $allowedTags;
     }
 
     /**
@@ -65,8 +60,8 @@ class StripTagsProcessor implements ProcessorInterface
      */
     protected function doClean(Item $item)
     {
-        $item->setIntro(strip_tags($item->getIntro(), $this->allowedTagsForIntro));
-        $item->setContent(strip_tags($item->getContent(), $this->allowedTagsForContent));
+        $item->setIntro(strip_tags($item->getIntro(), $this->allowedTags['intro']));
+        $item->setContent(strip_tags($item->getContent(), $this->allowedTags['content']));
 
         return $item;
     }
