@@ -17,6 +17,16 @@ use Psr\Log\LoggerInterface;
 class Logger implements LoggerInterface
 {
     /**
+     * @var
+     */
+    protected $fileName;
+
+    public function __construct($fileName)
+    {
+        $this->fileName = $fileName;
+    }
+
+    /**
      * System is unusable.
      *
      * @param string $message
@@ -26,7 +36,7 @@ class Logger implements LoggerInterface
      */
     public function emergency($message, array $context = array())
     {
-        // TODO: Implement emergency() method.
+        $this->log('emergency', $message, $context);
     }
 
     /**
@@ -42,7 +52,7 @@ class Logger implements LoggerInterface
      */
     public function alert($message, array $context = array())
     {
-        // TODO: Implement alert() method.
+        $this->log('alert', $message, $context);
     }
 
     /**
@@ -57,7 +67,7 @@ class Logger implements LoggerInterface
      */
     public function critical($message, array $context = array())
     {
-        // TODO: Implement critical() method.
+        $this->log('critical', $message, $context);
     }
 
     /**
@@ -71,7 +81,7 @@ class Logger implements LoggerInterface
      */
     public function error($message, array $context = array())
     {
-        // TODO: Implement error() method.
+        $this->log('error', $message, $context);
     }
 
     /**
@@ -87,7 +97,7 @@ class Logger implements LoggerInterface
      */
     public function warning($message, array $context = array())
     {
-        // TODO: Implement warning() method.
+        $this->log('warning', $message, $context);
     }
 
     /**
@@ -100,7 +110,7 @@ class Logger implements LoggerInterface
      */
     public function notice($message, array $context = array())
     {
-        // TODO: Implement notice() method.
+        $this->log('notice', $message, $context);
     }
 
     /**
@@ -115,7 +125,7 @@ class Logger implements LoggerInterface
      */
     public function info($message, array $context = array())
     {
-        // TODO: Implement info() method.
+        $this->log('info', $message, $context);
     }
 
     /**
@@ -128,7 +138,7 @@ class Logger implements LoggerInterface
      */
     public function debug($message, array $context = array())
     {
-        // TODO: Implement debug() method.
+        $this->log('debug', $message, $context);
     }
 
     /**
@@ -142,7 +152,6 @@ class Logger implements LoggerInterface
      */
     public function log($level, $message, array $context = array())
     {
-        // TODO: Implement log() method.
+        file_put_contents($this->fileName, '[' . $level . '] - ' . $message . ' | ' . serialize($context));
     }
-
 }
