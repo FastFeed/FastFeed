@@ -14,7 +14,6 @@ use Guzzle\Http\ClientInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 use FastFeed\Exception\LogicException;
-use FastFeed\Exception\InvalidArgumentException;
 use FastFeed\Parser\ParserInterface;
 use FastFeed\Processor\ProcessorInterface;
 
@@ -74,15 +73,12 @@ class FastFeed implements FastFeedInterface
      * @param string $channel
      * @param string $feed
      *
-     * @throws InvalidArgumentException
+     * @throws LogicException
      */
     public function addFeed($channel, $feed)
     {
-        if (!is_string($channel)) {
-            throw new InvalidArgumentException('You tried to add a invalid channel.');
-        }
         if (!filter_var($feed, FILTER_VALIDATE_URL)) {
-            throw new InvalidArgumentException('You tried to add a invalid url.');
+            throw new LogicException('You tried to add a invalid url.');
         }
         $this->feeds[$channel][] = $feed;
     }
@@ -91,12 +87,12 @@ class FastFeed implements FastFeedInterface
      * @param string $channel
      *
      * @return array
-     * @throws Exception\InvalidArgumentException
+     * @throws Exception\LogicException
      */
     public function fetch($channel = 'default')
     {
         if (!is_string($channel)) {
-            throw new InvalidArgumentException('You tried to add a invalid channel.');
+            throw new LogicException('You tried to add a invalid channel.');
         }
 
         $items = $this->retrieve($channel);
@@ -201,12 +197,12 @@ class FastFeed implements FastFeedInterface
      * @param string $channel
      * @param string $feed
      *
-     * @throws InvalidArgumentException
+     * @throws LogicException
      */
     public function setFeed($channel, $feed)
     {
         if (!is_string($channel)) {
-            throw new InvalidArgumentException('You tried to add a invalid channel.');
+            throw new LogicException('You tried to add a invalid channel.');
         }
         $this->feeds[$channel] = array();
         $this->addFeed($channel, $feed);
@@ -252,9 +248,7 @@ class FastFeed implements FastFeedInterface
             if (!$content) {
                 continue;
             }
-
             $result = array_merge($result, $this->parse($content));
-
         }
 
         return $result;

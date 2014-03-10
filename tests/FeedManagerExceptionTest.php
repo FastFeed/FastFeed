@@ -29,7 +29,7 @@ class FeedManagerExceptionTest extends AbstractFastFeedTest
     }
 
     /**
-     * @expectedException \FastFeed\Exception\InvalidArgumentException
+     * @expectedException \FastFeed\Exception\LogicException
      * @dataProvider dataProviderForAddFeed
      */
     public function testAddFeed($channel, $feed)
@@ -38,7 +38,7 @@ class FeedManagerExceptionTest extends AbstractFastFeedTest
     }
 
     /**
-     * @expectedException \FastFeed\Exception\InvalidArgumentException
+     * @expectedException \FastFeed\Exception\LogicException
      * @dataProvider dataProviderForAddFeed
      */
     public function testSetFeed($channel, $feed)
@@ -72,7 +72,7 @@ class FeedManagerExceptionTest extends AbstractFastFeedTest
     }
 
     /**
-     * @expectedException \FastFeed\Exception\InvalidArgumentException
+     * @expectedException \FastFeed\Exception\LogicException
      */
     public function testFetch()
     {
