@@ -3,6 +3,22 @@ Fast Feed
 
 FastFeed is a library that allows you to consume "feeds" atom or rss to be used in your applications.
 
++--------------+----------+-----------+-----------+
+| row 1, col 1 | column 2 | column 3  | column 4  |
++--------------+----------+-----------+-----------+
+| row 3        | |Build|_ |           |           |
++--------------+----------+-----------+-----------+
+
+
+
+.. |Build| image:: https://secure.travis-ci.org/FastFeed/FastFeed.png
+.. _Build: http://travis-ci.org/FastFeed/FastFeed
+
+.. |Build| image:: https://secure.travis-ci.org/FastFeed/FastFeed.png
+.. _Build: http://travis-ci.org/FastFeed/FastFeed
+
+
+
 Features
 --------
 
@@ -33,4 +49,3 @@ Cookbook
 .. toctree::
     :maxdepth: 1
     :numbered:
-
