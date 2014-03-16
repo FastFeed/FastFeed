@@ -1,3 +1,4 @@
-## Faq
+Faq
+====
 
 Not ready yet ;)
