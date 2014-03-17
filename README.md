@@ -12,8 +12,8 @@ Dependencies | [![Dependency Status](https://www.versioneye.com/user/projects/53
 
 ## Documentation
 
-+ [Documentation (english)](https://github.com/FastFeed/FastFeed/blob/master/doc/en/index.md)
-+ [API](http://fastfeed.desarrolla2.com/api/namespaces/FastFeed.html)
++ [Documentation](http://fastfeed.github.io)
++ [API](http://fastfeed.github.io/api/)
 
 ## Third Party
 
