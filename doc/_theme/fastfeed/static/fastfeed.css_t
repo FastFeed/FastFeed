@@ -21,6 +21,14 @@ body {
   background-color: {{ theme_bgcolor }};
 }
 
+table{
+  border: 1px solid #000;
+}
+
+td{
+    border-bottom:1px solid #000;
+    padding: 8px;
+}
 
 /* Page layout */
 
