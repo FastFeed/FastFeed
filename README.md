@@ -2,7 +2,7 @@
 
 FastFeed is a php library to consume feeds. FastFeed is very easy to use, extensible and modular.
 
-Name | Budge | Name | Budge
+Name | Badge | Name | Badge
 --- | --- | --- | --- |
 Build | [![Build Status](https://secure.travis-ci.org/FastFeed/FastFeed.png )](http://travis-ci.org/FastFeed/FastFeed) | Latest Stable | [![Latest Stable Version](https://poser.pugx.org/fastfeed/fastfeed/v/stable.png)](https://packagist.org/packages/fastfeed/fastfeed)
 Quality Score | [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/FastFeed/FastFeed/badges/quality-score.png?s=5ce39d3775f40b5946300404fa5fe3337a5ca66c)](https://scrutinizer-ci.com/g/FastFeed/FastFeed/) | Latest Unstable | [![Latest Unstable Version](https://poser.pugx.org/fastfeed/fastfeed/v/unstable.png)](https://packagist.org/packages/fastfeed/fastfeed)
