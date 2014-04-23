@@ -239,7 +239,7 @@ class Item
      */
     public function setExtra($key, $value)
     {
-        $this->extra[$key] = (string) $value;
+        $this->extra[$key] = $value;
     }
 
     /**

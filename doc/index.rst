@@ -53,7 +53,7 @@ Features
 --------
 
 * Consume any number of channels grouped by feeds.
-* Extender FastFeed easily to support new formats or retrieve information added by other specifications
+* Extends FastFeed easily to support new formats or retrieve information added by other specifications
 * Recover ordering information according to your preferences.
 * Modular and extensible.
 

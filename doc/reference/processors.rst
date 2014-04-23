@@ -25,6 +25,7 @@ Processors available
 Currently we have these **Processors** available.
 
 * FastFeed\Processor\ImageProcessor
+* FastFeed\Processor\ImagesProcessor
 * FastFeed\Processor\LimitProcessor
 * FastFeed\Processor\PathProcessor
 * FastFeed\Processor\RemoveStylesProcessor
