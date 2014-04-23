@@ -92,4 +92,4 @@ class ImagesProcessorTest extends \PHPUnit_Framework_TestCase
         $this->processor->setIgnoredPatterns(array('1', '2'));
         $this->assertEquals($patterns, $this->processor->getIgnoredPatterns());
     }
-} 
+}

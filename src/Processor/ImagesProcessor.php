@@ -85,17 +85,17 @@ class ImagesProcessor implements ProcessorInterface
      */
     protected function setImagesFromContent(Item $item)
     {
-        $images = $this->getImages($item->getContent());
-        $_images = array();
+        $allImages = $this->getImages($item->getContent());
+        $images = array();
 
-        foreach ($images as $image) {
+        foreach ($allImages as $image) {
             if ($this->isOnIgnoredPatterns($image)) {
                 continue;
             }
-            $_images[$image] = $image;
+            $images[$image] = $image;
         }
 
-        $item->setExtra('images', array_values($_images));
+        $item->setExtra('images', array_values($images));
     }
 
     /**
