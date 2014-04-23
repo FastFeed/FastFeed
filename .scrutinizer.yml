@@ -23,9 +23,12 @@ tools:
                 - 'vendor/*'
 
 
+    php_sim: true
+
+
     # Copy/Paste Detector
     php_cpd:
-        enabled:              true
+        enabled:              false
         command:              phpcpd
         excluded_dirs:
             - 'vendor'
