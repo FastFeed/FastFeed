@@ -19,6 +19,7 @@ use FastFeed\Exception\RuntimeException;
  */
 class AtomParser extends AbstractParser implements ParserInterface
 {
+    const  SOURCE_LINK_ATTR = 'alternate';
 
     /**
      * Retrieve a Items's array
@@ -87,7 +88,7 @@ class AtomParser extends AbstractParser implements ParserInterface
         $nodeList = $node->getElementsByTagName('link');
         if ($nodeList->length) {
             foreach ($nodeList as $nodeResult) {
-                if ($nodeResult->getAttribute('type') != 'text/html') {
+                if ($nodeResult->getAttribute('rel') != self::SOURCE_LINK_ATTR) {
                     continue;
                 }
                 $item->setSource($nodeResult->getAttribute('href'));
