@@ -112,7 +112,11 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $content = $this->getContent($fileName);
         $item = $this->getItem($content);
 
-        $expected = $this->getFistAttributeFromXpath($content, "*/ns:link[@type='text/html']", 'href');
+        $expected = $this->getFistAttributeFromXpath(
+            $content,
+            "*/ns:link[@rel='" . AtomParser::SOURCE_LINK_ATTR . "']",
+            'href'
+        );
 
         $this->assertEquals(
             $expected,
