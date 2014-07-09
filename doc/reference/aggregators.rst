@@ -29,7 +29,8 @@ Aggregators available
 
 Currently we have these **Aggregators** available.
 
-* FastFeed\Aggregator\RSSContentAggregator;
+* FastFeed\Aggregator\EzRSSAggregator
+* FastFeed\Aggregator\RSSContentAggregator
 
 Create custom Aggregators
 -------------------------
@@ -37,7 +38,7 @@ Create custom Aggregators
 Take a look to
 `RSSContentAggregator <https://github.com/FastFeed/FastFeed/blob/master/src/FastFeed/Aggregator/RSSContentAggregator.php>`_
 
-Send us a PR with your **Processor**!
+Send us a PR with your **Aggregator**!
 
 Continue reading
 ----------------
