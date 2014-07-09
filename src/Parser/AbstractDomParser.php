@@ -72,7 +72,7 @@ abstract class AbstractDomParser
         $results = $node->getElementsByTagNameNS($namespace, $tagName);
         for ($i = 0; $i < $results->length; $i++) {
             $result = $results->item($i);
-            if (!$result->nodeValue) {
+            if (is_null($result->nodeValue)) {
                 continue;
             }
 

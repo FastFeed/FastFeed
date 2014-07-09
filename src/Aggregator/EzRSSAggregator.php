@@ -7,18 +7,19 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+
 namespace FastFeed\Aggregator;
 
 use DOMElement;
 use FastFeed\Item;
 
 /**
- * RSSContentAggregator
- *
- * This Aggregator seem for a content:encoded field in item node and set as description
+ * Class EzRSSAggregator
  */
-class RSSContentAggregator extends AbstractAggregator implements AggregatorInterface
+class EzRSSAggregator extends AbstractAggregator implements AggregatorInterface
 {
+    protected $keys = array('contentLength', 'infoHash', 'magnetURI', 'seeds', 'peers', 'verified', 'fileName');
+
     /**
      * Execute the Aggregator
      *
@@ -27,20 +28,19 @@ class RSSContentAggregator extends AbstractAggregator implements AggregatorInter
      */
     public function process(DOMElement $node, Item $item)
     {
-        $this->setContent($node, $item);
+        foreach ($this->keys as $key) {
+            $item->setExtra($key, $this->getValue($node, $key));
+        }
     }
 
     /**
-     *
      * @param DOMElement $node
-     * @param Item       $item
+     * @param string     $tagName
+     *
+     * @return bool|string
      */
-    protected function setContent(DOMElement $node, Item $item)
+    protected function getValue(DOMElement $node, $tagName)
     {
-        $value = $this->getNodeValueByTagNameNS($node, 'http://purl.org/rss/1.0/modules/content/', 'encoded');
-
-        if ($value) {
-            $item->setContent($value);
-        }
+        return $this->getNodeValueByTagNameNS($node, 'http://xmlns.ezrss.it/0.1/', $tagName);
     }
 }

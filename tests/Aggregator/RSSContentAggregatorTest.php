@@ -46,7 +46,7 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
     public function testContent($fileName)
     {
         $content = file_get_contents(__DIR__ . $this->path . $fileName);
-        $nodes = $this->parser->getNodes($content);
+        $nodes   = $this->parser->getNodes($content);
 
         $item = array_shift($nodes);
 
@@ -74,7 +74,7 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
             $dom = new DOMDocument();
             $dom->loadXML(trim($content));
 
-            $xpath = new DOMXPath($dom);
+            $xpath  = new DOMXPath($dom);
             $result = $xpath->query($query);
 
             if ($result->length) {

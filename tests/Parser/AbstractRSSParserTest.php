@@ -44,4 +44,29 @@ abstract class AbstractRSSParserTest extends AbstractParserTest
     {
         $this->parser = new RSSParser();
     }
+
+    /**
+     * @param $content
+     * @param $query
+     *
+     * @return string
+     */
+    protected function getFirstValueFromXpath($content, $query)
+    {
+        try {
+            $dom = new \DOMDocument();
+            $dom->loadXML(trim($content));
+
+            $xpath  = new \DOMXPath($dom);
+            $result = $xpath->query($query);
+
+            if ($result->length) {
+                return $result->item(0)->nodeValue;
+            }
+        } catch (\Exception $e) {
+
+        }
+
+        return false;
+    }
 }
