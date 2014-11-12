@@ -10,12 +10,13 @@
 
 namespace FastFeed;
 
-use Guzzle\Http\ClientInterface;
+use GuzzleHttp\ClientInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 use FastFeed\Exception\LogicException;
 use FastFeed\Parser\ParserInterface;
 use FastFeed\Processor\ProcessorInterface;
+use GuzzleHttp\Exception\RequestException;
 
 /**
  * FastFeed
@@ -217,15 +218,16 @@ class FastFeed implements FastFeedInterface
      */
     protected function get($url)
     {
-        $request = $this->http->get(
-            $url,
-            array('User-Agent' => self::USER_AGENT . ' v.' . self::VERSION)
-        );
+        try {
+            $request = $this->http->createRequest('GET', $url);
+            $request->setHeader('User-Agent', self::USER_AGENT . ' v.' . self::VERSION);
 
-        $response = $request->send();
-
-        if (!$response->isSuccessful()) {
-            $this->log('fail with ' . $response->getStatusCode() . ' http code in url "' . $url . '" ');
+            $response = $this->http->send($request);
+        } catch (RequestException $e) {
+            if ($e->hasResponse()) {
+                $eresponse = $e->getResponse();
+                $this->log('fail with ' . $eresponse->getStatusCode() . ' http code in url "' . $url . '" ');
+            }
 
             return;
         }

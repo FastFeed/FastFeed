@@ -12,7 +12,7 @@ namespace FastFeed;
 use FastFeed\Parser\AtomParser;
 use FastFeed\Parser\RSSParser;
 use FastFeed\Logger\Logger;
-use Guzzle\Http\Client;
+use GuzzleHttp\Client;
 
 /**
  * Factory

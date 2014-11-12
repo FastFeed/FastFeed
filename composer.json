@@ -19,13 +19,12 @@
         "desarrolla2/cache": ">=1.0.0",
         "fastfeed/url": ">=0.1.0",
         "ezyang/htmlpurifier": "4.6.*",
-        "guzzle/guzzle": "~3.7"
+        "guzzlehttp/guzzle": ">=4.0,<=6.0"
     },
     "autoload": {
         "psr-4": {
             "FastFeed\\": "src/",
             "FastFeed\\Tests\\": "tests/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
