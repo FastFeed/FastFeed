@@ -10,6 +10,8 @@
 namespace FastFeed\Tests;
 
 use FastFeed\Parser\RSSParser;
+use GuzzleHttp\Subscriber\Mock;
+use GuzzleHttp\Message\Response;
 
 /**
  * FastFeedFetchTest
@@ -33,30 +35,13 @@ class FastFeedFetchTest extends AbstractFastFeedTest
      */
     public function testFetch($content)
     {
-        $responseMock = $this->getMockBuilder('Guzzle\Http\Message\Response')
-            ->disableOriginalConstructor()
-            ->getMock();
+        $mock = new Mock([
+            new Response(200, array()),         // Use response object
+            "HTTP/1.1 200 OK\r\nContent-Length: 0\r\n\r\n"  // Use a response string
+        ]);
 
-        $responseMock
-            ->expects($this->once())
-            ->method('isSuccessful')
-            ->will($this->returnValue(true));
-
-        $responseMock->expects($this->once())
-            ->method('getBody')
-            ->will($this->returnValue($content));
-
-        $requestMock = $this->getMockBuilder('Guzzle\Http\Message\Request')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $requestMock->expects($this->once())
-            ->method('send')
-            ->will($this->returnValue($responseMock));
-
-        $this->guzzleMock->expects($this->once())
-            ->method('get')
-            ->will($this->returnValue($requestMock));
+        // Add the mock subscriber to the client.
+        $this->guzzleMock->getEmitter()->attach($mock);
 
         $this->fastFeed->addFeed('desarrolla2', 'http://desarrolla2.com/feed/');
         $this->fastFeed->pushParser(new RSSParser());

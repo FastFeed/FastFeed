@@ -10,6 +10,7 @@
 namespace FastFeed\Tests;
 
 use FastFeed\FastFeed;
+use GuzzleHttp\Client;
 
 /**
  * AbstractFeedManagerTest
@@ -33,9 +34,7 @@ abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->guzzleMock = $this->getMockBuilder('Guzzle\Http\ClientInterface')
-            ->disableOriginalConstructor()
-            ->getMock();
+        $this->guzzleMock = new Client();
 
         $this->loggerMock = $this->getMockBuilder('Psr\Log\LoggerInterface')
             ->disableOriginalConstructor()

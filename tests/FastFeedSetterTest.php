@@ -19,7 +19,7 @@ class FastFeedSetterTest extends AbstractFastFeedTest
 
     public function testSetGuzzle()
     {
-        $guzzleMock = $this->getMock('Guzzle\Http\ClientInterface');
+        $guzzleMock = $this->getMock('GuzzleHttp\ClientInterface');
         $this->assertNull($this->fastFeed->setHttpClient($guzzleMock));
     }
 

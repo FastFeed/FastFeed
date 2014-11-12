@@ -10,6 +10,9 @@
 namespace FastFeed\Tests;
 
 use FastFeed\Parser\RSSParser;
+use GuzzleHttp\Client;
+use GuzzleHttp\Subscriber\Mock;
+use GuzzleHttp\Message\Response;
 
 /**
  * FastFeedLoggerTest
@@ -18,30 +21,14 @@ class FastFeedLoggerTest extends AbstractFastFeedTest
 {
     public function testFetch()
     {
-        $responseMock = $this->getMockBuilder('Guzzle\Http\Message\Response')
-            ->disableOriginalConstructor()
-            ->getMock();
+        // Create a mock subscriber and queue two responses.
+        $mock = new Mock([
+            new Response(500, array()),         // Use response object
+            "HTTP/1.1 500 \r\nContent-Length: 0\r\n\r\n"  // Use a response string
+        ]);
 
-        $responseMock
-            ->expects($this->once())
-            ->method('isSuccessful')
-            ->will($this->returnValue(false));
-
-        $responseMock->expects($this->once())
-            ->method('getStatusCode')
-            ->will($this->returnValue(500));
-
-        $requestMock = $this->getMockBuilder('Guzzle\Http\Message\Request')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $requestMock->expects($this->once())
-            ->method('send')
-            ->will($this->returnValue($responseMock));
-
-        $this->guzzleMock->expects($this->once())
-            ->method('get')
-            ->will($this->returnValue($requestMock));
+        // Add the mock subscriber to the client.
+        $this->guzzleMock->getEmitter()->attach($mock);
 
         $this->loggerMock->expects($this->once())
             ->method('log')
