@@ -222,17 +222,17 @@ class FastFeed implements FastFeedInterface
     {
         $request = $this->http->get(
             $url,
-            array('User-Agent' => self::USER_AGENT . ' v.' . self::VERSION)
+            array('User-Agent' => self::USER_AGENT.' v.'.self::VERSION)
         );
 
         $response = $request->send();
 
         if (!$response->isSuccessful()) {
-            $this->log('fail with ' . $response->getStatusCode() . ' http code in url "' . $url . '" ');
+            $this->log('fail with '.$response->getStatusCode().' http code in url "'.$url.'" ');
 
             return;
         }
-        $this->logger->log(LogLevel::INFO, 'retrieved url "' . $url . '" ');
+        $this->logger->log(LogLevel::INFO, 'retrieved url "'.$url.'" ');
 
         return $response->getBody();
     }
@@ -286,7 +286,7 @@ class FastFeed implements FastFeedInterface
     {
         $this->logger->log(
             LogLevel::INFO,
-            '[' . self::USER_AGENT . ' v.' . self::VERSION . '] - ' . $message
+            '['.self::USER_AGENT.' v.'.self::VERSION.'] - '.$message
         );
     }
 }

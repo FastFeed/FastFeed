@@ -59,10 +59,10 @@ class PathProcessor implements ProcessorInterface
      */
     protected function getFixedText($text, $domain)
     {
-        $text = str_ireplace('href="/', 'href="' . $domain . '/', $text);
-        $text = str_ireplace('href=\'/', 'href=\'' . $domain . '/', $text);
-        $text = str_ireplace('src="/', 'src="' . $domain . '/', $text);
-        $text = str_ireplace('src=\'/', 'src=\'' . $domain . '/', $text);
+        $text = str_ireplace('href="/', 'href="'.$domain.'/', $text);
+        $text = str_ireplace('href=\'/', 'href=\''.$domain.'/', $text);
+        $text = str_ireplace('src="/', 'src="'.$domain.'/', $text);
+        $text = str_ireplace('src=\'/', 'src=\''.$domain.'/', $text);
 
         return $text;
     }

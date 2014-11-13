@@ -39,7 +39,7 @@ class SanitizerProcessor implements ProcessorInterface
         }
 
         if (!is_writable($cacheDirectory)) {
-            throw new InvalidArgumentException($cacheDirectory . ' is not writable');
+            throw new InvalidArgumentException($cacheDirectory.' is not writable');
         }
         // require to configure some CONSTANST
         new \HTMLPurifier_Bootstrap();

@@ -159,6 +159,6 @@ class Logger implements LoggerInterface
         if (!$this->fileName) {
             return;
         }
-        file_put_contents($this->fileName, '[' . $level . '] - ' . $message . ' | ' . serialize($context));
+        file_put_contents($this->fileName, '['.$level.'] - '.$message.' | '.serialize($context));
     }
 }

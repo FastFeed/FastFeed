@@ -76,7 +76,6 @@ class ImagesProcessor implements ProcessorInterface
      */
     protected function setImages(Item $item)
     {
-
         $this->setImagesFromContent($item);
 
         return $item;

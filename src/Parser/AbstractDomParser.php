@@ -21,7 +21,6 @@ use DOMElement;
  */
 abstract class AbstractDomParser
 {
-
     /**
      * @param $content
      *

@@ -23,7 +23,6 @@ use FastFeed\FastFeed as FastFeedBase;
  */
 class FastFeed extends FastFeedBase
 {
-
     /**
      * @var CacheInterface;
      */

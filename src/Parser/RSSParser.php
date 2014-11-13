@@ -23,7 +23,6 @@ use FastFeed\Item;
  */
 class RSSParser extends AbstractParser implements ParserInterface
 {
-
     /**
      * Retrieve a Items's array
      *
@@ -78,7 +77,7 @@ class RSSParser extends AbstractParser implements ParserInterface
             'setIntro' => 'description',
             'setContent' => 'description',
             'setSource' => 'link',
-            'setAuthor' => 'author'
+            'setAuthor' => 'author',
         );
     }
 

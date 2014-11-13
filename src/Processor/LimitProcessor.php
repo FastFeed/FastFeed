@@ -58,7 +58,7 @@ class LimitProcessor implements ProcessorInterface
         }
         for ($i = $this->limit; $i < $total; $i++) {
             if (isset($items[$i])) {
-                unset ($items[$i]);
+                unset($items[$i]);
             }
         }
 

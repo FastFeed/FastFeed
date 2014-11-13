@@ -23,7 +23,6 @@ use FastFeed\Item;
  */
 abstract class AbstractParser extends AbstractDomParser
 {
-
     /**
      * @var array
      */
