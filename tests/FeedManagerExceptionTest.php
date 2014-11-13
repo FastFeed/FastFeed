@@ -14,13 +14,11 @@ namespace FastFeed\Tests;
  */
 class FeedManagerExceptionTest extends AbstractFastFeedTest
 {
-
     /**
      * @return array
      */
     public function dataProviderForAddFeed()
     {
-
         return array(
             array(1, 1), // invalid channel
             array('default', 1), // invalid url
@@ -61,7 +59,6 @@ class FeedManagerExceptionTest extends AbstractFastFeedTest
     {
         $this->fastFeed->popParser();
     }
-
 
     /**
      * @expectedException \FastFeed\Exception\LogicException

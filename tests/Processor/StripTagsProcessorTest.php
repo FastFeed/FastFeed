@@ -17,7 +17,6 @@ use FastFeed\Item;
  */
 class StripTagsProcessorTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var StripTagsProcessor
      */

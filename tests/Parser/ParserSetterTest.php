@@ -14,7 +14,7 @@ use FastFeed\Parser\RSSParser;
 /**
  * ParserManagerTest
  */
-class ParserManagerTest extends \PHPUnit_Framework_TestCase
+class ParserSetterTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var RSSParser
@@ -22,7 +22,7 @@ class ParserManagerTest extends \PHPUnit_Framework_TestCase
     protected $parser;
     public function setUp()
     {
-           $this->parser = new RSSParser();
+        $this->parser = new RSSParser();
     }
 
     public function testPushProcessor()

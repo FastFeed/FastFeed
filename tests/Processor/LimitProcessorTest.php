@@ -17,7 +17,6 @@ use FastFeed\Processor\LimitProcessor;
  */
 class LimitProcessorTest extends \PHPUnit_Framework_TestCase
 {
-
     public function dataProvider()
     {
         return array(

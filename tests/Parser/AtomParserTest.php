@@ -19,10 +19,10 @@ class AtomParserTest extends AbstractAtomParserTest
         $data = array();
 
         foreach ($this->xmls as $xml) {
-            $content = file_get_contents(__DIR__ . $this->path . $xml);
+            $content = file_get_contents(__DIR__.$this->path.$xml);
             $data[] = array(
                 $content,
-                $xml
+                $xml,
             );
         }
 
@@ -39,7 +39,7 @@ class AtomParserTest extends AbstractAtomParserTest
         $this->assertCount(
             $expectedNodes,
             $nodes,
-            'Fail asserting that ' . $fileName . ' has ' . $expectedNodes . ' nodes'
+            'Fail asserting that '.$fileName.' has '.$expectedNodes.' nodes'
         );
     }
 }

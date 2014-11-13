@@ -17,7 +17,6 @@ use FastFeed\Item;
  */
 class SanitizerProcessorExceptionTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var SanitizerProcessor
      */

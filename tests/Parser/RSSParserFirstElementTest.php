@@ -15,21 +15,20 @@ use FastFeed\Parser\RSSParser;
 /**
  * RSSParserFirstElementTest
  */
-class AtomParserFirstElementTest extends AbstractRSSParserTest
+class RSSParserFirstElementTest extends AbstractRSSParserTest
 {
-
     public function dataProvider()
     {
         $this->parser = new RSSParser();
         $data = array();
 
         foreach ($this->xmls as $xml) {
-            $content = file_get_contents(__DIR__ . $this->path . $xml);
+            $content = file_get_contents(__DIR__.$this->path.$xml);
             $nodes = $this->parser->getNodes($content);
             $data[] = array(
                 array_shift($nodes),
                 $content,
-                $xml
+                $xml,
             );
         }
 
@@ -46,7 +45,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getId(),
-            'Fail asserting that first element of ' . $fileName . ' has id "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has id "'.$expected.'"'
         );
     }
 
@@ -60,7 +59,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getName(),
-            'Fail asserting that first element of ' . $fileName . ' has name "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has name "'.$expected.'"'
         );
     }
 
@@ -74,7 +73,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getIntro(),
-            'Fail asserting that first element of ' . $fileName . ' has intro "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has intro "'.$expected.'"'
         );
     }
 
@@ -88,7 +87,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getContent(),
-            'Fail asserting that first element of ' . $fileName . ' has content "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has content "'.$expected.'"'
         );
     }
 
@@ -102,7 +101,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getSource(),
-            'Fail asserting that first element of ' . $fileName . ' has source "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has source "'.$expected.'"'
         );
     }
 
@@ -116,7 +115,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getAuthor(),
-            'Fail asserting that first element of ' . $fileName . ' has author "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has author "'.$expected.'"'
         );
     }
 
@@ -130,7 +129,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getImage(),
-            'Fail asserting that first element of ' . $fileName . ' has image "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has image "'.$expected.'"'
         );
     }
 
@@ -144,7 +143,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getDate()->getTimestamp(),
-            'Fail in assert of first element date of ' . $fileName . '  '
+            'Fail in assert of first element date of '.$fileName.'  '
         );
     }
 
@@ -160,7 +159,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
             $this->assertCount(
                 0,
                 $item->getTags(),
-                'Fail asserting that first element of ' . $fileName . ' has no tags'
+                'Fail asserting that first element of '.$fileName.' has no tags'
             );
 
             return;
@@ -169,7 +168,7 @@ class AtomParserFirstElementTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             array_shift($tags),
-            'Fail asserting that first element of ' . $fileName . ' has first tag "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has first tag "'.$expected.'"'
         );
     }
 }

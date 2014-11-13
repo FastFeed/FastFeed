@@ -17,7 +17,6 @@ use FastFeed\Processor\PathProcessor;
  */
 class PathProcessorTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var PathProcessor
      */
@@ -45,17 +44,17 @@ class PathProcessorTest extends \PHPUnit_Framework_TestCase
             array(
                 '<a href="http://example.org/my/path/">link</a>',
                 '<a href="/my/path/">link</a>',
-                'http://example.org/my/other/path/'
+                'http://example.org/my/other/path/',
             ),
             array(
                 '<img src="http://example.org/my/path/"/>',
                 '<img src="/my/path/"/>',
-                'http://example.org/my/other/path/'
+                'http://example.org/my/other/path/',
             ),
             array(
                 '<img src="http://example.org/my/path/"/>',
                 '<img src="http://example.org/my/path/"/>',
-                'http://example.org/my/other/path/'
+                'http://example.org/my/other/path/',
             ),
         );
     }

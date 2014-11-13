@@ -14,7 +14,6 @@ use FastFeed\Tests\Parser\AbstractRSSParserTest;
 use FastFeed\Parser\RSSParser;
 use FastFeed\Aggregator\EzRSSAggregator;
 
-
 class EzRSSAggregatorTest extends AbstractRSSParserTest
 {
     /**
@@ -39,9 +38,8 @@ class EzRSSAggregatorTest extends AbstractRSSParserTest
     {
         $data = array();
         foreach ($this->xmls as $xml) {
-
             $data[] = array(
-                $xml
+                $xml,
             );
         }
 
@@ -53,20 +51,20 @@ class EzRSSAggregatorTest extends AbstractRSSParserTest
      */
     public function testAggregator($fileName)
     {
-        $content = file_get_contents(__DIR__ . $this->path . $fileName);
+        $content = file_get_contents(__DIR__.$this->path.$fileName);
         $nodes   = $this->parser->getNodes($content);
 
         $item = array_shift($nodes);
         $keys = array('contentLength', 'infoHash', 'magnetURI', 'seeds', 'peers', 'verified', 'fileName');
 
         foreach ($keys as $key) {
-            $expected = $this->getFirstValueFromXpath($content, "*/item/torrent:" . $key);
+            $expected = $this->getFirstValueFromXpath($content, "*/item/torrent:".$key);
             $this->assertEquals(
                 $expected,
                 $item->getExtra(
                     $key
                 ),
-                'Fail asserting that first element of ' . $fileName . ' has ' . $key . ' "' . $expected . '"'
+                'Fail asserting that first element of '.$fileName.' has '.$key.' "'.$expected.'"'
             );
         }
     }

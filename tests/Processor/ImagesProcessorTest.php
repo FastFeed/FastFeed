@@ -46,28 +46,28 @@ class ImagesProcessorTest extends \PHPUnit_Framework_TestCase
             array(
                 '<html><p><img src="http://great.image.com/image.jpg"/></p></html>',
                 array('http://great.image.com/image.jpg'),
-                null
+                null,
             ),
             array(
                 '<html><p><img alt="mi image"/></p></html>',
                 array(),
-                '#b.gif#'
+                '#b.gif#',
             ),
             array(
                 '<html><p><img src="http://great.image.com/b.gif"/></p></html>',
                 array(),
-                '#b.gif#'
+                '#b.gif#',
             ),
             array(
                 '<p><a href="http://great.image.com/image.jpg"><img src="http://great.image.com/image.jpg" /></a></p>',
                 array('http://great.image.com/image.jpg'),
-                null
+                null,
             ),
             array(
-                '<p><a href="http://great.image.com/image.jpg"><img src="http://great.image.com/image.jpg" /></a></p>' .
+                '<p><a href="http://great.image.com/image.jpg"><img src="http://great.image.com/image.jpg" /></a></p>'.
                 '<p><img src="http://other.image.com/image.jpg" /></p>',
                 array('http://great.image.com/image.jpg', 'http://other.image.com/image.jpg'),
-                null
+                null,
             ),
         );
     }

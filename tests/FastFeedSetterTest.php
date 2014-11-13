@@ -9,14 +9,12 @@
  */
 namespace FastFeed\Tests;
 
-use FastFeed\Exception\LogicException;
 
 /**
  * FastFeedSetterTest
  */
 class FastFeedSetterTest extends AbstractFastFeedTest
 {
-
     public function testSetGuzzle()
     {
         $guzzleMock = $this->getMock('Guzzle\Http\ClientInterface');

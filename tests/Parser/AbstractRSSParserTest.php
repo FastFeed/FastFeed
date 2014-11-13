@@ -37,7 +37,7 @@ abstract class AbstractRSSParserTest extends AbstractParserTest
         'nytimes.com.xml',
         'slashdot.com.xml',
         'ubuntu-espana.org.xml',
-        'ubuntuleon.com.xml'
+        'ubuntuleon.com.xml',
     );
 
     public function setUp()
@@ -64,7 +64,6 @@ abstract class AbstractRSSParserTest extends AbstractParserTest
                 return $result->item(0)->nodeValue;
             }
         } catch (\Exception $e) {
-
         }
 
         return false;

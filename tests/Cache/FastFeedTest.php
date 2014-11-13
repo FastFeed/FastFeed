@@ -19,7 +19,6 @@ use Desarrolla2\Cache\CacheInterface;
  */
 class FastFeedTest extends AbstractFastFeedTest
 {
-
     /**
      * @var CacheInterface
      */

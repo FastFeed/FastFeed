@@ -18,14 +18,13 @@ class FastFeedFetchTest extends AbstractFastFeedTest
 {
     public function dataProvider()
     {
-        $content = file_get_contents(__DIR__ . '/data/rss20/desarrolla2.com.xml');
+        $content = file_get_contents(__DIR__.'/data/rss20/desarrolla2.com.xml');
 
         return array(
             array(false),
             array('nothing here'),
-            array($content)
+            array($content),
         );
-
     }
 
     /**

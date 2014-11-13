@@ -12,9 +12,8 @@ namespace FastFeed\Tests;
 /**
  * FeedManagerTest
  */
-class FeedManager extends AbstractFastFeedTest
+class FeedManagerTest extends AbstractFastFeedTest
 {
-
     /**
      * @return array
      */

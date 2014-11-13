@@ -18,7 +18,6 @@ use FastFeed\Processor\SortByDateProcessor;
  */
 class SortByDateProcessorTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var SortByDateProcessor
      */

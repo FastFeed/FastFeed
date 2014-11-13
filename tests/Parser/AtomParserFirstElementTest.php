@@ -15,9 +15,8 @@ use FastFeed\Parser\AtomParser;
 /**
  * AtomFirstElementParserTest
  */
-class AtomFirstElementParserTest extends AbstractAtomParserTest
+class AtomParserFirstElementTest extends AbstractAtomParserTest
 {
-
     public function setUp()
     {
         $this->parser = new AtomParser();
@@ -29,7 +28,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
 
         foreach ($this->xmls as $xml) {
             $data[] = array(
-                $xml
+                $xml,
             );
         }
 
@@ -49,7 +48,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $this->assertEquals(
             $expected,
             $item->getId(),
-            'Fail asserting that first element of ' . $fileName . ' has id "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has id "'.$expected.'"'
         );
     }
 
@@ -66,7 +65,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $this->assertEquals(
             $expected,
             $item->getName(),
-            'Fail asserting that first element of ' . $fileName . ' has name "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has name "'.$expected.'"'
         );
     }
 
@@ -83,7 +82,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $this->assertEquals(
             $expected,
             $item->getIntro(),
-            'Fail asserting that first element of ' . $fileName . ' has intro "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has intro "'.$expected.'"'
         );
     }
 
@@ -100,7 +99,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $this->assertEquals(
             $expected,
             $item->getContent(),
-            'Fail asserting that first element of ' . $fileName . ' has content "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has content "'.$expected.'"'
         );
     }
 
@@ -114,14 +113,14 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
 
         $expected = $this->getFistAttributeFromXpath(
             $content,
-            "*/ns:link[@rel='" . AtomParser::SOURCE_LINK_ATTR . "']",
+            "*/ns:link[@rel='".AtomParser::SOURCE_LINK_ATTR."']",
             'href'
         );
 
         $this->assertEquals(
             $expected,
             $item->getSource(),
-            'Fail asserting that first element of ' . $fileName . ' has source "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has source "'.$expected.'"'
         );
     }
 
@@ -138,7 +137,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $this->assertEquals(
             $expected,
             $item->getAuthor(),
-            'Fail asserting that first element of ' . $fileName . ' has author "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has author "'.$expected.'"'
         );
     }
 
@@ -155,7 +154,7 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $this->assertEquals(
             $expected,
             $item->getImage(),
-            'Fail asserting that first element of ' . $fileName . ' has image "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has image "'.$expected.'"'
         );
     }
 
@@ -172,13 +171,13 @@ class AtomFirstElementParserTest extends AbstractAtomParserTest
         $this->assertEquals(
             $expected,
             $item->getDate()->getTimestamp(),
-            'Fail in assert of first element date of ' . $fileName . '  '
+            'Fail in assert of first element date of '.$fileName.'  '
         );
     }
 
     protected function getContent($xml)
     {
-        return file_get_contents(__DIR__ . $this->path . $xml);
+        return file_get_contents(__DIR__.$this->path.$xml);
     }
 
     protected function getItem($content)

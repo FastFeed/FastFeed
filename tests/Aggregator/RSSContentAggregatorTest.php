@@ -19,7 +19,7 @@ use FastFeed\Tests\Parser\AbstractRSSParserTest;
 /**
  * RSSContentProcessorTest
  */
-class RSSContentProcessorTest extends AbstractRSSParserTest
+class RSSContentAggregatorTest extends AbstractRSSParserTest
 {
     public function setUp()
     {
@@ -31,9 +31,8 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
     {
         $data = array();
         foreach ($this->xmls as $xml) {
-
             $data[] = array(
-                $xml
+                $xml,
             );
         }
 
@@ -45,7 +44,7 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
      */
     public function testContent($fileName)
     {
-        $content = file_get_contents(__DIR__ . $this->path . $fileName);
+        $content = file_get_contents(__DIR__.$this->path.$fileName);
         $nodes   = $this->parser->getNodes($content);
 
         $item = array_shift($nodes);
@@ -58,7 +57,7 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
         $this->assertEquals(
             $expected,
             $item->getContent(),
-            'Fail asserting that first element of ' . $fileName . ' has content "' . $expected . '"'
+            'Fail asserting that first element of '.$fileName.' has content "'.$expected.'"'
         );
     }
 
@@ -81,7 +80,6 @@ class RSSContentProcessorTest extends AbstractRSSParserTest
                 return $result->item(0)->nodeValue;
             }
         } catch (\Exception $e) {
-
         }
 
         return false;

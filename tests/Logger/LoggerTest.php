@@ -41,5 +41,4 @@ class LoggerTest extends \PHPUnit_Framework_TestCase
         $this->logger->debug('testing Logger');
         $this->assertTrue(true);
     }
-
-} 
+}
