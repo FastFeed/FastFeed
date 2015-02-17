@@ -89,7 +89,7 @@ class FastFeed implements FastFeedInterface
     /**
      * @param string $channel
      *
-     * @return array
+     * @return Item[]
      * @throws Exception\LogicException
      */
     public function fetch($channel = 'default')
