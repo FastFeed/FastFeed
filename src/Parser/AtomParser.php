@@ -78,7 +78,7 @@ class AtomParser extends AbstractParser implements ParserInterface
         return array(
             'setId' => 'id',
             'setName' => 'title',
-            'setIntro' => 'content',
+            'setIntro' => 'summary',
             'setContent' => 'content',
         );
     }
