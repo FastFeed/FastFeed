@@ -28,14 +28,14 @@ class AtomParser extends AbstractParser implements ParserInterface
     /**
      * Retrieve a Items's array
      *
-     * @param $content
+     * @param string $content
      *
      * @return array
      * @throws \FastFeed\Exception\RuntimeException
      */
     public function getNodes($content)
     {
-        $items = array();
+        $items = [];
         $document = $this->createDocumentFromXML($content);
         $nodes = $document->getElementsByTagName('entry');
         if ($nodes->length) {
@@ -67,6 +67,10 @@ class AtomParser extends AbstractParser implements ParserInterface
         $this->setTags($node, $item);
         $this->executeAggregators($node, $item);
 
+        if (!$item->getIntro()) {
+            $item->setIntro($item->getContent());
+        }
+
         return $item;
     }
 
@@ -75,12 +79,12 @@ class AtomParser extends AbstractParser implements ParserInterface
      */
     protected function getPropertiesMapping()
     {
-        return array(
+        return [
             'setId' => 'id',
             'setName' => 'title',
             'setIntro' => 'summary',
             'setContent' => 'content',
-        );
+        ];
     }
 
     /**
