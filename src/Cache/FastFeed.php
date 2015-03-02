@@ -14,6 +14,7 @@
 namespace FastFeed\Cache;
 
 use Desarrolla2\Cache\CacheInterface;
+
 use FastFeed\Exception;
 use FastFeed\Exception\LogicException;
 use FastFeed\FastFeed as FastFeedBase;

@@ -14,6 +14,7 @@
 namespace FastFeed\Aggregator;
 
 use DOMElement;
+
 use FastFeed\Item;
 
 /**

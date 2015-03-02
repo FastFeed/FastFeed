@@ -13,12 +13,13 @@
 
 namespace FastFeed;
 
-use FastFeed\Exception\LogicException;
-use FastFeed\Parser\ParserInterface;
-use FastFeed\Processor\ProcessorInterface;
 use Guzzle\Http\ClientInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
+
+use FastFeed\Exception\LogicException;
+use FastFeed\Parser\ParserInterface;
+use FastFeed\Processor\ProcessorInterface;
 
 /**
  * FastFeed

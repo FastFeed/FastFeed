@@ -14,6 +14,7 @@
 namespace FastFeed\Parser;
 
 use DOMElement;
+
 use FastFeed\Aggregator\AggregatorInterface;
 use FastFeed\Exception\LogicException;
 use FastFeed\Item;

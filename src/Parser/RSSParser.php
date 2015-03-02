@@ -15,6 +15,7 @@ namespace FastFeed\Parser;
 
 use DateTime;
 use DOMElement;
+
 use FastFeed\Exception\RuntimeException;
 use FastFeed\Item;
 
