@@ -14,7 +14,7 @@
         "issues": "https://github.com/fastfeed/fastfeed/issues"
     },
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=5.4.8",
         "psr/log": "~1.0",
         "desarrolla2/cache": ">=1.0.0",
         "fastfeed/url": ">=0.1.0",
