@@ -21,7 +21,7 @@ class FastFeedManagerExceptionTest extends AbstractFastFeedTest
     {
         parent::setUp();
 
-        $this->fastFeed = new FastFeed($this->guzzleMock, $this->loggerMock);
+        $this->fastFeed = new FastFeed($this->httpMock, $this->loggerMock);
         $this->fastFeed->addFeed('desarrolla2', 'http://desarrolla2.com/feed/');
     }
 

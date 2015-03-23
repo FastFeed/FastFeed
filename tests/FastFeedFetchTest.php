@@ -53,7 +53,7 @@ class FastFeedFetchTest extends AbstractFastFeedTest
             ->method('send')
             ->will($this->returnValue($responseMock));
 
-        $this->guzzleMock->expects($this->once())
+        $this->httpMock->expects($this->once())
             ->method('get')
             ->will($this->returnValue($requestMock));
 

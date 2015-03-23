@@ -32,7 +32,7 @@ class FastFeedTest extends AbstractFastFeedTest
             ->disableOriginalConstructor()
             ->getMock();
 
-        $this->fastFeed = new FastFeed($this->guzzleMock, $this->loggerMock);
+        $this->fastFeed = new FastFeed($this->httpMock, $this->loggerMock);
         $this->fastFeed->setCache($this->cacheMock);
         $this->fastFeed->addFeed('desarrolla2', 'http://desarrolla2.com/feed/');
     }
@@ -90,7 +90,7 @@ class FastFeedTest extends AbstractFastFeedTest
             ->method('send')
             ->will($this->returnValue($responseMock));
 
-        $this->guzzleMock->expects($this->once())
+        $this->httpMock->expects($this->once())
             ->method('get')
             ->will($this->returnValue($requestMock));
 
