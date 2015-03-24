@@ -20,14 +20,8 @@
         "fastfeed/url": ">=0.1.0",
         "ezyang/htmlpurifier": "4.6.*",
         "guzzle/guzzle": "~3.7",
-        "egeloen/http-adapter": "~0.7.0"
+        "egeloen/http-adapter": "~0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/egeloen/http.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "FastFeed\\": "src/",
