@@ -13,6 +13,11 @@
 
 namespace FastFeed;
 
+use Ivory\HttpAdapter\HttpAdapterInterface;
+use Ivory\HttpAdapter\Message\InternalRequest;
+use Ivory\HttpAdapter\Message\Request;
+use Ivory\HttpAdapter\MultiHttpAdapterException;
+
 use Guzzle\Http\ClientInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
@@ -65,9 +70,9 @@ class FastFeed implements FastFeedInterface
      * @param ClientInterface $guzzle
      * @param LoggerInterface $logger
      */
-    public function __construct(ClientInterface $guzzle, LoggerInterface $logger)
+    public function __construct(HttpAdapterInterface $http, LoggerInterface $logger)
     {
-        $this->http = $guzzle;
+        $this->http = $http;
         $this->logger = $logger;
     }
 
