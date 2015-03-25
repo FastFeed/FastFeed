@@ -1,32 +1,38 @@
 {
-    "name": "fastfeed/fastfeed",
-    "description": "A simple to use Feed Client Library.",
-    "keywords": ["rss", "rss20", "feed", "feed parser", "atom", "atom10"],
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Daniel González",
-            "homepage": "http://desarrolla2.com/"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/fastfeed/fastfeed/issues"
-    },
-    "require": {
-        "php": ">=5.4.8",
-        "psr/log": "~1.0",
-        "desarrolla2/cache": ">=1.0.0",
-        "fastfeed/url": ">=0.1.0",
-        "ezyang/htmlpurifier": "4.6.*",
-        "guzzle/guzzle": "~3.7",
-        "egeloen/http-adapter": "~0"
-    },
-    "autoload": {
-        "psr-4": {
-            "FastFeed\\": "src/",
-            "FastFeed\\Tests\\": "tests/"
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "fastfeed/fastfeed",
+  "description": "A simple to use Feed Client Library.",
+  "keywords": [
+    "rss",
+    "rss20",
+    "feed",
+    "feed parser",
+    "atom",
+    "atom10"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel González",
+      "homepage": "http://desarrolla2.com/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/fastfeed/fastfeed/issues"
+  },
+  "require": {
+    "php": ">=5.4.8",
+    "psr/log": "~1.0",
+    "desarrolla2/cache": ">=1.0.0",
+    "fastfeed/url": ">=0.1.0",
+    "ezyang/htmlpurifier": "4.6.*",
+    "guzzle/guzzle": "~3.7",
+    "egeloen/http-adapter": "~0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FastFeed\\": "src/",
+      "FastFeed\\Tests\\": "tests/"
+    }
+  }
 }

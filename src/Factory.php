@@ -10,11 +10,9 @@
  *
  * @author Daniel González <daniel@desarrolla2.com>
  */
-
 namespace FastFeed;
 
 use Ivory\HttpAdapter\HttpAdapterFactory;
-
 use FastFeed\Logger\Logger;
 use FastFeed\Parser\AtomParser;
 use FastFeed\Parser\RSSParser;

@@ -10,18 +10,13 @@
  *
  * @author Daniel González <daniel@desarrolla2.com>
  */
-
 namespace FastFeed;
 
-use Ivory\HttpAdapter\HttpAdapterInterface;
-use Ivory\HttpAdapter\Message\InternalRequest;
-use Ivory\HttpAdapter\Message\Request;
-use Ivory\HttpAdapter\MultiHttpAdapterException;
-
 use Guzzle\Http\ClientInterface;
+use Ivory\HttpAdapter\HttpAdapterInterface;
+use Ivory\HttpAdapter\Message\Request;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
-
 use FastFeed\Exception\LogicException;
 use FastFeed\Parser\ParserInterface;
 use FastFeed\Processor\ProcessorInterface;
@@ -34,7 +29,7 @@ class FastFeed implements FastFeedInterface
     /**
      * @const VERSION
      */
-    const VERSION = '0.1';
+    const VERSION = '1.0';
 
     /**
      * @const USER_AGENT
@@ -54,21 +49,21 @@ class FastFeed implements FastFeedInterface
     /**
      * @var array
      */
-    protected $parsers = array();
+    protected $parsers = [];
 
     /**
      * @var array
      */
-    protected $processors = array();
+    protected $processors = [];
 
     /**
      * @var array
      */
-    protected $feeds = array();
+    protected $feeds = [];
 
     /**
-     * @param ClientInterface $guzzle
-     * @param LoggerInterface $logger
+     * @param HttpAdapterInterface $http
+     * @param LoggerInterface      $logger
      */
     public function __construct(HttpAdapterInterface $http, LoggerInterface $logger)
     {
@@ -213,7 +208,7 @@ class FastFeed implements FastFeedInterface
         if (!is_string($channel)) {
             throw new LogicException('You tried to add a invalid channel.');
         }
-        $this->feeds[$channel] = array();
+        $this->feeds[$channel] = [];
         $this->addFeed($channel, $feed);
     }
 
@@ -228,7 +223,7 @@ class FastFeed implements FastFeedInterface
     {
         $request = $this->http->get(
             $url,
-            array('User-Agent' => self::USER_AGENT.' v.'.self::VERSION)
+            ['User-Agent' => self::USER_AGENT.' v.'.self::VERSION]
         );
 
         $response = $request->send();
@@ -244,13 +239,13 @@ class FastFeed implements FastFeedInterface
     }
 
     /**
-     * @param $channel
+     * @param string $channel
      *
      * @return array
      */
     protected function retrieve($channel)
     {
-        $result = array();
+        $result = [];
 
         foreach ($this->feeds[$channel] as $feed) {
             $content = $this->get($feed);
@@ -264,13 +259,13 @@ class FastFeed implements FastFeedInterface
     }
 
     /**
-     * @param $content
+     * @param string $content
      *
      * @return array
      */
     protected function parse($content)
     {
-        $result = array();
+        $result = [];
         foreach ($this->parsers as $parser) {
             $nodes = $parser->getNodes($content);
             if (!$nodes) {
@@ -286,7 +281,7 @@ class FastFeed implements FastFeedInterface
     }
 
     /**
-     * @param $message
+     * @param string $message
      */
     protected function log($message)
     {

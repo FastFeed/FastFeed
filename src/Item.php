@@ -10,7 +10,6 @@
  *
  * @author Daniel González <daniel@desarrolla2.com>
  */
-
 namespace FastFeed;
 
 use DateTime;
@@ -23,7 +22,7 @@ class Item
     /**
      * @var string
      */
-    protected $itemId;
+    protected $id;
 
     /**
      * @var string
@@ -63,19 +62,27 @@ class Item
     /**
      * @var array
      */
-    protected $extra = array();
+    protected $extra = [];
 
     /**
      * @var array
      */
-    protected $tags = array();
+    protected $tags = [];
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->name;
+    }
 
     /**
      * @param string $itemId
      */
     public function setId($itemId)
     {
-        $this->itemId = (string) $itemId;
+        $this->id = (string) $itemId;
     }
 
     /**
@@ -83,7 +90,7 @@ class Item
      */
     public function getId()
     {
-        return $this->itemId;
+        return $this->id;
     }
 
     /**
@@ -171,7 +178,7 @@ class Item
      */
     public function setTags(array $tags)
     {
-        $this->tags = array();
+        $this->tags = [];
         foreach ($tags as $tag) {
             $this->addTag($tag);
         }
@@ -238,18 +245,18 @@ class Item
     }
 
     /**
-     * @param $key
-     * @param $value
+     * @param string $key
+     * @param string $value
      */
     public function setExtra($key, $value)
     {
-        $this->extra[$key] = $value;
+        $this->extra[$key] = (string) $value;
     }
 
     /**
-     * @param $key
+     * @param string $key
      *
-     * @return bool
+     * @return string|fasle
      */
     public function getExtra($key)
     {

@@ -10,11 +10,9 @@
  *
  * @author Daniel González <daniel@desarrolla2.com>
  */
-
 namespace FastFeed\Processor;
 
 use DOMDocument;
-
 use FastFeed\Item;
 
 /**
