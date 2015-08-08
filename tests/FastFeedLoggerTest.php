@@ -24,24 +24,16 @@ class FastFeedLoggerTest extends AbstractFastFeedTest
 
         $responseMock
             ->expects($this->once())
-            ->method('isSuccessful')
+            ->method('getStatusCode')
             ->will($this->returnValue(false));
 
         $responseMock->expects($this->once())
             ->method('getStatusCode')
             ->will($this->returnValue(500));
 
-        $requestMock = $this->getMockBuilder('Guzzle\Http\Message\Request')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $requestMock->expects($this->once())
-            ->method('send')
-            ->will($this->returnValue($responseMock));
-
         $this->httpMock->expects($this->once())
             ->method('get')
-            ->will($this->returnValue($requestMock));
+            ->will($this->returnValue($responseMock));
 
         $this->loggerMock->expects($this->once())
             ->method('log')

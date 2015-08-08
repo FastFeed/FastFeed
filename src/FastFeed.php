@@ -226,14 +226,12 @@ class FastFeed implements FastFeedInterface
      */
     protected function get($url)
     {
-        $request = $this->http->get(
+        $response = $this->http->get(
             $url,
             array('User-Agent' => self::USER_AGENT.' v.'.self::VERSION)
         );
 
-        $response = $request->send();
-
-        if (!$response->isSuccessful()) {
+        if ($response->getStatusCode() >= 400) {
             $this->log('fail with '.$response->getStatusCode().' http code in url "'.$url.'" ');
 
             return;
