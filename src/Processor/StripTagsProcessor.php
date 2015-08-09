@@ -23,7 +23,7 @@ class StripTagsProcessor implements ProcessorInterface
     /**
      * @var
      */
-    protected $allowedTags = array('content', 'intro');
+    protected $allowedTags = array('content' => '', 'intro' => '');
 
     /**
      * @param mixed $allowedTags
