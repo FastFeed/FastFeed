@@ -13,7 +13,7 @@
 
 namespace FastFeed;
 
-use Guzzle\Http\ClientInterface;
+use Ivory\HttpAdapter\HttpAdapterFactory;
 use Psr\Log\LoggerInterface;
 
 use FastFeed\Parser\ParserInterface;
@@ -82,11 +82,11 @@ interface FastFeedInterface
     public function getFeeds();
 
     /**
-     * Set Guzzle
+     * Set Http Adapter
      *
-     * @param ClientInterface $guzzle
+     * @param HttpAdapterFactory $http
      */
-    public function setHttpClient(ClientInterface $guzzle);
+    public function setHttpClient(HttpAdapterFactory $http);
 
     /**
      * @param LoggerInterface $logger
