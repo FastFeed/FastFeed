@@ -13,7 +13,7 @@
 
 namespace FastFeed;
 
-use Ivory\HttpAdapter\HttpAdapterFactory;
+use Ivory\HttpAdapter\HttpAdapterInterface;
 use Psr\Log\LoggerInterface;
 
 use FastFeed\Parser\ParserInterface;
@@ -84,9 +84,9 @@ interface FastFeedInterface
     /**
      * Set Http Adapter
      *
-     * @param HttpAdapterFactory $http
+     * @param HttpAdapterInterface $http
      */
-    public function setHttpClient(HttpAdapterFactory $http);
+    public function setHttpClient(HttpAdapterInterface $http);
 
     /**
      * @param LoggerInterface $logger
