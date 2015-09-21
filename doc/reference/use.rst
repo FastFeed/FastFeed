@@ -4,7 +4,7 @@ Using Fast Feed
 Factory way
 -----------
 
-FastFeed provide a Factory, to easy instanciate FastFeed.
+FastFeed provide a Factory, to easy instantiate FastFeed.
 
 .. code-block:: php
 
@@ -22,18 +22,17 @@ Maybe you want more control about the FastFeed is create then continue reading
 Instance Guzzle
 ^^^^^^^^^^^^^^^
 
-FastFeed used Guzzle to perform HTTP requests, this makes for a very flexible system.
+FastFeed uses Ivory HTTP Adapter to perform HTTP requests.
+Ivory provides a standard interface to use a wide array of communication libraries.
 
 .. code-block:: php
 
     <?php
+    use Ivory\HttpAdapter\Guzzle6HttpAdapter;
 
-    use Guzzle\Http\Client;
+    $client = new Guzzle6HttpAdapter();
 
-    // Client
-    $client = new Client();
-
-Here you have `guzzle documentation <http://docs.guzzlephp.org/en/latest/http-client/client.html>`_.
+Here you have `Ivory documentation <https://github.com/egeloen/ivory-http-adapter/blob/master/doc/adapters.md>`_.
 
 Instance Monolog
 ^^^^^^^^^^^^^^^^

@@ -23,7 +23,7 @@ abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
     protected $fastFeed;
 
     /**
-     * @var \Guzzle\Http\ClientInterface
+     * @var \Ivory\HttpAdapter\MockHttpAdapter
      */
     protected $httpMock;
 
