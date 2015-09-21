@@ -17,8 +17,8 @@ use Ivory\HttpAdapter\HttpAdapterInterface;
 use Ivory\HttpAdapter\Message\InternalRequest;
 use Ivory\HttpAdapter\Message\Request;
 use Ivory\HttpAdapter\MultiHttpAdapterException;
+use Ivory\HttpAdapter\HttpAdapterException;
 
-use Guzzle\Http\ClientInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 
@@ -42,7 +42,7 @@ class FastFeed implements FastFeedInterface
     const USER_AGENT = 'FastFeed/FastFeed';
 
     /**
-     * @var ClientInterface;
+     * @var HttpAdapterInterface;
      */
     protected $http;
 
@@ -67,7 +67,7 @@ class FastFeed implements FastFeedInterface
     protected $feeds = array();
 
     /**
-     * @param ClientInterface $guzzle
+     * @param HttpAdapterInterface $http
      * @param LoggerInterface $logger
      */
     public function __construct(HttpAdapterInterface $http, LoggerInterface $logger)
@@ -183,13 +183,13 @@ class FastFeed implements FastFeedInterface
     }
 
     /**
-     * Set Guzzle
+     * Set Http Adapter
      *
-     * @param ClientInterface $guzzle
+     * @param HttpAdapterInterface $http
      */
-    public function setHttpClient(ClientInterface $guzzle)
+    public function setHttpClient(HttpAdapterInterface $http)
     {
-        $this->http = $guzzle;
+        $this->http = $http;
     }
 
     /**
@@ -222,22 +222,19 @@ class FastFeed implements FastFeedInterface
      *
      * @param $url
      *
-     * @return \Guzzle\Http\EntityBodyInterface|string
+     * @return string
      */
     protected function get($url)
     {
-        $request = $this->http->get(
-            $url,
-            array('User-Agent' => self::USER_AGENT.' v.'.self::VERSION)
-        );
-
-        $response = $request->send();
-
-        if (!$response->isSuccessful()) {
-            $this->log('fail with '.$response->getStatusCode().' http code in url "'.$url.'" ');
-
-            return;
+        try {
+            $response = $this->http->get(
+                $url,
+                array('User-Agent' => self::USER_AGENT.' v.'.self::VERSION)
+            );
+        } catch (HttpAdapterException $e) {
+            $this->logger->log(LogLevel::ERROR, $e->getMessage());
         }
+
         $this->logger->log(LogLevel::INFO, 'retrieved url "'.$url.'" ');
 
         return $response->getBody();

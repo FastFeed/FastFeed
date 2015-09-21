@@ -27,9 +27,9 @@ abstract class Factory
     /**
      * @return FastFeed
      */
-    public static function create()
+    public static function create($adapter = 'guzzle')
     {
-        $fastFeed = new FastFeed(HttpAdapterFactory::create('guzzle'), new Logger(false));
+        $fastFeed = new FastFeed(HttpAdapterFactory::create($adapter), new Logger(false));
         $fastFeed->pushParser(new RSSParser());
         $fastFeed->pushParser(new AtomParser());
 

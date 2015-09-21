@@ -10,6 +10,7 @@
 namespace FastFeed\Tests;
 
 use FastFeed\Parser\RSSParser;
+use Ivory\HttpAdapter\Message\RequestInterface;
 
 /**
  * FastFeedLoggerTest
@@ -18,30 +19,29 @@ class FastFeedLoggerTest extends AbstractFastFeedTest
 {
     public function testFetch()
     {
-        $responseMock = $this->getMockBuilder('Guzzle\Http\Message\Response')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $responseMock
-            ->expects($this->once())
-            ->method('isSuccessful')
-            ->will($this->returnValue(false));
-
-        $responseMock->expects($this->once())
-            ->method('getStatusCode')
-            ->will($this->returnValue(500));
-
-        $requestMock = $this->getMockBuilder('Guzzle\Http\Message\Request')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $requestMock->expects($this->once())
-            ->method('send')
-            ->will($this->returnValue($responseMock));
-
-        $this->httpMock->expects($this->once())
-            ->method('get')
-            ->will($this->returnValue($requestMock));
+        $expectedResponse = $this->httpMock->getConfiguration()->getMessageFactory()->createResponse(
+            200,
+            RequestInterface::PROTOCOL_VERSION_1_1,
+            ['Content-Type: application/xml'],
+            '<?xml version="1.0" encoding="utf-8"?>
+            <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:media="http://search.yahoo.com/mrss/"
+            >
+            <cache>
+                <key>rss:9a0b0cb47a5834ce21b22b6a75e404544fe69aa9</key>
+                <lastModKey>rss_modified:rss:9a0b0cb47a5834ce21b22b6a75e404544fe69aa9</lastModKey>
+            </cache>
+            <channel>
+                <title>Test Response</title>
+                <link>http://localhost/feed.xml</link>
+                <description>A test feed.</description>
+                <language>en-us</language>
+                <lastBuildDate>Sun, 20 Sep 2015 20:17:05 -0700</lastBuildDate>
+            </channel>
+            </rss>'
+        );
+        $this->httpMock->appendResponse($expectedResponse);
 
         $this->loggerMock->expects($this->once())
             ->method('log')
