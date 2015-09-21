@@ -13,6 +13,7 @@ use FastFeed\Tests\AbstractFastFeedTest;
 use FastFeed\Cache\FastFeed;
 use FastFeed\Item;
 use Desarrolla2\Cache\CacheInterface;
+use Ivory\HttpAdapter\Message\RequestInterface;
 
 /**
  * FastFeedTest
@@ -69,30 +70,14 @@ class FastFeedTest extends AbstractFastFeedTest
             ->method('set')
             ->will($this->returnValue(true));
 
-        $responseMock = $this->getMockBuilder('Guzzle\Http\Message\Response')
-            ->disableOriginalConstructor()
-            ->getMock();
+        $expectedResponse = $this->httpMock->getConfiguration()->getMessageFactory()->createResponse(
+            200,
+            RequestInterface::PROTOCOL_VERSION_1_1,
+            ['Content-Type: application/json'],
+            '{"hello":"world"}'
+        );
 
-        $responseMock
-            ->expects($this->once())
-            ->method('isSuccessful')
-            ->will($this->returnValue(true));
-
-        $responseMock->expects($this->once())
-            ->method('getBody')
-            ->will($this->returnValue(array(new Item())));
-
-        $requestMock = $this->getMockBuilder('Guzzle\Http\Message\Request')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $requestMock->expects($this->once())
-            ->method('send')
-            ->will($this->returnValue($responseMock));
-
-        $this->httpMock->expects($this->once())
-            ->method('get')
-            ->will($this->returnValue($requestMock));
+        $this->httpMock->appendResponse($expectedResponse);
 
         $this->fastFeed->fetch('desarrolla2');
     }

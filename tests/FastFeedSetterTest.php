@@ -9,16 +9,17 @@
  */
 namespace FastFeed\Tests;
 
+use Ivory\HttpAdapter\MockHttpAdapter;
 
 /**
  * FastFeedSetterTest
  */
 class FastFeedSetterTest extends AbstractFastFeedTest
 {
-    public function testSetGuzzle()
+    public function testSetHttpAdapter()
     {
-        $guzzleMock = $this->getMock('Guzzle\Http\ClientInterface');
-        $this->assertNull($this->fastFeed->setHttpClient($guzzleMock));
+        $httpAdapterMock = new MockHttpAdapter();
+        $this->assertNull($this->fastFeed->setHttpClient($httpAdapterMock));
     }
 
     public function testSetLogger()

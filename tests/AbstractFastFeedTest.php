@@ -10,6 +10,7 @@
 namespace FastFeed\Tests;
 
 use FastFeed\FastFeed;
+use Ivory\HttpAdapter\MockHttpAdapter;
 
 /**
  * AbstractFeedManagerTest
@@ -24,7 +25,7 @@ abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
     /**
      * @var \Guzzle\Http\ClientInterface
      */
-    protected $guzzleMock;
+    protected $httpMock;
 
     /**
      * @var \Psr\Log\LoggerInterface
@@ -33,9 +34,7 @@ abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->httpMock = $this->getMockBuilder('Ivory\HttpAdapter\GuzzleHttpAdapter')
-            ->disableOriginalConstructor()
-            ->getMock();
+        $this->httpMock = new MockHttpAdapter();
 
         $this->loggerMock = $this->getMockBuilder('Psr\Log\LoggerInterface')
             ->disableOriginalConstructor()

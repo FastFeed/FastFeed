@@ -10,6 +10,7 @@
 namespace FastFeed\Tests;
 
 use FastFeed\Factory;
+use Ivory\HttpAdapter\HttpAdapterFactory;
 
 /**
  * FactoryTest
@@ -18,6 +19,7 @@ class FactoryTest extends \PHPUnit_Framework_TestCase
 {
     public function testCreate()
     {
-        $this->assertInstanceOf('FastFeed\FastFeed', Factory::create());
+        HttpAdapterFactory::register('mock_adapter', 'Ivory\HttpAdapter\MockHttpAdapter');
+        $this->assertInstanceOf('FastFeed\FastFeed', Factory::create('mock_adapter'));
     }
 }

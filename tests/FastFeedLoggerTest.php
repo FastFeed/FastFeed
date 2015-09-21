@@ -10,6 +10,7 @@
 namespace FastFeed\Tests;
 
 use FastFeed\Parser\RSSParser;
+use Ivory\HttpAdapter\Message\RequestInterface;
 
 /**
  * FastFeedLoggerTest
@@ -18,30 +19,13 @@ class FastFeedLoggerTest extends AbstractFastFeedTest
 {
     public function testFetch()
     {
-        $responseMock = $this->getMockBuilder('Guzzle\Http\Message\Response')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $responseMock
-            ->expects($this->once())
-            ->method('isSuccessful')
-            ->will($this->returnValue(false));
-
-        $responseMock->expects($this->once())
-            ->method('getStatusCode')
-            ->will($this->returnValue(500));
-
-        $requestMock = $this->getMockBuilder('Guzzle\Http\Message\Request')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $requestMock->expects($this->once())
-            ->method('send')
-            ->will($this->returnValue($responseMock));
-
-        $this->httpMock->expects($this->once())
-            ->method('get')
-            ->will($this->returnValue($requestMock));
+        $expectedResponse = $this->httpMock->getConfiguration()->getMessageFactory()->createResponse(
+            200,
+            RequestInterface::PROTOCOL_VERSION_1_1,
+            ['Content-Type: application/json'],
+            '{"hello":"world"}'
+        );
+        $this->httpMock->appendResponse($expectedResponse);
 
         $this->loggerMock->expects($this->once())
             ->method('log')
