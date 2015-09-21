@@ -19,7 +19,7 @@ Manual way
 
 Maybe you want more control about the FastFeed is create then continue reading
 
-Instance Guzzle
+Instance Ivory HTTP Adapter
 ^^^^^^^^^^^^^^^
 
 FastFeed uses Ivory HTTP Adapter to perform HTTP requests.
