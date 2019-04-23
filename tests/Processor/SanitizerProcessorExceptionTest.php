@@ -11,11 +11,12 @@ namespace FastFeed\Tests\Processor;
 
 use FastFeed\Processor\SanitizerProcessor;
 use FastFeed\Item;
+use PHPUnit\Framework\TestCase;
 
 /**
  * SanitizerProcessorExceptionTest
  */
-class SanitizerProcessorExceptionTest extends \PHPUnit_Framework_TestCase
+class SanitizerProcessorExceptionTest extends TestCase
 {
     /**
      * @var SanitizerProcessor

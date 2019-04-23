@@ -33,17 +33,6 @@ tools:
         excluded_dirs:
             - 'vendor'
 
-
-    # PHP CS Fixer (http://http://cs.sensiolabs.org/).
-    php_cs_fixer:
-        enabled:              true
-        command:              php-cs-fixer
-        config:
-            level:            psr2
-        filter:
-            excluded_paths:
-                - 'vendor/*'
-
     # PHP HHVM
 #    php_hhvm:
 #        command:              hhvm

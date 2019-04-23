@@ -12,11 +12,12 @@ namespace FastFeed\Tests\Processor;
 use DateTime;
 use FastFeed\Item;
 use FastFeed\Processor\SortByDateProcessor;
+use PHPUnit\Framework\TestCase;
 
 /**
  * SortByDateProcessorTest
  */
-class SortByDateProcessorTest extends \PHPUnit_Framework_TestCase
+class SortByDateProcessorTest extends TestCase
 {
     /**
      * @var SortByDateProcessor

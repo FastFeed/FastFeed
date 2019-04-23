@@ -9,7 +9,6 @@
  */
 namespace FastFeed\Tests;
 
-
 /**
  * FastFeedSetterTest
  */

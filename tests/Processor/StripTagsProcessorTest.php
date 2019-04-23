@@ -11,11 +11,12 @@ namespace FastFeed\Tests\Processor;
 
 use FastFeed\Processor\StripTagsProcessor;
 use FastFeed\Item;
+use PHPUnit\Framework\TestCase;
 
 /**
  * StripTagsProcessorTest
  */
-class StripTagsProcessorTest extends \PHPUnit_Framework_TestCase
+class StripTagsProcessorTest extends TestCase
 {
     /**
      * @var StripTagsProcessor

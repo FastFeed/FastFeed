@@ -11,11 +11,12 @@ namespace FastFeed\Tests\Processor;
 
 use FastFeed\Item;
 use FastFeed\Processor\PathProcessor;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PathProcessorTest
  */
-class PathProcessorTest extends \PHPUnit_Framework_TestCase
+class PathProcessorTest extends TestCase
 {
     /**
      * @var PathProcessor

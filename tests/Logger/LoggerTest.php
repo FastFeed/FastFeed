@@ -10,11 +10,12 @@
 namespace FastFeed\Tests\Logger;
 
 use FastFeed\Logger\Logger;
+use PHPUnit\Framework\TestCase;
 
 /**
  * LoggerTest
  */
-class LoggerTest extends \PHPUnit_Framework_TestCase
+class LoggerTest extends TestCase
 {
     /**
      * @var Logger

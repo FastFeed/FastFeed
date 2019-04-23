@@ -11,11 +11,12 @@ namespace FastFeed\Tests;
 
 use FastFeed\Item;
 use DateTime;
+use PHPUnit\Framework\TestCase;
 
 /**
  * ItemTest
  */
-class ItemTest extends \PHPUnit_Framework_TestCase
+class ItemTest extends TestCase
 {
     public function testItem()
     {

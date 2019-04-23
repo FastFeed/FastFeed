@@ -67,10 +67,10 @@ class FastFeed implements FastFeedInterface
     protected $feeds = array();
 
     /**
-     * @param ClientInterface $guzzle
-     * @param LoggerInterface $logger
+     * @param HttpAdapterInterface $http
+     * @param LoggerInterface      $logger
      */
-    public function __construct(HttpAdapterInterface $http, LoggerInterface $logger)
+    public function __construct($http, LoggerInterface $logger)
     {
         $this->http = $http;
         $this->logger = $logger;

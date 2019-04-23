@@ -14,17 +14,24 @@
         "issues": "https://github.com/fastfeed/fastfeed/issues"
     },
     "require": {
-        "php": ">=5.4.8",
+        "php": ">=5.4",
         "psr/log": "~1.0",
         "desarrolla2/cache": ">=1.0.0",
         "fastfeed/url": ">=0.1.0",
         "ezyang/htmlpurifier": "4.6.*",
-        "guzzle/guzzle": "~3.7",
-        "egeloen/http-adapter": "~0"
+        "guzzlehttp/guzzle": "~3.7",
+        "egeloen/http-adapter": "^0.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
     },
     "autoload": {
         "psr-4": {
-            "FastFeed\\": "src/",
+            "FastFeed\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "FastFeed\\Tests\\": "tests/"
         }
     },
