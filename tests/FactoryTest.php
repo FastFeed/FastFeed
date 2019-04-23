@@ -10,11 +10,12 @@
 namespace FastFeed\Tests;
 
 use FastFeed\Factory;
+use PHPUnit\Framework\TestCase;
 
 /**
  * FactoryTest
  */
-class FactoryTest extends \PHPUnit_Framework_TestCase
+class FactoryTest extends TestCase
 {
     public function testCreate()
     {

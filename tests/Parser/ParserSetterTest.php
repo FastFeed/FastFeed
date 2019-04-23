@@ -10,11 +10,12 @@
 namespace FastFeed\Tests\Parser;
 
 use FastFeed\Parser\RSSParser;
+use PHPUnit\Framework\TestCase;
 
 /**
  * ParserManagerTest
  */
-class ParserSetterTest extends \PHPUnit_Framework_TestCase
+class ParserSetterTest extends TestCase
 {
     /**
      * @var RSSParser

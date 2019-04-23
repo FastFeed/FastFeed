@@ -10,11 +10,12 @@
 namespace FastFeed\Tests;
 
 use FastFeed\FastFeed;
+use PHPUnit\Framework\TestCase;
 
 /**
  * AbstractFeedManagerTest
  */
-abstract class AbstractFastFeedTest extends \PHPUnit_Framework_TestCase
+abstract class AbstractFastFeedTest extends TestCase
 {
     /**
      * @var FastFeed

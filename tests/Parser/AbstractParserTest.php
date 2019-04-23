@@ -11,11 +11,12 @@ namespace FastFeed\Tests\Parser;
 
 use DOMDocument;
 use DOMXPath;
+use PHPUnit\Framework\TestCase;
 
 /**
  * AbstractParserTest
  */
-abstract class AbstractParserTest extends \PHPUnit_Framework_TestCase
+abstract class AbstractParserTest extends TestCase
 {
     /**
      * @param $content

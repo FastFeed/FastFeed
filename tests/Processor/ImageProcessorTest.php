@@ -11,11 +11,12 @@ namespace FastFeed\Tests\Processor;
 
 use FastFeed\Processor\ImageProcessor;
 use FastFeed\Item;
+use PHPUnit\Framework\TestCase;
 
 /**
  * ImageProcessorTest
  */
-class ImageProcessorTest extends \PHPUnit_Framework_TestCase
+class ImageProcessorTest extends TestCase
 {
     /**
      * @var ImageProcessor

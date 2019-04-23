@@ -11,11 +11,12 @@ namespace FastFeed\Tests\Processor;
 
 use FastFeed\Item;
 use FastFeed\Processor\LimitProcessor;
+use PHPUnit\Framework\TestCase;
 
 /**
  * LimitProcessorTest
  */
-class LimitProcessorTest extends \PHPUnit_Framework_TestCase
+class LimitProcessorTest extends TestCase
 {
     public function dataProvider()
     {
