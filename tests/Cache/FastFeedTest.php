@@ -75,24 +75,16 @@ class FastFeedTest extends AbstractFastFeedTest
 
         $responseMock
             ->expects($this->once())
-            ->method('isSuccessful')
-            ->will($this->returnValue(true));
+            ->method('getStatusCode')
+            ->will($this->returnValue(200));
 
         $responseMock->expects($this->once())
             ->method('getBody')
             ->will($this->returnValue(array(new Item())));
 
-        $requestMock = $this->getMockBuilder('Guzzle\Http\Message\Request')
-            ->disableOriginalConstructor()
-            ->getMock();
-
-        $requestMock->expects($this->once())
-            ->method('send')
-            ->will($this->returnValue($responseMock));
-
         $this->httpMock->expects($this->once())
             ->method('get')
-            ->will($this->returnValue($requestMock));
+            ->will($this->returnValue($responseMock));
 
         $this->fastFeed->fetch('desarrolla2');
     }
